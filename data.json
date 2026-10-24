@@ -1,23 +1,23 @@
 {
- "generated_wita": "2026-10-24 23:20 WITA",
+ "generated_wita": "2026-10-24 23:24 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.010133449017605652,
-  "last_balance_wita": "2026-10-24 23:15 WITA",
+  "last_balance_bnb": 0.010113901562116173,
+  "last_balance_wita": "2026-10-24 23:23 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.2451,
-  "gas_bnb": 0.000347909949794581
+  "gas_bnb": 0.000361216397901736
  },
  "multichain": {
-  "snapshot_wita": "2026-10-24 23:15 WITA",
-  "source": "balance check",
+  "snapshot_wita": "2026-10-24 23:24 WITA",
+  "source": "ledger.balance_snapshots",
   "prices_usd": {
-   "bnb": 736.83,
+   "bnb": 740.0,
    "eth": 2376.15
   },
   "chains": [
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.010127208010223328,
-    "amount_str": "0.010127208010223327",
+    "amount": 0.010113901562116173,
+    "amount_str": "0.010113901562116173",
     "usable": true,
     "status": "ok"
    },
@@ -415,16 +415,34 @@
     "txs": [
      "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890"
     ]
+   },
+   {
+    "collection": "Piggy Agent (PIGGY)",
+    "token": 1703,
+    "contract": "0x70385fa94577cb845983d9b6752f2dde2486c837",
+    "status": "Hold",
+    "mint_cost_bnb": 1.3306448107155e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.3306448107155e-05,
+    "cost_usd": 0.0098,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002382474619755953,
-   "cost_usd": 2.2109,
+   "cost_bnb": 0.002395781067863108,
+   "cost_usd": 2.2207,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 20
+   "held": 21
   }
  },
  "capital": {
@@ -496,15 +514,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000347909949794581,
-   "usd": 0.2644
+   "bnb": 0.000361216397901736,
+   "usd": 0.2742
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.2451,
    "left_usd": 7.7549
   },
-  "bsc_balance_bnb": 0.010133449017605652,
+  "bsc_balance_bnb": 0.010113901562116173,
   "token_balances": {
    "USDT_bsc": 0.04500430327292717
   },
@@ -667,6 +685,13 @@
    "contract": "0x19758609b4b1885b02ba64c0beadb436503cfcae",
    "status": "Hold",
    "note": "Held - Element floor ~0.001 (thin)"
+  },
+  {
+   "collection": "Piggy Agent (PIGGY)",
+   "token": 1703,
+   "contract": "0x70385fa94577cb845983d9b6752f2dde2486c837",
+   "status": "Hold",
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -932,13 +957,13 @@
    "tx": "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890"
   },
   {
-   "at_wita": "2026-10-24 23:15:00",
-   "kind": "Deposit (from snapshot)",
-   "project": "ledger last_balance_bnb",
-   "direction": "in",
-   "delta_bnb": 6.241007382325e-06,
-   "balance_bnb": 0.010133449017605652,
-   "tx": "https://bscscan.com/tx/snapshot-20261024-2315"
+   "at_wita": "2026-10-24 23:23:00",
+   "kind": "Mint",
+   "project": "Piggy Agent (PIGGY)",
+   "direction": "out",
+   "delta_bnb": -1.3306448107155e-05,
+   "balance_bnb": 0.010113901562116173,
+   "tx": "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0"
   }
  ],
  "tabs": {
@@ -1656,6 +1681,27 @@
      "Notes": "Lead hqm.ai wallets 22:37. Sourcify exact match, owner EOA, free first mint.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "23:23:35",
+     "Type": "Mint",
+     "Project": "Piggy Agent (PIGGY)",
+     "Chain": "BSC",
+     "Token/NFT": "Piggy Agent NFT x1 #1703",
+     "Contract Address": "0x70385fa94577cb845983d9b6752f2dde2486c837",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.33e-05,
+     "Gas Fee (USD)": 0.0098,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0",
+     "Status": "Held - no market yet",
+     "Notes": "free first mint, Agent ID gated, unverified, owner EOA. Gate 3/12. Lead Suruhan 23:10.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0"
     }
    ]
   },
@@ -1671,11 +1717,11 @@
    "rows": [
     {
      "Date": "2026-10-24",
-     "# Tx": "30",
+     "# Tx": "31",
      "Total USD Spent": "$2,4407",
-     "Total Gas USD": "$0,2645",
-     "Cumulative Spent": "$2,7052",
-     "Budget Left of $10": "$7,2948"
+     "Total Gas USD": "$0,2743",
+     "Cumulative Spent": "$2,7150",
+     "Budget Left of $10": "$7,2850"
     }
    ]
   },
