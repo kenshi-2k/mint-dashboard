@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 03:20 WITA",
+ "generated_wita": "2026-10-25 03:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -961,7 +961,7 @@
    "token": 256,
    "contract": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
    "status": "Hold",
-   "note": "Held - none yet (own market 0x6c68…26D9 on site)"
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -2224,6 +2224,48 @@
     },
     {
      "Date (WITA)": "2026-10-25",
+     "Time": "3:18",
+     "Type": "Mint",
+     "Project": "Xuanwu Seed (ERC-1155)",
+     "Chain": "BSC",
+     "Token/NFT": "Xuanwu Seed x1 (id 1)",
+     "Contract Address": "0x05fd19702029c473683d6188cD856e59038278F4",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 5.8e-06,
+     "Gas Fee (USD)": 0.0043,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "Status": "Held - no market yet",
+     "Notes": "User rule 23:24 WITA: first seed free, Agent ID gated, Sourcify exact match, owner EOA, unofficial Xuanwu Sigil team. Lead Suruhan 03:10.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "3:18",
+     "Type": "Mint",
+     "Project": "Brushborn (BBRN)",
+     "Chain": "BSC",
+     "Token/NFT": "Brushborn NFT x1 #256",
+     "Contract Address": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 6e-06,
+     "Gas Fee (USD)": 0.0044,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x1bbbe48fe2c671774b0cd725d7c9c0ee1f3bc33686116c795d7d56c4e484798a",
+     "Status": "Held - no market yet",
+     "Notes": "User rule 23:24 WITA: HIGH RISK free mint, unverified source, owner EOA, account created today. Agent ID gated. Lead Suruhan 03:10.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x1bbbe48fe2c671774b0cd725d7c9c0ee1f3bc33686116c795d7d56c4e484798a"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
      "Project": "Xuanwu Seed (ERC-1155)",
@@ -2242,28 +2284,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "03:18:00",
-     "Type": "Mint",
-     "Project": "Brushborn (BBRN)",
-     "Chain": "BSC",
-     "Token/NFT": "Brushborn NFT x1 #256",
-     "Contract Address": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 5.990820996882e-06,
-     "Gas Fee (USD)": 0.0044,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet (own market 0x6c68…26D9 on site)",
-     "Notes": "USER RULE free mint, HIGH RISK: unverified source, owner 0xceb1…89d7, account @BrushbornBNB created today (1 follower). Lead: Suruhan 03:10 (brushborn.pages.dev). CA confirmed in site JS. Agent ID gate, first mint free then ~$0.10, max 10, 5000 supply, totalMinted 255 at check. quote(W,1)=(0,0). mint(1) 0xa0712d68 value 0; preview +1 ERC721 only, no risks. Paid units NOT bought.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x1bbbe48fe2c671774b0cd725d7c9c0ee1f3bc33686116c795d7d56c4e484798a",
      "_src": "ledger"
     }
    ]
