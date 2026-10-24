@@ -48,6 +48,7 @@ a:hover{text-decoration-color:var(--acc)}
 .caprows .r{display:flex;justify-content:space-between;gap:var(--s3);align-items:baseline}.caprows .r>span:first-child{color:#a3a7ad}
 .caprows .r b{color:#ecebe6;font-weight:500;text-align:right;font-variant-numeric:tabular-nums}.caprows .r b small{display:block;font-weight:400;color:#8d9198;font-size:12px}
 .caprows .r.big b{font-size:16px;font-weight:600}
+.cap .fig .bnb{white-space:normal}
 .pl .capM{display:none}
 .pl{width:100%;display:grid;gap:var(--s4)}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#9aa09a}
@@ -242,21 +243,21 @@ function render(D,P){
   tx.forEach(o=>{const g=num(o["Gas Fee (native)"]);if(!(g>0)||/reject|not sent|fail/i.test(o.Status))return;G.n++;
     const ch=String(o.Chain||"");if(/^bsc$|bnb/i.test(ch.trim()))G.bsc+=g;else{const k=/zklink/i.test(ch)?"zkLink":/base/i.test(ch)?"Base":ch;G.other[k]=(G.other[k]||0)+g}});
   const oth=Object.entries(G.other),gasU=G.bsc*bnbUsd+oth.reduce((a,[,v])=>a+v*P.p.eth,0);
-  const C=D.capital, bfee=C&&C.bridge_fee_usd>0?C.bridge_fee_usd:null;
+  const CAP=D.capital, bfee=CAP&&CAP.bridge_fee_usd>0?CAP.bridge_fee_usd:null;
   const gasNote=(oth.length?`BSC + ${oth.map(([k,v])=>k+" "+(+v.toPrecision(4))+" ETH").join(", ")}.`:"Gas BSC.")+(bfee!=null?` Fee bridge Relay Base ke BSC ${fmtUSD(bfee)}, dicatat terpisah dari gas.`:"");
   // capital (modal): BSC + Base only
   const cpx=a=>P.p[String(a).toLowerCase()]??NaN, amt=(v,a)=>a==="BNB"?fmtBNB(v):`${fmtAmt(v)} ${esc(a)}`;
-  const capHtml=cls=>{if(!C)return"";const bc=(C.by_chain||[]).filter(c=>c.chain==="bsc"||c.chain==="base");
+  const capHtml=cls=>{if(!CAP)return"";const bc=(CAP.by_chain||[]).filter(c=>c.chain==="bsc"||c.chain==="base");
     const inU=bc.reduce((s,c)=>s+c.amount*(cpx(c.asset)||0),0);
-    const bal=num(C.bsc_balance_bnb),usdt=num(C.token_balances?.USDT_bsc),B=C.budget||{};
+    const bal=num(CAP.bsc_balance_bnb),usdt=num(CAP.token_balances?.USDT_bsc),B=CAP.budget||{};
     const row=(l,v,sub,big)=>`<div class="r${big?" big":""}"><span>${l}</span><b>${v}${sub?`<small>${sub}</small>`:""}</b></div>`;
     return `<div class="cap ${cls}"><div class="eyebrow">Modal</div>
      <div class="fig"><span class="lab">Modal masuk (bisa dipakai)</span><span class="usd">${fmtUSD(inU)}</span>
       <span class="bnb">${bc.map(c=>`${esc(c.name)} ${amt(c.amount,c.asset)}`).join(" · ")}</span></div>
      <div class="caprows">
       ${bc.map(c=>row(esc(c.name),fmtUSD(c.amount*(cpx(c.asset)||0)),amt(c.amount,c.asset)+(c.chain==="base"?" · dibridge ke BSC":""))).join("")}
-      ${row("Modal terpakai (mint / beli)",fmtUSD(C.spent?.usd||0),fmtBNB(C.spent?.bnb||0)+" · tanpa gas")}
-      ${row("Gas",fmtUSD(C.gas?.usd||0),fmtBNB(C.gas?.bnb||0))}
+      ${row("Modal terpakai (mint / beli)",fmtUSD(CAP.spent?.usd||0),fmtBNB(CAP.spent?.bnb||0)+" · tanpa gas")}
+      ${row("Gas",fmtUSD(gasU),fmtBNB(G.bsc))}
       ${row("Total keluar",fmtUSD(B.spent_usd||0),"dari cap "+fmtUSD(B.cap_usd||10))}
       ${row("Sisa budget",fmtUSD(B.left_usd),"",true)}
       ${row("Saldo BSC sekarang",fmtUSD(bal*bnbUsd),fmtBNB(bal)+(usdt>0?` + ${fmtAmt(usdt)} USDT`:""))}
