@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 00:23 WITA",
+ "generated_wita": "2026-10-25 01:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -759,14 +759,14 @@
    "token": 144,
    "contract": "0xCD124D0023f913f8646f9A74c7c9E6dB117bEb13",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   },
   {
    "collection": "Lodepass (LODE)",
    "token": 379,
    "contract": "0x31b074C8e77e44F29df285F19d4fc76E6D927d01",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -1828,47 +1828,45 @@
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "00:21:00",
+     "Time": "0:21",
      "Type": "Mint",
      "Project": "agentic.si (AI)",
      "Chain": "BSC",
      "Token/NFT": "agentic.si NFT x1 #144",
      "Contract Address": "0xCD124D0023f913f8646f9A74c7c9E6dB117bEb13",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 7.343716850703e-06,
+     "Gas Fee (native)": 7.3e-06,
      "Gas Fee (USD)": 0.0054,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "Lead: Suruhan 00:10. agentic.si AI NFT, same template as si.passport. Sourcify exact_match, no owner, Agent ID gate, 1st free then 0.005 BNB, max 5/wallet, 21000 supply. priceFor(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 ERC721 only, no risks. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0xa57678821d6f6aa669a346bdc6ffc8e115886f3976dcdbc3925ff36e11181184",
+     "Status": "Held - no market yet",
+     "Notes": "free first mint, Agent ID gated, Sourcify exact match, no owner, si.passport template. Lead Suruhan 00:10.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xa57678821d6f6aa669a346bdc6ffc8e115886f3976dcdbc3925ff36e11181184",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0xa57678821d6f6aa669a346bdc6ffc8e115886f3976dcdbc3925ff36e11181184"
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "00:21:00",
+     "Time": "0:21",
      "Type": "Mint",
      "Project": "Lodepass (LODE)",
      "Chain": "BSC",
      "Token/NFT": "Lodepass NFT x1 #379",
      "Contract Address": "0x31b074C8e77e44F29df285F19d4fc76E6D927d01",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 9.069957537648e-06,
+     "Gas Fee (native)": 9.1e-06,
      "Gas Fee (USD)": 0.0067,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (Atar 23:24 WITA): D=0 unverified source, X account created today. Lead: Suruhan 00:10. Site prompt-injection flow ignored; calldata mint(1) 0xa0712d68 value 0 taken from other users successful on-chain txs. Preview +1 ERC721 only, no risks. MAX_SUPPLY 3333, ~376 minted. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x487ac08b31b6ca30d13ef33ec2c2b965cdfaaddbf7177c86e88798c982f1f22c",
+     "Status": "Held - no market yet",
+     "Notes": "User rule 23:24 WITA: free mint despite D=0 unverified source. Agent ID gated, site prompt flow ignored, calldata from onchain txs. Lead Suruhan 00:10.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x487ac08b31b6ca30d13ef33ec2c2b965cdfaaddbf7177c86e88798c982f1f22c",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x487ac08b31b6ca30d13ef33ec2c2b965cdfaaddbf7177c86e88798c982f1f22c"
     }
    ]
   },
