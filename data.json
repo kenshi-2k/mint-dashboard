@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 03:50 WITA",
+ "generated_wita": "2026-10-25 04:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -3599,6 +3599,51 @@
      "Risk": "Medium",
      "Notes": "FYI only; then 0.001 BNB",
      "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "04:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Agent Apes",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://hark.com/site/278c6ee9-6a68-4a25-a18f-e067444274a2",
+     "Sentiment": "Low buzz",
+     "Red Flags": "Account created 2026-10-24, 1 follower; CA not published; hark SPA site",
+     "Risk": "High",
+     "Notes": "1st free then 0.0005 BNB, max 5/wallet, .ai Agent ID only, 28/8888. Src https://x.com/AgentApes_/status/2114083099672002976. Verdict GO/free (simulate)",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "04:10",
+     "Source (Telegram group / X account)": "On-chain",
+     "Project": "Signal Ghosts #2661 (held)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "Low",
+     "Notes": "Revealed (3333/3333). #2661 Tier Common",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "04:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Asciidogs Genesis Dogs",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/yourfvrtdegen/status/2114083426538283276",
+     "Sentiment": "Promo collabs",
+     "Red Flags": "Not BSC; mostly paid-collab posts",
+     "Risk": "Medium",
+     "Notes": "4,444 supply free mint, info only",
+     "Status": "New"
     }
    ]
   }
