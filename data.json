@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 04:50 WITA",
+ "generated_wita": "2026-10-25 06:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -3698,6 +3698,81 @@
      "Red Flags": "Not BSC; mostly paid-collab posts",
      "Risk": "Medium",
      "Notes": "4,444 supply free mint, info only",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "05:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No new leads",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Setya queue absent; Cupang 0 new msgs; 30 Chinese ch (178 msgs) no concrete mint; X: only already-reported ORVYN/Qorvex/Agent Apes/Asciidogs (ORVYN site now points to 2nd ORVYN contract 0x549538B29953a735C35Fb77077A6811228aF4Ab8, still SKIP); Worldygg mintOpen=false, 5 minted; held positions no owner change; ArtPunk 13, AHOUSE 27 (no trigger)",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "06:10",
+     "Source (Telegram group / X account)": "X @cr4zy_bnb",
+     "Project": "BSC Agent Fragment (BSCA-F)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+     "Link": "https://bscagent.surge.sh/",
+     "Sentiment": "Early, CN promo",
+     "Red Flags": "Source unverified (GoPlus); owner EOA; surge.sh host; mining/ponzi model; stake/fuse need approve",
+     "Risk": "Medium",
+     "Notes": "1st free then 0.001-0.005 BNB, max 5/wallet, 5000 supply, Agent ID gate; mintOpen true, 362 minted. Verdict GO/free 1x, no stake/fuse",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "06:10",
+     "Source (Telegram group / X account)": "X @XiaoMei_laika",
+     "Project": "Lobster Gang",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/XiaoMei_laika/status/2114104474583363946",
+     "Sentiment": "Low",
+     "Red Flags": "No CA or mint link found; shill account",
+     "Risk": "Medium",
+     "Notes": "1111 supply; first 788 wallets 1 free then 0.0032 BNB; max 5; Agent ID gate. FYI only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "06:10",
+     "Source (Telegram group / X account)": "X @letsconnect_1",
+     "Project": "Let's Connect Card",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://letsconnect.cloud/",
+     "Sentiment": "Spam replies",
+     "Red Flags": "'Free' but $0.30 fee; mint via prompt to AI agent; hark site",
+     "Risk": "Skip",
+     "Notes": "3000 supply, max 50/tx. SKIP",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "06:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No other new leads",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Setya queue absent; Cupang 0 new msgs; Chinese TG (1.2h) no concrete mint; Worldygg mintOpen=false (5); ArtPunk 13, AHOUSE 27 no trigger; GALAXY 2243; Signal Ghosts 3333; OpenSea skipped overnight",
      "Status": "New"
     }
    ]
