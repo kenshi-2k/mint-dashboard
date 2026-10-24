@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 02:38 WITA",
+ "generated_wita": "2026-10-25 03:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.010020335653300584,
-  "last_balance_wita": "2026-10-25 01:34 WITA",
+  "last_balance_bnb": 0.010008504722427617,
+  "last_balance_wita": "2026-10-25 03:18 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.3143,
-  "gas_bnb": 0.000454782306717324
+  "spent_usd": 2.3231,
+  "gas_bnb": 0.00046661323759029
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 01:35 WITA",
+  "snapshot_wita": "2026-10-25 03:19 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.010020335653300584,
-    "amount_str": "0.010020335653300584",
+    "amount": 0.010008504722427617,
+    "amount_str": "0.010008504722427617",
     "usable": true,
     "status": "ok"
    },
@@ -577,16 +577,52 @@
     "txs": [
      "https://bscscan.com/tx/0x887c513d762d24c08f2c450e708b6d878f184e0e978bfb2e047a3d62497846aa"
     ]
+   },
+   {
+    "collection": "Xuanwu Seed (ERC-1155)",
+    "token": 1,
+    "contract": "0x05fd19702029c473683d6188cD856e59038278F4",
+    "status": "Hold",
+    "mint_cost_bnb": 5.840109876084e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.840109876084e-06,
+    "cost_usd": 0.0043,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece"
+    ]
+   },
+   {
+    "collection": "Brushborn (BBRN)",
+    "token": 256,
+    "contract": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
+    "status": "Hold",
+    "mint_cost_bnb": 5.990820996882e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.990820996882e-06,
+    "cost_usd": 0.0044,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x1bbbe48fe2c671774b0cd725d7c9c0ee1f3bc33686116c795d7d56c4e484798a"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002489346976678696,
-   "cost_usd": 2.2899,
+   "cost_bnb": 0.002501177907551662,
+   "cost_usd": 2.2986,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 29
+   "held": 31
   }
  },
  "capital": {
@@ -658,15 +694,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000454782306717324,
-   "usd": 0.3434
+   "bnb": 0.00046661323759029,
+   "usd": 0.3521
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.3143,
-   "left_usd": 7.6857
+   "spent_usd": 2.3231,
+   "left_usd": 7.6769
   },
-  "bsc_balance_bnb": 0.010020335653300584,
+  "bsc_balance_bnb": 0.010008504722427617,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716
   },
@@ -698,8 +734,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.3143,
-  "net_usd": -2.2794
+  "spent_usd": 2.3231,
+  "net_usd": -2.2882
  },
  "holdings": [
   {
@@ -912,6 +948,20 @@
    "contract": "0xc64c6e841d2f890c94a41195275dcec393da9f4e",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "Xuanwu Seed (ERC-1155)",
+   "token": 1,
+   "contract": "0x05fd19702029c473683d6188cD856e59038278F4",
+   "status": "Hold",
+   "note": "Held - none yet"
+  },
+  {
+   "collection": "Brushborn (BBRN)",
+   "token": 256,
+   "contract": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
+   "status": "Hold",
+   "note": "Held - none yet (own market 0x6c68…26D9 on site)"
   }
  ],
  "balance_history": [
@@ -1247,6 +1297,24 @@
    "delta_bnb": -1.782032261679e-05,
    "balance_bnb": 0.010020335653300584,
    "tx": "https://bscscan.com/tx/0x887c513d762d24c08f2c450e708b6d878f184e0e978bfb2e047a3d62497846aa"
+  },
+  {
+   "at_wita": "2026-10-25 03:18:00",
+   "kind": "Mint",
+   "project": "Xuanwu Seed (ERC-1155)",
+   "direction": "out",
+   "delta_bnb": -5.840109876084e-06,
+   "balance_bnb": 0.0100144955434245,
+   "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece"
+  },
+  {
+   "at_wita": "2026-10-25 03:18:00",
+   "kind": "Mint",
+   "project": "Brushborn (BBRN)",
+   "direction": "out",
+   "delta_bnb": -5.990820996882e-06,
+   "balance_bnb": 0.010008504722427617,
+   "tx": "https://bscscan.com/tx/0x1bbbe48fe2c671774b0cd725d7c9c0ee1f3bc33686116c795d7d56c4e484798a"
   }
  ],
  "tabs": {
@@ -2153,6 +2221,50 @@
      "Notes": "INCOME lottery win 0.0349 USDT (consolation tier). Off-chain EIP712 entry only, no approval, no gas. Payout tx https://bscscan.com/tx/0xad7e03ce17b100643b1faa46e7368a4d69889940d85d91290d99768715ef8bbd",
      "Revoke TX Link": "",
      "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "03:18:00",
+     "Type": "Mint",
+     "Project": "Xuanwu Seed (ERC-1155)",
+     "Chain": "BSC",
+     "Token/NFT": "Xuanwu Seed NFT x1 #1",
+     "Contract Address": "0x05fd19702029c473683d6188cD856e59038278F4",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 5.840109876084e-06,
+     "Gas Fee (USD)": 0.0043,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "03:18:00",
+     "Type": "Mint",
+     "Project": "Brushborn (BBRN)",
+     "Chain": "BSC",
+     "Token/NFT": "Brushborn NFT x1 #256",
+     "Contract Address": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 5.990820996882e-06,
+     "Gas Fee (USD)": 0.0044,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet (own market 0x6c68…26D9 on site)",
+     "Notes": "USER RULE free mint, HIGH RISK: unverified source, owner 0xceb1…89d7, account @BrushbornBNB created today (1 follower). Lead: Suruhan 03:10 (brushborn.pages.dev). CA confirmed in site JS. Agent ID gate, first mint free then ~$0.10, max 10, 5000 supply, totalMinted 255 at check. quote(W,1)=(0,0). mint(1) 0xa0712d68 value 0; preview +1 ERC721 only, no risks. Paid units NOT bought.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x1bbbe48fe2c671774b0cd725d7c9c0ee1f3bc33686116c795d7d56c4e484798a",
+     "_src": "ledger"
     }
    ]
   },
@@ -3376,6 +3488,96 @@
      "Red Flags": "Promo akun 1 follower; source unverified; 3 holder; belum di DEX",
      "Risk": "Skip",
      "Notes": "GoPlus cek 02:20 WITA.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "On-chain (held)",
+     "Project": "Signal Ghosts SOLD OUT 3333/3333",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
+     "Link": "https://bscscan.com/address/0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
+     "Sentiment": "Positive",
+     "Red Flags": "",
+     "Risk": "Medium",
+     "Notes": "Held #2661, #2703-2705; watch trigger fired, check market/reveal",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "Cupang #5930",
+     "Project": "Ghost Agents market on Element",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://element.market/collections/ghost-agents-1",
+     "Sentiment": "Positive",
+     "Red Flags": "",
+     "Risk": "Medium",
+     "Notes": "Held GHOST #422; new listing venue",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X/@MilkBaoBSC",
+     "Project": "MilkBao Dragon CA found",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xdCE9A489d2cce8D96e3ad354747B784f0cd4B112",
+     "Link": "https://stunning-pavlova-db7266.netlify.app/",
+     "Sentiment": "Neutral",
+     "Red Flags": "18 followers; source not checked",
+     "Risk": "Medium",
+     "Notes": "Opens 25 Oct 20:00 WITA; 1st 0.00022 BNB then 0.00088; max 10; Agent ID gate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "Cupang #5929 + X",
+     "Project": "Xuanwu Seed",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x05fd19702029c473683d6188cD856e59038278F4",
+     "Link": "https://seed.mchain.art/",
+     "Sentiment": "Positive",
+     "Red Flags": "Unofficial; Sigil team had owner reserveMint",
+     "Risk": "Medium",
+     "Notes": "First free then 0.0005 BNB; max 10; 1126 minted; GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X/@BrushbornBNB",
+     "Project": "Brushborn",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
+     "Link": "https://brushborn.pages.dev/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Account created today; 1 follower; totalSupply reverts",
+     "Risk": "High",
+     "Notes": "First free then ~$0.10; 5000 supply; Agent ID gate; GO/free simulate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X/@XiaoMei_laika",
+     "Project": "Buddies (free tier ~gone)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x907a9f96722Ac49f23738688BaB2F21584c7dB67",
+     "Link": "https://buddies-nft.netlify.app/",
+     "Sentiment": "Neutral",
+     "Red Flags": "99/100 free used",
+     "Risk": "Medium",
+     "Notes": "FYI only; then 0.001 BNB",
      "Status": "Sent to Ayanokouji"
     }
    ]
