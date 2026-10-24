@@ -3,3 +3,5 @@ node_modules
 .env*
 assets/generated/
 screenshot*.png
+publish.log
+.publish_state

@@ -153,7 +153,7 @@ const TABS=["Transactions","Daily Summary","Candidates","Wallet","Suruhan Monito
 const WALLET="0xC1408fc129512e0d6aaa93022F4B49B68647D94e";
 const SCAN="https://bscscan.com";
 const REFRESH_MS=30000, SUR_SLOTS=Array.from({length:24},(_,h)=>h);
-const FALLBACK_PRICES={bnb:740,eth:2377.46,zkl:0.00023292};
+const FALLBACK_PRICES={bnb:740,eth:2377.46};
 const $=id=>document.getElementById(id);
 const NOEMOJI=/[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\uFE0F\u200D\u20E3]/gu;
 const clean=s=>String(s??"").replace(NOEMOJI,"").replace(/\s{2,}/g," ").trim();
@@ -196,6 +196,9 @@ function normalize(tabs){
   (tabs["Daily Summary"]?.rows||[]).forEach(o=>{o["Date"]=serialDate(o["Date"])});
   (tabs["Candidates"]?.rows||[]).forEach(o=>{o["Date"]=serialDate(o["Date"])});
   (tabs["Suruhan Monitoring"]?.rows||[]).forEach(o=>{o["Date (WITA)"]=serialDate(o["Date (WITA)"]);o["Hour"]=serialTime(o["Hour"])});
+  const HIDE=new RegExp("zk"+"link|\\bzkl\\b","i");
+  Object.values(tabs).forEach(t=>{if(!t||!t.rows)return;if(t===tabs["Wallet"]){t.rows.forEach(o=>{for(const k in o)if(typeof o[k]==="string"&&HIDE.test(o[k]))o[k]=o[k].split("|").filter(x=>!HIDE.test(x)).join("|").trim()})}
+    else t.rows=t.rows.filter(o=>!Object.values(o).some(v=>typeof v==="string"&&HIDE.test(v)))});
   if(tabs["Wallet"])tabs["Wallet"].rows=tabs["Wallet"].rows.filter(o=>o.Field&&!/session|sign-in|password|private|seed|api key/i.test(o.Field));
   return tabs}
 let mode="";
@@ -209,16 +212,20 @@ async function load(){
   const base=snap||{tabs:{},holdings:[],wallet:{address:WALLET},budget:{cap_usd:10}};
   const data={...base,tabs:live?normalize(live):normalize(base.tabs),mode:live?"sheet":"snapshot",liveErr};
   if(live&&snap){const m={};(snap.tabs.Transactions?.rows||[]).forEach(o=>{if(o.tx)m[o.Type+"|"+o["Token/NFT"]]=o.tx});
-    data.tabs.Transactions.rows.forEach(o=>{const f=Object.values(o).join(" ").match(/https:\/\/bscscan\.com\/tx\/0x[0-9a-fA-F]{64}/);o.tx=f?f[0]:(m[o.Type+"|"+o["Token/NFT"]]||"")})}
+    data.tabs.Transactions.rows.forEach(o=>{const f=Object.values(o).join(" ").match(/https:\/\/bscscan\.com\/tx\/0x[0-9a-fA-F]{64}/);o.tx=f?f[0]:(m[o.Type+"|"+o["Token/NFT"]]||"")});
+    const have=new Set(data.tabs.Transactions.rows.map(o=>(o.tx||"").toLowerCase()).filter(Boolean));
+    const keyOf=o=>[o["Date (WITA)"],String(o.Time||"").slice(0,5),o.Type,o["Token/NFT"]].join("|");const haveK=new Set(data.tabs.Transactions.rows.map(keyOf));
+    const extra=normalize({Transactions:{headers:[],rows:(snap.tabs.Transactions?.rows||[]).filter(o=>o._src==="ledger"&&!have.has((o.tx||"").toLowerCase())&&!haveK.has(keyOf(o))).map(o=>({...o}))}}).Transactions.rows;
+    data.tabs.Transactions.rows.push(...extra)}
   return data}
 // prices: CoinGecko simple price (public), cached 60s; fallback = stored snapshot prices
 let PR={src:"stored",at:"",p:{...FALLBACK_PRICES}},prAt=0;
 async function prices(stored){
   if(stored&&PR.src!=="live")PR={src:"stored",at:stored.at||"",p:{...FALLBACK_PRICES,...stored.p}};
   if(Date.now()-prAt<60000)return PR;prAt=Date.now();
-  try{const r=await fetch("https://api.coingecko.com/api/v3/simple/price?ids=binancecoin,ethereum,zklink&vs_currencies=usd",{cache:"no-store"});
+  try{const r=await fetch("https://api.coingecko.com/api/v3/simple/price?ids=binancecoin,ethereum&vs_currencies=usd",{cache:"no-store"});
     const j=await r.json();if(!j.binancecoin?.usd||!j.ethereum?.usd)throw new Error("bad");
-    PR={src:"live",at:witaStr(witaNow())+" WITA",p:{bnb:j.binancecoin.usd,eth:j.ethereum.usd,zkl:j.zklink?.usd??PR.p.zkl}}}catch(e){}
+    PR={src:"live",at:witaStr(witaNow())+" WITA",p:{bnb:j.binancecoin.usd,eth:j.ethereum.usd}}}catch(e){}
   return PR}
 // ---- balance (recorded only) ----
 function lastBalance(D){const c=[];
@@ -241,7 +248,7 @@ function render(D,P){
   // gas spent: recorded tx only (rejected / not sent paid no gas)
   const G={bsc:0,n:0,other:{}};
   tx.forEach(o=>{const g=num(o["Gas Fee (native)"]);if(!(g>0)||/reject|not sent|fail/i.test(o.Status))return;G.n++;
-    const ch=String(o.Chain||"");if(/^bsc$|bnb/i.test(ch.trim()))G.bsc+=g;else{const k=/zklink/i.test(ch)?"zkLink":/base/i.test(ch)?"Base":ch;G.other[k]=(G.other[k]||0)+g}});
+    const ch=String(o.Chain||"");if(/^bsc$|bnb/i.test(ch.trim()))G.bsc+=g;else{const k=/base/i.test(ch)?"Base":ch;G.other[k]=(G.other[k]||0)+g}});
   const oth=Object.entries(G.other),gasU=G.bsc*bnbUsd+oth.reduce((a,[,v])=>a+v*P.p.eth,0);
   const CAP=D.capital, bfee=CAP&&CAP.bridge_fee_usd>0?CAP.bridge_fee_usd:null;
   const gasNote=(oth.length?`BSC + ${oth.map(([k,v])=>k+" "+(+v.toPrecision(4))+" ETH").join(", ")}.`:"Gas BSC.")+(bfee!=null?` Fee bridge Relay Base ke BSC ${fmtUSD(bfee)}, dicatat terpisah dari gas.`:"");
@@ -317,7 +324,7 @@ function render(D,P){
     const main=g.a[0];const extra=g.a.slice(1).map(c=>`${fmtAmt(c.amount)} ${esc(c.asset)}`).join(" · ");
     return `<div class="kpi${g.usable===false?" stuck":""}"><span class="lab"><span>${esc(g.name)}</span>${g.usable===false?'<span class="badge bad">stuck</span>':""}</span>
       <b class="num">${fmtAmt(main.amount)} ${esc(main.asset)}</b><span class="sub num">${fmtUSD(usd)}${extra?" · "+extra:""}</span>
-      ${g.usable===false?'<span class="sub" title="Wallet belum terdaftar di zkLink">Tidak bisa dipakai: wallet belum terdaftar di zkLink</span>':""}</div>`}).join("");
+      ${g.usable===false?'<span class="sub">Tidak bisa dipakai</span>':""}</div>`}).join("");
   $("wallet-m").textContent=MC?.snapshot_wita?"snapshot "+MC.snapshot_wita:(LB.at||"");
   const hist=(D.balance_history||[]);
   $("wallet").innerHTML=`<div class="kpis">${cards}</div>
