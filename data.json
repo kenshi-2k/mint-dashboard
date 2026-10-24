@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 07:20 WITA",
+ "generated_wita": "2026-10-25 07:22 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009995585551020288,
-  "last_balance_wita": "2026-10-25 06:19 WITA",
+  "last_balance_bnb": 0.009987242227908696,
+  "last_balance_wita": "2026-10-25 07:21 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.3327,
-  "gas_bnb": 0.00047953240899762
+  "spent_usd": 2.3389,
+  "gas_bnb": 0.00048787573210921204
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 06:19 WITA",
+  "snapshot_wita": "2026-10-25 07:21 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009995585551020288,
-    "amount_str": "0.009995585551020288",
+    "amount": 0.009987242227908696,
+    "amount_str": "0.009987242227908696",
     "usable": true,
     "status": "ok"
    },
@@ -649,16 +649,34 @@
     "txs": [
      "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
     ]
+   },
+   {
+    "collection": "Pocket Dragons (PDRAGON)",
+    "token": 389,
+    "contract": "0x2CfF830264343F29d4924160096F1271A8a14aCE",
+    "status": "Hold",
+    "mint_cost_bnb": 8.343323111592e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 8.343323111592e-06,
+    "cost_usd": 0.0062,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x1f4a2c9e8aa822413b224558e2b48b0a0a7b2f5a7d6174a20bb41c65db39d5bb"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002514097078958992,
-   "cost_usd": 2.3082,
+   "cost_bnb": 0.002522440402070584,
+   "cost_usd": 2.3144,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 33
+   "held": 34
   }
  },
  "capital": {
@@ -730,15 +748,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.00047953240899762,
-   "usd": 0.3617
+   "bnb": 0.00048787573210921204,
+   "usd": 0.3679
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.3327,
-   "left_usd": 7.6673
+   "spent_usd": 2.3389,
+   "left_usd": 7.6611
   },
-  "bsc_balance_bnb": 0.009995585551020288,
+  "bsc_balance_bnb": 0.009987242227908696,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716
   },
@@ -770,8 +788,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.3327,
-  "net_usd": -2.2978
+  "spent_usd": 2.3389,
+  "net_usd": -2.304
  },
  "holdings": [
   {
@@ -1012,6 +1030,13 @@
    "contract": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "Pocket Dragons (PDRAGON)",
+   "token": 389,
+   "contract": "0x2CfF830264343F29d4924160096F1271A8a14aCE",
+   "status": "Hold",
+   "note": "Held - none yet (unrevealed eggs; reveal after mint-out)"
   }
  ],
  "balance_history": [
@@ -1383,6 +1408,15 @@
    "delta_bnb": -7.416349291624e-06,
    "balance_bnb": 0.009995585551020288,
    "tx": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
+  },
+  {
+   "at_wita": "2026-10-25 07:21:00",
+   "kind": "Mint",
+   "project": "Pocket Dragons (PDRAGON)",
+   "direction": "out",
+   "delta_bnb": -8.343323111592e-06,
+   "balance_bnb": 0.009987242227908696,
+   "tx": "https://bscscan.com/tx/0x1f4a2c9e8aa822413b224558e2b48b0a0a7b2f5a7d6174a20bb41c65db39d5bb"
   }
  ],
  "tabs": {
@@ -2394,6 +2428,28 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "07:21:00",
+     "Type": "Mint",
+     "Project": "Pocket Dragons (PDRAGON)",
+     "Chain": "BSC",
+     "Token/NFT": "Pocket Dragons NFT x1 #389",
+     "Contract Address": "0x2CfF830264343F29d4924160096F1271A8a14aCE",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 8.343323111592e-06,
+     "Gas Fee (USD)": 0.0062,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet (unrevealed eggs; reveal after mint-out)",
+     "Notes": "USER RULE free mint. Lead: Suruhan 07:10 (@mashmuscles, @XiaoMei_laika, @JingInCrypto). Sourcify exact_match (PocketDragons.sol, OZ ERC721): no owner mint, standard transfers, owner only setMintOpen/setMintStart/setPrice/setAgentOnly/reveal/renderer/withdraw. GoPlus open_source 1, no privileged mint/burn, not proxy. Owner 0x0fD6…5aD5. MAX 7000, MAX_PER_WALLET 10, first free then price 0.00067 BNB.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x1f4a2c9e8aa822413b224558e2b48b0a0a7b2f5a7d6174a20bb41c65db39d5bb",
      "_src": "ledger"
     }
    ]
@@ -3829,6 +3885,36 @@
      "Risk": "",
      "Notes": "Setya queue absent; Cupang 0 new msgs; Chinese TG (1.2h) no concrete mint; Worldygg mintOpen=false (5); ArtPunk 13, AHOUSE 27 no trigger; GALAXY 2243; Signal Ghosts 3333; OpenSea skipped overnight",
      "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "07:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Pocket Dragons (PDRAGON)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x2CfF830264343F29d4924160096F1271A8a14aCE",
+     "Link": "https://x.com/mashmuscles/status/2114122404528009524",
+     "Sentiment": "Positive (several CN promo posts)",
+     "Red Flags": "Reveal only after mint-out; promo tells users to paste a prompt into agent (do not, call mint directly)",
+     "Risk": "Medium",
+     "Notes": "Agent ID only; 1st free, then 0,00067 BNB; 368/7000 at 07:17; GoPlus open source, no privileged mint; owner EOA 0x0fd6...5ad5. Verdict GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "07:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "NEON BOTZ",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/XiaoMei_laika/status/2114132521676079285",
+     "Sentiment": "Neutral",
+     "Red Flags": "No CA; only mint link (netlify, 6-follower acct) returns 404, possible phishing",
+     "Risk": "High",
+     "Notes": "3000 supply, Agent ID only, 1st free then 0,002 BNB, max 20/wallet, until ~10/30. WATCH for CA",
+     "Status": "Sent to Ayanokouji"
     }
    ]
   }
