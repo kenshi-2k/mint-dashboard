@@ -38,8 +38,12 @@ a:hover{text-decoration-color:var(--acc)}
 .btn:hover{border-color:var(--faint)}.btn[aria-pressed=true]{border-color:var(--acc);color:var(--fg);background:var(--chip)}
 .hero{position:relative;border-bottom:1px solid var(--line);background:#0e0f11 url(assets/hero.webp) left center/cover no-repeat;color:#ecebe6}
 [data-theme=light] .hero{border-color:#0e0f11}
-.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr);justify-items:end;padding-top:var(--s7);padding-bottom:var(--s6)}
-.pl{width:min(100%,560px);display:grid;gap:var(--s4)}
+.hero::before{content:"";position:absolute;inset:0;background:rgba(14,15,17,.42);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,560px);gap:var(--s6);align-items:start;padding-top:var(--s7);padding-bottom:var(--s6)}
+.gasL{display:grid;gap:var(--s4);align-content:start;max-width:420px}.gasL .fig .usd{color:#ecebe6}
+.fig.gas .note,.gasL .note{font-size:12.5px;color:#a3a7ad;line-height:1.45}
+.plgrid .fig.gas{display:none}
+.pl{width:100%;display:grid;gap:var(--s4)}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#9aa09a}
 .plgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4)}
 .fig{display:grid;gap:2px}
@@ -107,7 +111,8 @@ footer{color:var(--mut);font-size:12px;padding:0 0 calc(var(--s6) + env(safe-are
 .wordy{overflow-wrap:anywhere}
 @media (max-width:640px){.status .txt{display:none}.brand span{display:none}.hero .wrap{padding-top:var(--s6);justify-items:stretch}
   .hero{background-image:url(assets/hero-768.webp);background-position:left top;background-size:auto 100%}
-  .hero::before{content:"";position:absolute;inset:0;background:rgba(14,15,17,.55)} .hero .wrap{position:relative}}
+  .hero::before{background:rgba(14,15,17,.55)} .hero .wrap{grid-template-columns:minmax(0,1fr);gap:0}
+  .gasL{display:none}.plgrid .fig.gas{display:grid;grid-column:1/-1;padding-top:var(--s3);border-top:1px solid rgba(236,235,230,.14)}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
@@ -118,7 +123,7 @@ footer{color:var(--mut);font-size:12px;padding:0 0 calc(var(--s6) + env(safe-are
   <div id="src" class="status" title=""><span class="dot"></span><span class="txt" id="src-t">Memuat data</span></div>
   <button class="btn" id="theme" type="button" aria-label="Ganti tema">Terang</button>
 </div></header>
-<div class="hero"><div class="wrap"><div class="pl" id="pl">
+<div class="hero"><div class="wrap"><div class="gasL" id="gasL" aria-hidden="false"></div><div class="pl" id="pl">
   <div class="eyebrow">Profit / loss NFT</div>
   <div class="plgrid"><div class="fig"><span class="lab">Realized</span><span class="usd">-</span><span class="bnb">-</span></div>
   <div class="fig"><span class="lab">Unrealized</span><span class="usd">-</span><span class="bnb">-</span></div></div>
@@ -140,7 +145,7 @@ const SHEET_ID="1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo";
 const TABS=["Transactions","Daily Summary","Candidates","Wallet","Suruhan Monitoring"];
 const WALLET="0xC1408fc129512e0d6aaa93022F4B49B68647D94e";
 const SCAN="https://bscscan.com";
-const REFRESH_MS=30000, SUR_SLOTS=[8,11,14,17,20,23];
+const REFRESH_MS=30000, SUR_SLOTS=Array.from({length:24},(_,h)=>h);
 const FALLBACK_PRICES={bnb:740,eth:2377.46,zkl:0.00023292};
 const $=id=>document.getElementById(id);
 const NOEMOJI=/[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\uFE0F\u200D\u20E3]/gu;
@@ -226,6 +231,14 @@ function render(D,P){
   st.title=$("src-t").textContent+" | diperbarui "+hhmm(witaNow())+" WITA";
   const bnbUsd=P.p.bnb, prLabel=P.src==="live"?`Harga live CoinGecko ${hhmm(new Date(Date.now()+8*3600e3))} WITA`:`Harga tersimpan${P.at?" ("+P.at+")":""}`;
   const tx=D.tabs.Transactions?.rows||[];
+  // gas spent: recorded tx only (rejected / not sent paid no gas)
+  const G={bsc:0,n:0,other:{}};
+  tx.forEach(o=>{const g=num(o["Gas Fee (native)"]);if(!(g>0)||/reject|not sent|fail/i.test(o.Status))return;G.n++;
+    const ch=String(o.Chain||"");if(/^bsc$|bnb/i.test(ch.trim()))G.bsc+=g;else{const k=/zklink/i.test(ch)?"zkLink":/base/i.test(ch)?"Base":ch;G.other[k]=(G.other[k]||0)+g}});
+  const oth=Object.entries(G.other),gasU=G.bsc*bnbUsd+oth.reduce((a,[,v])=>a+v*P.p.eth,0);
+  const gasNote=oth.length?`BSC + ${oth.map(([k,v])=>k+" "+(+v.toPrecision(4))+" ETH").join(", ")}`:"BSC saja. Gas bridge Base (Relay) tidak tercatat terpisah, jadi tidak dihitung.";
+  const gasFig=cls=>`<div class="fig ${cls}"><span class="lab">Gas terpakai</span><span class="usd">${fmtUSD(gasU)}</span><span class="bnb">${fmtBNB(G.bsc)} · ${G.n} tx on-chain</span><span class="note">${esc(gasNote)}</span></div>`;
+  $("gasL").innerHTML=`<div class="eyebrow">Biaya on-chain</div>${gasFig("")}`;
   // P/L hero
   const pnl=D.pnl||{items:[],totals:{}};const T=pnl.totals||{};
   const rU=(T.realized_bnb||0)*bnbUsd,uU=(T.unrealized_bnb||0)*bnbUsd;
@@ -233,6 +246,7 @@ function render(D,P){
    <div class="plgrid">
     <div class="fig"><span class="lab">Realized</span><span class="usd ${plCls(rU)}">${fmtUSD(rU,true)}</span><span class="bnb">${sgnBNB(T.realized_bnb||0)} · ${T.sold||0} terjual</span></div>
     <div class="fig"><span class="lab">Unrealized</span><span class="usd ${plCls(uU)}">${fmtUSD(uU,true)}</span><span class="bnb">${sgnBNB(T.unrealized_bnb||0)} · ${T.listed||0} listing</span></div>
+    ${gasFig("gas")}
    </div>
    <div class="plmeta"><span>Modal NFT <b class="num">${fmtUSD(T.cost_usd)}</b></span><span>${T.held||0} NFT di wallet</span><span>${esc(prLabel)}</span></div>`;
   // trades
@@ -319,12 +333,12 @@ function render(D,P){
   for(const h of SUR_SLOTS){const d=new Date(Date.UTC(+today.slice(0,4),+today.slice(5,7)-1,+today.slice(8,10),h));if(d>now){next=d;break}}
   if(!next){const d=new Date(Date.UTC(+today.slice(0,4),+today.slice(5,7)-1,+today.slice(8,10)+1,SUR_SLOTS[0]));next=d}
   const mins=Math.round((next-now)/6e4);const inLast=S.filter(s=>s.k===last).length;
-  $("sur-m").textContent="tiap 3 jam, 08:00-23:00 WITA";
+  $("sur-m").textContent="tiap 1 jam, 24 jam";
   $("sur").innerHTML=`<div class="sur">
     <div class="kpi"><span class="lab">Cek terakhir</span><b class="num">${esc(last?last.slice(11,16):"-")} WITA</b><span class="sub num">${esc(last.slice(0,10))}</span></div>
-    <div class="kpi"><span class="lab">Cek berikutnya</span><b class="num">${hhmm(next)} WITA</b><span class="sub">${mins>=60?Math.floor(mins/60)+" j "+(mins%60)+" m":mins+" menit"} lagi</span></div>
+    <div class="kpi"><span class="lab">Cek berikutnya</span><b class="num">${hhmm(next)} WITA${next.toISOString().slice(0,10)!==today?" besok":""}</b><span class="sub">${mins>=60?Math.floor(mins/60)+" j "+(mins%60)+" m":mins+" menit"} lagi</span></div>
     <div class="kpi"><span class="lab">Batch terakhir</span><b class="num">${inLast} lead</b><span class="sub">${S.length} tercatat total</span></div></div>
-    <p class="small mut">Waktu cek terakhir diambil dari tab Suruhan Monitoring. Jadwal default tiap 3 jam (08, 11, 14, 17, 20, 23 WITA).</p>`;
+    <p class="small mut">Waktu cek terakhir diambil dari tab Suruhan Monitoring. Jadwal tiap 1 jam, 24 jam sehari, tepat di awal jam (WITA). Cek berikutnya = jam penuh berikutnya.</p>`;
   $("foot").innerHTML=`Read-only. Semua waktu dalam WITA (UTC+8). Saldo = catatan terakhir setelah transaksi, bukan cek RPC live. ${esc(prLabel)}; nilai USD estimasi. Data ${esc(D.generated_wita||"")}. Diperbarui ${hhmm(witaNow())} WITA, refresh otomatis tiap 30 detik.`;
 }
 // ---- events (delegated, survive re-render) ----
