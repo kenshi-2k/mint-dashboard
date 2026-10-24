@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 06:20 WITA",
+ "generated_wita": "2026-10-25 07:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -2372,7 +2372,7 @@
      "Status": "Held - no market yet",
      "Notes": "User rule free mint. Sourcify exact match, no owner mint, owner 0x53Fd (same as SAGENT). 5000 supply, max 5, ladder after free. Preview +1 NFT only. Stake/fuse/approve NOT done, paid units NOT bought. Lead Suruhan 06:10.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
     },
     {
      "Date (WITA)": "2026-10-25",
@@ -2394,28 +2394,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "06:19:00",
-     "Type": "Mint",
-     "Project": "BSC Agent Fragment (BSCA-F)",
-     "Chain": "BSC",
-     "Token/NFT": "BSC Agent Fragment NFT x1 #364",
-     "Contract Address": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.416349291624e-06,
-     "Gas Fee (USD)": 0.0055,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet (site has own fragMarket 0xd8Ff…6c85 — never approve)",
-     "Notes": "USER RULE free mint. Lead: Suruhan 06:10 (bscagent.surge.sh; @cr4zy_bnb, @XiaoMei_laika). CA confirmed in site JS config frag:. Sourcify exact_match (BSCAgentFragment.sol): no owner mint, standard ERC721 transfers, owner can only setMintOpen/setTreasury/URI. Owner 0x53Fd…e3B4 (same as SAGENT). MAX 5000, max 5/wallet ladder free/0.001/0.002/0.003/0.005. mintOpen true, totalMinted 363 at check, quot",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739",
      "_src": "ledger"
     }
    ]
