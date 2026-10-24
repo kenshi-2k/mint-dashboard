@@ -4,17 +4,17 @@
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.010003001900311913,
-  "last_balance_wita": "2026-10-25 04:31 WITA",
+  "last_balance_bnb": 0.009995585551020288,
+  "last_balance_wita": "2026-10-25 06:19 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.3272,
-  "gas_bnb": 0.000472116059705996
+  "spent_usd": 2.3327,
+  "gas_bnb": 0.00047953240899762
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 04:31 WITA",
+  "snapshot_wita": "2026-10-25 06:19 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.010003001900311913,
-    "amount_str": "0.010003001900311913",
+    "amount": 0.009995585551020288,
+    "amount_str": "0.009995585551020288",
     "usable": true,
     "status": "ok"
    },
@@ -631,16 +631,34 @@
     "txs": [
      "https://bscscan.com/tx/0x154d5e7aa9c382cc12b6852363d0815aae60f893448c3adbdd0cd9ac5e98d1b0"
     ]
+   },
+   {
+    "collection": "BSC Agent Fragment (BSCA-F)",
+    "token": 364,
+    "contract": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+    "status": "Hold",
+    "mint_cost_bnb": 7.416349291624e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.416349291624e-06,
+    "cost_usd": 0.0055,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002506680729667368,
-   "cost_usd": 2.3027,
+   "cost_bnb": 0.002514097078958992,
+   "cost_usd": 2.3082,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 32
+   "held": 33
   }
  },
  "capital": {
@@ -712,15 +730,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000472116059705996,
-   "usd": 0.3562
+   "bnb": 0.00047953240899762,
+   "usd": 0.3617
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.3272,
-   "left_usd": 7.6728
+   "spent_usd": 2.3327,
+   "left_usd": 7.6673
   },
-  "bsc_balance_bnb": 0.010003001900311913,
+  "bsc_balance_bnb": 0.009995585551020288,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716
   },
@@ -752,8 +770,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.3272,
-  "net_usd": -2.2923
+  "spent_usd": 2.3327,
+  "net_usd": -2.2978
  },
  "holdings": [
   {
@@ -987,6 +1005,13 @@
    "contract": "0xbF18B0CfDd9e4FD138a362A92F29674197Fdb886",
    "status": "Hold",
    "note": "Held - none yet"
+  },
+  {
+   "collection": "BSC Agent Fragment (BSCA-F)",
+   "token": 364,
+   "contract": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+   "status": "Hold",
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -1349,6 +1374,15 @@
    "delta_bnb": -5.502822115706e-06,
    "balance_bnb": 0.010003001900311913,
    "tx": "https://bscscan.com/tx/0x154d5e7aa9c382cc12b6852363d0815aae60f893448c3adbdd0cd9ac5e98d1b0"
+  },
+  {
+   "at_wita": "2026-10-25 06:19:00",
+   "kind": "Mint",
+   "project": "BSC Agent Fragment (BSCA-F)",
+   "direction": "out",
+   "delta_bnb": -7.416349291624e-06,
+   "balance_bnb": 0.009995585551020288,
+   "tx": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
   }
  ],
  "tabs": {
@@ -2321,6 +2355,27 @@
     },
     {
      "Date (WITA)": "2026-10-25",
+     "Time": "6:19",
+     "Type": "Mint",
+     "Project": "BSC Agent Fragment (BSCA-F)",
+     "Chain": "BSC",
+     "Token/NFT": "BSC Agent Fragment NFT x1 #364",
+     "Contract Address": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.4e-06,
+     "Gas Fee (USD)": 0.0055,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739",
+     "Status": "Held - no market yet",
+     "Notes": "User rule free mint. Sourcify exact match, no owner mint, owner 0x53Fd (same as SAGENT). 5000 supply, max 5, ladder after free. Preview +1 NFT only. Stake/fuse/approve NOT done, paid units NOT bought. Lead Suruhan 06:10.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
      "Project": "Xuanwu Seed (ERC-1155)",
@@ -2339,6 +2394,28 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "06:19:00",
+     "Type": "Mint",
+     "Project": "BSC Agent Fragment (BSCA-F)",
+     "Chain": "BSC",
+     "Token/NFT": "BSC Agent Fragment NFT x1 #364",
+     "Contract Address": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.416349291624e-06,
+     "Gas Fee (USD)": 0.0055,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet (site has own fragMarket 0xd8Ff…6c85 — never approve)",
+     "Notes": "USER RULE free mint. Lead: Suruhan 06:10 (bscagent.surge.sh; @cr4zy_bnb, @XiaoMei_laika). CA confirmed in site JS config frag:. Sourcify exact_match (BSCAgentFragment.sol): no owner mint, standard ERC721 transfers, owner can only setMintOpen/setTreasury/URI. Owner 0x53Fd…e3B4 (same as SAGENT). MAX 5000, max 5/wallet ladder free/0.001/0.002/0.003/0.005. mintOpen true, totalMinted 363 at check, quot",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739",
      "_src": "ledger"
     }
    ]
