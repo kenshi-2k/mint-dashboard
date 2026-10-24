@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 07:33 WITA",
+ "generated_wita": "2026-10-25 07:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -2482,7 +2482,7 @@
      "Status": "Held - no market yet",
      "Notes": "User rule free mint. CA from on-chain scan (netlify site NOT used). Sourcify exact match, no owner admin, creator 0x45E2. 3000 supply, max 20, 0.002 after free, mint ends 10/30 06:51 WITA. Preview +1 NFT only. Paid units NOT bought. Lead Suruhan 07:10.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x88445ce2321fab0816b68ecaafa44d020a86c8aa121a09bbb636762af3345290"
     },
     {
      "Date (WITA)": "2026-10-25",
@@ -2504,28 +2504,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "07:32:00",
-     "Type": "Mint",
-     "Project": "NEON BOTZ (NBOTZ)",
-     "Chain": "BSC",
-     "Token/NFT": "NEON BOTZ NFT x1 #205",
-     "Contract Address": "0xd85A10B599e228Fb2D13D3E9B0a2B9003F1CD31C",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.407025745254e-06,
-     "Gas Fee (USD)": 0.007,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint. CA found via on-chain scan (only contract named NEON BOTZ); netlify site NOT used. Sourcify exact_match (NeonBotz.sol, custom ERC721, no Ownable), creator 0x45E2…8686. MAX 3000, max 20/wallet, 0.002 BNB after free, Agent ID gate, mintEnd 2026-10-30 06:51 WITA. priceFor(W,1)=0, mintedBy(W)=0, totalSupply 204 at check. eth_call mint(1) value 0 OK; baw preview +1 ERC721 only, no ",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x88445ce2321fab0816b68ecaafa44d020a86c8aa121a09bbb636762af3345290",
      "_src": "ledger"
     }
    ]
