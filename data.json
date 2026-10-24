@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 04:32 WITA",
+ "generated_wita": "2026-10-25 04:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -2317,7 +2317,7 @@
      "Status": "Held - none yet",
      "Notes": "USER RULE free mint, HIGH RISK (new acct, CA unpublished, unverified). CA found on-chain (only name()=Agent Apes in recent BSC ERC721 mints). AAPE, 8888 supply, max 5, 0.0005 after free, quote=0. Preview +1 NFT only. Paid units NOT bought.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x154d5e7aa9c382cc12b6852363d0815aae60f893448c3adbdd0cd9ac5e98d1b0"
     },
     {
      "Date (WITA)": "2026-10-25",
@@ -2339,28 +2339,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "04:31:00",
-     "Type": "Mint",
-     "Project": "Agent Apes (AAPE)",
-     "Chain": "BSC",
-     "Token/NFT": "Agent Apes NFT x1 #34",
-     "Contract Address": "0xbF18B0CfDd9e4FD138a362A92F29674197Fdb886",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 5.502822115706e-06,
-     "Gas Fee (USD)": 0.0041,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint, HIGH RISK: @AgentApes_ created 2026-10-24 (1 follower), CA not published, source unverified, owner EOA 0xf6cd…228c. Lead: Suruhan 04:10 (hark.com SPA, CA not in HTML/JS bundles; site content needs auth). CA found on-chain: scan of BSC ERC721 mints (Transfer from 0x0) over last ~30k blocks -> only contract with name()='Agent Apes'. Verified symbol AAPE, MAX_SUPPLY 8888, MAX_PER",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x154d5e7aa9c382cc12b6852363d0815aae60f893448c3adbdd0cd9ac5e98d1b0",
      "_src": "ledger"
     }
    ]
