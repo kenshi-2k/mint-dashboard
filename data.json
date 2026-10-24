@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-24 15:41 WITA",
+ "generated_wita": "2026-10-24 16:35 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.013049818,
-  "last_balance_wita": "2026-10-24 15:30 WITA",
+  "last_balance_bnb": 0.012326899427096655,
+  "last_balance_wita": "2026-10-24 16:23 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 0.0985,
-  "gas_bnb": 0.00013312925041999199
+  "spent_usd": 0.6293,
+  "gas_bnb": 0.000196047877192056
  },
  "multichain": {
-  "snapshot_wita": "2026-10-24 15:33 WITA",
+  "snapshot_wita": "2026-10-24 16:35 WITA",
   "source": "zkl_state.json",
   "prices_usd": {
    "bnb": 736.83,
@@ -26,8 +26,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.01304981805386872,
-    "amount_str": "0.01304981805386872",
+    "amount": 0.012326899427096655,
+    "amount_str": "0.012326899427096655",
     "usable": true,
     "status": "ok"
    },
@@ -37,33 +37,6 @@
     "asset": "ETH",
     "amount": 9.340366696956e-06,
     "amount_str": "0.000009340366696956",
-    "usable": true,
-    "status": "ok"
-   },
-   {
-    "chain": "zklink_nova",
-    "name": "zkLink Nova",
-    "asset": "ETH",
-    "amount": 0.002214962990841,
-    "amount_str": "0.002214962990841",
-    "usable": false,
-    "status": "stuck / not usable - wallet not registered on zkLink"
-   },
-   {
-    "chain": "ethereum",
-    "name": "Ethereum",
-    "asset": "ETH",
-    "amount": 0.0,
-    "amount_str": "0",
-    "usable": true,
-    "status": "ok"
-   },
-   {
-    "chain": "ethereum",
-    "name": "Ethereum",
-    "asset": "ZKL",
-    "amount": 0.0,
-    "amount_str": "0",
     "usable": true,
     "status": "ok"
    }
@@ -224,17 +197,114 @@
     "txs": [
      "https://bscscan.com/tx/0x7e3ad48d250eedfadd758f27cd8962cf5b4a18c7bf71ebde518cf4dfe697ca44"
     ]
+   },
+   {
+    "collection": "AIGT Genesis (AIGT)",
+    "token": 9709,
+    "contract": "0x1275481d8614D5209857d5524fe60aEBb34d43F4",
+    "status": "Hold",
+    "mint_cost_bnb": 2.834090786841e-05,
+    "other_gas_bnb": 3.609536474742e-06,
+    "cost_bnb": 3.1950444343152e-05,
+    "cost_usd": 0.4635,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x4e254f96905560b0c42ba51fc2936b07a64871b235b736d996d2d2a9ba3db5c1",
+     "https://bscscan.com/tx/0xd35e8dd687c059a4cc56bfec41b8107d892ecd39638338f8dbaa44e8bf71ac63"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.000125393543172042,
-   "cost_usd": 0.0927,
+   "cost_bnb": 0.000157343987515194,
+   "cost_usd": 0.5562,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 8
+   "held": 9
   }
+ },
+ "capital": {
+  "deposits": [
+   {
+    "chain": "bsc",
+    "asset": "BNB",
+    "amount": 0.000818958515828963,
+    "at_wita": "2026-10-24 14:30 WITA",
+    "tx": "0xfff099a95160cf498d5f6e7d8c942167d96f434c58ffb5670c81141547521c25",
+    "note": ""
+   },
+   {
+    "chain": "base",
+    "asset": "ETH",
+    "amount": 0.000449504659022584,
+    "at_wita": "2026-10-24 15:26 WITA",
+    "tx": "unknown",
+    "note": "dibridge ke BSC lewat Relay"
+   },
+   {
+    "chain": "bsc",
+    "asset": "BNB",
+    "amount": 0.01098217,
+    "at_wita": "2026-10-24 15:30 WITA",
+    "tx": "0xa13072ca391fcb5f1a18f1f53c981e7c60d16d7234687695b7e430865f974560",
+    "note": "BNB @ $736.83, block 129474173"
+   }
+  ],
+  "by_chain": [
+   {
+    "chain": "bsc",
+    "name": "BNB Chain",
+    "asset": "BNB",
+    "amount": 0.011801128515828962
+   },
+   {
+    "chain": "base",
+    "name": "Base",
+    "asset": "ETH",
+    "amount": 0.000449504659022584
+   }
+  ],
+  "spent": {
+   "bnb": 0.00066,
+   "usd": 0.4846,
+   "items": [
+    {
+     "project": "AIGT Genesis (USDT for mint)",
+     "type": "Swap",
+     "bnb": 0.00066,
+     "usd": 0.4846,
+     "note": "0.00066 BNB -> 0.485004303 USDT (order 26102400001990394317, slippage 1%). User "
+    }
+   ]
+  },
+  "gas": {
+   "bnb": 0.000196047877192056,
+   "usd": 0.1446
+  },
+  "budget": {
+   "cap_usd": 10,
+   "spent_usd": 0.6293,
+   "left_usd": 9.3707
+  },
+  "bsc_balance_bnb": 0.012326899427096655,
+  "token_balances": {
+   "USDT_bsc": 0.04500430327292717
+  },
+  "bridge_fee_usd": 0.03,
+  "bridges": [
+   {
+    "via": "Relay",
+    "route": "Base->BSC",
+    "sent": "0.00044 ETH",
+    "received": "0.001381936 BNB",
+    "fee_usd": 0.03
+   }
+  ]
  },
  "holdings": [
   {
@@ -300,6 +370,13 @@
    "contract": "0x16Cb1B41bf76024EEf30F4DF2E31544122B750b5",
    "status": "Hold",
    "note": "Hold; market buka setelah sold out"
+  },
+  {
+   "collection": "AIGT Genesis (AIGT)",
+   "token": 9709,
+   "contract": "0x1275481d8614D5209857d5524fe60aEBb34d43F4",
+   "status": "Hold",
+   "note": "Mint 0.44 USDT; hold, cuma ada market bawaan AIGT (fee 1%), belum ada harga"
   }
  ],
  "balance_history": [
@@ -435,8 +512,35 @@
    "project": "Incoming deposit (user) from 0x161ba15a5f335c9f06bb5bbb0a9ce14076fbb645",
    "direction": "in",
    "delta_bnb": 0.01098217,
-   "balance_bnb": 0.013049818,
+   "balance_bnb": 0.01304981805386872,
    "tx": "https://bscscan.com/tx/0xa13072ca391fcb5f1a18f1f53c981e7c60d16d7234687695b7e430865f974560"
+  },
+  {
+   "at_wita": "2026-10-24 16:22:03",
+   "kind": "Swap",
+   "project": "AIGT Genesis (USDT for mint)",
+   "direction": "out",
+   "delta_bnb": -0.000690968182428912,
+   "balance_bnb": 0.012358849871439807,
+   "tx": "https://bscscan.com/tx/0xf77b4a3c9f909a767b7c633adc47ef3c39a0f1d867ad47be697a8d3e8d2be2d5"
+  },
+  {
+   "at_wita": "2026-10-24 16:22:43",
+   "kind": "Approve",
+   "project": "AIGT Genesis (USDT approve)",
+   "direction": "out",
+   "delta_bnb": -3.609536474742e-06,
+   "balance_bnb": 0.012355240334965066,
+   "tx": "https://bscscan.com/tx/0x4e254f96905560b0c42ba51fc2936b07a64871b235b736d996d2d2a9ba3db5c1"
+  },
+  {
+   "at_wita": "2026-10-24 16:23:07",
+   "kind": "Mint",
+   "project": "AIGT Genesis (AIGT)",
+   "direction": "out",
+   "delta_bnb": -2.834090786841e-05,
+   "balance_bnb": 0.012326899427096655,
+   "tx": "https://bscscan.com/tx/0xd35e8dd687c059a4cc56bfec41b8107d892ecd39638338f8dbaa44e8bf71ac63"
   }
  ],
  "tabs": {
@@ -568,8 +672,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:52:00",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -589,8 +693,8 @@
      "tx": "https://bscscan.com/tx/0x0acb31f12c4985d1abb06459842e65dcfc165f5cbfde1a3c6c28013d7f08056d"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:52:00",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Approve",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -610,8 +714,8 @@
      "tx": "https://bscscan.com/tx/0x4748b40983e3f2cc4ae9dc88e7ab809e00dca675bb819d00cd9c4a3c4d3d623e"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:52:00",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Approve",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -631,8 +735,8 @@
      "tx": "https://bscscan.com/tx/0x9a43544bfdb7310dd04eddbb404daa44eaaa10dfca43db7d3569d69b2af3b35a"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:52:00",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "List",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -652,8 +756,8 @@
      "tx": "https://bscscan.com/tx/0x7cdf7d717275a9a6d68b4c2029ce57143082a5674e8b1dcb156d78aee4a48aa8"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:52:00",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "List",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -673,8 +777,8 @@
      "tx": "https://bscscan.com/tx/0x9091fd55ed9998334740de7e6b372e32b5d2647cabc3d2bbb7baf36bf35b2263"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:54:30",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "AI Agent Chips (CHIPS)",
      "Chain": "BSC",
@@ -694,8 +798,8 @@
      "tx": "https://bscscan.com/tx/0x047758723e1b2947cb5bd5054cc52e93b7770480175efefc63f9915d67711df3"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:54:30",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "Agent Drop Pass (ADPASS)",
      "Chain": "BSC",
@@ -715,8 +819,8 @@
      "tx": "https://bscscan.com/tx/0xc4c84b798e3b85fb32a5d919d903d6d3938a0362da6ab222b61c328c37a91da7"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "14:56:23",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "AIVY Robot (AIVY)",
      "Chain": "BSC",
@@ -736,8 +840,8 @@
      "tx": "https://bscscan.com/tx/0xf724e3ce287f9a4d8c83cb7c2acb3e167a2e349bfbccad37527bdf5a0ba4cb7f"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "15:00:00",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "Fluffies (FLUFF)",
      "Chain": "BSC",
@@ -757,8 +861,8 @@
      "tx": "https://bscscan.com/tx/0x9bba754d5ea025eed695627185b2b632a90a1ced682821a3c26036c95376fb74"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "15:13:06",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "Pump AI V2 (PUMPAI2)",
      "Chain": "BSC",
@@ -778,8 +882,8 @@
      "tx": "https://bscscan.com/tx/0x6f973e10273cabae80505793a6c337aeaeea616a9289d61a6e5fd1751678e6fa"
     },
     {
-     "Date (WITA)": "2026-10-24",
-     "Time": "15:13:07",
+     "Date (WITA)": "",
+     "Time": "",
      "Type": "Mint",
      "Project": "Agentics Mummies (AMUMMY)",
      "Chain": "BSC",
@@ -881,6 +985,69 @@
      "Notes": "",
      "Revoke TX Link": "",
      "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "16:22:03",
+     "Type": "Swap",
+     "Project": "AIGT Genesis (USDT for mint)",
+     "Chain": "BSC",
+     "Token/NFT": "BNB -> USDT",
+     "Contract Address": "0x55d398326f99059fF775485246999027B3197955",
+     "Amount": 0.485004303,
+     "USD Spent": 0.48,
+     "Gas Fee (native)": 3.09682e-05,
+     "Gas Fee (USD)": 0.0227,
+     "Airdrop Name": "",
+     "Buy TX Link": "Swap TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Confirmed",
+     "Notes": "baw market-order: 0.00066 BNB -> 0.485004303 USDT (slippage 1%) to pay AIGT mint. User approved in chat. BNB @ $734.22. Amount = USDT received.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xf77b4a3c9f909a767b7c633adc47ef3c39a0f1d867ad47be697a8d3e8d2be2d5"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "16:22:43",
+     "Type": "Approve",
+     "Project": "AIGT Genesis (USDT approve)",
+     "Chain": "BSC",
+     "Token/NFT": "USDT allowance 0.44",
+     "Contract Address": "0x1275481d8614D5209857d5524fe60aEBb34d43F4",
+     "Amount": 0.44,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 3.6095e-06,
+     "Gas Fee (USD)": 0.0027,
+     "Airdrop Name": "",
+     "Buy TX Link": "Approve TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Confirmed - allowance now 0",
+     "Notes": "approve(AIGT, 0.44 USDT) exact, not unlimited. Consumed fully by mint; allowance() verified 0 after mint, so no separate revoke tx.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x4e254f96905560b0c42ba51fc2936b07a64871b235b736d996d2d2a9ba3db5c1"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "16:23:07",
+     "Type": "Mint",
+     "Project": "AIGT Genesis (AIGT)",
+     "Chain": "BSC",
+     "Token/NFT": "AIGT Genesis NFT x1 (0.44 USDT) #9709",
+     "Contract Address": "0x1275481d8614D5209857d5524fe60aEBb34d43F4",
+     "Amount": 1.0,
+     "USD Spent": 0.44,
+     "Gas Fee (native)": 2.83409e-05,
+     "Gas Fee (USD)": 0.0208,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - built-in AIGT market only (1% fee)",
+     "Notes": "mint(agentId,1) gated by .ai Agent ID; priceFor=0.44 USDT. Sourcify exact match, no owner/admin, baw sim 000000000 no risks. Tier unrevealed at mint. No outside market/price yet. Leftover 0.045 USDT. Lead: Suruhan catch-up 16:12 (risk 3/5). BNB balance after 0.012326899.",
+     "Revoke TX Link": "allowance auto 0 (consumed by mint)",
+     "tx": "https://bscscan.com/tx/0xd35e8dd687c059a4cc56bfec41b8107d892ecd39638338f8dbaa44e8bf71ac63"
     }
    ]
   },
@@ -896,11 +1063,11 @@
    "rows": [
     {
      "Date": "2026-10-24",
-     "# Tx": "16",
-     "Total USD Spent": "$0,0000",
-     "Total Gas USD": "$0,0985",
-     "Cumulative Spent": "$0,0985",
-     "Budget Left of $10": "$9,9015"
+     "# Tx": "19",
+     "Total USD Spent": "$0,9246",
+     "Total Gas USD": "$0,1447",
+     "Cumulative Spent": "$1,0693",
+     "Budget Left of $10": "$8,9307"
     }
    ]
   },
@@ -1459,6 +1626,81 @@
      "Red Flags": "Paid 0,0032 BNB/Cog (> hunter balance 0,0007 BNB); relaunch after first vault paused (refunds 30 Oct)",
      "Risk": "Medium",
      "Notes": "GearzLaunch Sourcify exact_match, no owner per bio; Agent ID gated, max 5/Agent ID; mint ends 26 Oct 18:02 WITA. SKIP",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "16:00",
+     "Source (Telegram group / X account)": "X @Aigtfun",
+     "Project": "AIGT Genesis",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x1275481d8614D5209857d5524fe60aEBb34d43F4",
+     "Link": "https://x.com/Aigtfun/status/2113900386973093995",
+     "Sentiment": "Very early (9/44444 minted at 16:15 WITA; mint opened 16:00 WITA)",
+     "Red Flags": "Paid in USDT (needs USDT approve; hunter holds 0 USDT); @Aigtfun 1 follower, 3 posts; lucky-pool/burn game mechanics (ponzi-style rewards); no market yet",
+     "Risk": "Medium",
+     "Notes": "16:00 (catch-up). Sourcify exact_match (verified 24 Oct 15:26 WITA). No owner/admin, treasury immutable, teamMint only by treasury. 0,44 USDT each for first 4 per Agent ID, then 1 USDT; max 10 per Agent ID; .ai Agent ID gated. Built-in market 1% fee. WATCH: ~$0,44 fits cheap rule but needs USDT swap+exact approve",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "16:00",
+     "Source (Telegram group / X account)": "X @buchiomilu (reply spam)",
+     "Project": "CHIRP random airdrop",
+     "Chain": "BSC",
+     "Type": "Airdrop",
+     "CA": "0xd37028c2928e88f0079D9b7eE0a9f6c6D8C9a836",
+     "Link": "https://chirpcoin.vercel.app/",
+     "Sentiment": "Spam shill (same text replied under many big accounts)",
+     "Red Flags": "Pay-to-claim: 0,00054 BNB fee per claim/spin; source NOT verified (Sourcify none); no DEX pair/liquidity (claimed tokens unsellable); promoter's ref address 0xB637...5FC7 = contract creator; vercel host",
+     "Risk": "High",
+     "Notes": "16:00 (catch-up). SPACE ID Agent ID gated, 1 claim/address, 2k-100k random CHIRP, 5555 slots. GoPlus: no data, 0 holders indexed. SKIP",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "16:00",
+     "Source (Telegram group / X account)": "X @crypto_agentt",
+     "Project": "Qorvex (@QorvexAgent)",
+     "Chain": "Unknown",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/crypto_agentt/status/2113899751913742712",
+     "Sentiment": "Low, paid-shill style",
+     "Red Flags": "@QorvexAgent created 22 Oct, 325 followers but 0 posts/0 media (bought or bot followers); no site, no CA, no chain",
+     "Risk": "High",
+     "Notes": "16:00 (catch-up). Claims 1000 supply free mint. Nothing to vet yet. WATCH only",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "16:00",
+     "Source (Telegram group / X account)": "X @Terry___1101",
+     "Project": "AgentCity (Unofficial)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x04a9F5a5f6409DAd7eD9eC54bBACF89663651cD7",
+     "Link": "https://agentcity.pages.dev/",
+     "Sentiment": "Low (54 minted)",
+     "Red Flags": "0,002683 BNB (~$2) per card, above $1 cheap-mint rule; 'Unofficial' city cards; promoted via off-topic reply spam",
+     "Risk": "Medium",
+     "Notes": "16:00 (catch-up). Sourcify match (partial). 1 per .ai Agent ID, max 600 per page script. SKIP (price)",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "16:00",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No new urgent leads (catch-up pass)",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "16:00 (catch-up, run 16:12-16:20 WITA). Setya queue: alerts_queue.jsonl not created yet (watcher queued 0). Cupang 14:40-16:12: 3 Setya posts #5903-5905 about Bridgeplay (Mac Steam app, not crypto) - no lead. Chinese groups (10): no mint/airdrop leads; BNBChainZH only laundering spam. Held: Nakamigos #5332/#5333 still listed 0,001 BNB, unsold (0,001 = market minimum); PUMP AI V2 157/24889, no market/bids; Mummies 168/9999, marketOpen=false. Hunter BNB now 0,01305. OpenSea skipped this pass",
      "Status": "New"
     }
    ]

@@ -43,6 +43,12 @@ a:hover{text-decoration-color:var(--acc)}
 .gasL{display:grid;gap:var(--s4);align-content:start;max-width:420px}.gasL .fig .usd{color:#ecebe6}
 .fig.gas .note,.gasL .note{font-size:12.5px;color:#a3a7ad;line-height:1.45}
 .plgrid .fig.gas{display:none}
+.cap{display:grid;gap:var(--s2)}.cap .fig .usd{font-size:clamp(26px,6vw,38px);color:#ecebe6}
+.caprows{display:grid;gap:6px;font-size:13px;color:#b9bcc0;border-top:1px solid rgba(236,235,230,.14);padding-top:var(--s3)}
+.caprows .r{display:flex;justify-content:space-between;gap:var(--s3);align-items:baseline}.caprows .r>span:first-child{color:#a3a7ad}
+.caprows .r b{color:#ecebe6;font-weight:500;text-align:right;font-variant-numeric:tabular-nums}.caprows .r b small{display:block;font-weight:400;color:#8d9198;font-size:12px}
+.caprows .r.big b{font-size:16px;font-weight:600}
+.pl .capM{display:none}
 .pl{width:100%;display:grid;gap:var(--s4)}
 .eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#9aa09a}
 .plgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4)}
@@ -112,7 +118,7 @@ footer{color:var(--mut);font-size:12px;padding:0 0 calc(var(--s6) + env(safe-are
 @media (max-width:640px){.status .txt{display:none}.brand span{display:none}.hero .wrap{padding-top:var(--s6);justify-items:stretch}
   .hero{background-image:url(assets/hero-768.webp);background-position:left top;background-size:auto 100%}
   .hero::before{background:rgba(14,15,17,.55)} .hero .wrap{grid-template-columns:minmax(0,1fr);gap:0}
-  .gasL{display:none}.plgrid .fig.gas{display:grid;grid-column:1/-1;padding-top:var(--s3);border-top:1px solid rgba(236,235,230,.14)}}
+  .gasL{display:none}.pl .capM{display:grid;padding-top:var(--s3);border-top:1px solid rgba(236,235,230,.14)}.plgrid .fig.gas{display:grid;grid-column:1/-1;padding-top:var(--s3);border-top:1px solid rgba(236,235,230,.14)}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
@@ -236,9 +242,27 @@ function render(D,P){
   tx.forEach(o=>{const g=num(o["Gas Fee (native)"]);if(!(g>0)||/reject|not sent|fail/i.test(o.Status))return;G.n++;
     const ch=String(o.Chain||"");if(/^bsc$|bnb/i.test(ch.trim()))G.bsc+=g;else{const k=/zklink/i.test(ch)?"zkLink":/base/i.test(ch)?"Base":ch;G.other[k]=(G.other[k]||0)+g}});
   const oth=Object.entries(G.other),gasU=G.bsc*bnbUsd+oth.reduce((a,[,v])=>a+v*P.p.eth,0);
-  const gasNote=oth.length?`BSC + ${oth.map(([k,v])=>k+" "+(+v.toPrecision(4))+" ETH").join(", ")}`:"BSC saja. Gas bridge Base (Relay) tidak tercatat terpisah, jadi tidak dihitung.";
+  const C=D.capital, bfee=C&&C.bridge_fee_usd>0?C.bridge_fee_usd:null;
+  const gasNote=(oth.length?`BSC + ${oth.map(([k,v])=>k+" "+(+v.toPrecision(4))+" ETH").join(", ")}.`:"Gas BSC.")+(bfee!=null?` Fee bridge Relay Base ke BSC ${fmtUSD(bfee)}, dicatat terpisah dari gas.`:"");
+  // capital (modal): BSC + Base only
+  const cpx=a=>P.p[String(a).toLowerCase()]??NaN, amt=(v,a)=>a==="BNB"?fmtBNB(v):`${fmtAmt(v)} ${esc(a)}`;
+  const capHtml=cls=>{if(!C)return"";const bc=(C.by_chain||[]).filter(c=>c.chain==="bsc"||c.chain==="base");
+    const inU=bc.reduce((s,c)=>s+c.amount*(cpx(c.asset)||0),0);
+    const bal=num(C.bsc_balance_bnb),usdt=num(C.token_balances?.USDT_bsc),B=C.budget||{};
+    const row=(l,v,sub,big)=>`<div class="r${big?" big":""}"><span>${l}</span><b>${v}${sub?`<small>${sub}</small>`:""}</b></div>`;
+    return `<div class="cap ${cls}"><div class="eyebrow">Modal</div>
+     <div class="fig"><span class="lab">Modal masuk (bisa dipakai)</span><span class="usd">${fmtUSD(inU)}</span>
+      <span class="bnb">${bc.map(c=>`${esc(c.name)} ${amt(c.amount,c.asset)}`).join(" · ")}</span></div>
+     <div class="caprows">
+      ${bc.map(c=>row(esc(c.name),fmtUSD(c.amount*(cpx(c.asset)||0)),amt(c.amount,c.asset)+(c.chain==="base"?" · dibridge ke BSC":""))).join("")}
+      ${row("Modal terpakai (mint / beli)",fmtUSD(C.spent?.usd||0),fmtBNB(C.spent?.bnb||0)+" · tanpa gas")}
+      ${row("Gas",fmtUSD(C.gas?.usd||0),fmtBNB(C.gas?.bnb||0))}
+      ${row("Total keluar",fmtUSD(B.spent_usd||0),"dari cap "+fmtUSD(B.cap_usd||10))}
+      ${row("Sisa budget",fmtUSD(B.left_usd),"",true)}
+      ${row("Saldo BSC sekarang",fmtUSD(bal*bnbUsd),fmtBNB(bal)+(usdt>0?` + ${fmtAmt(usdt)} USDT`:""))}
+     </div></div>`};
   const gasFig=cls=>`<div class="fig ${cls}"><span class="lab">Gas terpakai</span><span class="usd">${fmtUSD(gasU)}</span><span class="bnb">${fmtBNB(G.bsc)} · ${G.n} tx on-chain</span><span class="note">${esc(gasNote)}</span></div>`;
-  $("gasL").innerHTML=`<div class="eyebrow">Biaya on-chain</div>${gasFig("")}`;
+  $("gasL").innerHTML=`<div class="eyebrow">Biaya on-chain</div>${gasFig("")}${capHtml("")}`;
   // P/L hero
   const pnl=D.pnl||{items:[],totals:{}};const T=pnl.totals||{};
   const rU=(T.realized_bnb||0)*bnbUsd,uU=(T.unrealized_bnb||0)*bnbUsd;
@@ -248,6 +272,7 @@ function render(D,P){
     <div class="fig"><span class="lab">Unrealized</span><span class="usd ${plCls(uU)}">${fmtUSD(uU,true)}</span><span class="bnb">${sgnBNB(T.unrealized_bnb||0)} · ${T.listed||0} listing</span></div>
     ${gasFig("gas")}
    </div>
+   ${capHtml("capM")}
    <div class="plmeta"><span>Modal NFT <b class="num">${fmtUSD(T.cost_usd)}</b></span><span>${T.held||0} NFT di wallet</span><span>${esc(prLabel)}</span></div>`;
   // trades
   const isTrade=o=>/^(mint|buy|sell|list|approve)/i.test(o.Type);
@@ -280,7 +305,7 @@ function render(D,P){
     <p class="small mut">Modal = gas tercatat (+ harga mint) dibagi per token. Unrealized cuma dihitung kalau ada harga listing nyata, sebelum fee marketplace. Tanpa tebakan floor price.</p>`;
   // wallet per network
   const MC=D.multichain;const LB=lastBalance(D);
-  let chains=(MC?.chains||[]).slice();
+  let chains=(MC?.chains||[]).filter(c=>c.chain==="bsc"||c.chain==="base");
   const bsc=chains.find(c=>c.chain==="bsc");
   if(bsc&&isFinite(LB.bnb)&&LB.k>String(MC.snapshot_wita||"")){bsc.amount=LB.bnb;bsc.amount_str=String(LB.bnb)} // newer recorded BSC balance
   if(!chains.length&&isFinite(LB.bnb))chains=[{chain:"bsc",name:"BNB Chain",asset:"BNB",amount:LB.bnb,usable:true}];
@@ -296,7 +321,7 @@ function render(D,P){
   const hist=(D.balance_history||[]);
   $("wallet").innerHTML=`<div class="kpis">${cards}</div>
    <div class="total"><span class="mut">Total semua jaringan</span><b class="num">${fmtUSD(tot)}</b></div>
-   <p class="small mut">Yang bisa dipakai ${fmtUSD(totUsable)} (tanpa zkLink). BSC terakhir dicatat: <span class="num">${fmtBNB(LB.bnb)}</span>${LB.at?" per "+esc(LB.at):""}. ${esc(prLabel)}: BNB ${fmtUSD(P.p.bnb)}, ETH ${fmtUSD(P.p.eth)}.</p>
+   <p class="small mut">Yang bisa dipakai ${fmtUSD(totUsable)}. BSC terakhir dicatat: <span class="num">${fmtBNB(LB.bnb)}</span>${LB.at?" per "+esc(LB.at):""}. ${esc(prLabel)}: BNB ${fmtUSD(P.p.bnb)}, ETH ${fmtUSD(P.p.eth)}.</p>
    <p class="small"><a class="mono trunc" href="${SCAN}/address/${WALLET}" target="_blank" rel="noopener">${WALLET}</a></p>
    ${hist.length?det("hist",`Riwayat saldo BSC per transaksi (${hist.length})`,`<div class="list">${[...hist].reverse().map(b=>`<div class="row small"><span class="num mut">${esc(String(b.at_wita).slice(0,16))}</span><span class="trunc" style="flex:1 1 120px">${esc(b.kind)} ${esc(b.project||"")}</span><span class="num">${b.direction==="in"?"+":"\u2212"}${fmtAmt(Math.abs(b.delta_bnb))} → <b>${fmtAmt(b.balance_bnb)}</b></span></div>`).join("")}</div>`):""}`;
   // listings

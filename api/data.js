@@ -37,6 +37,7 @@ module.exports = async (req, res) => {
       budget: M.budget || { cap_usd: 10 },
       multichain: M.multichain || null,
       pnl: M.pnl || null,
+      capital: M.capital || null,
       holdings: hold.map((h) => {
         const l = L[h.contract.toLowerCase() + ":" + h.token_id];
         return { collection: h.collection, token: h.token_id, contract: h.contract, status: h.status, note: h.note,
