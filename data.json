@@ -1,23 +1,23 @@
 {
- "generated_wita": "2026-10-25 00:20 WITA",
+ "generated_wita": "2026-10-25 00:23 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.010078407676678783,
-  "last_balance_wita": "2026-10-24 23:28 WITA",
+  "last_balance_bnb": 0.010061994002290431,
+  "last_balance_wita": "2026-10-25 00:21 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.2714,
-  "gas_bnb": 0.000396710283339125
+  "spent_usd": 2.2835,
+  "gas_bnb": 0.000413123957727476
  },
  "multichain": {
-  "snapshot_wita": "2026-10-24 23:52 WITA",
-  "source": "balance check",
+  "snapshot_wita": "2026-10-25 00:22 WITA",
+  "source": "ledger.balance_snapshots",
   "prices_usd": {
-   "bnb": 736.83,
+   "bnb": 740.0,
    "eth": 2376.15
   },
   "chains": [
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.010078407676678783,
-    "amount_str": "0.010078407676678783",
+    "amount": 0.010061994002290431,
+    "amount_str": "0.010061994002290431",
     "usable": true,
     "status": "ok"
    },
@@ -451,16 +451,52 @@
     "txs": [
      "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d"
     ]
+   },
+   {
+    "collection": "agentic.si (AI)",
+    "token": 144,
+    "contract": "0xCD124D0023f913f8646f9A74c7c9E6dB117bEb13",
+    "status": "Hold",
+    "mint_cost_bnb": 7.343716850703e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.343716850703e-06,
+    "cost_usd": 0.0054,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xa57678821d6f6aa669a346bdc6ffc8e115886f3976dcdbc3925ff36e11181184"
+    ]
+   },
+   {
+    "collection": "Lodepass (LODE)",
+    "token": 379,
+    "contract": "0x31b074C8e77e44F29df285F19d4fc76E6D927d01",
+    "status": "Hold",
+    "mint_cost_bnb": 9.069957537648e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.069957537648e-06,
+    "cost_usd": 0.0067,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x487ac08b31b6ca30d13ef33ec2c2b965cdfaaddbf7177c86e88798c982f1f22c"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002431274953300497,
-   "cost_usd": 2.247,
+   "cost_bnb": 0.002447688627688848,
+   "cost_usd": 2.2591,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 22
+   "held": 24
   }
  },
  "capital": {
@@ -532,15 +568,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000396710283339125,
-   "usd": 0.3005
+   "bnb": 0.000413123957727476,
+   "usd": 0.3126
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.2714,
-   "left_usd": 7.7286
+   "spent_usd": 2.2835,
+   "left_usd": 7.7165
   },
-  "bsc_balance_bnb": 0.010078407676678783,
+  "bsc_balance_bnb": 0.010061994002290431,
   "token_balances": {
    "USDT_bsc": 0.04500430327292717
   },
@@ -717,6 +753,20 @@
    "contract": "0x73ec38CF99947705474356c9a1a3915d90FfF1DF",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "agentic.si (AI)",
+   "token": 144,
+   "contract": "0xCD124D0023f913f8646f9A74c7c9E6dB117bEb13",
+   "status": "Hold",
+   "note": "Held - none yet"
+  },
+  {
+   "collection": "Lodepass (LODE)",
+   "token": 379,
+   "contract": "0x31b074C8e77e44F29df285F19d4fc76E6D927d01",
+   "status": "Hold",
+   "note": "Held - none yet"
   }
  ],
  "balance_history": [
@@ -998,6 +1048,24 @@
    "delta_bnb": -3.5493885437389e-05,
    "balance_bnb": 0.010078407676678783,
    "tx": "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d"
+  },
+  {
+   "at_wita": "2026-10-25 00:21:00",
+   "kind": "Mint",
+   "project": "agentic.si (AI)",
+   "direction": "out",
+   "delta_bnb": -7.343716850703e-06,
+   "balance_bnb": 0.01007106395982808,
+   "tx": "https://bscscan.com/tx/0xa57678821d6f6aa669a346bdc6ffc8e115886f3976dcdbc3925ff36e11181184"
+  },
+  {
+   "at_wita": "2026-10-25 00:21:00",
+   "kind": "Mint",
+   "project": "Lodepass (LODE)",
+   "direction": "out",
+   "delta_bnb": -9.069957537648e-06,
+   "balance_bnb": 0.010061994002290431,
+   "tx": "https://bscscan.com/tx/0x487ac08b31b6ca30d13ef33ec2c2b965cdfaaddbf7177c86e88798c982f1f22c"
   }
  ],
  "tabs": {
@@ -1757,6 +1825,50 @@
      "Notes": "User override 23:24 WITA: free mint despite D=0 unverified source. mintFree, owner EOA. Lead Suruhan 23:10.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "00:21:00",
+     "Type": "Mint",
+     "Project": "agentic.si (AI)",
+     "Chain": "BSC",
+     "Token/NFT": "agentic.si NFT x1 #144",
+     "Contract Address": "0xCD124D0023f913f8646f9A74c7c9E6dB117bEb13",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.343716850703e-06,
+     "Gas Fee (USD)": 0.0054,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "Lead: Suruhan 00:10. agentic.si AI NFT, same template as si.passport. Sourcify exact_match, no owner, Agent ID gate, 1st free then 0.005 BNB, max 5/wallet, 21000 supply. priceFor(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 ERC721 only, no risks. Paid units NOT bought.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa57678821d6f6aa669a346bdc6ffc8e115886f3976dcdbc3925ff36e11181184",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "00:21:00",
+     "Type": "Mint",
+     "Project": "Lodepass (LODE)",
+     "Chain": "BSC",
+     "Token/NFT": "Lodepass NFT x1 #379",
+     "Contract Address": "0x31b074C8e77e44F29df285F19d4fc76E6D927d01",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.069957537648e-06,
+     "Gas Fee (USD)": 0.0067,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint (Atar 23:24 WITA): D=0 unverified source, X account created today. Lead: Suruhan 00:10. Site prompt-injection flow ignored; calldata mint(1) 0xa0712d68 value 0 taken from other users successful on-chain txs. Preview +1 ERC721 only, no risks. MAX_SUPPLY 3333, ~376 minted. Paid units NOT bought.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x487ac08b31b6ca30d13ef33ec2c2b965cdfaaddbf7177c86e88798c982f1f22c",
+     "_src": "ledger"
     }
    ]
   },
