@@ -1,0 +1,5 @@
+{
+  "name": "mint-dashboard",
+  "private": true,
+  "dependencies": { "@neondatabase/serverless": "^1.0.0" }
+}

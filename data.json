@@ -1,37 +1,40 @@
 {
- "generated_wita": "2026-10-24 15:07 WITA",
+ "generated_wita": "2026-10-24 15:24 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.000704643,
+  "last_balance_bnb": 0.000685829,
+  "last_balance_wita": "2026-10-24 15:13 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 0.0846,
-  "gas_bnb": 0.000114315717343903
+  "spent_usd": 0.0985,
+  "gas_bnb": 0.00013312925041999199
  },
  "holdings": [
   {
    "collection": "Agent Nakamigos",
    "token": 5332,
-   "contract": "0x2D7097E0f28Ea0fEB0b3b44c7d0ee0227d513103",
+   "contract": "0x2d7097e0f28ea0feb0b3b44c7d0ee0227d513103",
    "status": "Listed",
+   "note": "Listing 7 hari, belum laku",
    "price_bnb": 0.001,
    "market": "agentpunk",
    "listing": "https://agentpunk.fun/collection/agent-nakamigos?id=5332",
-   "note": "Listing 7 hari, belum laku"
+   "expires_wita": "2026-10-31 14:51 WITA"
   },
   {
    "collection": "Agent Nakamigos",
    "token": 5333,
-   "contract": "0x2D7097E0f28Ea0fEB0b3b44c7d0ee0227d513103",
+   "contract": "0x2d7097e0f28ea0feb0b3b44c7d0ee0227d513103",
    "status": "Listed",
+   "note": "Listing 7 hari, belum laku",
    "price_bnb": 0.001,
    "market": "agentpunk",
    "listing": "https://agentpunk.fun/collection/agent-nakamigos?id=5333",
-   "note": "Listing 7 hari, belum laku"
+   "expires_wita": "2026-10-31 14:51 WITA"
   },
   {
    "collection": "AI Agent Chips (CHIPS)",
@@ -60,6 +63,139 @@
    "contract": "0x4b2eba0bf5399ec34C37B5Bf1F2749c7751C8c12",
    "status": "Locked",
    "note": "Trading dikunci sampai 10k sold out"
+  },
+  {
+   "collection": "Pump AI V2 (PUMPAI2)",
+   "token": 96,
+   "contract": "0x3b0da71478b7f2065f738b4a78ba65913299a208",
+   "status": "Hold",
+   "note": "Hold; belum ada market"
+  },
+  {
+   "collection": "Agentics Mummies (AMUMMY)",
+   "token": 89,
+   "contract": "0x16Cb1B41bf76024EEf30F4DF2E31544122B750b5",
+   "status": "Hold",
+   "note": "Hold; market buka setelah sold out"
+  }
+ ],
+ "balance_history": [
+  {
+   "at_wita": "2026-10-24 14:30:00",
+   "kind": "Deposit",
+   "project": "",
+   "direction": "in",
+   "delta_bnb": 0.000818958515828963,
+   "balance_bnb": 0.000818958250419992,
+   "tx": "https://bscscan.com/tx/0xfff099a95160cf498d5f6e7d8c942167d96f434c58ffb5670c81141547521c25"
+  },
+  {
+   "at_wita": "2026-10-24 14:33:53",
+   "kind": "Mint",
+   "project": ".ai Agent ID",
+   "direction": "out",
+   "delta_bnb": -7.73570724795e-06,
+   "balance_bnb": 0.000811222543172042,
+   "tx": "https://bscscan.com/tx/0xbf07d20ad28bb5552db5f1a7256d824b0f0e5aabab3e49bf8d9394e2cb79928f"
+  },
+  {
+   "at_wita": "2026-10-24 14:50:00",
+   "kind": "Mint",
+   "project": "Agent Nakamigos",
+   "direction": "out",
+   "delta_bnb": -1.9767249218717e-05,
+   "balance_bnb": 0.000791455293953325,
+   "tx": "https://bscscan.com/tx/0x0acb31f12c4985d1abb06459842e65dcfc165f5cbfde1a3c6c28013d7f08056d"
+  },
+  {
+   "at_wita": "2026-10-24 14:50:00",
+   "kind": "Approve/List",
+   "project": "Agent Nakamigos",
+   "direction": "out",
+   "delta_bnb": -3.569495028008e-06,
+   "balance_bnb": 0.000787885798925317,
+   "tx": "https://bscscan.com/tx/0x4748b40983e3f2cc4ae9dc88e7ab809e00dca675bb819d00cd9c4a3c4d3d623e"
+  },
+  {
+   "at_wita": "2026-10-24 14:50:00",
+   "kind": "Approve/List",
+   "project": "Agent Nakamigos",
+   "direction": "out",
+   "delta_bnb": -3.007245305194e-06,
+   "balance_bnb": 0.000784878553620123,
+   "tx": "https://bscscan.com/tx/0x9a43544bfdb7310dd04eddbb404daa44eaaa10dfca43db7d3569d69b2af3b35a"
+  },
+  {
+   "at_wita": "2026-10-24 14:50:00",
+   "kind": "Approve/List",
+   "project": "Agent Nakamigos",
+   "direction": "out",
+   "delta_bnb": -1.2965711110224e-05,
+   "balance_bnb": 0.000771912842509899,
+   "tx": "https://bscscan.com/tx/0x7cdf7d717275a9a6d68b4c2029ce57143082a5674e8b1dcb156d78aee4a48aa8"
+  },
+  {
+   "at_wita": "2026-10-24 14:50:00",
+   "kind": "Approve/List",
+   "project": "Agent Nakamigos",
+   "direction": "out",
+   "delta_bnb": -1.322418168468e-05,
+   "balance_bnb": 0.000758688660825219,
+   "tx": "https://bscscan.com/tx/0x9091fd55ed9998334740de7e6b372e32b5d2647cabc3d2bbb7baf36bf35b2263"
+  },
+  {
+   "at_wita": "2026-10-24 14:54:30",
+   "kind": "Mint",
+   "project": "AI Agent Chips (CHIPS)",
+   "direction": "out",
+   "delta_bnb": -7.935826314754e-06,
+   "balance_bnb": 0.000750752834510465,
+   "tx": "https://bscscan.com/tx/0x047758723e1b2947cb5bd5054cc52e93b7770480175efefc63f9915d67711df3"
+  },
+  {
+   "at_wita": "2026-10-24 14:54:30",
+   "kind": "Mint",
+   "project": "Agent Drop Pass (ADPASS)",
+   "direction": "out",
+   "delta_bnb": -7.576131135958e-06,
+   "balance_bnb": 0.000743176703374507,
+   "tx": "https://bscscan.com/tx/0xc4c84b798e3b85fb32a5d919d903d6d3938a0362da6ab222b61c328c37a91da7"
+  },
+  {
+   "at_wita": "2026-10-24 14:56:23",
+   "kind": "Mint",
+   "project": "AIVY Robot (AIVY)",
+   "direction": "out",
+   "delta_bnb": -2.5584670298418e-05,
+   "balance_bnb": 0.000717592033076089,
+   "tx": "https://bscscan.com/tx/0xf724e3ce287f9a4d8c83cb7c2acb3e167a2e349bfbccad37527bdf5a0ba4cb7f"
+  },
+  {
+   "at_wita": "2026-10-24 15:00:00",
+   "kind": "Mint",
+   "project": "Fluffies (FLUFF)",
+   "direction": "out",
+   "delta_bnb": -1.29495e-05,
+   "balance_bnb": 0.000704642533076089,
+   "tx": "https://bscscan.com/tx/0x9bba754d5ea025eed695627185b2b632a90a1ced682821a3c26036c95376fb74"
+  },
+  {
+   "at_wita": "2026-10-24 15:13:06",
+   "kind": "Mint",
+   "project": "Pump AI V2 (PUMPAI2)",
+   "direction": "out",
+   "delta_bnb": -9.20887539088e-06,
+   "balance_bnb": 0.000695433657685209,
+   "tx": "https://bscscan.com/tx/0x6f973e10273cabae80505793a6c337aeaeea616a9289d61a6e5fd1751678e6fa"
+  },
+  {
+   "at_wita": "2026-10-24 15:13:07",
+   "kind": "Mint",
+   "project": "Agentics Mummies (AMUMMY)",
+   "direction": "out",
+   "delta_bnb": -9.604657685209e-06,
+   "balance_bnb": 0.000685829,
+   "tx": "https://bscscan.com/tx/0x7e3ad48d250eedfadd758f27cd8962cf5b4a18c7bf71ebde518cf4dfe697ca44"
   }
  ],
  "tabs": {
@@ -87,7 +223,7 @@
    "rows": [
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:33",
+     "Time": "14:33:53",
      "Type": "Mint",
      "Project": "Binance .ai Agent ID (SPACE ID)",
      "Chain": "BSC",
@@ -95,8 +231,8 @@
      "Contract Address": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 7.7357e-06,
-     "Gas Fee (USD)": 0.005724417999999999,
+     "Gas Fee (native)": 7.74e-06,
+     "Gas Fee (USD)": 0.0057,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
@@ -108,7 +244,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:43",
+     "Time": "14:43:40",
      "Type": "Mint",
      "Project": "Agent Drop Pass (ADPASS)",
      "Chain": "BSC",
@@ -129,7 +265,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:43",
+     "Time": "14:43:41",
      "Type": "Mint",
      "Project": "Signal Ghosts",
      "Chain": "BSC",
@@ -150,7 +286,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:43",
+     "Time": "14:43:42",
      "Type": "Mint",
      "Project": "Xuanwu Sigil",
      "Chain": "BSC",
@@ -171,7 +307,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:44",
+     "Time": "14:44:49",
      "Type": "Mint",
      "Project": "Block Zero (BZERO) - Cupang hype #5889",
      "Chain": "BSC",
@@ -192,7 +328,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:52",
+     "Time": "14:52:00",
      "Type": "Mint",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -200,8 +336,8 @@
      "Contract Address": "",
      "Amount": 2.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 1.9767e-05,
-     "Gas Fee (USD)": 0.01462758,
+     "Gas Fee (native)": 1.977e-05,
+     "Gas Fee (USD)": 0.0146,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
@@ -213,7 +349,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:52",
+     "Time": "14:52:00",
      "Type": "Approve",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -221,8 +357,8 @@
      "Contract Address": "0x149b6F713a1e544ED6Dc9905Afc22F03EEf94887",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 3.5695e-06,
-     "Gas Fee (USD)": 0.0026414299999999997,
+     "Gas Fee (native)": 3.57e-06,
+     "Gas Fee (USD)": 0.0026,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "Approve TX",
@@ -234,7 +370,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:52",
+     "Time": "14:52:00",
      "Type": "Approve",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -242,8 +378,8 @@
      "Contract Address": "0x149b6F713a1e544ED6Dc9905Afc22F03EEf94887",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 3.0072e-06,
-     "Gas Fee (USD)": 0.002225328,
+     "Gas Fee (native)": 3.01e-06,
+     "Gas Fee (USD)": 0.0022,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "Approve TX",
@@ -255,7 +391,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:52",
+     "Time": "14:52:00",
      "Type": "List",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -263,8 +399,8 @@
      "Contract Address": "0x149b6F713a1e544ED6Dc9905Afc22F03EEf94887",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 1.29657e-05,
-     "Gas Fee (USD)": 0.009594618000000001,
+     "Gas Fee (native)": 1.297e-05,
+     "Gas Fee (USD)": 0.0096,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "List TX",
@@ -276,7 +412,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:52",
+     "Time": "14:52:00",
      "Type": "List",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -284,8 +420,8 @@
      "Contract Address": "0x149b6F713a1e544ED6Dc9905Afc22F03EEf94887",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 1.32242e-05,
-     "Gas Fee (USD)": 0.009785908,
+     "Gas Fee (native)": 1.322e-05,
+     "Gas Fee (USD)": 0.0098,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "List TX",
@@ -297,7 +433,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:54",
+     "Time": "14:54:30",
      "Type": "Mint",
      "Project": "AI Agent Chips (CHIPS)",
      "Chain": "BSC",
@@ -305,8 +441,8 @@
      "Contract Address": "0x1Fe9656b1aF98d663EA88708f10f9e997fCbD89E",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 7.9358e-06,
-     "Gas Fee (USD)": 0.005872492,
+     "Gas Fee (native)": 7.94e-06,
+     "Gas Fee (USD)": 0.0059,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
@@ -318,7 +454,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:54",
+     "Time": "14:54:30",
      "Type": "Mint",
      "Project": "Agent Drop Pass (ADPASS)",
      "Chain": "BSC",
@@ -326,8 +462,8 @@
      "Contract Address": "0x71Bd52c7e0F577B8beAaB8AE1ddE334ABd26720A",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 7.5761e-06,
-     "Gas Fee (USD)": 0.005606314,
+     "Gas Fee (native)": 7.58e-06,
+     "Gas Fee (USD)": 0.0056,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
@@ -339,7 +475,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "14:56",
+     "Time": "14:56:23",
      "Type": "Mint",
      "Project": "AIVY Robot (AIVY)",
      "Chain": "BSC",
@@ -347,8 +483,8 @@
      "Contract Address": "0x77cCE940d1Fe4808aB6cf8484d45d8B51139E7D6",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 2.55847e-05,
-     "Gas Fee (USD)": 0.018932677999999998,
+     "Gas Fee (native)": 2.558e-05,
+     "Gas Fee (USD)": 0.0189,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
@@ -360,7 +496,7 @@
     },
     {
      "Date (WITA)": "2026-10-24",
-     "Time": "15:00",
+     "Time": "15:00:00",
      "Type": "Mint",
      "Project": "Fluffies (FLUFF)",
      "Chain": "BSC",
@@ -368,8 +504,8 @@
      "Contract Address": "0x4b2eba0bf5399ec34C37B5Bf1F2749c7751C8c12",
      "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 1.29495e-05,
-     "Gas Fee (USD)": 0.00958263,
+     "Gas Fee (native)": 1.295e-05,
+     "Gas Fee (USD)": 0.0096,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
@@ -378,6 +514,48 @@
      "Notes": "mint() free; FREE_PER_WALLET=1. 2nd mint would cost 0.0013525 BNB (> balance), not minted. Balance after 0.000704643 BNB.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x9bba754d5ea025eed695627185b2b632a90a1ced682821a3c26036c95376fb74"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:13:06",
+     "Type": "Mint",
+     "Project": "Pump AI V2 (PUMPAI2)",
+     "Chain": "BSC",
+     "Token/NFT": "PUMPAI2 NFT x1 (free) #96",
+     "Contract Address": "0x3b0da71478b7f2065f738b4a78ba65913299a208",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.21e-06,
+     "Gas Fee (USD)": 0.0068,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - no market yet",
+     "Notes": "mint(1) value 0; quote(wallet,1)=0 (free slot 96/500). baw sim 000000000, no risks. Source unverified, no owner. Lead: Suruhan (X). Not V1.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x6f973e10273cabae80505793a6c337aeaeea616a9289d61a6e5fd1751678e6fa"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:13:07",
+     "Type": "Mint",
+     "Project": "Agentics Mummies (AMUMMY)",
+     "Chain": "BSC",
+     "Token/NFT": "AMUMMY NFT x1 (free) #89",
+     "Contract Address": "0x16Cb1B41bf76024EEf30F4DF2E31544122B750b5",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.6e-06,
+     "Gas Fee (USD)": 0.0071,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - market opens after sellout",
+     "Notes": "mint(1) value 0; costFor(wallet,1)=0 (1st per wallet free, then 0.001 BNB). baw sim 000000000, no risks. Source unverified, no owner. Lead: Suruhan (X). Balance after 0.000685829 BNB.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x7e3ad48d250eedfadd758f27cd8962cf5b4a18c7bf71ebde518cf4dfe697ca44"
     }
    ]
   },
@@ -393,11 +571,11 @@
    "rows": [
     {
      "Date": "2026-10-24",
-     "# Tx": 10.0,
-     "Total USD Spent": 0.0,
-     "Total Gas USD": 0.084593396,
-     "Cumulative Spent": 0.084593396,
-     "Budget Left of $10": 9.915406604
+     "# Tx": "12",
+     "Total USD Spent": "$0,0000",
+     "Total Gas USD": "$0,0985",
+     "Cumulative Spent": "$0,0985",
+     "Budget Left of $10": "$9,9015"
     }
    ]
   },
@@ -503,16 +681,16 @@
     },
     {
      "Date": "2026-10-24",
-     "Project": "PUMP AI",
+     "Project": "PUMP AI V2 (PUMPAI2)",
      "Chain": "BSC",
      "Type": "Free NFT mint (.ai gated)",
-     "X Account": "@Nortierz (74 followers)",
-     "Contract Address (CA)": "(not found)",
-     "Sentiment": "New today",
-     "Red Flags": "6,767 supply, 1st free then ~$0.25; CA not found",
-     "Risk Level": "High",
-     "Action": "WATCH - confirm CA",
-     "Reason": "Unverified",
+     "X Account": "@Nortierz (74 followers) - Suruhan X lead",
+     "Contract Address (CA)": "0x3b0da71478b7f2065f738b4a78ba65913299a208",
+     "Sentiment": "96/500 free slots used at 15:13 WITA; 24,889 supply; relaunch after V1 (~111 mints, abandoned - do NOT mint V1 0x6d24a1a6...)",
+     "Red Flags": "Source unverified (no Sourcify, GoPlus not open source); dev 74 followers; relaunch. No owner, not a proxy; free first 500 wallets then ~$0.25",
+     "Risk Level": "Medium",
+     "Action": "MINTED 1 free (#96) - held, no market yet",
+     "Reason": "GO (gas only). Source: Suruhan X leads. quote(wallet,1)=0, baw sim clean",
      "Link": "open"
     },
     {
@@ -626,6 +804,20 @@
      "Action": "MINTED 2 free (#5332, #5333); LISTED 0.001 BNB each (7 days)",
      "Reason": "Free mint via freeMintWithAgentId; listed on Nakamigos market 0x149b6F713a1e544ED6Dc9905Afc22F03EEf94887",
      "Link": "open"
+    },
+    {
+     "Date": "2026-10-24",
+     "Project": "Agentics Mummies (AMUMMY)",
+     "Chain": "BSC",
+     "Type": "Free NFT mint (1st per wallet)",
+     "X Account": "@AgenticMummy (created today, 1 follower) - Suruhan X lead",
+     "Contract Address (CA)": "0x16Cb1B41bf76024EEf30F4DF2E31544122B750b5",
+     "Sentiment": "89/9,999 minted at 15:13 WITA; on-chain art",
+     "Red Flags": "Source unverified; new X account; site on surge.sh; no Agent ID gate (weaker flip); built-in market only opens after sellout. No owner, not a proxy",
+     "Risk Level": "Medium",
+     "Action": "MINTED 1 free (#89) - held, market not open",
+     "Reason": "WATCH -> minted free (gas only). Source: Suruhan X leads. costFor(wallet,1)=0, baw sim clean; 2nd+ costs 0.001 BNB (not minted)",
+     "Link": "open"
     }
    ]
   },
@@ -698,6 +890,10 @@
     {
      "Field": "Balance BSC @ 2026-10-24 14:52 WITA",
      "Value": "0.000758689 BNB (~$0.56)"
+    },
+    {
+     "Field": "Balance BSC @ 2026-10-24 15:13 WITA",
+     "Value": "0.000685829 BNB (~$0.51) after PUMPAI2 #96 + AMUMMY #89 free mints; total spent incl. gas ~$0.0985 of $10 cap"
     }
    ]
   },
@@ -881,6 +1077,51 @@
      "Red Flags": "NOT verified on Sourcify; Agent Cats posts use identical supply/prices (maybe same team, unconfirmed)",
      "Risk": "High",
      "Notes": "Already covered by Ayanokouji. From aivy.me/api/mint: 3745/7777; 0/0,001/0,002/0,005 BNB; token 0xd56E41d1Cf42e07EfF5476Eff45A1b379F21f18E. Agent Cats + PUMP AI CA not found",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "15:00",
+     "Source (Telegram group / X account)": "X @Nortierz (dev thread) / @XiaoMei_laika",
+     "Project": "PUMP AI V2 (PUMPAI2)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x3b0da71478b7f2065f738b4a78ba65913299a208",
+     "Link": "https://x.com/i/status/2113883442282946730",
+     "Sentiment": "Early, organic (71 unique minters since 14:32 WITA)",
+     "Red Flags": "Source NOT verified (Sourcify 404, GoPlus open_source=0); dev acct @Nortierz 74 followers; mint page on hark.site; V1 contract abandoned after ~111 mints",
+     "Risk": "Medium",
+     "Notes": "Agent ID gated (registry in bytecode). First 500 wallets free, then ~$0,25 in BNB, max 5/wallet, MAX_SUPPLY 24889. eth_call mint(1) from hunter, value 0: OK; quote(hunter,1)=0. No owner. Market 0xef416bfb00fa86e2023dc9f5257a066e0e2fd080. Agent Cats CA still not found. GO (gas only)",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "15:00",
+     "Source (Telegram group / X account)": "X @AgenticMummy / @XiaoMei_laika",
+     "Project": "Agentics Mummies (AMUMMY)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x16Cb1B41bf76024EEf30F4DF2E31544122B750b5",
+     "Link": "https://agenticsmummies.surge.sh",
+     "Sentiment": "Early (57 unique minters since 14:45 WITA)",
+     "Red Flags": "Source NOT verified; @AgenticMummy created today, 1 follower; surge.sh host; NOT Agent ID gated (anyone can mint, less scarcity); market opens only at sell-out",
+     "Risk": "Medium",
+     "Notes": "First mint per wallet free, then 0,001 BNB, max 10/wallet, 9999 supply, on-chain SVG. eth_call mint(1) from hunter, value 0: OK. Treasury 0xcfBaDe355f58C60124b2281b2A55156706826c42. WATCH",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "15:00",
+     "Source (Telegram group / X account)": "X @gearzfun",
+     "Project": "Gearz (Cogs) relaunch",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xce8e4D25d04051857EDc37DD37151f18Fe7A26Fb",
+     "Link": "https://gearz.fun/mint",
+     "Sentiment": "Low (904 minted, 499 of them airdropped)",
+     "Red Flags": "Paid 0,0032 BNB/Cog (> hunter balance 0,0007 BNB); relaunch after first vault paused (refunds 30 Oct)",
+     "Risk": "Medium",
+     "Notes": "GearzLaunch Sourcify exact_match, no owner per bio; Agent ID gated, max 5/Agent ID; mint ends 26 Oct 18:02 WITA. SKIP",
      "Status": "New"
     }
    ]

@@ -53,13 +53,12 @@ footer{max-width:960px;margin:auto;padding:0 16px 30px;color:var(--mut);font-siz
   <section id="s-cand"><h2>🔎 Lead &amp; kandidat <small id="cand-n"></small></h2><div class="tabs" id="cand-f"></div><div id="cand" class="list"></div></section>
   <section id="s-sur"><h2>🕵️ Status Suruhan <small id="sur-t"></small></h2><div id="sur" class="list"></div></section>
 </main>
-<footer>Read-only. Sumber: Google Sheet "Ayanokouji - Mint Hunting Tracker" + BSC RPC publik. Harga USD cuma estimasi.</footer>
+<footer>Read-only. Sumber: Neon DB (versi Vercel) / Google Sheet "Ayanokouji - Mint Hunting Tracker" / snapshot. Saldo = catatan terakhir setelah transaksi, bukan cek live. Harga USD cuma estimasi ($740/BNB).</footer>
 <script>
 "use strict";
 const SHEET_ID="1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo";
 const TABS=["Transactions","Daily Summary","Candidates","Wallet","Suruhan Monitoring"];
 const WALLET="0xC1408fc129512e0d6aaa93022F4B49B68647D94e";
-const RPC="https://bsc-dataseed.binance.org";
 const BNB_USD=740;
 const SCAN="https://bscscan.com";
 const $=id=>document.getElementById(id);
@@ -98,7 +97,11 @@ function normalize(tabs){
   (tabs["Suruhan Monitoring"]?.rows||[]).forEach(o=>{o["Date (WITA)"]=serialDate(o["Date (WITA)"]);o["Hour"]=serialTime(o["Hour"])});
   if(tabs["Wallet"])tabs["Wallet"].rows=tabs["Wallet"].rows.filter(o=>o.Field&&!/session|sign-in|password|private|seed|api key/i.test(o.Field));
   return tabs}
+async function fetchApi(){const r=await fetch("api/data",{cache:"no-store"});if(!r.ok)throw new Error("api/data HTTP "+r.status);
+  const j=await r.json();if(!j||!j.tabs||!(j.tabs.Transactions?.rows||[]).length)throw new Error("api/data kosong");return j}
 async function load(){
+  // 1) Neon via /api/data (cuma ada di Vercel; di GitHub Pages 404 -> lanjut ke Sheet)
+  try{const j=await fetchApi();return{...j,tabs:normalize(j.tabs),mode:"neon"}}catch(e){console.info("api/data:",e.message)}
   let snap=null;try{const r=await fetch("data.json",{cache:"no-store"});if(r.ok)snap=await r.json()}catch(e){console.warn("snapshot",e)}
   let live=null,liveErr="";
   try{const res=await Promise.all(TABS.map(fetchTab));live={};TABS.forEach((n,i)=>live[n]=res[i]);
@@ -113,23 +116,22 @@ async function load(){
 
 // ---- render ----
 function render(D){
-  const ind=$("src");if(D.mode==="live"){ind.className="ind live";ind.lastElementChild.textContent="Data: live dari Sheet"}
+  const ind=$("src");if(D.mode==="neon"){ind.className="ind live";ind.lastElementChild.textContent="Data: live dari Neon"}
+  else if(D.mode==="live"){ind.className="ind live";ind.lastElementChild.textContent="Data: live dari Sheet"}
   else{ind.className="ind";ind.lastElementChild.textContent="Data: snapshot "+(D.generated_wita||"?");ind.title="Sheet live belum bisa dibaca: "+D.liveErr}
   const tx=(D.tabs.Transactions?.rows||[]);
   // budget
   const gasUsd=tx.reduce((a,o)=>a+(num(o["Gas Fee (USD)"])||0),0),spentUsd=tx.reduce((a,o)=>a+(num(o["USD Spent"])||0),0);
   const ds=(D.tabs["Daily Summary"]?.rows||[]);const dsLast=ds[ds.length-1];
   const total=Math.max(gasUsd+spentUsd,num(D.budget?.spent_usd)||0);const cap=num(D.budget?.cap_usd)||10;
-  const snapBal=num(D.wallet?.last_balance_bnb);
+  const LB=lastBalance(D);$("bal-time").textContent=LB.at?"per "+LB.at:"";
   $("wallet").innerHTML=`<div class="kpis">
-    <div class="kpi"><span class="mut">Saldo live (RPC)</span><b id="bal-live">…</b><span class="mut" id="bal-usd"></span></div>
-    <div class="kpi"><span class="mut">Saldo terakhir dicatat</span><b>${fmtBNB(snapBal)}</b><span class="mut">≈ ${fmtUSD(snapBal*BNB_USD)}</span></div>
+    <div class="kpi"><span class="mut">Saldo terakhir dicatat</span><b>${fmtBNB(LB.bnb)}</b><span class="mut">≈ ${fmtUSD(LB.bnb*BNB_USD)} · ${esc(LB.at||"-")}</span></div>
     <div class="kpi"><span class="mut">Total keluar / cap</span><b>${fmtUSD(total)}</b><span class="mut">dari $${cap} · sisa ${fmtUSD(cap-total)}</span><div class="bar"><i style="width:${Math.min(100,total/cap*100).toFixed(1)}%"></i></div></div>
     <div class="kpi"><span class="mut">Mint berbayar</span><b>${fmtUSD(spentUsd)}</b><span class="mut">gas ${fmtUSD(gasUsd)}</span></div>
   </div>
   <p class="mut">Wallet: <a class="mono" href="${SCAN}/address/${WALLET}" target="_blank" rel="noopener">${WALLET}</a><br>Kurs BNB ≈ $${BNB_USD} (estimasi, bukan harga live).${dsLast?` Daily Summary ${esc(dsLast.Date)}: ${esc(dsLast["# Tx"])} tx.`:""}</p>
-  ${walletDetails(D)}`;
-  getBalance();
+  ${balanceHistory(D)}${walletDetails(D)}`;
   // holdings
   const H=(D.holdings||[]).map(h=>{const r=[...tx].reverse().find(o=>String(o["Token/NFT"]).includes("#"+h.token)&&String(o.Project).toLowerCase().includes(h.collection.split(" (")[0].toLowerCase().split(" ")[0]));return{...h,sheetStatus:r?.Status||""}});
   $("hold-n").textContent=H.length+" NFT";
@@ -170,11 +172,18 @@ function render(D){
 }
 function walletDetails(D){const W=(D.tabs.Wallet?.rows||[]).filter(o=>!/address|snapshot time/i.test(o.Field));if(!W.length)return"";
   return `<details><summary>Info wallet dari Sheet (${W.length})</summary><div class="mut">${W.map(o=>`<div><b>${esc(o.Field)}:</b> ${esc(o.Value)}</div>`).join("")}</div></details>`}
-async function getBalance(){try{const r=await fetch(RPC,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({jsonrpc:"2.0",id:1,method:"eth_getBalance",params:[WALLET,"latest"]})});
-  const j=await r.json();if(!j.result)throw new Error(j.error?.message||"no result");const wei=BigInt(j.result);const bnb=Number(wei)/1e18;
-  $("bal-live").textContent=fmtBNB(bnb);$("bal-usd").textContent="≈ "+fmtUSD(bnb*BNB_USD)+" (estimasi)";
-  $("bal-time").textContent="cek "+new Date().toLocaleTimeString("id-ID",{timeZone:"Asia/Makassar",hour:"2-digit",minute:"2-digit"})+" WITA"}
-  catch(e){$("bal-live").textContent="gagal";$("bal-usd").textContent="RPC nggak bisa dihubungi"}}
+// Saldo = catatan terakhir (Neon wallet_balance / ledger / Sheet), BUKAN cek RPC live.
+function lastBalance(D){const c=[];
+  if(isFinite(num(D.wallet?.last_balance_bnb)))c.push({bnb:num(D.wallet.last_balance_bnb),at:D.wallet.last_balance_wita||"",k:String(D.wallet.last_balance_wita||"")});
+  (D.tabs.Wallet?.rows||[]).forEach(o=>{const m=String(o.Field).match(/balance bsc\s*@\s*(\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2})/i);const v=String(o.Value).match(/([\d.,]+)\s*BNB/i);
+    if(m&&v)c.push({bnb:num(v[1]),at:m[1]+" WITA",k:m[1]})});
+  (D.tabs.Transactions?.rows||[]).forEach(o=>{const v=String(o.Notes||"").match(/balance after\s*([\d.]+)\s*BNB/i);
+    if(v)c.push({bnb:Number(v[1]),at:`${o["Date (WITA)"]} ${String(o.Time).slice(0,5)} WITA`,k:`${o["Date (WITA)"]} ${String(o.Time).slice(0,5)}`})});
+  const ok=c.filter(x=>isFinite(x.bnb));if(!ok.length)return{bnb:NaN,at:""};
+  // pilih yang paling baru; kalau sama waktunya, prioritas sumber pertama (Neon/ledger)
+  return ok.reduce((a,b)=>String(b.k).localeCompare(String(a.k))>0?b:a)}
+function balanceHistory(D){const B=D.balance_history||[];if(!B.length)return"";
+  return `<details><summary>Riwayat saldo per transaksi (${B.length})</summary><div class="mut">${[...B].reverse().map(b=>`<div>${esc(b.at_wita)} · ${esc(b.kind)}${b.project?" "+esc(b.project):""} · ${b.direction==="in"?"+":""}${fmtBNB(b.delta_bnb)} → <b>${fmtBNB(b.balance_bnb)}</b>${safeUrl(b.tx)?` · <a href="${safeUrl(b.tx)}" target="_blank" rel="noopener">tx</a>`:""}</div>`).join("")}</div></details>`}
 load().then(render).catch(e=>{$("src").lastElementChild.textContent="Data gagal dimuat";document.querySelector("main").insertAdjacentHTML("afterbegin",`<section class="err">${esc(e.message)}</section>`)});
 </script>
 </body>
