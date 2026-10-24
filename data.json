@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 01:32 WITA",
+ "generated_wita": "2026-10-25 01:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -863,35 +863,35 @@
    "token": 762,
    "contract": "0xA78411021F29BfbfE44439824aD6c12E58D2cF67",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   },
   {
    "collection": "Ghost Agents (GHOST)",
    "token": 422,
    "contract": "0xb11799136003eA556BAD43664890511030E2452B",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   },
   {
    "collection": "Special Agent (SAGENT)",
    "token": 195,
    "contract": "0xcF939BbB0630e4b51BB2e64f9a839820Ea96412F",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   },
   {
    "collection": "Signal Core (SCR)",
    "token": 782,
    "contract": "0xc64c6e841d2f890c94a41195275dcec393da9f4e",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   },
   {
    "collection": "Signal Core (SCR)",
    "token": 783,
    "contract": "0xc64c6e841d2f890c94a41195275dcec393da9f4e",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -2031,91 +2031,87 @@
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "01:32:00",
+     "Time": "1:32",
      "Type": "Mint",
      "Project": "Blue Sky (BLUESKY)",
      "Chain": "BSC",
      "Token/NFT": "Blue Sky NFT x1 #762",
      "Contract Address": "0xA78411021F29BfbfE44439824aD6c12E58D2cF67",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 8.510784587536e-06,
+     "Gas Fee (native)": 8.5e-06,
      "Gas Fee (USD)": 0.0063,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "Lead: Suruhan 01:10 (X @linkeverythingy). Sourcify exact_match, no owner/pause/withdraw, Agent ID gate, 1st per wallet free then 0.0005 BNB, max 10/wallet, 5000 supply, 5-day window, fully on-chain SVG. priceFor(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 ERC721 only, no risks. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x76db78943c59259000c48820ccb8d06528ac8b117b3e795c1446c8656ceaeb3f",
+     "Status": "Held - no market yet",
+     "Notes": "free first mint, Agent ID gated, Sourcify exact match, no owner, onchain SVG. Gate 5/12. Lead Suruhan 01:10.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x76db78943c59259000c48820ccb8d06528ac8b117b3e795c1446c8656ceaeb3f",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x76db78943c59259000c48820ccb8d06528ac8b117b3e795c1446c8656ceaeb3f"
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "01:32:00",
+     "Time": "1:32",
      "Type": "Mint",
      "Project": "Ghost Agents (GHOST)",
      "Chain": "BSC",
      "Token/NFT": "Ghost Agents NFT x1 #422",
      "Contract Address": "0xb11799136003eA556BAD43664890511030E2452B",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 6.540357839526e-06,
+     "Gas Fee (native)": 6.5e-06,
      "Gas Fee (USD)": 0.0048,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (Atar 23:24 WITA): unverified source, owner EOA 0xfa79…1690. Lead: Suruhan 01:10 (weremain.xyz, @ghostagent77). 1 free per Agent ID then 0.0005 BNB, max 5, 2222 supply. mintFree() 0x8ab53447 value 0; preview +1 ERC721 only, no risks. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0xeb911b44632b1e047336724eb6b17d597958164afaf69208671f2e60fdb8426f",
+     "Status": "Held - no market yet",
+     "Notes": "User rule 23:24 WITA: free mint despite D=0 unverified source. mintFree, owner EOA, weremain.xyz. Lead Suruhan 01:10.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xeb911b44632b1e047336724eb6b17d597958164afaf69208671f2e60fdb8426f",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0xeb911b44632b1e047336724eb6b17d597958164afaf69208671f2e60fdb8426f"
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "01:34:00",
+     "Time": "1:34",
      "Type": "Mint",
      "Project": "Special Agent (SAGENT)",
      "Chain": "BSC",
      "Token/NFT": "Special Agent NFT x1 #195",
      "Contract Address": "0xcF939BbB0630e4b51BB2e64f9a839820Ea96412F",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 8.786883945996e-06,
+     "Gas Fee (native)": 8.8e-06,
      "Gas Fee (USD)": 0.0065,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint: unverified source, owner 0x53fd…e3b4. Lead: Suruhan 01:10 (sagent.surge.sh). Agent ID gate, 1 free then 0.0013 BNB, 3000 supply, rarity reveal at sell-out, possible $SAGENT.AI airdrop (unconfirmed). quote(W,1)=0. mint(1) 0xa0712d68 value 0 (from site JS ABI); preview +1 ERC721 only, no risks. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x40018599d998a24aaba222e95d9de6f7a008161b1ee24a3987c69f0e8af2ad67",
+     "Status": "Held - no market yet",
+     "Notes": "User rule 23:24 WITA: free mint despite D=0 unverified source. Agent ID gated, owner EOA, rarity reveal at sellout. Lead Suruhan 01:10.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x40018599d998a24aaba222e95d9de6f7a008161b1ee24a3987c69f0e8af2ad67",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x40018599d998a24aaba222e95d9de6f7a008161b1ee24a3987c69f0e8af2ad67"
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "01:34:00",
+     "Time": "1:34",
      "Type": "Mint",
      "Project": "Signal Core (SCR)",
      "Chain": "BSC",
      "Token/NFT": "Signal Core NFT x2 #782 #783",
      "Contract Address": "0xc64c6e841d2f890c94a41195275dcec393da9f4e",
-     "Amount": 2,
+     "Amount": 2.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 1.782032261679e-05,
+     "Gas Fee (native)": 1.78e-05,
      "Gas Fee (USD)": 0.0132,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint: unverified source, owner 0x570d…44eb. Lead: Suruhan 01:10 (mint.boleplace.com). Agent ID gate, free tier #0-999 max 2 per wallet, then 0.001-0.003 BNB, 3000 supply. totalMinted 777 at check, quoteMint(2)=0. mint(2) 0xa0712d68 value 0; preview +2 ERC721 only, no risks. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x887c513d762d24c08f2c450e708b6d878f184e0e978bfb2e047a3d62497846aa",
+     "Status": "Held - no market yet",
+     "Notes": "User rule 23:24 WITA: free tier 2 per Agent ID, D=0 unverified source, owner EOA. Lead Suruhan 01:10.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x887c513d762d24c08f2c450e708b6d878f184e0e978bfb2e047a3d62497846aa",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x887c513d762d24c08f2c450e708b6d878f184e0e978bfb2e047a3d62497846aa"
     }
    ]
   },
