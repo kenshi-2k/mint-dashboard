@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 01:50 WITA",
+ "generated_wita": "2026-10-25 02:34 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -668,7 +668,7 @@
   },
   "bsc_balance_bnb": 0.010020335653300584,
   "token_balances": {
-   "USDT_bsc": 0.04500430327292717
+   "USDT_bsc": 0.07990430327292716
   },
   "bridge_fee_usd": 0.03,
   "bridges": [
@@ -3291,6 +3291,51 @@
      "Risk": "",
      "Notes": "Setya queue absent; Cupang 0 new msgs; Chinese TG no leads (BlockBeats_App CHANNEL_INVALID). Watches: GALAXY 1322, ArtPunk 13 (8 unique), AHOUSE 27, no trigger. Held: code/owner unchanged, Mummies marketOpen false (660). Agent Apes no CA (1-follower acct). OpenSea skipped overnight",
      "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "02:10",
+     "Source (Telegram group / X account)": "Cupang Ventures",
+     "Project": "WiFu / Ely Gremlins (allowlist wallet drop)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/ElyGremlins/status/2114051631490990355",
+     "Sentiment": "Rame (~91 RT, banyak reply)",
+     "Red Flags": "Belum live, belum ada CA; harus posting alamat wallet publik",
+     "Risk": "Medium",
+     "Notes": "Cupang msg 5927 (bukan Setya). Drop alamat Agent wallet + tunggu follow back. Pantau CA saat live.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "02:10",
+     "Source (Telegram group / X account)": "Cupang Ventures",
+     "Project": "MOAT Agent ID lottery (moat.fun/rewards)",
+     "Chain": "BSC",
+     "Type": "Airdrop",
+     "CA": "",
+     "Link": "https://moat.fun/rewards",
+     "Sentiment": "Netral",
+     "Red Flags": "Minta signature lewat Binance AI/Agent",
+     "Risk": "High",
+     "Notes": "Cupang msg 5928 'Gacha'. Pool 100 USDT, gratis, bukan mint.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "02:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "GWEI (Agentic Wallet-only bonding token)",
+     "Chain": "BSC",
+     "Type": "Token mint",
+     "CA": "0xe0db0b90cb649d75dfa7f0956ea9fa524ec4025d",
+     "Link": "https://x.com/tracey_mor37840/status/2114047295381713226",
+     "Sentiment": "Sepi",
+     "Red Flags": "Promo akun 1 follower; source unverified; 3 holder; belum di DEX",
+     "Risk": "Skip",
+     "Notes": "GoPlus cek 02:20 WITA.",
+     "Status": "Sent to Ayanokouji"
     }
    ]
   }
