@@ -1,17 +1,240 @@
 {
- "generated_wita": "2026-10-24 15:24 WITA",
+ "generated_wita": "2026-10-24 15:41 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.000685829,
-  "last_balance_wita": "2026-10-24 15:13 WITA",
+  "last_balance_bnb": 0.013049818,
+  "last_balance_wita": "2026-10-24 15:30 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 0.0985,
   "gas_bnb": 0.00013312925041999199
+ },
+ "multichain": {
+  "snapshot_wita": "2026-10-24 15:33 WITA",
+  "source": "zkl_state.json",
+  "prices_usd": {
+   "bnb": 736.83,
+   "eth": 2376.15,
+   "zkl": 0.00023414
+  },
+  "chains": [
+   {
+    "chain": "bsc",
+    "name": "BNB Chain",
+    "asset": "BNB",
+    "amount": 0.01304981805386872,
+    "amount_str": "0.01304981805386872",
+    "usable": true,
+    "status": "ok"
+   },
+   {
+    "chain": "base",
+    "name": "Base",
+    "asset": "ETH",
+    "amount": 9.340366696956e-06,
+    "amount_str": "0.000009340366696956",
+    "usable": true,
+    "status": "ok"
+   },
+   {
+    "chain": "zklink_nova",
+    "name": "zkLink Nova",
+    "asset": "ETH",
+    "amount": 0.002214962990841,
+    "amount_str": "0.002214962990841",
+    "usable": false,
+    "status": "stuck / not usable - wallet not registered on zkLink"
+   },
+   {
+    "chain": "ethereum",
+    "name": "Ethereum",
+    "asset": "ETH",
+    "amount": 0.0,
+    "amount_str": "0",
+    "usable": true,
+    "status": "ok"
+   },
+   {
+    "chain": "ethereum",
+    "name": "Ethereum",
+    "asset": "ZKL",
+    "amount": 0.0,
+    "amount_str": "0",
+    "usable": true,
+    "status": "ok"
+   }
+  ]
+ },
+ "pnl": {
+  "bnb_usd_ref": 740.0,
+  "note": "Cost = recorded gas (+ mint price) split per token. Unrealized only where a real list price exists, before marketplace fees. No floor-price guesses.",
+  "items": [
+   {
+    "collection": "Agent Nakamigos",
+    "token": 5332,
+    "contract": "0x2d7097e0f28ea0feb0b3b44c7d0ee0227d513103",
+    "status": "Listed",
+    "mint_cost_bnb": 9.8836246093585e-06,
+    "other_gas_bnb": 1.6383316564053e-05,
+    "cost_bnb": 2.62669411734115e-05,
+    "cost_usd": 0.0194,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": 0.001,
+    "market": "agentpunk",
+    "unrealized_bnb": 0.0009737330588265885,
+    "txs": [
+     "https://bscscan.com/tx/0x0acb31f12c4985d1abb06459842e65dcfc165f5cbfde1a3c6c28013d7f08056d",
+     "https://bscscan.com/tx/0x4748b40983e3f2cc4ae9dc88e7ab809e00dca675bb819d00cd9c4a3c4d3d623e",
+     "https://bscscan.com/tx/0x9a43544bfdb7310dd04eddbb404daa44eaaa10dfca43db7d3569d69b2af3b35a",
+     "https://bscscan.com/tx/0x7cdf7d717275a9a6d68b4c2029ce57143082a5674e8b1dcb156d78aee4a48aa8",
+     "https://bscscan.com/tx/0x9091fd55ed9998334740de7e6b372e32b5d2647cabc3d2bbb7baf36bf35b2263"
+    ]
+   },
+   {
+    "collection": "Agent Nakamigos",
+    "token": 5333,
+    "contract": "0x2d7097e0f28ea0feb0b3b44c7d0ee0227d513103",
+    "status": "Listed",
+    "mint_cost_bnb": 9.8836246093585e-06,
+    "other_gas_bnb": 1.6383316564053e-05,
+    "cost_bnb": 2.62669411734115e-05,
+    "cost_usd": 0.0194,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": 0.001,
+    "market": "agentpunk",
+    "unrealized_bnb": 0.0009737330588265885,
+    "txs": [
+     "https://bscscan.com/tx/0x0acb31f12c4985d1abb06459842e65dcfc165f5cbfde1a3c6c28013d7f08056d",
+     "https://bscscan.com/tx/0x4748b40983e3f2cc4ae9dc88e7ab809e00dca675bb819d00cd9c4a3c4d3d623e",
+     "https://bscscan.com/tx/0x9a43544bfdb7310dd04eddbb404daa44eaaa10dfca43db7d3569d69b2af3b35a",
+     "https://bscscan.com/tx/0x7cdf7d717275a9a6d68b4c2029ce57143082a5674e8b1dcb156d78aee4a48aa8",
+     "https://bscscan.com/tx/0x9091fd55ed9998334740de7e6b372e32b5d2647cabc3d2bbb7baf36bf35b2263"
+    ]
+   },
+   {
+    "collection": "AI Agent Chips (CHIPS)",
+    "token": 258,
+    "contract": "0x1Fe9656b1aF98d663EA88708f10f9e997fCbD89E",
+    "status": "Hold",
+    "mint_cost_bnb": 7.935826314754e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.935826314754e-06,
+    "cost_usd": 0.0059,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x047758723e1b2947cb5bd5054cc52e93b7770480175efefc63f9915d67711df3"
+    ]
+   },
+   {
+    "collection": "Agent Drop Pass (ADPASS)",
+    "token": 590,
+    "contract": "0x71Bd52c7e0F577B8beAaB8AE1ddE334ABd26720A",
+    "status": "Hold",
+    "mint_cost_bnb": 7.576131135958e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.576131135958e-06,
+    "cost_usd": 0.0056,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xc4c84b798e3b85fb32a5d919d903d6d3938a0362da6ab222b61c328c37a91da7"
+    ]
+   },
+   {
+    "collection": "AIVY Robot (AIVY)",
+    "token": 3780,
+    "contract": "0x77cCE940d1Fe4808aB6cf8484d45d8B51139E7D6",
+    "status": "Hold",
+    "mint_cost_bnb": 2.5584670298418e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 2.5584670298418e-05,
+    "cost_usd": 0.0189,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xf724e3ce287f9a4d8c83cb7c2acb3e167a2e349bfbccad37527bdf5a0ba4cb7f"
+    ]
+   },
+   {
+    "collection": "Fluffies (FLUFF)",
+    "token": 240,
+    "contract": "0x4b2eba0bf5399ec34C37B5Bf1F2749c7751C8c12",
+    "status": "Locked",
+    "mint_cost_bnb": 1.29495e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.29495e-05,
+    "cost_usd": 0.0096,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x9bba754d5ea025eed695627185b2b632a90a1ced682821a3c26036c95376fb74"
+    ]
+   },
+   {
+    "collection": "Pump AI V2 (PUMPAI2)",
+    "token": 96,
+    "contract": "0x3b0da71478b7f2065f738b4a78ba65913299a208",
+    "status": "Hold",
+    "mint_cost_bnb": 9.20887539088e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.20887539088e-06,
+    "cost_usd": 0.0068,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x6f973e10273cabae80505793a6c337aeaeea616a9289d61a6e5fd1751678e6fa"
+    ]
+   },
+   {
+    "collection": "Agentics Mummies (AMUMMY)",
+    "token": 89,
+    "contract": "0x16Cb1B41bf76024EEf30F4DF2E31544122B750b5",
+    "status": "Hold",
+    "mint_cost_bnb": 9.604657685209e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.604657685209e-06,
+    "cost_usd": 0.0071,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x7e3ad48d250eedfadd758f27cd8962cf5b4a18c7bf71ebde518cf4dfe697ca44"
+    ]
+   }
+  ],
+  "totals": {
+   "cost_bnb": 0.000125393543172042,
+   "cost_usd": 0.0927,
+   "realized_bnb": 0.0,
+   "unrealized_bnb": 0.001947466117653177,
+   "sold": 0,
+   "listed": 2,
+   "held": 8
+  }
  },
  "holdings": [
   {
@@ -86,7 +309,7 @@
    "project": "",
    "direction": "in",
    "delta_bnb": 0.000818958515828963,
-   "balance_bnb": 0.000818958250419992,
+   "balance_bnb": 0.000818958515828963,
    "tx": "https://bscscan.com/tx/0xfff099a95160cf498d5f6e7d8c942167d96f434c58ffb5670c81141547521c25"
   },
   {
@@ -95,7 +318,7 @@
    "project": ".ai Agent ID",
    "direction": "out",
    "delta_bnb": -7.73570724795e-06,
-   "balance_bnb": 0.000811222543172042,
+   "balance_bnb": 0.000811222808581013,
    "tx": "https://bscscan.com/tx/0xbf07d20ad28bb5552db5f1a7256d824b0f0e5aabab3e49bf8d9394e2cb79928f"
   },
   {
@@ -104,7 +327,7 @@
    "project": "Agent Nakamigos",
    "direction": "out",
    "delta_bnb": -1.9767249218717e-05,
-   "balance_bnb": 0.000791455293953325,
+   "balance_bnb": 0.000791455559362296,
    "tx": "https://bscscan.com/tx/0x0acb31f12c4985d1abb06459842e65dcfc165f5cbfde1a3c6c28013d7f08056d"
   },
   {
@@ -113,7 +336,7 @@
    "project": "Agent Nakamigos",
    "direction": "out",
    "delta_bnb": -3.569495028008e-06,
-   "balance_bnb": 0.000787885798925317,
+   "balance_bnb": 0.000787886064334288,
    "tx": "https://bscscan.com/tx/0x4748b40983e3f2cc4ae9dc88e7ab809e00dca675bb819d00cd9c4a3c4d3d623e"
   },
   {
@@ -122,7 +345,7 @@
    "project": "Agent Nakamigos",
    "direction": "out",
    "delta_bnb": -3.007245305194e-06,
-   "balance_bnb": 0.000784878553620123,
+   "balance_bnb": 0.000784878819029094,
    "tx": "https://bscscan.com/tx/0x9a43544bfdb7310dd04eddbb404daa44eaaa10dfca43db7d3569d69b2af3b35a"
   },
   {
@@ -131,7 +354,7 @@
    "project": "Agent Nakamigos",
    "direction": "out",
    "delta_bnb": -1.2965711110224e-05,
-   "balance_bnb": 0.000771912842509899,
+   "balance_bnb": 0.00077191310791887,
    "tx": "https://bscscan.com/tx/0x7cdf7d717275a9a6d68b4c2029ce57143082a5674e8b1dcb156d78aee4a48aa8"
   },
   {
@@ -140,7 +363,7 @@
    "project": "Agent Nakamigos",
    "direction": "out",
    "delta_bnb": -1.322418168468e-05,
-   "balance_bnb": 0.000758688660825219,
+   "balance_bnb": 0.00075868892623419,
    "tx": "https://bscscan.com/tx/0x9091fd55ed9998334740de7e6b372e32b5d2647cabc3d2bbb7baf36bf35b2263"
   },
   {
@@ -149,7 +372,7 @@
    "project": "AI Agent Chips (CHIPS)",
    "direction": "out",
    "delta_bnb": -7.935826314754e-06,
-   "balance_bnb": 0.000750752834510465,
+   "balance_bnb": 0.000750753099919436,
    "tx": "https://bscscan.com/tx/0x047758723e1b2947cb5bd5054cc52e93b7770480175efefc63f9915d67711df3"
   },
   {
@@ -158,7 +381,7 @@
    "project": "Agent Drop Pass (ADPASS)",
    "direction": "out",
    "delta_bnb": -7.576131135958e-06,
-   "balance_bnb": 0.000743176703374507,
+   "balance_bnb": 0.000743176968783478,
    "tx": "https://bscscan.com/tx/0xc4c84b798e3b85fb32a5d919d903d6d3938a0362da6ab222b61c328c37a91da7"
   },
   {
@@ -167,7 +390,7 @@
    "project": "AIVY Robot (AIVY)",
    "direction": "out",
    "delta_bnb": -2.5584670298418e-05,
-   "balance_bnb": 0.000717592033076089,
+   "balance_bnb": 0.00071759229848506,
    "tx": "https://bscscan.com/tx/0xf724e3ce287f9a4d8c83cb7c2acb3e167a2e349bfbccad37527bdf5a0ba4cb7f"
   },
   {
@@ -176,7 +399,7 @@
    "project": "Fluffies (FLUFF)",
    "direction": "out",
    "delta_bnb": -1.29495e-05,
-   "balance_bnb": 0.000704642533076089,
+   "balance_bnb": 0.00070464279848506,
    "tx": "https://bscscan.com/tx/0x9bba754d5ea025eed695627185b2b632a90a1ced682821a3c26036c95376fb74"
   },
   {
@@ -185,7 +408,7 @@
    "project": "Pump AI V2 (PUMPAI2)",
    "direction": "out",
    "delta_bnb": -9.20887539088e-06,
-   "balance_bnb": 0.000695433657685209,
+   "balance_bnb": 0.00069543392309418,
    "tx": "https://bscscan.com/tx/0x6f973e10273cabae80505793a6c337aeaeea616a9289d61a6e5fd1751678e6fa"
   },
   {
@@ -196,6 +419,24 @@
    "delta_bnb": -9.604657685209e-06,
    "balance_bnb": 0.000685829,
    "tx": "https://bscscan.com/tx/0x7e3ad48d250eedfadd758f27cd8962cf5b4a18c7bf71ebde518cf4dfe697ca44"
+  },
+  {
+   "at_wita": "2026-10-24 15:28:00",
+   "kind": "Bridge in",
+   "project": "Relay Base->BSC (internal transfer)",
+   "direction": "in",
+   "delta_bnb": 0.001381936,
+   "balance_bnb": 0.002067648,
+   "tx": "https://bscscan.com/tx/0xccece360447bc74b0f395733ca8c8ce082152d667ba32cb601c7f23f5a534e6a"
+  },
+  {
+   "at_wita": "2026-10-24 15:30:36",
+   "kind": "Deposit",
+   "project": "Incoming deposit (user) from 0x161ba15a5f335c9f06bb5bbb0a9ce14076fbb645",
+   "direction": "in",
+   "delta_bnb": 0.01098217,
+   "balance_bnb": 0.013049818,
+   "tx": "https://bscscan.com/tx/0xa13072ca391fcb5f1a18f1f53c981e7c60d16d7234687695b7e430865f974560"
   }
  ],
  "tabs": {
@@ -556,6 +797,90 @@
      "Notes": "mint(1) value 0; costFor(wallet,1)=0 (1st per wallet free, then 0.001 BNB). baw sim 000000000, no risks. Source unverified, no owner. Lead: Suruhan (X). Balance after 0.000685829 BNB.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x7e3ad48d250eedfadd758f27cd8962cf5b4a18c7bf71ebde518cf4dfe697ca44"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:25:00",
+     "Type": "Deposit",
+     "Project": "Incoming deposit (user)",
+     "Chain": "zkLink Nova",
+     "Token/NFT": "ETH",
+     "Contract Address": "",
+     "Amount": 0.002214962991,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Confirmed",
+     "Notes": "Incoming deposit ~$5.27 (not spend). From 0xDd10CC7C5254BF3E3e77594793f20Cb85f301797; tx 0x4679a05581fa87a62c2660411d6b2083601ee954c239228083bbc708b4583e8f; ETH @ $2377.46",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:26:00",
+     "Type": "Deposit",
+     "Project": "Incoming deposit (user)",
+     "Chain": "Base",
+     "Token/NFT": "ETH",
+     "Contract Address": "",
+     "Amount": 0.000449504659,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Confirmed",
+     "Notes": "Incoming deposit ~$1.07 (not spend). tx unknown (explorer API blocked); arrived before 15:26 WITA; ETH @ $2377.46",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:28:00",
+     "Type": "Bridge",
+     "Project": "Relay bridge Base -> BSC (internal transfer)",
+     "Chain": "Base -> BSC",
+     "Token/NFT": "ETH -> BNB",
+     "Contract Address": "",
+     "Amount": 0.001381936,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Confirmed",
+     "Notes": "Internal transfer, not a new deposit. Sent 0.00044 ETH on Base (tx 0x7473b00942f351ebeb797fd7d0423b0f96e1e83898543db8e22f5af8120f09ed); received 0.001381936 BNB on BSC (tx 0xccece360447bc74b0f395733ca8c8ce082152d667ba32cb601c7f23f5a534e6a). Fee ~$0.03. Amount = BNB received.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Deposit",
+     "Project": "Incoming deposit (user) from 0x161ba15a5f335c9f06bb5bbb0a9ce14076fbb645 (~$8.09 @ $736.83)",
+     "Chain": "BSC",
+     "Token/NFT": "BNB",
+     "Contract Address": "",
+     "Amount": 0.01098217,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": 0.0,
+     "Airdrop Name": "",
+     "Buy TX Link": "https://bscscan.com/tx/0xa13072ca391fcb5f1a18f1f53c981e7c60d16d7234687695b7e430865f974560",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Confirmed",
+     "Notes": "",
+     "Revoke TX Link": "",
+     "tx": ""
     }
    ]
   },
@@ -571,7 +896,7 @@
    "rows": [
     {
      "Date": "2026-10-24",
-     "# Tx": "12",
+     "# Tx": "16",
      "Total USD Spent": "$0,0000",
      "Total Gas USD": "$0,0985",
      "Cumulative Spent": "$0,0985",
@@ -894,6 +1219,18 @@
     {
      "Field": "Balance BSC @ 2026-10-24 15:13 WITA",
      "Value": "0.000685829 BNB (~$0.51) after PUMPAI2 #96 + AMUMMY #89 free mints; total spent incl. gas ~$0.0985 of $10 cap"
+    },
+    {
+     "Field": "Balance multichain @ 2026-10-24 15:26 WITA",
+     "Value": "BSC 0.000685829 BNB ($0.51 @ $737.25) | zkLink Nova 0.002215 ETH ($5.27) | Base 0.0004495 ETH ($1.07) | Ethereum 0 ETH, 0 ZKL | Total ~$6.84 (ETH @ $2377.46)"
+    },
+    {
+     "Field": "Balance multichain @ 2026-10-24 15:29 WITA",
+     "Value": "BSC 0.002067648 BNB (~$1.52) | Base 0.00000934 ETH (~$0.02) | zkLink Nova 0.002215 ETH (~$5.27, stuck: wallet not registered on zkLink) | Ethereum 0 | Total ~$6.81 (after Relay bridge Base->BSC 15:28, fee ~$0.03)"
+    },
+    {
+     "Field": "Balance multichain @ 2026-10-24 15:33 WITA",
+     "Value": "BSC 0.013049818 BNB (~$9.62 @ $736.83) | Base 0.00000934 ETH (~$0.02) | zkLink Nova 0.002215 ETH (~$5.26, stuck) | Ethereum 0 | Total ~$14.90 (after BSC deposit 0.01098217 BNB ~$8.09 at 15:30)"
     }
    ]
   },

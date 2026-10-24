@@ -17,7 +17,7 @@ module.exports = async (req, res) => {
       sql`SELECT * FROM listings WHERE status = 'Active'`,
       sql`SELECT raw FROM leads WHERE source_tab = 'Candidates' ORDER BY row_no`,
       sql`SELECT raw FROM leads WHERE source_tab = 'Suruhan Monitoring' ORDER BY row_no`,
-      sql`SELECT * FROM wallet_balance ORDER BY recorded_at, seq`,
+      sql`SELECT * FROM wallet_balance WHERE source LIKE 'ledger.%' OR source LIKE 'sync.%' ORDER BY recorded_at, seq`,
       sql`SELECT key, value FROM sync_meta`,
     ]);
     const M = Object.fromEntries(meta.map((r) => [r.key, r.value]));
@@ -35,6 +35,8 @@ module.exports = async (req, res) => {
         bnb_usd_ref: M.bnb_usd_ref || 740,
       },
       budget: M.budget || { cap_usd: 10 },
+      multichain: M.multichain || null,
+      pnl: M.pnl || null,
       holdings: hold.map((h) => {
         const l = L[h.contract.toLowerCase() + ":" + h.token_id];
         return { collection: h.collection, token: h.token_id, contract: h.contract, status: h.status, note: h.note,

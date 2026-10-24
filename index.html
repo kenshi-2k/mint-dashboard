@@ -1,93 +1,181 @@
 <!doctype html>
-<html lang="id">
+<html lang="id" data-theme="dark">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mint Hunting Dashboard · Ayanokouji</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e0f11">
 <meta name="robots" content="noindex">
+<title>Mint Hunting Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width:641px)">
+<link rel="preload" as="image" href="assets/hero-768.webp" media="(max-width:640px)">
+<script>try{const t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--fg:#16181d;--mut:#667085;--line:#e4e7ec;--acc:#2563eb;--ok:#15803d;--warn:#b45309;--bad:#b91c1c;--chip:#eef2f7}
-@media (prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--fg:#e6e8ec;--mut:#98a2b3;--line:#2a303a;--acc:#60a5fa;--ok:#4ade80;--warn:#fbbf24;--bad:#f87171;--chip:#222833}}
+:root{--s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--r:10px;
+  --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --acc:#8fb08a;--pos:#7cc47f;--neg:#e5736b}
+[data-theme=dark]{--bg:#0e0f11;--surf:#15171a;--surf2:#1b1e22;--line:#262a2f;--fg:#ecebe6;--mut:#8d9198;--faint:#5e636a;--chip:#1f2226}
+[data-theme=light]{--bg:#f4f3ef;--surf:#ffffff;--surf2:#f8f7f4;--line:#e2e0da;--fg:#17181a;--mut:#5f646b;--faint:#8a8e94;--chip:#efeee9;--acc:#5f8459;--pos:#2f7d36;--neg:#b8423a}
 *{box-sizing:border-box;min-width:0}
-html,body{overflow-x:hidden}
-body,section,.item,.kpi{overflow-wrap:anywhere}
-body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-header{padding:16px 16px 4px;max-width:960px;margin:auto}
-h1{font-size:20px;margin:0 0 4px}
-main{max-width:960px;margin:auto;padding:8px 12px 40px;display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
-section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
-h2{font-size:16px;margin:0 0 10px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
-h2 small{font-weight:400;color:var(--mut);font-size:12px}
-a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
-.mut{color:var(--mut);font-size:13px}
-.ind{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:3px 10px;border-radius:99px;background:var(--chip);color:var(--mut)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--warn)}.ind.live .dot{background:var(--ok)}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:10px}
-.kpi{border:1px solid var(--line);border-radius:12px;padding:10px}
-.kpi b{display:block;font-size:20px}
-.bar{height:8px;background:var(--chip);border-radius:9px;overflow:hidden;margin-top:6px}.bar i{display:block;height:100%;background:var(--acc)}
-.list{display:grid;gap:8px}
-.item{border:1px solid var(--line);border-radius:12px;padding:10px;display:grid;gap:4px}
-.row{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
-.badge{font-size:12px;padding:2px 8px;border-radius:99px;background:var(--chip);white-space:nowrap}
-.b-ok{color:var(--ok)}.b-warn{color:var(--warn)}.b-bad{color:var(--bad)}.b-acc{color:var(--acc)}
-.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;word-break:break-all}
-details summary{cursor:pointer;color:var(--acc);font-size:13px}
-.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
-.tabs button{border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:99px;padding:4px 10px;font-size:13px}
-.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
-.err{color:var(--bad);font-size:13px}
-footer{max-width:960px;margin:auto;padding:0 16px 30px;color:var(--mut);font-size:12px}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:hidden}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 var(--font);font-feature-settings:"cv11","ss01";overflow-x:hidden;
+  padding:0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+.num,.kpi b,td.n,.fig{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+.mono{font-family:var(--mono);font-size:12.5px}
+a{color:var(--fg);text-decoration:underline;text-decoration-color:var(--faint);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--acc)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 var(--s4)}
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.top .wrap{display:flex;align-items:center;gap:var(--s3);min-height:56px}
+.brand{font-weight:600;letter-spacing:-.01em;margin-right:auto;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand span{color:var(--mut);font-weight:400}
+.status{display:flex;align-items:center;gap:var(--s2);font-size:12.5px;color:var(--mut);white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--faint);flex:none}.status.ok .dot{background:var(--acc)}
+.btn{min-height:44px;min-width:44px;padding:0 var(--s3);border:1px solid var(--line);background:var(--surf);color:var(--fg);border-radius:var(--r);font:500 13px var(--font);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.btn:hover{border-color:var(--faint)}.btn[aria-pressed=true]{border-color:var(--acc);color:var(--fg);background:var(--chip)}
+.hero{position:relative;border-bottom:1px solid var(--line);background:#0e0f11 url(assets/hero.webp) left center/cover no-repeat;color:#ecebe6}
+[data-theme=light] .hero{border-color:#0e0f11}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr);justify-items:end;padding-top:var(--s7);padding-bottom:var(--s6)}
+.pl{width:min(100%,560px);display:grid;gap:var(--s4)}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#9aa09a}
+.plgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s4)}
+.fig{display:grid;gap:2px}
+.fig .lab{font-size:13px;color:#a3a7ad}
+.fig .usd{font-size:clamp(30px,8.5vw,52px);font-weight:600;letter-spacing:-.025em;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fig .bnb{font-size:13.5px;color:#b9bcc0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pos{color:var(--pos)}.neg{color:var(--neg)}
+.hero .pos{color:#7cc47f}.hero .neg{color:#e5736b}
+.plmeta{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5);font-size:13px;color:#a3a7ad}.plmeta b{color:#ecebe6;font-weight:500}
+main.wrap{display:grid;gap:var(--s5);padding-top:var(--s5);padding-bottom:var(--s7)}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s5)}
+@media (min-width:900px){.grid2{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+section{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:var(--s4)}
+@media (min-width:641px){section{padding:var(--s5)}}
+.sh{display:flex;align-items:center;gap:var(--s3);margin:0 0 var(--s4)}
+.sh svg{width:22px;height:22px;color:var(--fg);flex:none}
+.sh h2{font-size:15px;font-weight:600;margin:0;letter-spacing:-.005em}
+.sh .meta{margin-left:auto;font-size:12.5px;color:var(--mut);text-align:right}
+.mut{color:var(--mut)}.small{font-size:12.5px}
+.trunc{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* tables -> cards on mobile */
+.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
+.tbl th{font-weight:500;color:var(--mut);text-align:left;font-size:12px;padding:var(--s2) var(--s2);border-bottom:1px solid var(--line);white-space:nowrap}
+.tbl td{padding:var(--s3) var(--s2);border-bottom:1px solid var(--line);vertical-align:top}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td.n,.tbl th.n{text-align:right;white-space:nowrap}
+.tbl .t{font-weight:500}
+@media (max-width:640px){
+  .tbl thead{display:none}.tbl,.tbl tbody,.tbl tr,.tbl td{display:block;width:100%}
+  .tbl tr{border:1px solid var(--line);border-radius:var(--r);padding:var(--s3);margin-bottom:var(--s2);background:var(--surf2)}
+  .tbl td{border:0;padding:3px 0;display:flex;justify-content:space-between;gap:var(--s3);text-align:right}
+  .tbl td::before{content:attr(data-l);color:var(--mut);font-size:12px;text-align:left;flex:none;max-width:45%}
+  .tbl td.first{display:block;text-align:left;font-weight:500;padding-bottom:var(--s2)}.tbl td.first::before{content:none}
+  .tbl td.n{text-align:right}
+  .tbl td>*{min-width:0}
+}
+.badge{display:inline-block;font-size:11.5px;font-weight:500;padding:2px 8px;border-radius:99px;background:var(--chip);color:var(--mut);white-space:nowrap;border:1px solid var(--line)}
+.badge.acc{color:var(--fg);border-color:color-mix(in srgb,var(--acc) 55%,var(--line))}
+.badge.warn{color:var(--fg);border-color:var(--faint)}
+.badge.bad{color:var(--neg);border-color:color-mix(in srgb,var(--neg) 45%,var(--line))}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:var(--s3)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpi{border:1px solid var(--line);border-radius:var(--r);padding:var(--s3);background:var(--surf2);display:grid;gap:2px;align-content:start}
+.kpi .lab{font-size:12px;color:var(--mut);display:flex;justify-content:space-between;gap:6px}
+.kpi b{font-size:17px;font-weight:600;letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kpi .sub{font-size:12.5px;color:var(--mut);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kpi.stuck{border-style:dashed}
+.total{display:flex;align-items:baseline;justify-content:space-between;gap:var(--s3);flex-wrap:wrap;margin-top:var(--s4);padding-top:var(--s4);border-top:1px solid var(--line)}
+.total b{font-size:clamp(22px,6vw,28px);font-weight:600;letter-spacing:-.02em}
+.list{display:grid;gap:var(--s2)}
+.item{border:1px solid var(--line);border-radius:var(--r);padding:var(--s3);background:var(--surf2);display:grid;gap:4px}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:var(--s2);flex-wrap:wrap}
+.row>b{font-weight:500;overflow-wrap:anywhere}
+.chips{display:flex;gap:var(--s2);overflow-x:auto;padding-bottom:var(--s2);margin-bottom:var(--s3);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}.chips .btn{flex:none;border-radius:99px}
+details>summary{cursor:pointer;color:var(--mut);font-size:12.5px;min-height:32px;display:flex;align-items:center;list-style:none}
+details>summary::before{content:"+";font-family:var(--mono);margin-right:6px}details[open]>summary::before{content:"\2212"}
+details>summary::-webkit-details-marker{display:none}
+.more{margin-top:var(--s3);width:100%}
+.sur{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s3)}
+@media (min-width:641px){.sur{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.err{border-color:var(--neg);color:var(--neg)}
+footer{color:var(--mut);font-size:12px;padding:0 0 calc(var(--s6) + env(safe-area-inset-bottom))}
+.wordy{overflow-wrap:anywhere}
+@media (max-width:640px){.status .txt{display:none}.brand span{display:none}.hero .wrap{padding-top:var(--s6);justify-items:stretch}
+  .hero{background-image:url(assets/hero-768.webp);background-position:left top;background-size:auto 100%}
+  .hero::before{content:"";position:absolute;inset:0;background:rgba(14,15,17,.55)} .hero .wrap{position:relative}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header>
-  <h1>🎯 Mint Hunting Dashboard</h1>
-  <div class="row"><span class="mut">Agentic Wallet · BNB Smart Chain</span><span id="src" class="ind"><span class="dot"></span><span>Lagi muat data…</span></span></div>
-</header>
-<main>
-  <section id="s-wallet"><h2>💰 Saldo wallet <small id="bal-time"></small></h2><div id="wallet"></div></section>
-  <section id="s-hold"><h2>🖼️ NFT yang di-hold <small id="hold-n"></small></h2><div id="hold" class="list"></div></section>
-  <section id="s-list"><h2>🏷️ Listing aktif <small id="list-n"></small></h2><div id="listing" class="list"></div></section>
-  <section id="s-tx"><h2>🧾 Riwayat transaksi <small id="tx-n"></small></h2><div id="tx" class="list"></div></section>
-  <section id="s-cand"><h2>🔎 Lead &amp; kandidat <small id="cand-n"></small></h2><div class="tabs" id="cand-f"></div><div id="cand" class="list"></div></section>
-  <section id="s-sur"><h2>🕵️ Status Suruhan <small id="sur-t"></small></h2><div id="sur" class="list"></div></section>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-wallet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="17" height="13" rx="2.5"/><rect x="14.5" y="8.5" width="6.5" height="5" rx="2"/></g><circle cx="17" cy="16.5" r="1.6" fill="var(--acc)"/></symbol><symbol id="i-nft" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="2"/><path d="M3.5 18l5-6.5 3 3.5 4-6 5 6.5"/></g><circle cx="16" cy="16.8" r="1.6" fill="var(--acc)"/></symbol><symbol id="i-listing" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3h5.2l9.6 9.6a1.6 1.6 0 0 1 0 2.3l-5.4 5.4a1.6 1.6 0 0 1-2.3 0L3 10.7V4.5z"/><circle cx="7.5" cy="7.5" r="1.4"/></g><circle cx="14.6" cy="15.2" r="1.6" fill="var(--acc)"/></symbol><symbol id="i-leads" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3.5h18l-6.5 7.5v3.5h-5V11z"/><path d="M8 17.5h8M8 20h8M8 22.5h8"/></g><circle cx="12" cy="7" r="1.6" fill="var(--acc)"/></symbol><symbol id="i-monitor" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M14.5 9.5l3.5-3.5"/></g><circle cx="7.2" cy="16" r="1.6" fill="var(--acc)"/></symbol></svg>
+<header class="top"><div class="wrap">
+  <div class="brand">Mint Hunting <span>/ BNB Chain agentic wallet</span></div>
+  <div id="src" class="status" title=""><span class="dot"></span><span class="txt" id="src-t">Memuat data</span></div>
+  <button class="btn" id="theme" type="button" aria-label="Ganti tema">Terang</button>
+</div></header>
+<div class="hero"><div class="wrap"><div class="pl" id="pl">
+  <div class="eyebrow">Profit / loss NFT</div>
+  <div class="plgrid"><div class="fig"><span class="lab">Realized</span><span class="usd">-</span><span class="bnb">-</span></div>
+  <div class="fig"><span class="lab">Unrealized</span><span class="usd">-</span><span class="bnb">-</span></div></div>
+</div></div></div>
+<main class="wrap">
+  <section id="s-trades"><div class="sh"><svg><use href="#i-nft"/></svg><h2>Tracker beli / jual</h2><span class="meta" id="trades-m"></span></div><div id="trades"></div></section>
+  <section id="s-pnl"><div class="sh"><svg><use href="#i-nft"/></svg><h2>Profit / loss per NFT</h2><span class="meta" id="pnl-m"></span></div><div id="pnl"></div></section>
+  <div class="grid2">
+    <section id="s-wallet"><div class="sh"><svg><use href="#i-wallet"/></svg><h2>Saldo per jaringan</h2><span class="meta" id="wallet-m"></span></div><div id="wallet"></div></section>
+    <section id="s-list"><div class="sh"><svg><use href="#i-listing"/></svg><h2>Listing aktif</h2><span class="meta" id="list-m"></span></div><div id="listing"></div></section>
+  </div>
+  <section id="s-leads"><div class="sh"><svg><use href="#i-leads"/></svg><h2>Lead terbaru</h2><span class="meta" id="leads-m"></span></div><div class="chips" id="leads-f" role="tablist"></div><div id="leads" class="list"></div></section>
+  <section id="s-sur"><div class="sh"><svg><use href="#i-monitor"/></svg><h2>Status Suruhan</h2><span class="meta" id="sur-m"></span></div><div id="sur"></div></section>
 </main>
-<footer>Read-only. Sumber: Neon DB (versi Vercel) / Google Sheet "Ayanokouji - Mint Hunting Tracker" / snapshot. Saldo = catatan terakhir setelah transaksi, bukan cek live. Harga USD cuma estimasi ($740/BNB).</footer>
+<footer class="wrap" id="foot">Read-only. Semua waktu dalam WITA (UTC+8). Saldo = catatan terakhir, bukan cek RPC live. Nilai USD estimasi.</footer>
 <script>
 "use strict";
 const SHEET_ID="1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo";
 const TABS=["Transactions","Daily Summary","Candidates","Wallet","Suruhan Monitoring"];
 const WALLET="0xC1408fc129512e0d6aaa93022F4B49B68647D94e";
-const BNB_USD=740;
 const SCAN="https://bscscan.com";
+const REFRESH_MS=30000, SUR_SLOTS=[8,11,14,17,20,23];
+const FALLBACK_PRICES={bnb:740,eth:2377.46,zkl:0.00023292};
 const $=id=>document.getElementById(id);
-const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const NOEMOJI=/[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\uFE0F\u200D\u20E3]/gu;
+const clean=s=>String(s??"").replace(NOEMOJI,"").replace(/\s{2,}/g," ").trim();
+const esc=s=>clean(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl=u=>/^https:\/\//i.test(String(u||""))?esc(u):"";
-
-// ---- CSV + number/date helpers (sheet locale pakai koma desimal) ----
+const ext=(u,t)=>safeUrl(u)?`<a href="${safeUrl(u)}" target="_blank" rel="noopener">${t}</a>`:"";
+// ---- helpers ----
 function parseCSV(t){const rows=[];let r=[],f="",q=false;for(let i=0;i<t.length;i++){const c=t[i];
   if(q){if(c=='"'){if(t[i+1]=='"'){f+='"';i++}else q=false}else f+=c}
   else if(c=='"')q=true;else if(c==','){r.push(f);f=""}else if(c=='\n'||c=='\r'){if(c=='\r'&&t[i+1]=='\n')i++;r.push(f);rows.push(r);r=[];f=""}else f+=c}
   if(f!==""||r.length){r.push(f);rows.push(r)}return rows.filter(x=>x.some(v=>v.trim()!==""))}
-function num(v){if(typeof v==="number")return v;let s=String(v??"").trim().replace(/[$\s~]/g,"").replace(/BNB$/i,"");if(!s)return NaN;
+function num(v){if(typeof v==="number")return v;let s=String(v??"").trim().replace(/[$\s~]/g,"").replace(/(BNB|ETH)$/i,"");if(!s)return NaN;
   const c=s.lastIndexOf(","),d=s.lastIndexOf(".");
   if(c>-1&&d>-1){s=c>d?s.replace(/\./g,"").replace(",","."):s.replace(/,/g,"")}else if(c>-1){s=s.replace(",",".")}
   const n=Number(s);return isFinite(n)?n:NaN}
-function serialDate(v){const n=num(v);if(isFinite(n)&&n>40000&&n<60000){const d=new Date(Date.UTC(1899,11,30)+Math.floor(n)*864e5);return d.toISOString().slice(0,10)}
+function serialDate(v){const n=num(v);if(isFinite(n)&&n>40000&&n<60000){return new Date(Date.UTC(1899,11,30)+Math.floor(n)*864e5).toISOString().slice(0,10)}
   const m=String(v).match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(m)return `${m[3]}-${m[2].padStart(2,"0")}-${m[1].padStart(2,"0")}`;return String(v??"")}
 function serialTime(v){const s=String(v??"");if(/^\d{1,2}[:.]\d{2}/.test(s))return s.replace(".",":").slice(0,5);const n=num(v);
   if(isFinite(n)&&n>=0&&n<1){const t=Math.round(n*86400);return String(Math.floor(t/3600)).padStart(2,"0")+":"+String(Math.floor(t%3600/60)).padStart(2,"0")}return s}
-const fmtBNB=n=>isFinite(n)?(n===0?"0":n.toFixed(Math.abs(n)<0.01?9:5).replace(/0+$/,"").replace(/\.$/,""))+" BNB":"-";
-const fmtUSD=n=>isFinite(n)?"$"+n.toLocaleString("id-ID",{minimumFractionDigits:n<1?3:2,maximumFractionDigits:n<1?4:2}):"-";
-const short=a=>a&&a.length>14?a.slice(0,6)+"…"+a.slice(-4):a;
-function riskCls(r){r=String(r||"").toLowerCase();if(/scam|skip/.test(r))return"b-bad";if(/high|tinggi/.test(r))return"b-bad";if(/medium/.test(r))return"b-warn";if(/low|rendah/.test(r))return"b-ok";return""}
-function statusCls(s){s=String(s||"").toLowerCase();if(/reject|fail|gagal/.test(s))return"b-bad";if(/listed|sold|laku/.test(s))return"b-acc";if(/hold|lock/.test(s))return"b-warn";if(/confirm/.test(s))return"b-ok";return""}
-
-// ---- data loading: live sheet dulu, fallback ke snapshot ----
+const trimZ=s=>s.replace(/(\.\d*?)0+$/,"$1").replace(/\.$/,"");
+const fmtAmt=(n,d=9)=>isFinite(n)?(n===0?"0":trimZ(Math.abs(n)>=1?n.toFixed(4):n.toFixed(d))):"-";
+const fmtBNB=n=>isFinite(n)?fmtAmt(n)+" BNB":"-";
+const fmtUSD=(n,sign)=>{if(!isFinite(n))return"-";if(Math.abs(n)<5e-5)return"$0.00";const a=Math.abs(n),d=a<1?(a<0.01?4:3):2;
+  const s=a.toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});return(n<0?"\u2212":sign&&n>0?"+":"")+"$"+s};
+const sgnBNB=n=>isFinite(n)?(n<0?"\u2212":n>0?"+":"")+fmtAmt(Math.abs(n))+" BNB":"-";
+const plCls=n=>!isFinite(n)||n===0?"":n>0?"pos":"neg";
+const witaNow=()=>new Date(Date.now()+8*3600e3);
+const witaStr=d=>d.toISOString().slice(0,16).replace("T"," ");
+const hhmm=d=>d.toISOString().slice(11,16);
+// ---- data ----
+async function fetchApi(){const r=await fetch("api/data",{cache:"no-store"});if(!r.ok)throw new Error("api/data HTTP "+r.status);
+  const j=await r.json();if(!j||!j.tabs||!(j.tabs.Transactions?.rows||[]).length)throw new Error("api/data kosong");return j}
 async function fetchTab(name){const u=`https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&headers=1&sheet=${encodeURIComponent(name)}`;
   const r=await fetch(u,{credentials:"omit",cache:"no-store"});if(!r.ok)throw new Error(name+": HTTP "+r.status);
-  const t=await r.text();if(/^\s*</.test(t))throw new Error(name+": bukan CSV (sheet belum publik?)");
+  const t=await r.text();if(/^\s*</.test(t))throw new Error(name+": bukan CSV");
   const rows=parseCSV(t);if(rows.length<1)throw new Error(name+": kosong");const h=rows[0].map(x=>x.trim());
   return{headers:h,rows:rows.slice(1).map(x=>Object.fromEntries(h.map((k,i)=>[k,x[i]??""])))}}
 function normalize(tabs){
@@ -97,94 +185,165 @@ function normalize(tabs){
   (tabs["Suruhan Monitoring"]?.rows||[]).forEach(o=>{o["Date (WITA)"]=serialDate(o["Date (WITA)"]);o["Hour"]=serialTime(o["Hour"])});
   if(tabs["Wallet"])tabs["Wallet"].rows=tabs["Wallet"].rows.filter(o=>o.Field&&!/session|sign-in|password|private|seed|api key/i.test(o.Field));
   return tabs}
-async function fetchApi(){const r=await fetch("api/data",{cache:"no-store"});if(!r.ok)throw new Error("api/data HTTP "+r.status);
-  const j=await r.json();if(!j||!j.tabs||!(j.tabs.Transactions?.rows||[]).length)throw new Error("api/data kosong");return j}
+let mode="";
 async function load(){
-  // 1) Neon via /api/data (cuma ada di Vercel; di GitHub Pages 404 -> lanjut ke Sheet)
-  try{const j=await fetchApi();return{...j,tabs:normalize(j.tabs),mode:"neon"}}catch(e){console.info("api/data:",e.message)}
-  let snap=null;try{const r=await fetch("data.json",{cache:"no-store"});if(r.ok)snap=await r.json()}catch(e){console.warn("snapshot",e)}
+  try{const j=await fetchApi();return{...j,tabs:normalize(j.tabs),mode:"neon"}}catch(e){/* GitHub Pages: no /api -> Sheet */}
+  let snap=null;try{const r=await fetch("data.json",{cache:"no-store"});if(r.ok)snap=await r.json()}catch(e){}
   let live=null,liveErr="";
-  try{const res=await Promise.all(TABS.map(fetchTab));live={};TABS.forEach((n,i)=>live[n]=res[i]);
-    if(!live["Transactions"].rows.length)throw new Error("Transactions kosong")}catch(e){liveErr=String(e.message||e);live=null}
+  try{const res=await Promise.all(TABS.map(fetchTab));live={};TABS.forEach((n,i)=>live[n]=res[i]);if(!live.Transactions.rows.length)throw new Error("Transactions kosong")}
+  catch(e){liveErr=String(e.message||e);live=null}
   if(!live&&!snap)throw new Error("Data live gagal ("+liveErr+") dan data.json nggak kebaca.");
   const base=snap||{tabs:{},holdings:[],wallet:{address:WALLET},budget:{cap_usd:10}};
-  const data={...base,tabs:live?normalize(live):normalize(base.tabs),mode:live?"live":"snapshot",liveErr};
-  if(live&&snap){ // link tx (HYPERLINK) nggak ikut di CSV: ambil dari snapshot via Type+Token
-    const m={};(snap.tabs.Transactions?.rows||[]).forEach(o=>{if(o.tx)m[o.Type+"|"+o["Token/NFT"]]=o.tx});
+  const data={...base,tabs:live?normalize(live):normalize(base.tabs),mode:live?"sheet":"snapshot",liveErr};
+  if(live&&snap){const m={};(snap.tabs.Transactions?.rows||[]).forEach(o=>{if(o.tx)m[o.Type+"|"+o["Token/NFT"]]=o.tx});
     data.tabs.Transactions.rows.forEach(o=>{const f=Object.values(o).join(" ").match(/https:\/\/bscscan\.com\/tx\/0x[0-9a-fA-F]{64}/);o.tx=f?f[0]:(m[o.Type+"|"+o["Token/NFT"]]||"")})}
   return data}
-
-// ---- render ----
-function render(D){
-  const ind=$("src");if(D.mode==="neon"){ind.className="ind live";ind.lastElementChild.textContent="Data: live dari Neon"}
-  else if(D.mode==="live"){ind.className="ind live";ind.lastElementChild.textContent="Data: live dari Sheet"}
-  else{ind.className="ind";ind.lastElementChild.textContent="Data: snapshot "+(D.generated_wita||"?");ind.title="Sheet live belum bisa dibaca: "+D.liveErr}
-  const tx=(D.tabs.Transactions?.rows||[]);
-  // budget
-  const gasUsd=tx.reduce((a,o)=>a+(num(o["Gas Fee (USD)"])||0),0),spentUsd=tx.reduce((a,o)=>a+(num(o["USD Spent"])||0),0);
-  const ds=(D.tabs["Daily Summary"]?.rows||[]);const dsLast=ds[ds.length-1];
-  const total=Math.max(gasUsd+spentUsd,num(D.budget?.spent_usd)||0);const cap=num(D.budget?.cap_usd)||10;
-  const LB=lastBalance(D);$("bal-time").textContent=LB.at?"per "+LB.at:"";
-  $("wallet").innerHTML=`<div class="kpis">
-    <div class="kpi"><span class="mut">Saldo terakhir dicatat</span><b>${fmtBNB(LB.bnb)}</b><span class="mut">≈ ${fmtUSD(LB.bnb*BNB_USD)} · ${esc(LB.at||"-")}</span></div>
-    <div class="kpi"><span class="mut">Total keluar / cap</span><b>${fmtUSD(total)}</b><span class="mut">dari $${cap} · sisa ${fmtUSD(cap-total)}</span><div class="bar"><i style="width:${Math.min(100,total/cap*100).toFixed(1)}%"></i></div></div>
-    <div class="kpi"><span class="mut">Mint berbayar</span><b>${fmtUSD(spentUsd)}</b><span class="mut">gas ${fmtUSD(gasUsd)}</span></div>
-  </div>
-  <p class="mut">Wallet: <a class="mono" href="${SCAN}/address/${WALLET}" target="_blank" rel="noopener">${WALLET}</a><br>Kurs BNB ≈ $${BNB_USD} (estimasi, bukan harga live).${dsLast?` Daily Summary ${esc(dsLast.Date)}: ${esc(dsLast["# Tx"])} tx.`:""}</p>
-  ${balanceHistory(D)}${walletDetails(D)}`;
-  // holdings
-  const H=(D.holdings||[]).map(h=>{const r=[...tx].reverse().find(o=>String(o["Token/NFT"]).includes("#"+h.token)&&String(o.Project).toLowerCase().includes(h.collection.split(" (")[0].toLowerCase().split(" ")[0]));return{...h,sheetStatus:r?.Status||""}});
-  $("hold-n").textContent=H.length+" NFT";
-  $("hold").innerHTML=H.map(h=>`<div class="item"><div class="row"><b>${esc(h.collection)} #${esc(h.token)}</b><span class="badge ${statusCls(h.status)}">${esc(h.status)}${h.price_bnb?" · "+fmtBNB(h.price_bnb):""}</span></div>
-    <span class="mut">${esc(h.note||"")}${h.sheetStatus?` · Sheet: ${esc(h.sheetStatus)}`:""}</span>
-    <span class="mut"><a href="${SCAN}/nft/${esc(h.contract)}/${esc(h.token)}" target="_blank" rel="noopener">BscScan</a>${h.listing?` · <a href="${safeUrl(h.listing)}" target="_blank" rel="noopener">Listing agentpunk</a>`:""}</span></div>`).join("")||`<p class="mut">Belum ada NFT.</p>`;
-  // listing aktif = baris List dengan Status Listed (dan belum ada Sell utk token itu)
-  const sold=new Set(tx.filter(o=>/sell|sold/i.test(o.Type+" "+o.Status)).map(o=>(String(o["Token/NFT"]).match(/#\d+/)||[""])[0]));
-  const L=tx.filter(o=>/^list/i.test(o.Type)&&/listed/i.test(o.Status)).filter(o=>!sold.has((String(o["Token/NFT"]).match(/#\d+/)||[""])[0]));
-  $("list-n").textContent=L.length+" aktif";
-  $("listing").innerHTML=L.map(o=>{const id=(String(o["Token/NFT"]).match(/#(\d+)/)||[])[1];const p=(String(o.Notes).match(/([\d.,]+)\s*BNB/)||[])[1];const h=(D.holdings||[]).find(x=>String(x.token)===id);
-    return `<div class="item"><div class="row"><b>${esc(o["Token/NFT"])}</b><span class="badge b-acc">${p?esc(p)+" BNB":"Listed"}</span></div>
-    <span class="mut">${esc(o.Notes)}</span><span class="mut">Listing tgl ${esc(o["Date (WITA)"])} ${esc(o.Time)} WITA${h?.listing?` · <a href="${safeUrl(h.listing)}" target="_blank" rel="noopener">Buka listing</a>`:""}${o.tx?` · <a href="${safeUrl(o.tx)}" target="_blank" rel="noopener">List tx</a>`:""}</span></div>`}).join("")||`<p class="mut">Nggak ada listing aktif.</p>`;
-  // transaksi, terbaru dulu
-  const T=tx.map((o,i)=>({o,i})).sort((a,b)=>(String(b.o["Date (WITA)"])+String(b.o.Time)).localeCompare(String(a.o["Date (WITA)"])+String(a.o.Time))||b.i-a.i).map(x=>x.o);
-  $("tx-n").textContent=T.length+" baris";
-  $("tx").innerHTML=T.map(o=>`<div class="item"><div class="row"><b>${esc(o.Type)} · ${esc(o.Project)}</b><span class="badge ${statusCls(o.Status)}">${esc(o.Status)}</span></div>
-    <span>${esc(o["Token/NFT"])}</span>
-    <span class="mut">${esc(o["Date (WITA)"])} ${esc(o.Time)} WITA · gas ${fmtBNB(num(o["Gas Fee (native)"]))} (${fmtUSD(num(o["Gas Fee (USD)"]))})${num(o["USD Spent"])>0?` · bayar ${fmtUSD(num(o["USD Spent"]))}`:""}${o.tx?` · <a href="${safeUrl(o.tx)}" target="_blank" rel="noopener">Lihat tx</a>`:""}</span>
-    ${o.Notes?`<details><summary>Catatan</summary><span class="mut">${esc(o.Notes)}</span></details>`:""}</div>`).join("");
-  // kandidat
-  const C=(D.tabs.Candidates?.rows||[]);const isMinted=o=>/^minted/i.test(o.Action);
-  const F={"Semua":()=>true,"Di-mint":isMinted,"Watch/Blocked":o=>!isMinted(o)&&/watch|blocked/i.test(o.Action),"Skip/Missed":o=>/skip|missed|sold out/i.test(o.Action)};
-  let cur="Semua";const drawC=()=>{const list=C.filter(F[cur]);$("cand-n").textContent=`${C.filter(isMinted).length} di-mint · ${C.length} total`;
-    $("cand").innerHTML=list.map(o=>`<div class="item"><div class="row"><b>${esc(o.Project)}</b><span class="badge ${riskCls(o["Risk Level"])}">Risk: ${esc(o["Risk Level"]||"-")}</span></div>
-    <span><span class="badge ${isMinted(o)?"b-ok":/skip|missed/i.test(o.Action)?"b-bad":"b-warn"}">${esc(o.Action)}</span></span>
-    <span class="mut">${esc(o.Type)}${o.Sentiment?" · "+esc(o.Sentiment):""}</span>
-    <details><summary>Detail &amp; alasan</summary><span class="mut">${o.Reason?"<b>Alasan:</b> "+esc(o.Reason)+"<br>":""}${o["Red Flags"]?"<b>Red flags:</b> "+esc(o["Red Flags"])+"<br>":""}${o["X Account"]?"<b>X:</b> "+esc(o["X Account"])+"<br>":""}${/^0x[0-9a-f]{40}$/i.test(o["Contract Address (CA)"])?`<b>CA:</b> <a class="mono" href="${SCAN}/address/${esc(o["Contract Address (CA)"])}" target="_blank" rel="noopener">${esc(o["Contract Address (CA)"])}</a>`:""}</span></details></div>`).join("")||`<p class="mut">Kosong.</p>`;
-    $("cand-f").innerHTML=Object.keys(F).map(k=>`<button class="${k===cur?"on":""}" data-k="${esc(k)}">${esc(k)}</button>`).join("")};
-  $("cand-f").onclick=e=>{const k=e.target?.dataset?.k;if(k){cur=k;drawC()}};drawC();
-  // suruhan
-  const S=(D.tabs["Suruhan Monitoring"]?.rows||[]);const key=o=>String(o["Date (WITA)"])+" "+String(o.Hour);
-  const last=S.map(key).sort().pop();$("sur-t").textContent=last?"update terakhir "+last+" WITA":"";
-  const latest=[...S].sort((a,b)=>key(b).localeCompare(key(a))).slice(0,12);
-  $("sur").innerHTML=(S.length?`<p class="mut">${S.length} lead tercatat · ${S.filter(o=>key(o)===last).length} di batch terakhir. Ditampilkan 12 terbaru.</p>`:"")+latest.map(o=>`<div class="item"><div class="row"><b>${esc(o.Project)}</b><span class="badge ${riskCls(o.Risk)}">${esc(o.Risk||"-")}</span></div>
-    <span class="mut">${esc(key(o))} · ${esc(o["Source (Telegram group / X account)"])} · ${esc(o.Type)}${o.Status?" · "+esc(o.Status):""}</span>
-    <details><summary>Catatan</summary><span class="mut">${esc(o.Notes)}${o["Red Flags"]?"<br><b>Red flags:</b> "+esc(o["Red Flags"]):""}${safeUrl(o.Link)?`<br><a href="${safeUrl(o.Link)}" target="_blank" rel="noopener">Sumber</a>`:""}</span></details></div>`).join("")||`<p class="mut">Belum ada laporan Suruhan.</p>`;
-}
-function walletDetails(D){const W=(D.tabs.Wallet?.rows||[]).filter(o=>!/address|snapshot time/i.test(o.Field));if(!W.length)return"";
-  return `<details><summary>Info wallet dari Sheet (${W.length})</summary><div class="mut">${W.map(o=>`<div><b>${esc(o.Field)}:</b> ${esc(o.Value)}</div>`).join("")}</div></details>`}
-// Saldo = catatan terakhir (Neon wallet_balance / ledger / Sheet), BUKAN cek RPC live.
+// prices: CoinGecko simple price (public), cached 60s; fallback = stored snapshot prices
+let PR={src:"stored",at:"",p:{...FALLBACK_PRICES}},prAt=0;
+async function prices(stored){
+  if(stored&&PR.src!=="live")PR={src:"stored",at:stored.at||"",p:{...FALLBACK_PRICES,...stored.p}};
+  if(Date.now()-prAt<60000)return PR;prAt=Date.now();
+  try{const r=await fetch("https://api.coingecko.com/api/v3/simple/price?ids=binancecoin,ethereum,zklink&vs_currencies=usd",{cache:"no-store"});
+    const j=await r.json();if(!j.binancecoin?.usd||!j.ethereum?.usd)throw new Error("bad");
+    PR={src:"live",at:witaStr(witaNow())+" WITA",p:{bnb:j.binancecoin.usd,eth:j.ethereum.usd,zkl:j.zklink?.usd??PR.p.zkl}}}catch(e){}
+  return PR}
+// ---- balance (recorded only) ----
 function lastBalance(D){const c=[];
   if(isFinite(num(D.wallet?.last_balance_bnb)))c.push({bnb:num(D.wallet.last_balance_bnb),at:D.wallet.last_balance_wita||"",k:String(D.wallet.last_balance_wita||"")});
   (D.tabs.Wallet?.rows||[]).forEach(o=>{const m=String(o.Field).match(/balance bsc\s*@\s*(\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2})/i);const v=String(o.Value).match(/([\d.,]+)\s*BNB/i);
     if(m&&v)c.push({bnb:num(v[1]),at:m[1]+" WITA",k:m[1]})});
-  (D.tabs.Transactions?.rows||[]).forEach(o=>{const v=String(o.Notes||"").match(/balance after\s*([\d.]+)\s*BNB/i);
-    if(v)c.push({bnb:Number(v[1]),at:`${o["Date (WITA)"]} ${String(o.Time).slice(0,5)} WITA`,k:`${o["Date (WITA)"]} ${String(o.Time).slice(0,5)}`})});
   const ok=c.filter(x=>isFinite(x.bnb));if(!ok.length)return{bnb:NaN,at:""};
-  // pilih yang paling baru; kalau sama waktunya, prioritas sumber pertama (Neon/ledger)
   return ok.reduce((a,b)=>String(b.k).localeCompare(String(a.k))>0?b:a)}
-function balanceHistory(D){const B=D.balance_history||[];if(!B.length)return"";
-  return `<details><summary>Riwayat saldo per transaksi (${B.length})</summary><div class="mut">${[...B].reverse().map(b=>`<div>${esc(b.at_wita)} · ${esc(b.kind)}${b.project?" "+esc(b.project):""} · ${b.direction==="in"?"+":""}${fmtBNB(b.delta_bnb)} → <b>${fmtBNB(b.balance_bnb)}</b>${safeUrl(b.tx)?` · <a href="${safeUrl(b.tx)}" target="_blank" rel="noopener">tx</a>`:""}</div>`).join("")}</div></details>`}
-load().then(render).catch(e=>{$("src").lastElementChild.textContent="Data gagal dimuat";document.querySelector("main").insertAdjacentHTML("afterbegin",`<section class="err">${esc(e.message)}</section>`)});
+// ---- UI state kept across refreshes ----
+const UI={lead:"Semua",leadAll:false,open:new Set()};
+function keepOpen(){document.querySelectorAll("details[data-k]").forEach(d=>{d.open?UI.open.add(d.dataset.k):UI.open.delete(d.dataset.k)})}
+const det=(k,sum,body)=>`<details data-k="${esc(k)}"${UI.open.has(k)?" open":""}><summary>${sum}</summary>${body}</details>`;
+// ---- render ----
+function render(D,P){
+  const st=$("src");st.className="status"+(D.mode==="neon"||D.mode==="sheet"?" ok":"");
+  $("src-t").textContent=D.mode==="neon"?"Data: live dari Neon":D.mode==="sheet"?"Data: live dari Sheet":"Data: snapshot "+(D.generated_wita||"");
+  st.title=$("src-t").textContent+" | diperbarui "+hhmm(witaNow())+" WITA";
+  const bnbUsd=P.p.bnb, prLabel=P.src==="live"?`Harga live CoinGecko ${hhmm(new Date(Date.now()+8*3600e3))} WITA`:`Harga tersimpan${P.at?" ("+P.at+")":""}`;
+  const tx=D.tabs.Transactions?.rows||[];
+  // P/L hero
+  const pnl=D.pnl||{items:[],totals:{}};const T=pnl.totals||{};
+  const rU=(T.realized_bnb||0)*bnbUsd,uU=(T.unrealized_bnb||0)*bnbUsd;
+  $("pl").innerHTML=`<div class="eyebrow">Profit / loss NFT</div>
+   <div class="plgrid">
+    <div class="fig"><span class="lab">Realized</span><span class="usd ${plCls(rU)}">${fmtUSD(rU,true)}</span><span class="bnb">${sgnBNB(T.realized_bnb||0)} · ${T.sold||0} terjual</span></div>
+    <div class="fig"><span class="lab">Unrealized</span><span class="usd ${plCls(uU)}">${fmtUSD(uU,true)}</span><span class="bnb">${sgnBNB(T.unrealized_bnb||0)} · ${T.listed||0} listing</span></div>
+   </div>
+   <div class="plmeta"><span>Modal NFT <b class="num">${fmtUSD(T.cost_usd)}</b></span><span>${T.held||0} NFT di wallet</span><span>${esc(prLabel)}</span></div>`;
+  // trades
+  const isTrade=o=>/^(mint|buy|sell|list|approve)/i.test(o.Type);
+  const rej=tx.filter(o=>isTrade(o)&&/reject|not sent|fail/i.test(o.Status));
+  const TR=tx.filter(o=>isTrade(o)&&!rej.includes(o)).map((o,i)=>({o,i})).sort((a,b)=>(b.o["Date (WITA)"]+b.o.Time).localeCompare(a.o["Date (WITA)"]+a.o.Time)||b.i-a.i).map(x=>x.o);
+  const side=t=>/sell/i.test(t)?"Jual":/buy|mint/i.test(t)?"Beli (mint)":/list/i.test(t)?"List":"Approve";
+  $("trades-m").textContent=`${TR.length} transaksi${rej.length?` · ${rej.length} ditolak (tanpa gas)`:""}`;
+  $("trades").innerHTML=`<table class="tbl"><thead><tr><th>Item</th><th>Aksi</th><th>Waktu (WITA)</th><th class="n">Harga</th><th class="n">Gas</th><th>Tx</th></tr></thead><tbody>${TR.map(o=>{
+    const pr=num(o["USD Spent"]);const lp=(String(o.Notes).match(/([\d.]+)\s*BNB/)||[])[1];
+    const price=/sell/i.test(o.Type)?(lp?lp+" BNB":"-"):/list/i.test(o.Type)?(lp?lp+" BNB":"-"):isFinite(pr)&&pr>0?fmtUSD(pr):"Gratis";
+    return `<tr><td class="first" data-l="Item"><span class="trunc t">${esc(o.Project)}</span><span class="trunc small mut">${esc(o["Token/NFT"])}</span></td>
+    <td data-l="Aksi"><span class="badge ${/sell/i.test(o.Type)?"acc":""}">${side(o.Type)}</span></td>
+    <td data-l="Waktu" class="num">${esc(o["Date (WITA)"])} ${esc(String(o.Time).slice(0,5))}</td>
+    <td data-l="Harga" class="n">${esc(price)}</td>
+    <td data-l="Gas" class="n">${fmtBNB(num(o["Gas Fee (native)"]))}</td>
+    <td data-l="Tx">${ext(o.tx,"BscScan")||'<span class="mut">-</span>'}</td></tr>`}).join("")}</tbody></table>`;
+  // P/L per NFT
+  const I=pnl.items||[];
+  $("pnl-m").textContent=`${I.length} NFT · modal ${fmtBNB(T.cost_bnb)}`;
+  $("pnl").innerHTML=`<table class="tbl"><thead><tr><th>NFT</th><th>Status</th><th class="n">Modal (gas)</th><th class="n">Harga jual / list</th><th class="n">Realized</th><th class="n">Unrealized</th></tr></thead><tbody>${I.map(i=>{
+    const stc=/listed/i.test(i.status)?"acc":/sold/i.test(i.status)?"acc":/lock/i.test(i.status)?"warn":"";
+    const ref=i.sale_bnb!=null?fmtBNB(i.sale_bnb)+" (jual)":i.list_price_bnb?fmtBNB(i.list_price_bnb)+" (list)":"-";
+    const rz=i.realized_bnb,uz=i.unrealized_bnb;
+    return `<tr><td class="first" data-l="NFT"><span class="trunc t">${esc(i.collection)} #${esc(i.token)}</span></td>
+    <td data-l="Status"><span class="badge ${stc}">${esc(i.status==="Hold"?"Held":i.status)}</span></td>
+    <td data-l="Modal" class="n">${fmtBNB(i.cost_bnb)}<div class="small mut">${fmtUSD(i.cost_usd)}</div></td>
+    <td data-l="Harga" class="n">${esc(ref)}</td>
+    <td data-l="Realized" class="n ${plCls(rz)}">${rz==null?'<span class="mut">-</span>':sgnBNB(rz)+`<div class="small">${fmtUSD(rz*bnbUsd,true)}</div>`}</td>
+    <td data-l="Unrealized" class="n ${plCls(uz)}">${uz==null?'<span class="mut">belum ada harga</span>':sgnBNB(uz)+`<div class="small">${fmtUSD(uz*bnbUsd,true)}</div>`}</td></tr>`}).join("")}</tbody></table>
+    <p class="small mut">Modal = gas tercatat (+ harga mint) dibagi per token. Unrealized cuma dihitung kalau ada harga listing nyata, sebelum fee marketplace. Tanpa tebakan floor price.</p>`;
+  // wallet per network
+  const MC=D.multichain;const LB=lastBalance(D);
+  let chains=(MC?.chains||[]).slice();
+  const bsc=chains.find(c=>c.chain==="bsc");
+  if(bsc&&isFinite(LB.bnb)&&LB.k>String(MC.snapshot_wita||"")){bsc.amount=LB.bnb;bsc.amount_str=String(LB.bnb)} // newer recorded BSC balance
+  if(!chains.length&&isFinite(LB.bnb))chains=[{chain:"bsc",name:"BNB Chain",asset:"BNB",amount:LB.bnb,usable:true}];
+  const price=a=>P.p[String(a).toLowerCase()]??NaN;
+  const groups={};chains.forEach(c=>{(groups[c.chain]=groups[c.chain]||{name:c.name,usable:c.usable,status:c.status,a:[]}).a.push(c)});
+  let tot=0,totUsable=0;
+  const cards=Object.entries(groups).map(([k,g])=>{const usd=g.a.reduce((s,c)=>s+(c.amount||0)*(price(c.asset)||0),0);tot+=usd;if(g.usable!==false)totUsable+=usd;
+    const main=g.a[0];const extra=g.a.slice(1).map(c=>`${fmtAmt(c.amount)} ${esc(c.asset)}`).join(" · ");
+    return `<div class="kpi${g.usable===false?" stuck":""}"><span class="lab"><span>${esc(g.name)}</span>${g.usable===false?'<span class="badge bad">stuck</span>':""}</span>
+      <b class="num">${fmtAmt(main.amount)} ${esc(main.asset)}</b><span class="sub num">${fmtUSD(usd)}${extra?" · "+extra:""}</span>
+      ${g.usable===false?'<span class="sub" title="Wallet belum terdaftar di zkLink">Tidak bisa dipakai: wallet belum terdaftar di zkLink</span>':""}</div>`}).join("");
+  $("wallet-m").textContent=MC?.snapshot_wita?"snapshot "+MC.snapshot_wita:(LB.at||"");
+  const hist=(D.balance_history||[]);
+  $("wallet").innerHTML=`<div class="kpis">${cards}</div>
+   <div class="total"><span class="mut">Total semua jaringan</span><b class="num">${fmtUSD(tot)}</b></div>
+   <p class="small mut">Yang bisa dipakai ${fmtUSD(totUsable)} (tanpa zkLink). BSC terakhir dicatat: <span class="num">${fmtBNB(LB.bnb)}</span>${LB.at?" per "+esc(LB.at):""}. ${esc(prLabel)}: BNB ${fmtUSD(P.p.bnb)}, ETH ${fmtUSD(P.p.eth)}.</p>
+   <p class="small"><a class="mono trunc" href="${SCAN}/address/${WALLET}" target="_blank" rel="noopener">${WALLET}</a></p>
+   ${hist.length?det("hist",`Riwayat saldo BSC per transaksi (${hist.length})`,`<div class="list">${[...hist].reverse().map(b=>`<div class="row small"><span class="num mut">${esc(String(b.at_wita).slice(0,16))}</span><span class="trunc" style="flex:1 1 120px">${esc(b.kind)} ${esc(b.project||"")}</span><span class="num">${b.direction==="in"?"+":"\u2212"}${fmtAmt(Math.abs(b.delta_bnb))} → <b>${fmtAmt(b.balance_bnb)}</b></span></div>`).join("")}</div>`):""}`;
+  // listings
+  const L=(D.holdings||[]).filter(h=>h.listing&&/listed/i.test(h.status));
+  $("list-m").textContent=L.length+" aktif";
+  $("listing").innerHTML=L.length?`<div class="list">${L.map(h=>{let exp=h.expires_wita||"";let left="";
+      const m=exp.match(/(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})/);if(m){const ms=Date.parse(m[1]+"T"+m[2]+":00+08:00")-Date.now();left=ms>0?Math.floor(ms/864e5)+" hari "+Math.floor(ms%864e5/36e5)+" jam lagi":"kedaluwarsa"}
+      return `<div class="item"><div class="row"><b>${esc(h.collection)} #${esc(h.token)}</b><span class="num"><b>${fmtBNB(h.price_bnb)}</b></span></div>
+      <div class="row small mut"><span>${esc(h.market||"-")}</span><span class="num">${fmtUSD((h.price_bnb||0)*bnbUsd)}</span></div>
+      <div class="row small"><span class="mut">Kedaluwarsa</span><span class="num">${esc(exp||"-")}${left?` · ${left}`:""}</span></div>
+      <div class="small">${ext(h.listing,"Buka listing")}</div></div>`}).join("")}</div>`:`<p class="mut">Nggak ada listing aktif.</p>`;
+  // leads
+  const srcOf=t=>{t=String(t);if(/cupang|setia/i.test(t))return"Setia/Cupang";if(/[\u3400-\u9fff]|chinese|\bcn\b|china|seven/i.test(t))return"Grup China";
+    if(/opensea/i.test(t))return"OpenSea";if(/x\.com|twitter|(^|\s)@\w|\bX\b/.test(t))return"X";return"Lainnya"};
+  const C=(D.tabs.Candidates?.rows||[]).map((o,i)=>({k:(o.Date||"")+" 00:00",i,project:o.Project,date:o.Date,hour:"",type:o.Type,risk:o["Risk Level"],verdict:o.Action,
+     src:srcOf([o["X Account"],o.Project,o.Reason,o["Red Flags"],o.Link].join(" ")),who:o["X Account"],notes:o.Reason,flags:o["Red Flags"],ca:o["Contract Address (CA)"],link:o.Link,tab:"Kandidat"}));
+  const S=(D.tabs["Suruhan Monitoring"]?.rows||[]).map((o,i)=>({k:(o["Date (WITA)"]||"")+" "+(o.Hour||"00:00"),i:1000+i,project:o.Project,date:o["Date (WITA)"],hour:o.Hour,type:o.Type,risk:o.Risk,verdict:o.Status,
+     src:srcOf([o["Source (Telegram group / X account)"],o.Project,o.Notes].join(" ")),who:o["Source (Telegram group / X account)"],notes:o.Notes,flags:o["Red Flags"],ca:o.CA,link:o.Link,tab:"Suruhan"}));
+  const LE=[...C,...S].sort((a,b)=>b.k.localeCompare(a.k)||b.i-a.i);
+  const SRC=["Semua","Setia/Cupang","Grup China","OpenSea","X","Lainnya"];
+  const cnt=s=>s==="Semua"?LE.length:LE.filter(l=>l.src===s).length;
+  $("leads-f").innerHTML=SRC.map(s=>`<button class="btn" type="button" role="tab" aria-pressed="${s===UI.lead}" data-s="${esc(s)}">${esc(s)} <span class="mut num">${cnt(s)}</span></button>`).join("");
+  const riskB=r=>{r=String(r||"");const c=/skip|scam|high/i.test(r)?"bad":/medium/i.test(r)?"warn":/low/i.test(r)?"acc":"";return `<span class="badge ${c}">Risk ${esc(r||"-")}</span>`};
+  const FL=LE.filter(l=>UI.lead==="Semua"||l.src===UI.lead);const shown=UI.leadAll?FL:FL.slice(0,10);
+  $("leads-m").textContent=`${FL.length} lead`;
+  $("leads").innerHTML=(shown.map(l=>`<div class="item"><div class="row"><b>${esc(l.project)}</b>${riskB(l.risk)}</div>
+    <div class="row small"><span class="badge">${esc(l.src)}</span><span class="mut num">${esc(l.date)}${l.hour?" "+esc(l.hour):""} · ${esc(l.tab)}</span></div>
+    <div class="small wordy">${esc(l.verdict||"-")}</div>
+    ${det("lead-"+l.tab+l.i,"Detail",`<div class="small mut wordy">${l.who?"Sumber: "+esc(l.who)+"<br>":""}${l.type?"Tipe: "+esc(l.type)+"<br>":""}${l.notes?esc(l.notes)+"<br>":""}${l.flags?"Red flags: "+esc(l.flags)+"<br>":""}${/^0x[0-9a-f]{40}$/i.test(l.ca)?`CA: <a class="mono trunc" href="${SCAN}/address/${esc(l.ca)}" target="_blank" rel="noopener">${esc(l.ca)}</a>`:""}${ext(l.link,"Link sumber")}</div>`)}</div>`).join(""))||`<p class="mut">Belum ada lead dari sumber ini.</p>`;
+  if(FL.length>10)$("leads").insertAdjacentHTML("beforeend",`<button class="btn more" type="button" id="leads-more">${UI.leadAll?"Tampilkan lebih sedikit":"Tampilkan semua ("+FL.length+")"}</button>`);
+  // Suruhan status
+  const SK=S.map(s=>s.k).filter(k=>/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}/.test(k)).sort();const last=SK[SK.length-1]||"";
+  const now=witaNow();const today=now.toISOString().slice(0,10);let next=null;
+  for(const h of SUR_SLOTS){const d=new Date(Date.UTC(+today.slice(0,4),+today.slice(5,7)-1,+today.slice(8,10),h));if(d>now){next=d;break}}
+  if(!next){const d=new Date(Date.UTC(+today.slice(0,4),+today.slice(5,7)-1,+today.slice(8,10)+1,SUR_SLOTS[0]));next=d}
+  const mins=Math.round((next-now)/6e4);const inLast=S.filter(s=>s.k===last).length;
+  $("sur-m").textContent="tiap 3 jam, 08:00-23:00 WITA";
+  $("sur").innerHTML=`<div class="sur">
+    <div class="kpi"><span class="lab">Cek terakhir</span><b class="num">${esc(last?last.slice(11,16):"-")} WITA</b><span class="sub num">${esc(last.slice(0,10))}</span></div>
+    <div class="kpi"><span class="lab">Cek berikutnya</span><b class="num">${hhmm(next)} WITA</b><span class="sub">${mins>=60?Math.floor(mins/60)+" j "+(mins%60)+" m":mins+" menit"} lagi</span></div>
+    <div class="kpi"><span class="lab">Batch terakhir</span><b class="num">${inLast} lead</b><span class="sub">${S.length} tercatat total</span></div></div>
+    <p class="small mut">Waktu cek terakhir diambil dari tab Suruhan Monitoring. Jadwal default tiap 3 jam (08, 11, 14, 17, 20, 23 WITA).</p>`;
+  $("foot").innerHTML=`Read-only. Semua waktu dalam WITA (UTC+8). Saldo = catatan terakhir setelah transaksi, bukan cek RPC live. ${esc(prLabel)}; nilai USD estimasi. Data ${esc(D.generated_wita||"")}. Diperbarui ${hhmm(witaNow())} WITA, refresh otomatis tiap 30 detik.`;
+}
+// ---- events (delegated, survive re-render) ----
+document.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.s){keepOpen();UI.lead=b.dataset.s;UI.leadAll=false;draw()}
+  else if(b.id==="leads-more"){keepOpen();UI.leadAll=!UI.leadAll;draw()}
+  else if(b.id==="theme"){const t=document.documentElement.dataset.theme==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch(_){}setThemeBtn()}});
+document.addEventListener("toggle",e=>{const d=e.target;if(d.dataset?.k){d.open?UI.open.add(d.dataset.k):UI.open.delete(d.dataset.k)}},true);
+function setThemeBtn(){const dark=document.documentElement.dataset.theme==="dark";$("theme").textContent=dark?"Terang":"Gelap";
+  document.querySelector('meta[name=theme-color]').content=dark?"#0e0f11":"#f4f3ef"}
+let DATA=null,busy=false;
+function draw(){if(!DATA)return;const y=window.scrollY;keepOpen();render(DATA.D,DATA.P);
+  if(Math.abs(window.scrollY-y)>1)window.scrollTo({top:y,behavior:"instant"})}
+async function refresh(){if(busy)return;busy=true;
+  try{const D=await load();const mp=D.multichain?.prices_usd;const P=await prices(mp?{p:mp,at:D.multichain.snapshot_wita}:null);DATA={D,P};draw();$("src").classList.remove("stale")}
+  catch(e){if(!DATA){$("src-t").textContent="Data gagal dimuat";document.querySelector("main").insertAdjacentHTML("afterbegin",`<section class="err">${esc(e.message)}</section>`)}
+    else{$("src-t").textContent+=" (refresh gagal)"}}
+  finally{busy=false}}
+setThemeBtn();refresh();setInterval(()=>{if(!document.hidden)refresh()},REFRESH_MS);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh()});
 </script>
 </body>
 </html>
