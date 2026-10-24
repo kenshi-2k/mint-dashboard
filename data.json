@@ -1,11 +1,11 @@
 {
- "generated_wita": "2026-10-24 22:54 WITA",
+ "generated_wita": "2026-10-24 23:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
   "last_balance_bnb": 0.010133449017605652,
-  "last_balance_wita": "2026-10-24 22:51 WITA",
+  "last_balance_wita": "2026-10-24 23:15 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
@@ -14,7 +14,7 @@
   "gas_bnb": 0.000347909949794581
  },
  "multichain": {
-  "snapshot_wita": "2026-10-24 22:51 WITA",
+  "snapshot_wita": "2026-10-24 23:15 WITA",
   "source": "balance check",
   "prices_usd": {
    "bnb": 736.83,
@@ -603,70 +603,70 @@
    "token": 150,
    "contract": "0x67216D9A71eaD677cFFCF6468AaA6cC99b8f74D8",
    "status": "Hold",
-   "note": "Held - built-in pyramid fill (site), no external market yet"
+   "note": "Held - Element floor ~0.0025 (thin)"
   },
   {
    "collection": "AnthroBit Genesis (ANTHRO)",
    "token": 798,
    "contract": "0xc7b7593Aa572701d26301D9707E93b0c511e636A",
    "status": "Hold",
-   "note": "Held - no market yet"
+   "note": "Held - Element floor ~0.0018 (thin)"
   },
   {
    "collection": "Signal Ghosts (SGHOST)",
    "token": 2661,
    "contract": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - Element floor 0.0004, bid 0.0001"
   },
   {
    "collection": "Signal Ghosts (SGHOST)",
    "token": 2703,
    "contract": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
    "status": "Hold",
-   "note": "Held - no market yet"
+   "note": "Held - below cost at floor"
   },
   {
    "collection": "Signal Ghosts (SGHOST)",
    "token": 2704,
    "contract": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
    "status": "Hold",
-   "note": "Held - no market yet"
+   "note": "Held - below cost at floor"
   },
   {
    "collection": "Signal Ghosts (SGHOST)",
    "token": 2705,
    "contract": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
    "status": "Hold",
-   "note": "Held - no market yet"
+   "note": "Held - below cost at floor"
   },
   {
    "collection": "THE WALL (WALL)",
    "token": 590,
    "contract": "0xa804bBBe09fa2F5832d11D09329cc4230D1d7899",
    "status": "Hold",
-   "note": "Held - built-in bid market 0x53789A6cCB2EBe6f541500d1F869280473a43D5c"
+   "note": "Held - Element floor ~0.00091"
   },
   {
    "collection": "si.passport (si)",
    "token": 442,
    "contract": "0x2270d76ac11f416ceb60e362ec119abd65306849",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - 1 listing only"
   },
   {
    "collection": "MOZHU Hoodies (Mozhu)",
    "token": 1100,
    "contract": "0x7B6F0d632F329D80a3f6A326b5041fE2344080F6",
    "status": "Hold",
-   "note": "Held - market/staking after sell-out (site)"
+   "note": "Held - Element floor ~0.0008"
   },
   {
    "collection": "FACEID.AI (FACEID)",
    "token": 317,
    "contract": "0x19758609b4b1885b02ba64c0beadb436503cfcae",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - Element floor ~0.001 (thin)"
   }
  ],
  "balance_history": [
@@ -932,13 +932,13 @@
    "tx": "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890"
   },
   {
-   "at_wita": "2026-10-24 22:51:00",
+   "at_wita": "2026-10-24 23:15:00",
    "kind": "Deposit (from snapshot)",
    "project": "ledger last_balance_bnb",
    "direction": "in",
    "delta_bnb": 6.241007382325e-06,
    "balance_bnb": 0.010133449017605652,
-   "tx": "https://bscscan.com/tx/snapshot-20261024-2251"
+   "tx": "https://bscscan.com/tx/snapshot-20261024-2315"
   }
  ],
  "tabs": {
@@ -1434,19 +1434,18 @@
      "Chain": "BSC",
      "Token/NFT": "GALAXY COIN NFT x1 #56",
      "Contract Address": "0x4f1B3B3c9F04f5bfe6e6A3B47219C6443b7ba0E9",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 7.671201466718e-06,
+     "Gas Fee (native)": 7.7e-06,
      "Gas Fee (USD)": 0.0057,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
+     "Mint TX Link": "https://bscscan.com/tx/0x403f93d1a15da0fe1591ea2cc7bfa6fd4860dc86364bd9bf8837404686683e1c",
      "Status": "Held - none yet",
-     "Notes": "free mint(0), Agent ID gated; v2 gate free tier D=3 (verified exact_match, no owner). Lead from Suruhan 18:20. Copycat 0xb940...ac1 avoided.",
+     "Notes": "free mint, Agent ID gated; verified, no owner. Lead Suruhan 18:20.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x403f93d1a15da0fe1591ea2cc7bfa6fd4860dc86364bd9bf8837404686683e1c",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x403f93d1a15da0fe1591ea2cc7bfa6fd4860dc86364bd9bf8837404686683e1c"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1456,41 +1455,18 @@
      "Chain": "BSC",
      "Token/NFT": "Build NFT x1 #150",
      "Contract Address": "0x67216D9A71eaD677cFFCF6468AaA6cC99b8f74D8",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 2.2348203926351e-05,
+     "Gas Fee (native)": 2.23e-05,
      "Gas Fee (USD)": 0.0165,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - built-in pyramid fill (site), no external market yet",
-     "Notes": "free tier #1 mint(1) (0xa0712d68), Agent ID kenshi2k.ai gated; quote(addr,1)=0 USDT/0 BNB; preview +1 ERC721 only, no risks/allowances; v2 gate free tier D=1 (unverified, owner EOA 0x7496…b573). Lead from Suruhan 20:18. #2-4 (paid USDT) NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0xbc9e268a344600d82efd507e0507c323bba5e418f1e12c2579a78fc29f86b8bc",
+     "Status": "Held - Element floor ~0.0025 (thin)",
+     "Notes": "free tier 1 mint; unverified, owner EOA. Paid tiers NOT bought.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xbc9e268a344600d82efd507e0507c323bba5e418f1e12c2579a78fc29f86b8bc",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-24",
-     "Time": "22:12:00",
-     "Type": "Mint",
-     "Project": "Signal Ghosts (SGHOST)",
-     "Chain": "BSC",
-     "Token/NFT": "Signal Ghosts NFT x1 #2661",
-     "Contract Address": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.959892998979e-06,
-     "Gas Fee (USD)": 0.0074,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "free first mint(1) (0xa0712d68), Agent ID gated; quote(addr,1)=0; preview +1 ERC721 only, no risks/allowances. Source verified (Sourcify), owner can change price/renderer/withdraw. Lead: Setya/hqm wallet watch, hqm.ai + 4 side wallets minted 22:06-22:07. Was BLOCKED 351801 in cycle 1.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x2684b1115a13e6e42742a2f749ef144a55fd752fb1b675391e919303e1f3a7f4",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0xbc9e268a344600d82efd507e0507c323bba5e418f1e12c2579a78fc29f86b8bc"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1500,19 +1476,18 @@
      "Chain": "BSC",
      "Token/NFT": "AnthroBit Genesis NFT x1 #798",
      "Contract Address": "0xc7b7593Aa572701d26301D9707E93b0c511e636A",
-     "Amount": 1,
-     "USD Spent": 0.0206,
-     "Gas Fee (native)": 7.1473732695081e-05,
+     "Amount": 1.0,
+     "USD Spent": 0.02,
+     "Gas Fee (native)": 7.15e-05,
      "Gas Fee (USD)": 0.0529,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - no market yet",
-     "Notes": "0.000028 BNB paid. mint (user approved 22:05 WITA). oracle budget refunded via EntropyBeacon 0xd9FF2a50…A445 claimRefund() Sent 0.001 BNB, refunded 0.000972131 BNB.",
+     "Mint TX Link": "https://bscscan.com/tx/0x690f40a552696ee31a47f32e34aafd01741d586eb9cc28e6483ac5e14d19fe94",
+     "Status": "Held - Element floor ~0.0018 (thin)",
+     "Notes": "User approved 22:05 WITA. Oracle budget 0.001 BNB refunded 0.000972131 BNB.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x690f40a552696ee31a47f32e34aafd01741d586eb9cc28e6483ac5e14d19fe94",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x690f40a552696ee31a47f32e34aafd01741d586eb9cc28e6483ac5e14d19fe94"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1527,14 +1502,34 @@
      "Gas Fee (native)": 0.0,
      "Gas Fee (USD)": 0.0,
      "Airdrop Name": "",
-     "Buy TX Link": "TX",
+     "Buy TX Link": "https://bscscan.com/tx/0x9db123fcfd5a46023f4ce316167cce752ae0a4f58c739e9995f2880950bac023",
      "Sell TX Link": "",
      "Mint TX Link": "",
      "Status": "Confirmed",
      "Notes": "Reveal tx (gas counted on mint row)",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x9db123fcfd5a46023f4ce316167cce752ae0a4f58c739e9995f2880950bac023",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x9db123fcfd5a46023f4ce316167cce752ae0a4f58c739e9995f2880950bac023"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "22:12:00",
+     "Type": "Mint",
+     "Project": "Signal Ghosts (SGHOST)",
+     "Chain": "BSC",
+     "Token/NFT": "Signal Ghosts NFT x1 #2661",
+     "Contract Address": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1e-05,
+     "Gas Fee (USD)": 0.0074,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x2684b1115a13e6e42742a2f749ef144a55fd752fb1b675391e919303e1f3a7f4",
+     "Status": "Held - Element floor 0.0004, bid 0.0001",
+     "Notes": "free first mint; verified source. Lead hqm.ai wallets.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x2684b1115a13e6e42742a2f749ef144a55fd752fb1b675391e919303e1f3a7f4"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1543,20 +1538,19 @@
      "Project": "AnthroBit Genesis (ANTHRO)",
      "Chain": "BSC",
      "Token/NFT": "Refund claim",
-     "Contract Address": "0xc7b7593Aa572701d26301D9707E93b0c511e636A",
+     "Contract Address": "0xd9FF2a5084bfa8f485a8e4143a5E6b5E1F9fA445",
      "Amount": null,
      "USD Spent": 0.0,
      "Gas Fee (native)": 0.0,
      "Gas Fee (USD)": 0.0,
      "Airdrop Name": "",
-     "Buy TX Link": "TX",
+     "Buy TX Link": "https://bscscan.com/tx/0x27b20d9bb3f75c727930c4eb79670a321fe1d675728a698ccfb2976344a139b9",
      "Sell TX Link": "",
      "Mint TX Link": "",
      "Status": "Confirmed",
-     "Notes": "Oracle refund +0.000972131 BNB (gas counted on mint row)",
+     "Notes": "Oracle refund +0.000972131 BNB; NFT unaffected",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x27b20d9bb3f75c727930c4eb79670a321fe1d675728a698ccfb2976344a139b9",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x27b20d9bb3f75c727930c4eb79670a321fe1d675728a698ccfb2976344a139b9"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1566,19 +1560,18 @@
      "Chain": "BSC",
      "Token/NFT": "Signal Ghosts NFT x3 #2703 #2704 #2705",
      "Contract Address": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
-     "Amount": 3,
-     "USD Spent": 1.4955,
-     "Gas Fee (native)": 1.0886007510738e-05,
+     "Amount": 3.0,
+     "USD Spent": 1.5,
+     "Gas Fee (native)": 1.09e-05,
      "Gas Fee (USD)": 0.0081,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - no market yet",
-     "Notes": "0.002010 BNB paid. paid mint x3 (user approved 22:14 WITA)",
+     "Mint TX Link": "https://bscscan.com/tx/0xe3252d21c37ac7692ecddb98b5554f7e146b38357a7ce7bcb492fc49630eabcc",
+     "Status": "Held - below cost at floor",
+     "Notes": "0.00201 BNB paid, mint 3, user approved 22:14 WITA",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xe3252d21c37ac7692ecddb98b5554f7e146b38357a7ce7bcb492fc49630eabcc",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0xe3252d21c37ac7692ecddb98b5554f7e146b38357a7ce7bcb492fc49630eabcc"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1588,19 +1581,18 @@
      "Chain": "BSC",
      "Token/NFT": "THE WALL NFT x1 #590",
      "Contract Address": "0xa804bBBe09fa2F5832d11D09329cc4230D1d7899",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 1.7863084231473e-05,
+     "Gas Fee (native)": 1.79e-05,
      "Gas Fee (USD)": 0.0132,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - built-in bid market 0x53789A6cCB2EBe6f541500d1F869280473a43D5c",
-     "Notes": "free mintFree() (0x8ab53447) from site app.js; status(addr): agent=true, freeUsed=false; eth_call ok; preview +1 ERC721 only, no risks/allowances. Unverified source, owner EOA 0xd3e1…2e51. v2 free gate D=1. Lead Suruhan 22:20. Paid 0.001 BNB units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x22ab350949ff0fee3e547fe908b50dc034dfe05db334e7f3bfd578a26f3acbd0",
+     "Status": "Held - Element floor ~0.00091",
+     "Notes": "free mintFree; unverified, owner EOA. Lead Suruhan 22:20.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x22ab350949ff0fee3e547fe908b50dc034dfe05db334e7f3bfd578a26f3acbd0",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x22ab350949ff0fee3e547fe908b50dc034dfe05db334e7f3bfd578a26f3acbd0"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1610,19 +1602,18 @@
      "Chain": "BSC",
      "Token/NFT": "si.passport NFT x1 #442",
      "Contract Address": "0x2270d76ac11f416ceb60e362ec119abd65306849",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 8.38683637659e-06,
+     "Gas Fee (native)": 8.4e-06,
      "Gas Fee (USD)": 0.0062,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "free first mint(1) (0xa0712d68); priceFor(addr,1)=0; Sourcify exact_match, no owner, payments forwarded to CREATOR, Agent ID gated; preview +1 ERC721 only. v2 free gate D=3. Lead Suruhan 22:20. Paid 0.0013 BNB units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0xc09eac96e0d951dfb53980f9aa29549edf0d509c6a84ee25f89221c2db7ea9f3",
+     "Status": "Held - 1 listing only",
+     "Notes": "free first mint, Sourcify exact match, no owner. Lead Suruhan 22:20.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xc09eac96e0d951dfb53980f9aa29549edf0d509c6a84ee25f89221c2db7ea9f3",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0xc09eac96e0d951dfb53980f9aa29549edf0d509c6a84ee25f89221c2db7ea9f3"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1632,19 +1623,18 @@
      "Chain": "BSC",
      "Token/NFT": "MOZHU Hoodies NFT x1 #1100",
      "Contract Address": "0x7B6F0d632F329D80a3f6A326b5041fE2344080F6",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 6.99199901325e-06,
+     "Gas Fee (native)": 7e-06,
      "Gas Fee (USD)": 0.0052,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - market/staking after sell-out (site)",
-     "Notes": "free first mint() (0x1249c58b) per /agent.json + config.js; nextPrice(addr)=0; no approval needed; preview +1 ERC721 only. Unverified, owner EOA 0xd8b9…8165 (withdraw()). v2 free gate D=1. Bonus MOZHU token only for paid mints (none claimable). Paid 0.001 BNB units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x89550a33e2676a13f198ce0e08b6f316a44cd49a975bfb33d71a715f4d2b2b05",
+     "Status": "Held - Element floor ~0.0008",
+     "Notes": "free first mint, unverified, owner EOA can withdraw.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x89550a33e2676a13f198ce0e08b6f316a44cd49a975bfb33d71a715f4d2b2b05",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x89550a33e2676a13f198ce0e08b6f316a44cd49a975bfb33d71a715f4d2b2b05"
     },
     {
      "Date (WITA)": "2026-10-24",
@@ -1654,19 +1644,18 @@
      "Chain": "BSC",
      "Token/NFT": "FACEID.AI NFT x1 #317",
      "Contract Address": "0x19758609b4b1885b02ba64c0beadb436503cfcae",
-     "Amount": 1,
+     "Amount": 1.0,
      "USD Spent": 0.0,
-     "Gas Fee (native)": 6.241007382324e-06,
+     "Gas Fee (native)": 6.2e-06,
      "Gas Fee (USD)": 0.0046,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "Lead: Setya/hqm wallet watch (hqm.ai + 4 side wallets free-minted 22:37 WITA). Sourcify exact_match; OZ ERC721+Ownable, owner EOA 0xe531…8eb0; Agent ID gate; 1st per wallet free then fixed price, max 10/wallet, 2800 supply; no proxy. mint(1) 0xa0712d68 value 0; preview +1 ERC721 only. Paid units NOT bought.",
+     "Mint TX Link": "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890",
+     "Status": "Held - Element floor ~0.001 (thin)",
+     "Notes": "Lead hqm.ai wallets 22:37. Sourcify exact match, owner EOA, free first mint.",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890",
-     "_src": "ledger"
+     "tx": "https://bscscan.com/tx/0x581f59e7da5552288bf334e5e1f33ece4ccda2eab6ba0d0996cb38d0171cb890"
     }
    ]
   },
@@ -1682,11 +1671,11 @@
    "rows": [
     {
      "Date": "2026-10-24",
-     "# Tx": "19",
-     "Total USD Spent": "$0,9246",
-     "Total Gas USD": "$0,1447",
-     "Cumulative Spent": "$1,0693",
-     "Budget Left of $10": "$8,9307"
+     "# Tx": "30",
+     "Total USD Spent": "$2,4407",
+     "Total Gas USD": "$0,2645",
+     "Cumulative Spent": "$2,7052",
+     "Budget Left of $10": "$7,2948"
     }
    ]
   },
@@ -2605,6 +2594,81 @@
      "Red Flags": "New account, 17 followers; no CA yet",
      "Risk": "High",
      "Notes": "Starts 25 Oct 20:00 WITA; first 0.00022 BNB then BOGO 0.00088; 5000 supply; Agent ID gate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Piggy Agent (PIGGY)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x70385fa94577cb845983d9b6752f2dde2486c837",
+     "Link": "https://x.com/i/status/2113633411743293693",
+     "Sentiment": "Low buzz, real mints seen",
+     "Red Flags": "X account 1 day old (17 followers), art unrevealed, not Sourcify-verified",
+     "Risk": "Medium",
+     "Notes": "Agent ID gate; first mint per wallet free, max 10/wallet; 1660 minted; GoPlus open source, no privileged mint. Verdict: free 1x only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "GANG NFT",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x73ec38CF99947705474356c9a1a3915d90FfF1DF",
+     "Link": "https://x.com/i/status/2114009348359999929",
+     "Sentiment": "No buzz",
+     "Red Flags": "Source not verified, 27-follower promoter, 21/1000 minted",
+     "Risk": "Skip",
+     "Notes": "First 100 wallets free then $0.40 in BNB",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Miner (minerfomo.xyz)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://x.com/i/status/2114006583516783042",
+     "Sentiment": "No buzz",
+     "Red Flags": "No CA, staking-dividend ponzi model, 11-follower account",
+     "Risk": "Skip",
+     "Notes": "0.001 BNB, max 30/wallet, 10k supply, Agent ID only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "On-chain",
+     "Project": "GALAXY Coin (WATCH)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x4f1B3B3c9F04f5bfe6e6A3B47219C6443b7ba0E9",
+     "Link": "https://x.com/yonyun96/status/2113938370040840516",
+     "Sentiment": "Minting picking up",
+     "Red Flags": "Organic chatter still thin",
+     "Risk": "Medium",
+     "Notes": "totalSupply 411 (20:23) to 937 (23:15); owner and code unchanged",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "Chinese TG",
+     "Project": "$SI (spacexinu)",
+     "Chain": "BSC",
+     "Type": "Token mint",
+     "CA": "0x725CCC7B5cEaCb0324B64CCb7DA3EcA2cd3a6666",
+     "Link": "https://t.me/liangjiancalls/3230",
+     "Sentiment": "Promo only",
+     "Red Flags": "Promo-heavy channel, connect-wallet staking dApp, pair from 18 Oct",
+     "Risk": "High",
+     "Notes": "Existing token, 3% tax, liq ~$70.7k, not a mint; info only",
      "Status": "Sent to Ayanokouji"
     }
    ]
