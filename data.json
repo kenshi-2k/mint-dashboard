@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-24 23:50 WITA",
+ "generated_wita": "2026-10-25 00:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -14,7 +14,7 @@
   "gas_bnb": 0.000396710283339125
  },
  "multichain": {
-  "snapshot_wita": "2026-10-24 23:42 WITA",
+  "snapshot_wita": "2026-10-24 23:52 WITA",
   "source": "balance check",
   "prices_usd": {
    "bnb": 736.83,
@@ -2771,6 +2771,66 @@
      "Risk": "High",
      "Notes": "Existing token, 3% tax, liq ~$70.7k, not a mint; info only",
      "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "00:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "agentic.si (AI)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xCD124D0023f913f8646f9A74c7c9E6dB117bEb13",
+     "Link": "https://x.com/XiaoMei_laika/status/2114026985559326740",
+     "Sentiment": "Early, CN/ID promo",
+     "Red Flags": "No official account found; CA only from shill posts (2-follower acct)",
+     "Risk": "Low",
+     "Notes": "Agent ID gate; 1st free then 0.005 BNB, max 5/wallet, 21000 supply, 5 days; 104 minted; Sourcify exact_match, GoPlus clean, no owner; same template as si.passport. Verdict GO free 1x",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "00:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "YINYANG",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xED02212D888d2F44A80e42F2Ffa389D0A83f2CA9",
+     "Link": "https://x.com/JulienMoreau_/status/2114026840960737339",
+     "Sentiment": "Low engagement",
+     "Red Flags": "Unverified source; owner EOA; vercel host; same dev as ArtPunk; token has no LP",
+     "Risk": "High",
+     "Notes": "Free 1/wallet, 555 supply, 30k YINYANG per mint (token 0x738E118E05AaCb065F9c2B4d93d51449a57F40Eb); 1 minted. Verdict optional gas-only punt",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "00:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Lodepass (LODE)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x31b074C8e77e44F29df285F19d4fc76E6D927d01",
+     "Link": "https://x.com/lodepass/status/2114024253477830765",
+     "Sentiment": "No buzz",
+     "Red Flags": "Account created today, 0 followers; unverified source; paste-prompt-into-agent mint flow",
+     "Risk": "High",
+     "Notes": "Agent ID gate, first free; 337 minted. Verdict SKIP",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "00:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No other new leads",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Setya queue absent, Cupang 0 new msgs, Chinese TG no leads (2 channels CHANNEL_INVALID). Watches: GALAXY 1139 minted, ArtPunk 13, AHOUSE 26, no trigger. Held: no owner/proxy changes. OpenSea skipped",
+     "Status": "New"
     }
    ]
   }
