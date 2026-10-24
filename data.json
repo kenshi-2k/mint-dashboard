@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 02:37 WITA",
+ "generated_wita": "2026-10-25 02:38 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -2132,6 +2132,27 @@
      "Notes": "User rule 23:24 WITA: free tier 2 per Agent ID, D=0 unverified source, owner EOA. Lead Suruhan 01:10.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x887c513d762d24c08f2c450e708b6d878f184e0e978bfb2e047a3d62497846aa"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "2:32",
+     "Type": "Income (Lottery)",
+     "Project": "moat.fun Rewards R2",
+     "Chain": "BSC",
+     "Token/NFT": "USDT 0.0349",
+     "Contract Address": "0x55d398326f99059fF775485246999027B3197955",
+     "Amount": 0.0349,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 0.0,
+     "Gas Fee (USD)": 0.0,
+     "Airdrop Name": "moat.fun Rewards R2 (Agent ID lottery)",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Received",
+     "Notes": "INCOME lottery win 0.0349 USDT (consolation tier). Off-chain EIP712 entry only, no approval, no gas. Payout tx https://bscscan.com/tx/0xad7e03ce17b100643b1faa46e7368a4d69889940d85d91290d99768715ef8bbd",
+     "Revoke TX Link": "",
+     "tx": ""
     }
    ]
   },
