@@ -78,7 +78,7 @@ function serialDate(v){const n=num(v);if(isFinite(n)&&n>40000&&n<60000){const d=
   const m=String(v).match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(m)return `${m[3]}-${m[2].padStart(2,"0")}-${m[1].padStart(2,"0")}`;return String(v??"")}
 function serialTime(v){const s=String(v??"");if(/^\d{1,2}[:.]\d{2}/.test(s))return s.replace(".",":").slice(0,5);const n=num(v);
   if(isFinite(n)&&n>=0&&n<1){const t=Math.round(n*86400);return String(Math.floor(t/3600)).padStart(2,"0")+":"+String(Math.floor(t%3600/60)).padStart(2,"0")}return s}
-const fmtBNB=n=>isFinite(n)?(n===0?"0":n.toFixed(n<0.001?7:5).replace(/0+$/,"").replace(/\.$/,""))+" BNB":"-";
+const fmtBNB=n=>isFinite(n)?(n===0?"0":n.toFixed(Math.abs(n)<0.01?9:5).replace(/0+$/,"").replace(/\.$/,""))+" BNB":"-";
 const fmtUSD=n=>isFinite(n)?"$"+n.toLocaleString("id-ID",{minimumFractionDigits:n<1?3:2,maximumFractionDigits:n<1?4:2}):"-";
 const short=a=>a&&a.length>14?a.slice(0,6)+"…"+a.slice(-4):a;
 function riskCls(r){r=String(r||"").toLowerCase();if(/scam|skip/.test(r))return"b-bad";if(/high|tinggi/.test(r))return"b-bad";if(/medium/.test(r))return"b-warn";if(/low|rendah/.test(r))return"b-ok";return""}
