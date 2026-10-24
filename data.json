@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-24 23:24 WITA",
+ "generated_wita": "2026-10-24 23:30 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.010113901562116173,
-  "last_balance_wita": "2026-10-24 23:23 WITA",
+  "last_balance_bnb": 0.010078407676678783,
+  "last_balance_wita": "2026-10-24 23:28 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.2451,
-  "gas_bnb": 0.000361216397901736
+  "spent_usd": 2.2714,
+  "gas_bnb": 0.000396710283339125
  },
  "multichain": {
-  "snapshot_wita": "2026-10-24 23:24 WITA",
+  "snapshot_wita": "2026-10-24 23:28 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.010113901562116173,
-    "amount_str": "0.010113901562116173",
+    "amount": 0.010078407676678783,
+    "amount_str": "0.010078407676678783",
     "usable": true,
     "status": "ok"
    },
@@ -433,16 +433,34 @@
     "txs": [
      "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0"
     ]
+   },
+   {
+    "collection": "GANG NFT (GANG)",
+    "token": 25,
+    "contract": "0x73ec38CF99947705474356c9a1a3915d90FfF1DF",
+    "status": "Hold",
+    "mint_cost_bnb": 3.5493885437389e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 3.5493885437389e-05,
+    "cost_usd": 0.0263,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002395781067863108,
-   "cost_usd": 2.2207,
+   "cost_bnb": 0.002431274953300497,
+   "cost_usd": 2.247,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 21
+   "held": 22
   }
  },
  "capital": {
@@ -514,15 +532,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000361216397901736,
-   "usd": 0.2742
+   "bnb": 0.000396710283339125,
+   "usd": 0.3005
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.2451,
-   "left_usd": 7.7549
+   "spent_usd": 2.2714,
+   "left_usd": 7.7286
   },
-  "bsc_balance_bnb": 0.010113901562116173,
+  "bsc_balance_bnb": 0.010078407676678783,
   "token_balances": {
    "USDT_bsc": 0.04500430327292717
   },
@@ -690,6 +708,13 @@
    "collection": "Piggy Agent (PIGGY)",
    "token": 1703,
    "contract": "0x70385fa94577cb845983d9b6752f2dde2486c837",
+   "status": "Hold",
+   "note": "Held - no market yet"
+  },
+  {
+   "collection": "GANG NFT (GANG)",
+   "token": 25,
+   "contract": "0x73ec38CF99947705474356c9a1a3915d90FfF1DF",
    "status": "Hold",
    "note": "Held - no market yet"
   }
@@ -964,6 +989,15 @@
    "delta_bnb": -1.3306448107155e-05,
    "balance_bnb": 0.010113901562116173,
    "tx": "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0"
+  },
+  {
+   "at_wita": "2026-10-24 23:28:00",
+   "kind": "Mint",
+   "project": "GANG NFT (GANG)",
+   "direction": "out",
+   "delta_bnb": -3.5493885437389e-05,
+   "balance_bnb": 0.010078407676678783,
+   "tx": "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d"
   }
  ],
  "tabs": {
@@ -1702,6 +1736,27 @@
      "Notes": "free first mint, Agent ID gated, unverified, owner EOA. Gate 3/12. Lead Suruhan 23:10.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xa07aa476f2701f6adc0e964168b1f4500a0cc1819ff04a9955df7ed7df0324c0"
+    },
+    {
+     "Date (WITA)": "2026-10-24",
+     "Time": "23:28:58",
+     "Type": "Mint",
+     "Project": "GANG NFT (GANG)",
+     "Chain": "BSC",
+     "Token/NFT": "GANG NFT x1 #25",
+     "Contract Address": "0x73ec38CF99947705474356c9a1a3915d90FfF1DF",
+     "Amount": 1.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 3.55e-05,
+     "Gas Fee (USD)": 0.0263,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d",
+     "Status": "Held - no market yet",
+     "Notes": "User override 23:24 WITA: free mint despite D=0 unverified source. mintFree, owner EOA. Lead Suruhan 23:10.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x61a9d58e0cf31ac0000840b7ddc6198b9b4fbb98a5a3bf85364f722bd65ad62d"
     }
    ]
   },
@@ -1717,11 +1772,11 @@
    "rows": [
     {
      "Date": "2026-10-24",
-     "# Tx": "31",
+     "# Tx": "32",
      "Total USD Spent": "$2,4407",
-     "Total Gas USD": "$0,2743",
-     "Cumulative Spent": "$2,7150",
-     "Budget Left of $10": "$7,2850"
+     "Total Gas USD": "$0,3006",
+     "Cumulative Spent": "$2,7413",
+     "Budget Left of $10": "$7,2587"
     }
    ]
   },
