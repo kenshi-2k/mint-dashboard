@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 02:34 WITA",
+ "generated_wita": "2026-10-25 02:37 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -680,6 +680,26 @@
     "fee_usd": 0.03
    }
   ]
+ },
+ "income": {
+  "items": [
+   {
+    "date": "2026-10-25",
+    "time": "02:32",
+    "project": "moat.fun Rewards R2 (Agent ID lottery)",
+    "category": "Lottery",
+    "amount": 0.0349,
+    "token": "USDT",
+    "usd": 0.0349,
+    "tx": "https://bscscan.com/tx/0xad7e03ce17b100643b1faa46e7368a4d69889940d85d91290d99768715ef8bbd",
+    "note": "INCOME: moat.fun R2 draw, consolation tier (roll 0.23066). Off-chain EIP712 MoatRewardsDraw signature only (no tx, no ap"
+   }
+  ],
+  "count": 1,
+  "wins": 1,
+  "total_usd": 0.0349,
+  "spent_usd": 2.3143,
+  "net_usd": -2.2794
  },
  "holdings": [
   {

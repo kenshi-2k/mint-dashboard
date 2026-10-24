@@ -38,6 +38,7 @@ module.exports = async (req, res) => {
       multichain: M.multichain || null,
       pnl: M.pnl || null,
       capital: M.capital || null,
+      income: M.income || null,
       holdings: hold.map((h) => {
         const l = L[h.contract.toLowerCase() + ":" + h.token_id];
         return { collection: h.collection, token: h.token_id, contract: h.contract, status: h.status, note: h.note,

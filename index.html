@@ -58,6 +58,7 @@ a:hover{text-decoration-color:var(--acc)}
 .fig .usd{font-size:clamp(30px,8.5vw,52px);font-weight:600;letter-spacing:-.025em;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .fig .bnb{font-size:13.5px;color:#b9bcc0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pos{color:var(--pos)}.neg{color:var(--neg)}
+.incrows{display:grid;gap:6px;font-size:13.5px;margin-bottom:var(--s3);padding-bottom:var(--s3);border-bottom:1px solid var(--line)}.incrows .r{display:flex;justify-content:space-between;gap:var(--s3);align-items:baseline}.incrows .r>span:first-child{color:var(--mut)}.incrows .r b{font-weight:500;font-variant-numeric:tabular-nums}.incrows .r.big b{font-size:16px;font-weight:600}
 .hero .pos{color:#7cc47f}.hero .neg{color:#e5736b}
 .plmeta{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5);font-size:13px;color:#a3a7ad}.plmeta b{color:#ecebe6;font-weight:500}
 main.wrap{display:grid;gap:var(--s5);padding-top:var(--s5);padding-bottom:var(--s7)}
@@ -138,6 +139,7 @@ footer{color:var(--mut);font-size:12px;padding:0 0 calc(var(--s6) + env(safe-are
 <main class="wrap">
   <section id="s-trades"><div class="sh"><svg><use href="#i-nft"/></svg><h2>Tracker beli / jual</h2><span class="meta" id="trades-m"></span></div><div id="trades"></div></section>
   <section id="s-pnl"><div class="sh"><svg><use href="#i-nft"/></svg><h2>Profit / loss per NFT</h2><span class="meta" id="pnl-m"></span></div><div id="pnl"></div></section>
+  <section id="s-inc"><div class="sh"><svg><use href="#i-wallet"/></svg><h2>Pemasukan / Undian</h2><span class="meta" id="inc-m"></span></div><div id="inc"></div></section>
   <div class="grid2">
     <section id="s-wallet"><div class="sh"><svg><use href="#i-wallet"/></svg><h2>Saldo per jaringan</h2><span class="meta" id="wallet-m"></span></div><div id="wallet"></div></section>
     <section id="s-list"><div class="sh"><svg><use href="#i-listing"/></svg><h2>Listing aktif</h2><span class="meta" id="list-m"></span></div><div id="listing"></div></section>
@@ -311,6 +313,20 @@ function render(D,P){
     <td data-l="Realized" class="n ${plCls(rz)}">${rz==null?'<span class="mut">-</span>':sgnBNB(rz)+`<div class="small">${fmtUSD(rz*bnbUsd,true)}</div>`}</td>
     <td data-l="Unrealized" class="n ${plCls(uz)}">${uz==null?'<span class="mut">belum ada harga</span>':sgnBNB(uz)+`<div class="small">${fmtUSD(uz*bnbUsd,true)}</div>`}</td></tr>`}).join("")}</tbody></table>
     <p class="small mut">Modal = gas tercatat (+ harga mint) dibagi per token. Unrealized cuma dihitung kalau ada harga listing nyata, sebelum fee marketplace. Tanpa tebakan floor price.</p>`;
+  // income (pemasukan / undian)
+  const INC=D.income||{items:[],total_usd:0,spent_usd:num(D.budget?.spent_usd)||0,net_usd:-(num(D.budget?.spent_usd)||0)};const II=INC.items||[];
+  $("inc-m").textContent=`${II.length} entri · ${INC.wins??II.filter(i=>i.amount>0).length} menang`;
+  $("inc").innerHTML=`<div class="incrows">
+    <div class="r"><span>Total pemasukan</span><b class="pos">${fmtUSD(INC.total_usd||0)}</b></div>
+    <div class="r"><span>Total keluar (spent)</span><b>${fmtUSD(INC.spent_usd||0)}</b></div>
+    <div class="r big"><span>Net (pemasukan - keluar)</span><b class="${plCls(INC.net_usd||0)}">${fmtUSD(INC.net_usd||0,true)}</b></div></div>
+   ${II.length?`<table class="tbl"><thead><tr><th>Project</th><th>Waktu (WITA)</th><th class="n">Jumlah</th><th>Token</th><th>Tx</th></tr></thead><tbody>${II.map(i=>`<tr>
+    <td class="first" data-l="Project"><span class="trunc t">${esc(i.project)}</span><span class="trunc small mut">${esc(i.category||"")}</span></td>
+    <td data-l="Waktu" class="num">${esc(i.date||"")} ${esc(i.time||"")}</td>
+    <td data-l="Jumlah" class="n ${i.amount>0?"pos":""}">${i.amount>0?fmtAmt(i.amount):'<span class="mut">0 (zonk)</span>'}<div class="small mut">${fmtUSD(i.usd||0)}</div></td>
+    <td data-l="Token">${esc(i.token||"")}</td>
+    <td data-l="Tx">${ext(i.tx,"BscScan")||'<span class="mut">-</span>'}</td></tr>`).join("")}</tbody></table>`:'<p class="small mut">Belum ada pemasukan tercatat.</p>'}
+   <p class="small mut">Dari ledger.income: hadiah undian / airdrop yang masuk ke wallet, termasuk entri zonk (0). Net = total pemasukan dikurangi total keluar (mint + gas).</p>`;
   // wallet per network
   const MC=D.multichain;const LB=lastBalance(D);
   let chains=(MC?.chains||[]).filter(c=>c.chain==="bsc"||c.chain==="base");
