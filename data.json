@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 16:20 WITA",
+ "generated_wita": "2026-10-25 16:41 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009887203930700774,
-  "last_balance_wita": "2026-10-25 15:28 WITA",
+  "last_balance_bnb": 0.00987646341640989,
+  "last_balance_wita": "2026-10-25 16:40 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.3614,
-  "gas_bnb": 0.0005879140293171339
+  "gas_bnb": 0.0005986545436080179
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 15:28 WITA",
+  "snapshot_wita": "2026-10-25 16:40 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009887203930700774,
-    "amount_str": "0.009887203930700774",
+    "amount": 0.00987646341640989,
+    "amount_str": "0.00987646341640989",
     "usable": true,
     "status": "ok"
    },
@@ -723,6 +723,42 @@
     ]
    },
    {
+    "collection": "Rugged Frens (RUGFREN)",
+    "token": 132,
+    "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+    "status": "Hold",
+    "mint_cost_bnb": 5.399769444048e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.399769444048e-06,
+    "cost_usd": 0.004,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x4d006fffb9cdbb33832812e2ab94023f686ad5e5d015e13a1a8992254215d9ff"
+    ]
+   },
+   {
+    "collection": "Rugged Frens (RUGFREN)",
+    "token": 133,
+    "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+    "status": "Hold",
+    "mint_cost_bnb": 5.340744846836e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.340744846836e-06,
+    "cost_usd": 0.004,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644"
+    ]
+   },
+   {
     "collection": "Gloomies (GLOOM)",
     "token": 447,
     "contract": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
@@ -832,13 +868,13 @@
    }
   ],
   "totals": {
-   "cost_bnb": 0.002616426529713386,
-   "cost_usd": 2.3839,
+   "cost_bnb": 0.00262716704400427,
+   "cost_usd": 2.3919,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 43
+   "held": 45
   }
  },
  "capital": {
@@ -910,15 +946,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0005879140293171339,
-   "usd": 0.4419
+   "bnb": 0.0005986545436080179,
+   "usd": 0.4499
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.3614,
    "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.009887203930700774,
+  "bsc_balance_bnb": 0.00987646341640989,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1218,6 +1254,20 @@
   {
    "collection": "Rugged Frens (RUGFREN)",
    "token": 83,
+   "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+   "status": "Hold",
+   "note": "Held - no market yet"
+  },
+  {
+   "collection": "Rugged Frens (RUGFREN)",
+   "token": 132,
+   "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+   "status": "Hold",
+   "note": "Held - no market yet"
+  },
+  {
+   "collection": "Rugged Frens (RUGFREN)",
+   "token": 133,
    "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
    "status": "Hold",
    "note": "Held - no market yet"
@@ -1733,6 +1783,24 @@
    "delta_bnb": -8.771267918468e-06,
    "balance_bnb": 0.009887203930700774,
    "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9"
+  },
+  {
+   "at_wita": "2026-10-25 16:40:00",
+   "kind": "Mint",
+   "project": "Rugged Frens (RUGFREN)",
+   "direction": "out",
+   "delta_bnb": -5.399769444048e-06,
+   "balance_bnb": 0.009881804161256726,
+   "tx": "https://bscscan.com/tx/0x4d006fffb9cdbb33832812e2ab94023f686ad5e5d015e13a1a8992254215d9ff"
+  },
+  {
+   "at_wita": "2026-10-25 16:40:00",
+   "kind": "Mint",
+   "project": "Rugged Frens (RUGFREN)",
+   "direction": "out",
+   "delta_bnb": -5.340744846836e-06,
+   "balance_bnb": 0.00987646341640989,
+   "tx": "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644"
   }
  ],
  "tabs": {
@@ -2956,6 +3024,48 @@
      "tx": ""
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Rugged Frens (RUGFREN)",
+     "Chain": "BSC",
+     "Token/NFT": "Rugged Frens NFT x1 #132",
+     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x4d006fffb9cdbb33832812e2ab94023f686ad5e5d015e13a1a8992254215d9ff",
+     "Status": "Held - no market yet",
+     "Notes": "User rule t205u: all free units per wallet. 2nd free unit (price 0, max 3). Preview +1 NFT only.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Rugged Frens (RUGFREN)",
+     "Chain": "BSC",
+     "Token/NFT": "Rugged Frens NFT x1 #133",
+     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644",
+     "Status": "Held - no market yet",
+     "Notes": "User rule t205u: all free units per wallet. 3rd free unit (wallet now 3/3). Preview +1 NFT only.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -3019,6 +3129,50 @@
      "Notes": "USER RULE free soulbound claim (parent steer 15:26). Unverified; lean check: no delegatecall/selfdestruct, no proxy; transfers revert 'Soulbound' (by design, not sellable). Owner admin = setBase/lockBase only. canClaim(W)=true, .ai Agent ID gated, EARLY_LIMIT 2000 (early holder). eth_call claim() value 0 OK; baw preview +1 ERC721 only, no approvals.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:40:00",
+     "Type": "Mint",
+     "Project": "Rugged Frens (RUGFREN)",
+     "Chain": "BSC",
+     "Token/NFT": "Rugged Frens NFT x1 #132",
+     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 5.399769444048e-06,
+     "Gas Fee (USD)": 0.004,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE update (t205u): take ALL free units per wallet. Rugged Frens price 0, max 3/wallet (vetted 10:27). eth_call mint(1) value 0 OK; baw preview +1 ERC721 only, no approvals/risks. Wallet now 3/3.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x4d006fffb9cdbb33832812e2ab94023f686ad5e5d015e13a1a8992254215d9ff",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:40:00",
+     "Type": "Mint",
+     "Project": "Rugged Frens (RUGFREN)",
+     "Chain": "BSC",
+     "Token/NFT": "Rugged Frens NFT x1 #133",
+     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 5.340744846836e-06,
+     "Gas Fee (USD)": 0.004,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE update (t205u): take ALL free units per wallet. Rugged Frens price 0, max 3/wallet (vetted 10:27). eth_call mint(1) value 0 OK; baw preview +1 ERC721 only, no approvals/risks. Wallet now 3/3.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644",
      "_src": "ledger"
     }
    ]
