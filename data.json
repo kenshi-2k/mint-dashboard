@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 13:26 WITA",
+ "generated_wita": "2026-10-25 13:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -14,7 +14,7 @@
   "gas_bnb": 0.000547199770085726
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 13:25 WITA",
+  "snapshot_wita": "2026-10-25 13:40 WITA",
   "source": "balance check",
   "prices_usd": {
    "bnb": 736.83,
@@ -1162,7 +1162,7 @@
    "token": 253,
    "contract": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - staked in mining pool"
   }
  ],
  "balance_history": [
@@ -2715,6 +2715,27 @@
      "tx": ""
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Agent Gold Miner (AGM-CARD)",
+     "Chain": "BSC",
+     "Token/NFT": "Agent Gold Miner NFT x1 #253",
+     "Contract Address": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257",
+     "Status": "Held - staked in mining pool",
+     "Notes": "User rule free mint. Sourcify runtime exact match (GoPlus stale), no owner/admin, no power over our wallet. 1000 free wallets (251 used), then 0.0068. Card auto-staked (withdrawFromPool to transfer), tier 2, mining ends 10/30. Preview +1 NFT only. Paid cards NOT bought. Lead Suruhan 13:10.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -2756,28 +2777,6 @@
      "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "13:23:00",
-     "Type": "Mint",
-     "Project": "Agent Gold Miner (AGM-CARD)",
-     "Chain": "BSC",
-     "Token/NFT": "Agent Gold Miner NFT x1 #253",
-     "Contract Address": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.4666361750192e-05,
-     "Gas Fee (USD)": 0.0109,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (lead: Suruhan 13:10; CA confirmed on agentgoldminer.surge.sh + linkeverythingy post). Sourcify runtime exact_match (AgentGoldMiner.sol; GoPlus open_source=0 is stale). No owner/admin functions at all; CREATOR 0x3ff4…bf4a only receives revenue. AGM token 0x153B…Ebb4: only the miner contract can mintReward/burnFromMiner, and burns only happen inside our own upgrade/renew/blind-b",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257",
      "_src": "ledger"
     }
    ]
