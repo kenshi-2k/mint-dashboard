@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 12:50 WITA",
+ "generated_wita": "2026-10-25 13:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -14,10 +14,10 @@
   "gas_bnb": 0.0005325334083355341
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 12:27 WITA",
-  "source": "ledger.balance_snapshots",
+  "snapshot_wita": "2026-10-25 13:18 WITA",
+  "source": "balance check",
   "prices_usd": {
-   "bnb": 740.0,
+   "bnb": 736.83,
    "eth": 2376.15
   },
   "chains": [
