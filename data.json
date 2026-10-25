@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 13:50 WITA",
+ "generated_wita": "2026-10-25 14:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -14,7 +14,7 @@
   "gas_bnb": 0.000547199770085726
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 13:40 WITA",
+  "snapshot_wita": "2026-10-25 14:00 WITA",
   "source": "balance check",
   "prices_usd": {
    "bnb": 736.83,
