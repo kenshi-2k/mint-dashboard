@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 09:17 WITA",
+ "generated_wita": "2026-10-25 09:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -2537,7 +2537,7 @@
      "Status": "Held - no market yet",
      "Notes": "User rule free mint. Sourcify exact match, OZ ERC721, no owner mint, owner EOA 0xD534. 6000 supply, max 30, 0.0002 after free. #121 Common, airdrop weight 1. Preview +1 NFT only. Paid units NOT bought.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
     },
     {
      "Date (WITA)": "2026-10-25",
@@ -2559,28 +2559,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "09:16:00",
-     "Type": "Mint",
-     "Project": "Agent Koi (KOI)",
-     "Chain": "BSC",
-     "Token/NFT": "Agent Koi NFT x1 #121",
-     "Contract Address": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.3430772179832e-05,
-     "Gas Fee (USD)": 0.0099,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint. Sourcify exact_match (AgentKoi.sol, OZ ERC721/ERC2981/Ownable): no owner mint, standard transfers; owner can setMintOpen/setRegistry/setImageBase/setRoyalty(<=10%)/withdraw. Owner/deployer EOA 0xD534…7b6F. MAX 6000, max 10/tx, 30/wallet, 0.0002 BNB after first free. Agent ID registry 0x60B9…022F, isAgent(W)=true. quote(W,1)=0, mintedBy(W)=0, totalSupply 114 at check. eth_call ",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486",
      "_src": "ledger"
     }
    ]
