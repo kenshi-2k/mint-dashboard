@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 13:20 WITA",
+ "generated_wita": "2026-10-25 13:26 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009942584551682374,
-  "last_balance_wita": "2026-10-25 12:27 WITA",
+  "last_balance_bnb": 0.009927918189932182,
+  "last_balance_wita": "2026-10-25 13:23 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.3614,
-  "gas_bnb": 0.0005325334083355341
+  "gas_bnb": 0.000547199770085726
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 13:18 WITA",
+  "snapshot_wita": "2026-10-25 13:25 WITA",
   "source": "balance check",
   "prices_usd": {
    "bnb": 736.83,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009942584551682374,
-    "amount_str": "0.009942584551682374",
+    "amount": 0.009927918189932182,
+    "amount_str": "0.009927918189932182",
     "usable": true,
     "status": "ok"
    },
@@ -739,16 +739,34 @@
     "txs": [
      "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63"
     ]
+   },
+   {
+    "collection": "Agent Gold Miner (AGM-CARD)",
+    "token": 253,
+    "contract": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
+    "status": "Hold",
+    "mint_cost_bnb": 1.4666361750192e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.4666361750192e-05,
+    "cost_usd": 0.0109,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002561045908731786,
-   "cost_usd": 2.3429,
+   "cost_bnb": 0.002575712270481978,
+   "cost_usd": 2.3538,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 38
+   "held": 39
   }
  },
  "capital": {
@@ -820,15 +838,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0005325334083355341,
-   "usd": 0.4009
+   "bnb": 0.000547199770085726,
+   "usd": 0.4118
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.3614,
    "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.009942584551682374,
+  "bsc_balance_bnb": 0.009927918189932182,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1138,6 +1156,13 @@
    "contract": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "Agent Gold Miner (AGM-CARD)",
+   "token": 253,
+   "contract": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
+   "status": "Hold",
+   "note": "Held - none yet"
   }
  ],
  "balance_history": [
@@ -1563,6 +1588,15 @@
    "delta_bnb": -6.05216956512e-06,
    "balance_bnb": 0.009942584551682374,
    "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e"
+  },
+  {
+   "at_wita": "2026-10-25 13:23:00",
+   "kind": "Mint",
+   "project": "Agent Gold Miner (AGM-CARD)",
+   "direction": "out",
+   "delta_bnb": -1.4666361750192e-05,
+   "balance_bnb": 0.009927918189932182,
+   "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
   }
  ],
  "tabs": {
@@ -2722,6 +2756,28 @@
      "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "13:23:00",
+     "Type": "Mint",
+     "Project": "Agent Gold Miner (AGM-CARD)",
+     "Chain": "BSC",
+     "Token/NFT": "Agent Gold Miner NFT x1 #253",
+     "Contract Address": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.4666361750192e-05,
+     "Gas Fee (USD)": 0.0109,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint (lead: Suruhan 13:10; CA confirmed on agentgoldminer.surge.sh + linkeverythingy post). Sourcify runtime exact_match (AgentGoldMiner.sol; GoPlus open_source=0 is stale). No owner/admin functions at all; CREATOR 0x3ff4…bf4a only receives revenue. AGM token 0x153B…Ebb4: only the miner contract can mintReward/burnFromMiner, and burns only happen inside our own upgrade/renew/blind-b",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257",
      "_src": "ledger"
     }
    ]
@@ -4501,6 +4557,81 @@
      "Red Flags": "Mint flow = tell agent to read URL and follow it (prompt paste)",
      "Risk": "Skip",
      "Notes": "ERC-1155, first mint free; SKIP per policy",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "13:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Agent Gold Miner (CA found)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
+     "Link": "https://agentgoldminer.surge.sh/",
+     "Sentiment": "Neutral",
+     "Red Flags": "GoPlus open_source=0; $AGM value unclear; prompt-based flow",
+     "Risk": "Medium",
+     "Notes": "Free for first 1000 wallets (245 used), then 0.0068 BNB; .ai Agent ID; GO/free via direct call",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "13:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "RailPals",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xC500b9b277d1A9717f8c96bD4228E16ee134a71A",
+     "Link": "https://railix.xyz/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Unverified source; 33-follower self-replying account; site uses prompt-paste",
+     "Risk": "High",
+     "Notes": "7/3300, max 5/wallet; GO/free via freeMint direct + sim only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "13:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "CuteWizard",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x74c34496e469dd83991ea46aebefc59cf0a296d5",
+     "Link": "https://x.com/StanWest171123/status/2114221183956812155",
+     "Sentiment": "Neutral",
+     "Red Flags": "Unverified source; unknown project account",
+     "Risk": "High",
+     "Notes": "100/7777, gas only per poster; GO/free after sim",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "13:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Tung Tung Sahur",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x19ca9db8fb37aeD1c04088eD1132182e00D6E170",
+     "Link": "https://x.com/jilong63819/status/2114211070214807648",
+     "Sentiment": "Neutral",
+     "Red Flags": "Shill ring of same-day-created accounts; unverified source",
+     "Risk": "High",
+     "Notes": "46/3333, max 10/wallet, first ~0.00005 BNB; optional, sim first",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "13:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Shenlong v2 / BeHand Pass / AGENT ID card / Agent Genesis (no CA)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/XiaoMei_laika/status/2114212842387964184",
+     "Sentiment": "Neutral",
+     "Red Flags": "No CA; BeHand Pass soulbound; Agent Genesis copy-paste shill",
+     "Risk": "Medium",
+     "Notes": "FYI only, CAs not found. WATCH: Worldygg false(5), ArtPunk 13, AHOUSE 31, Mummies 914 marketOpen false, ngmi 235, GALAXY 2794; held unchanged",
      "Status": "Sent to Ayanokouji"
     }
    ]
