@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 20:24 WITA",
+ "generated_wita": "2026-10-25 20:29 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -1265,6 +1265,17 @@
   "items": [
    {
     "date": "2026-10-25",
+    "time": "20:28",
+    "project": "Ptah Proof of Agent daily draw (Day 1, Oct 26 draw)",
+    "category": "Lottery",
+    "amount": 0.0,
+    "token": "PTAH",
+    "usd": 0.0,
+    "tx": "",
+    "note": "Entry via X post with #ProofOfAgent + Agent #2671 (POA 0xD87ADb2E47979d6cb323896B1A9320E0dd132213), posted 20:28 WITA by"
+   },
+   {
+    "date": "2026-10-25",
     "time": "02:32",
     "project": "moat.fun Rewards R2 (Agent ID lottery)",
     "category": "Lottery",
@@ -1275,7 +1286,7 @@
     "note": "INCOME: moat.fun R2 draw, consolation tier (roll 0.23066). Off-chain EIP712 MoatRewardsDraw signature only (no tx, no ap"
    }
   ],
-  "count": 1,
+  "count": 2,
   "wins": 1,
   "total_usd": 0.0349,
   "spent_usd": 2.6314,
@@ -4116,6 +4127,27 @@
      "Mint TX Link": "",
      "Status": "Skipped",
      "Notes": "",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "20:28",
+     "Type": "Income (Lottery)",
+     "Project": "Ptah Proof of Agent daily draw",
+     "Chain": "BSC",
+     "Token/NFT": "-",
+     "Contract Address": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+     "Amount": 0.0,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 0.0,
+     "Gas Fee (USD)": 0.0,
+     "Airdrop Name": "POA Day 1 (Oct 26 draw)",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Pending",
+     "Notes": "Entry via X post https://x.com/Atttar4/status/2114333148293337181 with #ProofOfAgent + Agent #2671. Draw Oct 26 12:44 WITA. No signature, no funds out.",
      "Revoke TX Link": "",
      "tx": ""
     }
