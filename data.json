@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 12:29 WITA",
+ "generated_wita": "2026-10-25 12:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -1137,7 +1137,7 @@
    "token": 447,
    "contract": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -2639,6 +2639,48 @@
      "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Gloomies (GLOOM)",
+     "Chain": "BSC",
+     "Token/NFT": "Gloomies NFT x1 #447",
+     "Contract Address": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63",
+     "Status": "Held - no market yet",
+     "Notes": "User rule free mint. Sourcify exact match, plain OZ ERC721 + Ownable, no owner mint, owner 0xE8EA. 4000 supply, max 5, 0.00064 after free, any wallet. Preview +1 NFT only. Paid units NOT bought. Lead Suruhan 12:10.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63"
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Claim",
+     "Project": "P0 Patient Zero (genesis claim)",
+     "Chain": "BSC",
+     "Token/NFT": "P0 token x1 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9)",
+     "Contract Address": "0x37926d0558A5518fD94Ac3D147cF0ff25e5f9C8f",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
+     "Status": "Held - no liquidity",
+     "Notes": "User rule free claim. claimGenesis(), .ai Agent ID gate. Claim contract UNVERIFIED (simple bytecode: Agent ID check + ERC20 transfer, no proxy). Preview +1 P0 only, no approvals. P0 token not open source, Pancake pair 0 liquidity. Paid ~1U infect gacha NOT played. Lead Suruhan 12:10.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -2658,28 +2700,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "12:25:00",
-     "Type": "Mint",
-     "Project": "Gloomies (GLOOM)",
-     "Chain": "BSC",
-     "Token/NFT": "Gloomies NFT x1 #447",
-     "Contract Address": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 8.1647448432e-06,
-     "Gas Fee (USD)": 0.006,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (lead: Suruhan 12:10; source x.com/MintGloomies/status/2114161123498815975). Sourcify exact_match (Gloomies.sol, plain OZ ERC721 + Ownable, not proxy). Owner 0xE8EA…3392 can setPrice/setMintOpen/setBaseURI/withdraw only (no owner mint, no transfer hooks). MAX 4000, max 5/wallet, first unit free then 0.00064 BNB; any wallet. totalSupply 445 at check, minted(W)=0, quote(W,1)=0. e",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63",
      "_src": "ledger"
     },
     {
