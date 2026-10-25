@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 08:50 WITA",
+ "generated_wita": "2026-10-25 09:17 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009977835202163441,
-  "last_balance_wita": "2026-10-25 07:32 WITA",
+  "last_balance_bnb": 0.00996440442998361,
+  "last_balance_wita": "2026-10-25 09:16 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.3459,
-  "gas_bnb": 0.0004972827578544661
+  "spent_usd": 2.3558,
+  "gas_bnb": 0.0005107135300342981
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 07:32 WITA",
+  "snapshot_wita": "2026-10-25 09:16 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009977835202163441,
-    "amount_str": "0.009977835202163441",
+    "amount": 0.00996440442998361,
+    "amount_str": "0.00996440442998361",
     "usable": true,
     "status": "ok"
    },
@@ -685,16 +685,34 @@
     "txs": [
      "https://bscscan.com/tx/0x88445ce2321fab0816b68ecaafa44d020a86c8aa121a09bbb636762af3345290"
     ]
+   },
+   {
+    "collection": "Agent Koi (KOI)",
+    "token": 121,
+    "contract": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
+    "status": "Hold",
+    "mint_cost_bnb": 1.3430772179832e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.3430772179832e-05,
+    "cost_usd": 0.0099,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002531847427815838,
-   "cost_usd": 2.3214,
+   "cost_bnb": 0.00254527819999567,
+   "cost_usd": 2.3313,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 35
+   "held": 36
   }
  },
  "capital": {
@@ -766,15 +784,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0004972827578544661,
-   "usd": 0.3749
+   "bnb": 0.0005107135300342981,
+   "usd": 0.3848
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.3459,
-   "left_usd": 7.6541
+   "spent_usd": 2.3558,
+   "left_usd": 7.6442
   },
-  "bsc_balance_bnb": 0.009977835202163441,
+  "bsc_balance_bnb": 0.00996440442998361,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716
   },
@@ -806,8 +824,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.3459,
-  "net_usd": -2.311
+  "spent_usd": 2.3558,
+  "net_usd": -2.3209
  },
  "holdings": [
   {
@@ -1060,6 +1078,13 @@
    "collection": "NEON BOTZ (NBOTZ)",
    "token": 205,
    "contract": "0xd85A10B599e228Fb2D13D3E9B0a2B9003F1CD31C",
+   "status": "Hold",
+   "note": "Held - no market yet"
+  },
+  {
+   "collection": "Agent Koi (KOI)",
+   "token": 121,
+   "contract": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
    "status": "Hold",
    "note": "Held - no market yet"
   }
@@ -1451,6 +1476,15 @@
    "delta_bnb": -9.407025745254e-06,
    "balance_bnb": 0.009977835202163441,
    "tx": "https://bscscan.com/tx/0x88445ce2321fab0816b68ecaafa44d020a86c8aa121a09bbb636762af3345290"
+  },
+  {
+   "at_wita": "2026-10-25 09:16:00",
+   "kind": "Mint",
+   "project": "Agent Koi (KOI)",
+   "direction": "out",
+   "delta_bnb": -1.3430772179832e-05,
+   "balance_bnb": 0.00996440442998361,
+   "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
   }
  ],
  "tabs": {
@@ -2485,6 +2519,27 @@
      "tx": "https://bscscan.com/tx/0x88445ce2321fab0816b68ecaafa44d020a86c8aa121a09bbb636762af3345290"
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Agent Koi (KOI)",
+     "Chain": "BSC",
+     "Token/NFT": "Agent Koi NFT x1 #121",
+     "Contract Address": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486",
+     "Status": "Held - no market yet",
+     "Notes": "User rule free mint. Sourcify exact match, OZ ERC721, no owner mint, owner EOA 0xD534. 6000 supply, max 30, 0.0002 after free. #121 Common, airdrop weight 1. Preview +1 NFT only. Paid units NOT bought.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -2504,6 +2559,28 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "09:16:00",
+     "Type": "Mint",
+     "Project": "Agent Koi (KOI)",
+     "Chain": "BSC",
+     "Token/NFT": "Agent Koi NFT x1 #121",
+     "Contract Address": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.3430772179832e-05,
+     "Gas Fee (USD)": 0.0099,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint. Sourcify exact_match (AgentKoi.sol, OZ ERC721/ERC2981/Ownable): no owner mint, standard transfers; owner can setMintOpen/setRegistry/setImageBase/setRoyalty(<=10%)/withdraw. Owner/deployer EOA 0xD534…7b6F. MAX 6000, max 10/tx, 30/wallet, 0.0002 BNB after first free. Agent ID registry 0x60B9…022F, isAgent(W)=true. quote(W,1)=0, mintedBy(W)=0, totalSupply 114 at check. eth_call ",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486",
      "_src": "ledger"
     }
    ]
@@ -4029,6 +4106,21 @@
      "Risk": "Low",
      "Notes": "Not a lead; complaint about pumpfun airdrops. No action.",
      "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "09:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Agent Koi (KOI)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
+     "Link": "https://x.com/daliu5266/status/2114160890342002819",
+     "Sentiment": "Neutral",
+     "Red Flags": "isAgent(hunter) reverts on eth_call; new contract; promoter not official; owner can setRegistry/setImageBase/withdraw",
+     "Risk": "Medium",
+     "Notes": "Sourcify exact_match; 1st free for .ai Agent ID, then 0.0002 BNB; max 30/wallet; 85/6000 minted; quote(hunter,1)=0. GO/free, simulate first",
+     "Status": "Sent to Ayanokouji"
     }
    ]
   }
