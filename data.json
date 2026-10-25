@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 10:50 WITA",
+ "generated_wita": "2026-10-25 11:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -4258,6 +4258,51 @@
      "Red Flags": "",
      "Risk": "",
      "Notes": "Setya queue unchanged; Cupang 0 new; Chinese TG no concrete lead; Worldygg mintOpen=false (5); ArtPunk 13, AHOUSE 30; Mummies marketOpen=false (856); GALAXY 2581; owners unchanged",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "11:10",
+     "Source (Telegram group / X account)": "X @rektknights",
+     "Project": "Rekt Knights (now live)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x7C9faec45E2684bCd864CB4525331A5093695757",
+     "Link": "https://x.com/rektknights/status/2114186820548440158",
+     "Sentiment": "Neutral",
+     "Red Flags": "Source unverified; owner EOA 0xf78d...86a7; 0-follower account; another 'Rekt Knights' contract 0xc805...a540 exists",
+     "Risk": "High",
+     "Notes": "0,0001355 BNB (~$0,09), max 10/wallet, Agent ID wallet; 28/6666 minted; site rektknights.xyz. WATCH, simulate before any buy",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "11:10",
+     "Source (Telegram group / X account)": "X @AgentApeClub",
+     "Project": "Agent Ape Club",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x31da612e74db1751f0B474b4607493B4fa4d9bd5",
+     "Link": "https://x.com/AgentApeClub/status/2114183587000209667",
+     "Sentiment": "Neutral",
+     "Red Flags": "Account created today, 0 followers; claims BscScan verified but Sourcify/GoPlus not confirmed; owner EOA 0x0be2...8ccc",
+     "Risk": "Medium",
+     "Notes": "Opens 25 Oct 20:00 WITA; 1 free per .ai Agent ID, extra 0,002 BNB, max 5/wallet; 0/5555; site agentapeclub.pages.dev. GO/free, simulate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "11:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "Pass summary",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Setya queue unchanged; Cupang 0 new; Chinese TG no concrete lead; Worldygg mintOpen=false (5); ArtPunk 13, AHOUSE 31; Mummies marketOpen=false (870); GALAXY 2657; owners unchanged; X reads left ~990/1000",
      "Status": "New"
     }
    ]
