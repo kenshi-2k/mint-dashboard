@@ -1,32 +1,32 @@
 {
- "generated_wita": "2026-10-25 21:20 WITA",
+ "generated_wita": "2026-10-26 01:08 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.0104596344145724,
-  "last_balance_wita": "2026-10-25 20:23 WITA",
+  "last_balance_bnb": 0.006640503924624444,
+  "last_balance_wita": "2026-10-25 23:26 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.6314,
-  "gas_bnb": 0.0007704835454455077
+  "spent_usd": 5.4418,
+  "gas_bnb": 0.0007878704108646558
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 20:23 WITA",
+  "snapshot_wita": "2026-10-25 22:34 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
-   "bnb": 740.0,
-   "eth": 2376.15
+   "bnb": 737.95,
+   "eth": 2331.59
   },
   "chains": [
    {
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.0104596344145724,
-    "amount_str": "0.0104596344145724",
+    "amount": 0.007048475391311088,
+    "amount_str": "0.007048475391311088",
     "usable": true,
     "status": "ok"
    },
@@ -1156,16 +1156,88 @@
     "txs": [
      "https://bscscan.com/tx/0x82d95a7b94b280b2ec902c4a0747f20990ab2034a144ddd417441103d490b3a3"
     ]
+   },
+   {
+    "collection": "VULPES",
+    "token": 50,
+    "contract": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+    "status": "Hold",
+    "mint_cost_bnb": 9.40713951464e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.40713951464e-06,
+    "cost_usd": 0.007,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x2b6aa389865affa653eed2efad28fe0f69713f8be8c7288ef4680fa00417dcb7"
+    ]
+   },
+   {
+    "collection": "CARDBOX",
+    "token": 552,
+    "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+    "status": "Hold",
+    "mint_cost_bnb": 0.0,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 0.0,
+    "cost_usd": 0.0016333333333333334,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://robinhoodchain.blockscout.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298"
+    ]
+   },
+   {
+    "collection": "CARDBOX",
+    "token": 553,
+    "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+    "status": "Hold",
+    "mint_cost_bnb": 0.0,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 0.0,
+    "cost_usd": 0.0016333333333333334,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://robinhoodchain.blockscout.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298"
+    ]
+   },
+   {
+    "collection": "CARDBOX",
+    "token": 554,
+    "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+    "status": "Hold",
+    "mint_cost_bnb": 0.0,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 0.0,
+    "cost_usd": 0.0016333333333333334,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://robinhoodchain.blockscout.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.00279899604584176,
-   "cost_usd": 2.6822,
+   "cost_bnb": 0.0028084031853564,
+   "cost_usd": 2.6941,
    "realized_bnb": 0.000948532138333347,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 1,
    "listed": 2,
-   "held": 61
+   "held": 65
   }
  },
  "capital": {
@@ -1237,20 +1309,20 @@
    ]
   },
   "gas": {
-   "bnb": 0.0007704835454455077,
-   "usd": 0.5771
+   "bnb": 0.0007878704108646558,
+   "usd": 0.6029
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.6314,
-   "left_usd": 7.3686
+   "spent_usd": 5.4418,
+   "left_usd": 4.5582
   },
-  "bsc_balance_bnb": 0.0104596344145724,
+  "bsc_balance_bnb": 0.006640503924624444,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
   },
-  "bridge_fee_usd": 0.03,
+  "bridge_fee_usd": 0.122,
   "bridges": [
    {
     "via": "Relay",
@@ -1258,6 +1330,27 @@
     "sent": "0.00044 ETH",
     "received": "0.001381936 BNB",
     "fee_usd": 0.03
+   },
+   {
+    "via": "Relay",
+    "route": "BSC->Robinhood Chain (4663)",
+    "sent": "0.0034 BNB",
+    "received": "0.001061889215093692 ETH",
+    "fee_usd": 0.03
+   },
+   {
+    "via": "Relay",
+    "route": "BSC->Robinhood Chain (4663)",
+    "sent": "4.75 USDC",
+    "received": "0.002012005920126938 ETH (approx)",
+    "fee_usd": 0.04
+   },
+   {
+    "via": "Relay",
+    "route": "BSC->Robinhood Chain (4663)",
+    "sent": "0.0004 BNB",
+    "received": "0.000116872188372911 ETH",
+    "fee_usd": 0.022
    }
   ]
  },
@@ -1289,8 +1382,8 @@
   "count": 2,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.6314,
-  "net_usd": -2.5965
+  "spent_usd": 5.4418,
+  "net_usd": -5.4069
  },
  "holdings": [
   {
@@ -1727,6 +1820,34 @@
    "contract": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
    "status": "Hold",
    "note": "Held - soulbound"
+  },
+  {
+   "collection": "VULPES",
+   "token": 50,
+   "contract": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "CARDBOX",
+   "token": 552,
+   "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "CARDBOX",
+   "token": 553,
+   "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "CARDBOX",
+   "token": 554,
+   "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+   "status": "Hold",
+   "note": ""
   }
  ],
  "balance_history": [
@@ -2404,6 +2525,87 @@
    "delta_bnb": -0.00022,
    "balance_bnb": 0.0104596344145724,
    "tx": "https://bscscan.com/tx/snapshot-20261025-2023"
+  },
+  {
+   "at_wita": "2026-10-25 22:20:00",
+   "kind": "Free mint",
+   "project": "PixelVulpes (VULPES)",
+   "direction": "out",
+   "delta_bnb": -9.40713951464e-06,
+   "balance_bnb": 0.01045022727505776,
+   "tx": "https://bscscan.com/tx/0x2b6aa389865affa653eed2efad28fe0f69713f8be8c7288ef4680fa00417dcb7"
+  },
+  {
+   "at_wita": "2026-10-25 22:33:00",
+   "kind": "Bridge (Farming Season funding)",
+   "project": "Farming Season (Robinhood Chain) - fund Rabby wallet",
+   "direction": "out",
+   "delta_bnb": -1.751883746672e-06,
+   "balance_bnb": 0.010448475391311088,
+   "tx": "https://bscscan.com/tx/0xfadb5c52f0362b059f8efa1dd1371f25adafbbdd7f0dba98663b1d4f6451f94c"
+  },
+  {
+   "at_wita": "2026-10-25 22:34:00",
+   "kind": "Outflow (from snapshot)",
+   "project": "after Relay bridge 0.0034 BNB -> RH Rabby (Farming Season)",
+   "direction": "out",
+   "delta_bnb": -0.0034,
+   "balance_bnb": 0.007048475391311088,
+   "tx": "https://bscscan.com/tx/snapshot-20261025-2234"
+  },
+  {
+   "at_wita": "2026-10-25 23:20:00",
+   "kind": "Approve (exact, Relay)",
+   "project": "Farming Season funding - USDC approve",
+   "direction": "out",
+   "delta_bnb": -3.24551717152e-06,
+   "balance_bnb": 0.007045229874139568,
+   "tx": "https://bscscan.com/tx/0x644d697e8b4e82ac24445f2ba82cc77c8bb98313a8d1537b4ff7ea8dffe1e73a"
+  },
+  {
+   "at_wita": "2026-10-25 23:21:00",
+   "kind": "Bridge (Farming Season funding)",
+   "project": "Farming Season (Robinhood Chain) - Lv2 upgrade funding",
+   "direction": "out",
+   "delta_bnb": -2.982324986316e-06,
+   "balance_bnb": 0.007042247549153252,
+   "tx": "https://bscscan.com/tx/0x23ca0f430e0d685d2885c049007d38fc0ef56e6a97f510948c50d58dddcc004b"
+  },
+  {
+   "at_wita": "2026-10-25 23:23:00",
+   "kind": "Swap (Farming Season)",
+   "project": "Farming Season - buy SEASON for Town Hall Lv2",
+   "direction": "out",
+   "delta_bnb": 0.0,
+   "balance_bnb": 0.007042247549153252,
+   "tx": "https://bscscan.com/tx/0x4c08e3dbdf5cf6e010caf23cd5e71a778a0c9bf0f05f238bdcd21728ae770164"
+  },
+  {
+   "at_wita": "2026-10-25 23:25:00",
+   "kind": "Bridge (RH gas for free mints)",
+   "project": "Agentic Wallet RH gas (Cardboxs)",
+   "direction": "out",
+   "delta_bnb": 0.0,
+   "balance_bnb": 0.007042247549153252,
+   "tx": "https://bscscan.com/tx/0x2c43407b6c230f5f75f0d3c4c06da4816c1f51197c2891d8bc5541619fa6e238"
+  },
+  {
+   "at_wita": "2026-10-25 23:26:00",
+   "kind": "Free mint",
+   "project": "Cardboxs (Robinhood Chain)",
+   "direction": "out",
+   "delta_bnb": 0.0,
+   "balance_bnb": 0.007042247549153252,
+   "tx": "https://bscscan.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298"
+  },
+  {
+   "at_wita": "2026-10-25 23:26:00",
+   "kind": "Outflow (from snapshot)",
+   "project": "ledger last_balance_bnb",
+   "direction": "out",
+   "delta_bnb": -0.000401743624528808,
+   "balance_bnb": 0.006640503924624444,
+   "tx": "https://bscscan.com/tx/snapshot-20261025-2326"
   }
  ],
  "tabs": {
@@ -4150,6 +4352,160 @@
      "Notes": "Entry via X post https://x.com/Atttar4/status/2114333148293337181 with #ProofOfAgent + Agent #2671. Draw Oct 26 12:44 WITA. No signature, no funds out.",
      "Revoke TX Link": "",
      "tx": ""
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "22:20:00",
+     "Type": "Free mint",
+     "Project": "PixelVulpes (VULPES)",
+     "Chain": "BSC",
+     "Token/NFT": "PixelVulpes NFT x1 #50",
+     "Contract Address": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.40713951464e-06,
+     "Gas Fee (USD)": 0.007,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "mint(1, agentTokenId=keccak256('kenshi2k')) value 0; mintableBy=2 (1 free, 2nd paid → not taken; value-0 eth_call for 2nd reverts). Unverified; bytecode no delegatecall/selfdestruct; transfer-sim OK. Preview +1 ERC721 only, no approvals. CA from pixelvulpes.xyz app.js.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x2b6aa389865affa653eed2efad28fe0f69713f8be8c7288ef4680fa00417dcb7",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "22:33:00",
+     "Type": "Bridge (Farming Season funding)",
+     "Project": "Farming Season (Robinhood Chain) - fund Rabby wallet",
+     "Chain": "BSC",
+     "Token/NFT": "Bridge (Farming Season funding)",
+     "Contract Address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+     "Amount": null,
+     "USD Spent": 2.5054,
+     "Gas Fee (native)": 1.751883746672e-06,
+     "Gas Fee (USD)": 0.0013,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Bridged",
+     "Notes": "Relay BSC->Robinhood Chain 4663: 0.0034 BNB -> 0.001061889 ETH (~$2.48) to own Rabby wallet 0x255ebae535C2DaF6c8DA1Cc0F7915e92d6A0Df26 (user-approved). Transfer to own wallet, not a mint. Preview: only -0.0034 BNB, no approvals. Relay fee ~$0.03. Dest tx 0x73e0b41d8c20faf66cb847a3d75ac194c78c1181c33e03c53e65f823d5a90989",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xfadb5c52f0362b059f8efa1dd1371f25adafbbdd7f0dba98663b1d4f6451f94c",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "23:20:00",
+     "Type": "Approve (exact, Relay)",
+     "Project": "Farming Season funding - USDC approve",
+     "Chain": "BSC",
+     "Token/NFT": "Approve (exact, Relay)",
+     "Contract Address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+     "Amount": null,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 3.24551717152e-06,
+     "Gas Fee (USD)": 0.0024,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Done",
+     "Notes": "Exact 4.75 USDC approve to Relay depository 0x4cd0...bc31 (consumed to 0 by deposit). Funded by user's 5 USDC top-up (Atar 23:10).",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x644d697e8b4e82ac24445f2ba82cc77c8bb98313a8d1537b4ff7ea8dffe1e73a",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "23:21:00",
+     "Type": "Bridge (Farming Season funding)",
+     "Project": "Farming Season (Robinhood Chain) - Lv2 upgrade funding",
+     "Chain": "BSC",
+     "Token/NFT": "Bridge (Farming Season funding)",
+     "Contract Address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+     "Amount": null,
+     "USD Spent": 4.75,
+     "Gas Fee (native)": 2.982324986316e-06,
+     "Gas Fee (USD)": 0.0022,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Done",
+     "Notes": "Relay BSC->RH 4663: 4.75 USDC -> 0.002012 ETH to own Rabby 0x255e...Df26. Funded by user USDC top-up (not from original $10 BNB budget; cumulative_usd_spent not changed). Dest tx 0x2478e4e7cedbb068cc96a2b0d8e796f0ec1cab767bbd0662641d078e4626cde4. Preview: only -4.75 USDC, allowance 4.75->0.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x23ca0f430e0d685d2885c049007d38fc0ef56e6a97f510948c50d58dddcc004b",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "23:23:00",
+     "Type": "Swap (Farming Season)",
+     "Project": "Farming Season - buy SEASON for Town Hall Lv2",
+     "Chain": "BSC",
+     "Token/NFT": "Swap (Farming Season)",
+     "Contract Address": "0x8876789976decbfcbbbe364623c63652db8c0904",
+     "Amount": null,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 0.0,
+     "Gas Fee (USD)": 0.006,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Done",
+     "Notes": "Uniswap v4 UR on RH: 0.00242 ETH -> 2856.70 SEASON, pool 0xfaea1787... (ETH/SEASON fee 2.4%, no hook; best quote vs launch pool 2832). minOut 2813.85. Gas 0.00000247 ETH. Paid from bridged funds (already counted in bridge entry).",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x4c08e3dbdf5cf6e010caf23cd5e71a778a0c9bf0f05f238bdcd21728ae770164",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "23:25:00",
+     "Type": "Bridge (RH gas for free mints)",
+     "Project": "Agentic Wallet RH gas (Cardboxs)",
+     "Chain": "BSC",
+     "Token/NFT": "Bridge (RH gas for free mints)",
+     "Contract Address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+     "Amount": null,
+     "USD Spent": 0.2967,
+     "Gas Fee (native)": 0.0,
+     "Gas Fee (USD)": 0.002,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Done",
+     "Notes": "Relay BSC->RH 0.0004 BNB -> 0.000116872 ETH to Agentic Wallet itself (dest tx 0xc971b976...f8d6). Preview: only 0.0004 BNB out, no approvals. Relay fee ~$0.022. ETH stays in own wallet for RH free-mint gas.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x2c43407b6c230f5f75f0d3c4c06da4816c1f51197c2891d8bc5541619fa6e238",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "23:26:00",
+     "Type": "Free mint",
+     "Project": "Cardboxs (Robinhood Chain)",
+     "Chain": "BSC",
+     "Token/NFT": "Cardboxs NFT x3 #552 #553 #554",
+     "Contract Address": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+     "Amount": 3,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 0.0,
+     "Gas Fee (USD)": 0.0049,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "OpenSea SeaDrop v1 public stage, price 0, 3/wallet. mintPublic(nft, feeRecipient 0x0000a26b..a719, 0x0, 3) via SeaDrop 0x00005EA0..4bf5. eth_call value 0 OK; baw preview +3 ERC721 only, no approvals/risks. All 3 free units minted.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298",
+     "_src": "ledger"
     }
    ]
   },
@@ -6609,6 +6965,141 @@
      "Red Flags": "",
      "Risk": "",
      "Notes": "Chinese channels scanned this pass (3h): no concrete mint/airdrop. Worldygg mintOpen false. Rob Town still no CA.",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "22:15",
+     "Source (Telegram group / X account)": "X",
+     "Project": "PixelVulpes",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+     "Link": "https://x.com/PixelVulpesBNB/status/2114357896930885846",
+     "Sentiment": "Low engagement (0 followers)",
+     "Red Flags": "Account created today; GoPlus says not open-source; same-name contracts exist; differs from the Orbitokens CA 0xcE76; site has an agent prompt (don't paste it)",
+     "Risk": "High",
+     "Notes": "CA watch filled. Agent ID only: 1st free, 2nd ~$1, max 2/wallet. Supply 31/3333. GO/free for the 1st after simulating. Chinese channels not scanned (not a 3-hour slot). Worldygg mintOpen false; Mummies 1041 marketOpen false; GALAXY 3346; Cupang has no new leads",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "Setya/Cupang #5961",
+     "Project": "TapeBit Protocol Genesis Transistor",
+     "Chain": "Bitcoin",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://t.me/c/1821865618/5961",
+     "Sentiment": "Mixed (\"bapuk\")",
+     "Red Flags": "New project Oct 2026, 693 foll; BTC Taproot wallet needed; fwd from CVC ALPHA BOT",
+     "Risk": "High",
+     "Notes": "Free mint live since 21:00 WITA, mainnet.tapebit.io/app; Chinese TG not scanned this pass",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "P0 Patient Zero (CA found) / Sneeze Zero strain",
+     "Chain": "BSC",
+     "Type": "Token mint",
+     "CA": "0xb493d1165c153b8551c724692ebcb0ff440ec2e9",
+     "Link": "https://x.com/alvinhoLPK/status/2114361367968792967",
+     "Sentiment": "Positive",
+     "Red Flags": "Paid ~$1/mint; strain mint contract not checked",
+     "Risk": "Medium",
+     "Notes": "Token verified, not honeypot, 0 tax, no owner, 3025 holders; Agent ID gate, max 3/wallet; patient0.meme",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X / OpenSea",
+     "Project": "Cardboxs",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://opensea.io/collection/cardboxs",
+     "Sentiment": "Neutral",
+     "Red Flags": "Anon, floor $0.05, no volume",
+     "Risk": "High",
+     "Notes": "Public free, 3/wallet, 515/5000; src x.com/Foil667/status/2114366023629721791",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Digital Humans (Souls Club)",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://app.souls.club/humans",
+     "Sentiment": "Positive (busy)",
+     "Red Flags": "WL via public X posting leaderboard (not approved); no CA yet",
+     "Risk": "Medium",
+     "Notes": "10k free mint Oct 27 on OpenSea; many posts, giveaways",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Everybody Loves Robinhood",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/EverybodyLoveRH/status/2114372593633620213",
+     "Sentiment": "Neutral",
+     "Red Flags": "New acct (Sep 2026); asks to drop EVM address publicly (not approved)",
+     "Risk": "Medium",
+     "Notes": "10k free mint Oct 28 22:00 WITA on OpenSea; FYI/watch",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "23:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Agent Capys",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x43E99Ed45332779d4f54e7F0FBAe5Ea15714ccdF",
+     "Link": "https://x.com/AgentCapys/status/2114369425604534456",
+     "Sentiment": "Neutral",
+     "Red Flags": "Mint by prompting AI agent; unverified contract; account created today, 0 followers",
+     "Risk": "Skip",
+     "Notes": "333 supply, 1/wallet",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "00:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "RaidLords (888 Lords NFT)",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/aoikamura/status/2114390171718463775",
+     "Sentiment": "Positive (shilled)",
+     "Red Flags": "Pre-launch, no CA/date; coordinated shill threads from small accounts; WL via public posting (not approved)",
+     "Risk": "Medium",
+     "Notes": "FYI/watch: 888 free mint + $RAID game; waitlist + creator program live; src x.com/0xzeus50/status/2114391490625478992",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "00:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No new Setya/Cupang/Chinese leads",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Chinese TG scanned this pass (~3.3h, no leads); Setya queue no new lines; Cupang #5963 chatter only; Worldygg mintOpen false; Mummies marketOpen false",
      "Status": "New"
     }
    ]
