@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 14:50 WITA",
+ "generated_wita": "2026-10-25 15:29 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009918343651809113,
-  "last_balance_wita": "2026-10-25 14:23 WITA",
+  "last_balance_bnb": 0.009887203930700774,
+  "last_balance_wita": "2026-10-25 15:28 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.3614,
-  "gas_bnb": 0.000556774308208794
+  "gas_bnb": 0.0005879140293171339
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 14:23 WITA",
+  "snapshot_wita": "2026-10-25 15:28 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009918343651809113,
-    "amount_str": "0.009918343651809113",
+    "amount": 0.009887203930700774,
+    "amount_str": "0.009887203930700774",
     "usable": true,
     "status": "ok"
    },
@@ -775,16 +775,70 @@
     "txs": [
      "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
     ]
+   },
+   {
+    "collection": "Floppy Agents (FLOPPY)",
+    "token": 327,
+    "contract": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
+    "status": "Hold",
+    "mint_cost_bnb": 9.101378233578e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.101378233578e-06,
+    "cost_usd": 0.0067,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe"
+    ]
+   },
+   {
+    "collection": "BNWORLD",
+    "token": 832,
+    "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+    "status": "Hold",
+    "mint_cost_bnb": 1.3267074956294e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.3267074956294e-05,
+    "cost_usd": 0.0098,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152"
+    ]
+   },
+   {
+    "collection": "BeHand Pass (SBT)",
+    "token": 536,
+    "contract": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
+    "status": "Hold",
+    "mint_cost_bnb": 8.771267918468e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 8.771267918468e-06,
+    "cost_usd": 0.0065,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.0025852868086050458,
-   "cost_usd": 2.3609,
+   "cost_bnb": 0.002616426529713386,
+   "cost_usd": 2.3839,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 40
+   "held": 43
   }
  },
  "capital": {
@@ -856,15 +910,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000556774308208794,
-   "usd": 0.4189
+   "bnb": 0.0005879140293171339,
+   "usd": 0.4419
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.3614,
    "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.009918343651809113,
+  "bsc_balance_bnb": 0.009887203930700774,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1188,6 +1242,27 @@
    "contract": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "Floppy Agents (FLOPPY)",
+   "token": 327,
+   "contract": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
+   "status": "Hold",
+   "note": "Held - no market yet"
+  },
+  {
+   "collection": "BNWORLD",
+   "token": 832,
+   "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "BeHand Pass (SBT)",
+   "token": 536,
+   "contract": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
+   "status": "Hold",
+   "note": "Held - soulbound (not sellable)"
   }
  ],
  "balance_history": [
@@ -1631,6 +1706,33 @@
    "delta_bnb": -9.574538123068e-06,
    "balance_bnb": 0.009918343651809113,
    "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
+  },
+  {
+   "at_wita": "2026-10-25 15:27:00",
+   "kind": "Mint",
+   "project": "Floppy Agents (FLOPPY)",
+   "direction": "out",
+   "delta_bnb": -9.101378233578e-06,
+   "balance_bnb": 0.009909242273575534,
+   "tx": "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe"
+  },
+  {
+   "at_wita": "2026-10-25 15:28:00",
+   "kind": "Mint",
+   "project": "Onchain Agents (BN World)",
+   "direction": "out",
+   "delta_bnb": -1.3267074956294e-05,
+   "balance_bnb": 0.00989597519861924,
+   "tx": "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152"
+  },
+  {
+   "at_wita": "2026-10-25 15:28:00",
+   "kind": "Mint",
+   "project": "BeHand Pass (SBT)",
+   "direction": "out",
+   "delta_bnb": -8.771267918468e-06,
+   "balance_bnb": 0.009887203930700774,
+   "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9"
   }
  ],
  "tabs": {
@@ -2791,6 +2893,69 @@
      "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Floppy Agents (FLOPPY)",
+     "Chain": "BSC",
+     "Token/NFT": "Floppy Agents NFT x1 #327",
+     "Contract Address": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe",
+     "Status": "Held - no market yet",
+     "Notes": "User rule free mint. Sourcify exact match, OZ ERC721, no owner power over holders. Agent ID gated. Preview +1 NFT only. Lead Suruhan 15:19.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents NFT x1 #832",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152",
+     "Status": "Held - unrevealed, no market yet",
+     "Notes": "User rule free mint. Unverified; lean bytecode check clean (no delegatecall/selfdestruct, transfers OK, no owner power over holders). USDT/BNW path not used, no approval. Preview +1 NFT only. Lead Suruhan 15:19.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "BeHand Pass (SBT)",
+     "Chain": "BSC",
+     "Token/NFT": "BeHand Pass SBT x1 #536",
+     "Contract Address": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9",
+     "Status": "Held - soulbound (not sellable)",
+     "Notes": "User rule free SBT claim. Unverified; lean check clean, transfers revert Soulbound by design. Agent ID gated. Preview +1 token only.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -2832,6 +2997,72 @@
      "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "15:27:00",
+     "Type": "Mint",
+     "Project": "Floppy Agents (FLOPPY)",
+     "Chain": "BSC",
+     "Token/NFT": "Floppy Agents NFT x1 #327",
+     "Contract Address": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.101378233578e-06,
+     "Gas Fee (USD)": 0.0067,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint (lead: Suruhan 15:19). Sourcify exact_match (FloppyAgents.sol, OZ ERC721+ERC2981, no _update override). Owner powers: creatorMint (reserve, new tokens only), setRoyalty (max 5%). No delegatecall/selfdestruct; holder transfer sim OK. .ai Agent ID gated. eth_call mint() value 0 OK; baw preview +1 ERC721 only, no approvals/risks.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "15:28:00",
+     "Type": "Mint",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents NFT x1 #832",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.3267074956294e-05,
+     "Gas Fee (USD)": 0.0098,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint (lead: Suruhan 15:19). Unverified; lean bytecode check: no delegatecall/selfdestruct, no proxy, holder transfer sim OK. Owner admin = setMintOpen/endMint/setArt/lockArt only, no owner mint/burn over holders. quote(W,1)=0, freeUsed=0. USDT/BNW mintWithToken path NOT used, no approval. eth_call mint(1) value 0 OK; baw preview +1 ERC721 only.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "15:28:00",
+     "Type": "Mint",
+     "Project": "BeHand Pass (SBT)",
+     "Chain": "BSC",
+     "Token/NFT": "BeHand Pass NFT x1 #536",
+     "Contract Address": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 8.771267918468e-06,
+     "Gas Fee (USD)": 0.0065,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free soulbound claim (parent steer 15:26). Unverified; lean check: no delegatecall/selfdestruct, no proxy; transfers revert 'Soulbound' (by design, not sellable). Owner admin = setBase/lockBase only. canClaim(W)=true, .ai Agent ID gated, EARLY_LIMIT 2000 (early holder). eth_call claim() value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9",
      "_src": "ledger"
     }
    ]
@@ -4731,6 +4962,81 @@
      "Red Flags": "Not BSC; no CA or date yet",
      "Risk": "Medium",
      "Notes": "Cupang #5937: next freemint 1111 supply, dev @bazzicrypto. FYI. WATCH: Worldygg false(5), ArtPunk 13, AHOUSE 31, Mummies 929 marketOpen false, ngmi 235, GALAXY 2844; held unchanged",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "15:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Floppy Agents (FLOPPY)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
+     "Link": "https://x.com/i/status/2114249773310005672",
+     "Sentiment": "Positive",
+     "Red Flags": "Small promoter accounts; no market yet",
+     "Risk": "Medium",
+     "Notes": "Free gas-only, 1/agent wallet, 261/3333 minted, Sourcify exact match, GoPlus clean. Verdict GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "15:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Link": "https://bncworld.fun/agents/llms.txt",
+     "Sentiment": "Positive",
+     "Red Flags": "Source not verified; owner set; paid path uses token approve",
+     "Risk": "High",
+     "Notes": "2 free/wallet then $1, max 12, 357/10000 minted, mintOpen true. Verdict GO/free (free only)",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "15:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Silicon Souls / Soul Sigil",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xA6574a66E45DeDFc878d173522836A49685ea307",
+     "Link": "https://x.com/i/status/2114247293360562590",
+     "Sentiment": "Neutral",
+     "Red Flags": "Account 2 days old, 4 followers, no engagement",
+     "Risk": "High",
+     "Notes": "0.0008 BNB, 1/wallet, 73 minted, Sourcify exact match. Verdict lean SKIP",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "15:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "BeHand Pass (CA found)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
+     "Link": "https://x.com/i/status/2114252176931356968",
+     "Sentiment": "Neutral",
+     "Red Flags": "Source unverified; soulbound (no flip)",
+     "Risk": "Medium",
+     "Notes": "534 minted, FYI",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "15:19",
+     "Source (Telegram group / X account)": "Chinese TG",
+     "Project": "Four.Meme Agent ID Exclusive launch mode",
+     "Chain": "BSC",
+     "Type": "Token mint",
+     "CA": "",
+     "Link": "https://t.me/theblockbeats/202217",
+     "Sentiment": "Positive",
+     "Red Flags": "No specific token yet",
+     "Risk": "Medium",
+     "Notes": "Bonding curve open only to Agent ID wallets, 1% cap, non-transferable until graduation. FYI",
      "Status": "Sent to Ayanokouji"
     }
    ]
