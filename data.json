@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 20:29 WITA",
+ "generated_wita": "2026-10-25 21:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -4170,6 +4170,14 @@
      "Total Gas USD": "$0,3006",
      "Cumulative Spent": "$2,7413",
      "Budget Left of $10": "$7,2587"
+    },
+    {
+     "Date": "",
+     "# Tx": "42",
+     "Total USD Spent": "$0,1631",
+     "Total Gas USD": "$0,2766",
+     "Cumulative Spent": "$2,6314",
+     "Budget Left of $10": "$7,3686"
     }
    ]
   },
@@ -4412,6 +4420,34 @@
      "Action": "MINTED 1 free (#89) - held, market not open",
      "Reason": "WATCH -> minted free (gas only). Source: Suruhan X leads. costFor(wallet,1)=0, baw sim clean; 2nd+ costs 0.001 BNB (not minted)",
      "Link": "open"
+    },
+    {
+     "Date": "",
+     "Project": "Orbitokens (ORBT)",
+     "Chain": "BSC",
+     "Type": "NFT mint (paid ~0.000135 BNB)",
+     "X Account": "new account, 0 followers",
+     "Contract Address (CA)": "0xcE76FBa6c5F1abb852344eD45CE5eE6A93a7eF07",
+     "Sentiment": "Low engagement",
+     "Red Flags": "Source unverified; X created today; pages.dev site",
+     "Risk Level": "High",
+     "Action": "SKIP",
+     "Reason": "Paid mint with A=0 promo, fails v2 gate (same as NEXUS CORE II)",
+     "Link": "https://orbitokens.pages.dev/#mint"
+    },
+    {
+     "Date": "",
+     "Project": "PixelVulpes",
+     "Chain": "BSC",
+     "Type": "Free mint (1st free per Agent ID, 2nd $1)",
+     "X Account": "~1h old account",
+     "Contract Address (CA)": "",
+     "Sentiment": "New",
+     "Red Flags": "No CA yet",
+     "Risk Level": "High",
+     "Action": "WATCH",
+     "Reason": "Site still says 'Mint not open yet' at 21:12 WITA; mint free unit once CA is live",
+     "Link": "https://pixelvulpes.xyz/"
     }
    ]
   },
@@ -4423,7 +4459,7 @@
    "rows": [
     {
      "Field": "Snapshot time",
-     "Value": "2026-10-24 14:36 WITA"
+     "Value": "2026-10-25 21:12 WITA (CONNECTED, 0 open approvals)"
     },
     {
      "Field": "EVM address (BSC/ETH/Base)",
@@ -4439,7 +4475,7 @@
     },
     {
      "Field": "Balance BSC",
-     "Value": "0.000811 BNB (~$0.60)"
+     "Value": "0.010460 BNB (~$7.72) + 0.0799 USDT + 0.0000093 ETH on Base"
     },
     {
      "Field": "Balance other chains",
@@ -6499,6 +6535,81 @@
      "Risk": "High",
      "Notes": "FYI only; Worldygg mintOpen still false (5); MilkBao 266/3000",
      "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "21:12",
+     "Source (Telegram group / X account)": "Setya/Cupang",
+     "Project": "JuiceHedz presale",
+     "Chain": "Unknown",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://t.me/c/1821865618/5955",
+     "Sentiment": "Setya hype: Adam Weitsman 50 in presale, Czar following",
+     "Red Flags": "No CA, no chain, access-gated, Setya says 'if not larp'",
+     "Risk": "High",
+     "Notes": "Presale 0.002 (likely ETH, ~$7-8), buy 3 get TG sticker NFT. WATCH, over budget.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "21:12",
+     "Source (Telegram group / X account)": "Setya/Cupang",
+     "Project": "Ptah POA daily draw (gacha 500 winner)",
+     "Chain": "BSC",
+     "Type": "Airdrop",
+     "CA": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+     "Link": "https://t.me/c/1821865618/5954",
+     "Sentiment": "Busy, many X posts",
+     "Red Flags": "Draw entry needs daily public X post",
+     "Risk": "Low",
+     "Notes": "Already held (#2671) and entered; FYI only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "21:12",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Inkbit Apes",
+     "Chain": "Robinhood Chain",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://opensea.io/collection/inkbit-apes",
+     "Sentiment": "Quiet: 111 minted, 1 owner",
+     "Red Flags": "Account created today, 0 followers",
+     "Risk": "High",
+     "Notes": "0.0004 ETH, 2/wallet, closes Oct 29. Info only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "21:12",
+     "Source (Telegram group / X account)": "X",
+     "Project": "HashKitty",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xa0aBff126A2C219B6d097A1e2ec4Cd54CA17fEeA",
+     "Link": "https://x.com/HashKittyBNB/status/2114341198974624048",
+     "Sentiment": "New account",
+     "Red Flags": "Asks to install an agent skill",
+     "Risk": "Skip",
+     "Notes": "SKIP per policy",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "21:12",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No new leads (Chinese channels)",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Chinese channels scanned this pass (3h): no concrete mint/airdrop. Worldygg mintOpen false. Rob Town still no CA.",
+     "Status": "New"
     }
    ]
   }
