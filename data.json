@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 16:50 WITA",
+ "generated_wita": "2026-10-25 16:54 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.00987646341640989,
-  "last_balance_wita": "2026-10-25 16:40 WITA",
+  "last_balance_bnb": 0.009863262629699531,
+  "last_balance_wita": "2026-10-25 16:53 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.3614,
-  "gas_bnb": 0.0005986545436080179
+  "gas_bnb": 0.0006118553303183768
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 16:40 WITA",
+  "snapshot_wita": "2026-10-25 16:53 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.00987646341640989,
-    "amount_str": "0.00987646341640989",
+    "amount": 0.009863262629699531,
+    "amount_str": "0.009863262629699531",
     "usable": true,
     "status": "ok"
    },
@@ -836,16 +836,18 @@
     "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
     "status": "Hold",
     "mint_cost_bnb": 1.3267074956294e-05,
-    "other_gas_bnb": 0.0,
-    "cost_bnb": 1.3267074956294e-05,
-    "cost_usd": 0.0098,
+    "other_gas_bnb": 1.3200786710359e-05,
+    "cost_bnb": 2.6467861666653e-05,
+    "cost_usd": 0.0196,
     "sale_bnb": null,
     "realized_bnb": null,
     "list_price_bnb": null,
     "market": null,
     "unrealized_bnb": null,
     "txs": [
-     "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152"
+     "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152",
+     "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c",
+     "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5"
     ]
    },
    {
@@ -868,8 +870,8 @@
    }
   ],
   "totals": {
-   "cost_bnb": 0.00262716704400427,
-   "cost_usd": 2.3919,
+   "cost_bnb": 0.002640367830714629,
+   "cost_usd": 2.4017,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
@@ -946,15 +948,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0005986545436080179,
-   "usd": 0.4499
+   "bnb": 0.0006118553303183768,
+   "usd": 0.4597
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.3614,
    "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.00987646341640989,
+  "bsc_balance_bnb": 0.009863262629699531,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1801,6 +1803,24 @@
    "delta_bnb": -5.340744846836e-06,
    "balance_bnb": 0.00987646341640989,
    "tx": "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644"
+  },
+  {
+   "at_wita": "2026-10-25 16:52:00",
+   "kind": "Approve/List",
+   "project": "Onchain Agents (BN World)",
+   "direction": "out",
+   "delta_bnb": -3.23143863976e-06,
+   "balance_bnb": 0.00987323197777013,
+   "tx": "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c"
+  },
+  {
+   "at_wita": "2026-10-25 16:53:00",
+   "kind": "Approve/List",
+   "project": "Onchain Agents (BN World)",
+   "direction": "out",
+   "delta_bnb": -9.969348070599e-06,
+   "balance_bnb": 0.009863262629699531,
+   "tx": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5"
   }
  ],
  "tabs": {
@@ -3066,6 +3086,48 @@
      "tx": "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644"
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Approve/List",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents #832 approve (single token)",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c",
+     "Status": "Approved #832 to market",
+     "Notes": "User t206u. approve(market 0xC6cB…5704, 832) only, not setApprovalForAll.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Approve/List",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents #832 listed 0.001 BNB",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
+     "Status": "Listed 0.001 BNB (~$0.74), 30 days",
+     "Notes": "Floor 0.001 = contract min price, so listing below floor is impossible; listed at floor. Fee 2.5%, net 0.000975 BNB. bncworld.fun market.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -3129,6 +3191,50 @@
      "Notes": "USER RULE free soulbound claim (parent steer 15:26). Unverified; lean check: no delegatecall/selfdestruct, no proxy; transfers revert 'Soulbound' (by design, not sellable). Owner admin = setBase/lockBase only. canClaim(W)=true, .ai Agent ID gated, EARLY_LIMIT 2000 (early holder). eth_call claim() value 0 OK; baw preview +1 ERC721 only, no approvals.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:52:00",
+     "Type": "Approve/List",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents NFT x1 #832",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 3.23143863976e-06,
+     "Gas Fee (USD)": 0.0024,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Listed 0.001 bnb",
+     "Notes": "approve(market, 832): single-token approval to BN World market 0xC6cBc2C06ae66d201A761FAa8Ac48aD92B835704 (user t206u). baw preview: only allowance #832 -> market. isApprovedForAll stays false.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:53:00",
+     "Type": "Approve/List",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents NFT x1 #832",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.969348070599e-06,
+     "Gas Fee (USD)": 0.0074,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Listed 0.001 bnb",
+     "Notes": "list(832, 0.001 BNB, 30d) on BN World market 0xC6cBc2C06ae66d201A761FAa8Ac48aD92B835704. Floor 0.001 BNB = contract MIN_PRICE, so below-floor impossible (0.00099 reverts BadPrice); listed AT floor. Seller fee 2.5% -> net 0.000975 BNB. Expires 2026-11-24 16:53 WITA. Token stays in wallet.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
      "_src": "ledger"
     }
    ]
