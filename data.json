@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 10:29 WITA",
+ "generated_wita": "2026-10-25 10:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -2592,7 +2592,7 @@
      "Status": "Held - no market yet",
      "Notes": "User rule free mint, HIGH RISK: unverified source, owner EOA 0x48aD (has ownerMint, setPrice). 1111 supply, max 3, price 0. Holder transfer sims OK (no honeypot seen). mint(1) direct, preview +1 NFT only. Extra free units NOT taken. Lead Suruhan.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
     },
     {
      "Date (WITA)": "2026-10-25",
@@ -2614,28 +2614,6 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "10:27:00",
-     "Type": "Mint",
-     "Project": "Rugged Frens (RUGFREN)",
-     "Chain": "BSC",
-     "Token/NFT": "Rugged Frens NFT x1 #83",
-     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.602963892916e-06,
-     "Gas Fee (USD)": 0.0056,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint, HIGH RISK (unverified source). Name Rugged Frens / RUGFREN, owner EOA 0x48aD…13E0 (has ownerMint, setPrice, setMintOpen, setMaxPerWallet, withdraw, setBaseURI; metadata not frozen; 5% royalty). MAX 1111, maxPerWallet 3, price 0. totalSupply 82 at check, mintedBy(W)=0. Honeypot check: transferFrom eth_call sims from 4 holders all OK. Called mint(1) directly (not receive/fallbac",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a",
      "_src": "ledger"
     }
    ]
