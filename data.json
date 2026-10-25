@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 07:50 WITA",
+ "generated_wita": "2026-10-25 08:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -3969,6 +3969,66 @@
      "Risk": "High",
      "Notes": "3000 supply, Agent ID only, 1st free then 0,002 BNB, max 20/wallet, until ~10/30. WATCH for CA",
      "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "08:10",
+     "Source (Telegram group / X account)": "X / on-chain (held)",
+     "Project": "Ghost Agents (GHOST) SOLD OUT 2222/2222",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xb11799136003eA556BAD43664890511030E2452B",
+     "Link": "https://x.com/ghostagent77/status/2114138172204744743",
+     "Sentiment": "Positive",
+     "Red Flags": "Owner EOA, source unverified, small account",
+     "Risk": "High",
+     "Notes": "Held #422. Sold out confirmed on-chain 08:15; holders-only Mint Radar tool. Check Element floor/bids.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "08:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Mascot ($MASCOT)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xC777f7C04F94b3E1244815B35c880d406cb02782",
+     "Link": "https://arenablitz.fun/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Bot-like copy-paste shill (@letsconnect_1, 9 followers); source unverified; no wallet limit; 10k supply",
+     "Risk": "High",
+     "Notes": "$0.15 creator fee/NFT + gas, max 50/tx, 9/10000 minted, reveal TBA. Suggested SKIP or 1 test unit.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "08:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Unknown Agent ID mint (Korean shill @yonyun96)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xd85A10B599e228Fb2D13D3E9B0a2B9003F1CD31C",
+     "Link": "https://x.com/yonyun96/status/2114133052687569010",
+     "Sentiment": "Negative",
+     "Red Flags": "Asks users to paste a prompt into their AI agent; 6-follower account",
+     "Risk": "Skip",
+     "Notes": "mint(20) for 0.038 BNB. Policy SKIP (prompt-paste).",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "08:10",
+     "Source (Telegram group / X account)": "Setya/Cupang",
+     "Project": "Setya #5932 pumpfun airdrop rant",
+     "Chain": "Solana",
+     "Type": "Airdrop",
+     "CA": "",
+     "Link": "https://t.me/c/1821865618/5932",
+     "Sentiment": "Negative",
+     "Red Flags": "",
+     "Risk": "Low",
+     "Notes": "Not a lead; complaint about pumpfun airdrops. No action.",
+     "Status": "New"
     }
    ]
   }
