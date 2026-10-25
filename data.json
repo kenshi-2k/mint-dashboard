@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 11:20 WITA",
+ "generated_wita": "2026-10-25 12:29 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009956801466090693,
-  "last_balance_wita": "2026-10-25 10:27 WITA",
+  "last_balance_bnb": 0.009942584551682374,
+  "last_balance_wita": "2026-10-25 12:27 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.3614,
-  "gas_bnb": 0.0005183164939272141
+  "gas_bnb": 0.0005325334083355341
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 10:27 WITA",
+  "snapshot_wita": "2026-10-25 12:27 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009956801466090693,
-    "amount_str": "0.009956801466090693",
+    "amount": 0.009942584551682374,
+    "amount_str": "0.009942584551682374",
     "usable": true,
     "status": "ok"
    },
@@ -721,16 +721,34 @@
     "txs": [
      "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
     ]
+   },
+   {
+    "collection": "Gloomies (GLOOM)",
+    "token": 447,
+    "contract": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
+    "status": "Hold",
+    "mint_cost_bnb": 8.1647448432e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 8.1647448432e-06,
+    "cost_usd": 0.006,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.0025528811638885858,
-   "cost_usd": 2.3369,
+   "cost_bnb": 0.002561045908731786,
+   "cost_usd": 2.3429,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 37
+   "held": 38
   }
  },
  "capital": {
@@ -802,17 +820,18 @@
    ]
   },
   "gas": {
-   "bnb": 0.0005183164939272141,
-   "usd": 0.3904
+   "bnb": 0.0005325334083355341,
+   "usd": 0.4009
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.3614,
    "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.009956801466090693,
+  "bsc_balance_bnb": 0.009942584551682374,
   "token_balances": {
-   "USDT_bsc": 0.07990430327292716
+   "USDT_bsc": 0.07990430327292716,
+   "P0_bsc": 1.0
   },
   "bridge_fee_usd": 0.03,
   "bridges": [
@@ -1112,6 +1131,13 @@
    "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "Gloomies (GLOOM)",
+   "token": 447,
+   "contract": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
+   "status": "Hold",
+   "note": "Held - none yet"
   }
  ],
  "balance_history": [
@@ -1519,6 +1545,24 @@
    "delta_bnb": -7.602963892916e-06,
    "balance_bnb": 0.009956801466090693,
    "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
+  },
+  {
+   "at_wita": "2026-10-25 12:25:00",
+   "kind": "Mint",
+   "project": "Gloomies (GLOOM)",
+   "direction": "out",
+   "delta_bnb": -8.1647448432e-06,
+   "balance_bnb": 0.009948636721247493,
+   "tx": "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63"
+  },
+  {
+   "at_wita": "2026-10-25 12:27:00",
+   "kind": "Claim",
+   "project": "P0 Patient Zero (genesis claim)",
+   "direction": "out",
+   "delta_bnb": -6.05216956512e-06,
+   "balance_bnb": 0.009942584551682374,
+   "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e"
   }
  ],
  "tabs": {
@@ -2614,6 +2658,50 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "12:25:00",
+     "Type": "Mint",
+     "Project": "Gloomies (GLOOM)",
+     "Chain": "BSC",
+     "Token/NFT": "Gloomies NFT x1 #447",
+     "Contract Address": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 8.1647448432e-06,
+     "Gas Fee (USD)": 0.006,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint (lead: Suruhan 12:10; source x.com/MintGloomies/status/2114161123498815975). Sourcify exact_match (Gloomies.sol, plain OZ ERC721 + Ownable, not proxy). Owner 0xE8EA…3392 can setPrice/setMintOpen/setBaseURI/withdraw only (no owner mint, no transfer hooks). MAX 4000, max 5/wallet, first unit free then 0.00064 BNB; any wallet. totalSupply 445 at check, minted(W)=0, quote(W,1)=0. e",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "12:27:00",
+     "Type": "Claim",
+     "Project": "P0 Patient Zero (genesis claim)",
+     "Chain": "BSC",
+     "Token/NFT": "Claim",
+     "Contract Address": "0x37926d0558A5518fD94Ac3D147cF0ff25e5f9C8f",
+     "Amount": null,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 6.05216956512e-06,
+     "Gas Fee (USD)": 0.0045,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Held",
+     "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
      "_src": "ledger"
     }
    ]
@@ -4304,6 +4392,96 @@
      "Risk": "",
      "Notes": "Setya queue unchanged; Cupang 0 new; Chinese TG no concrete lead; Worldygg mintOpen=false (5); ArtPunk 13, AHOUSE 31; Mummies marketOpen=false (870); GALAXY 2657; owners unchanged; X reads left ~990/1000",
      "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "Telegram Cupang #5934",
+     "Project": "Rob Town",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://rob.town",
+     "Sentiment": "Positive (dev's previous project profitable)",
+     "Red Flags": "Not BSC; new account (Oct 16); clipboard-access complaint; no CA",
+     "Risk": "High",
+     "Notes": "Game to earn freemint; WATCH for CA",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Gloomies (GLOOM)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xaF19Cb4Eb0779F051876D1756E98282f170a4516",
+     "Link": "https://x.com/MintGloomies/status/2114161123498815975",
+     "Sentiment": "Positive",
+     "Red Flags": "New official account, few followers, no website; has owner",
+     "Risk": "Medium",
+     "Notes": "1st free then 0,00064 BNB, max 5; 443/4000; Sourcify exact; GoPlus clean; hunter sim mint(1) OK. GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Mecha Lucky Cat",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/XiaoMei_laika/status/2114192326520426570",
+     "Sentiment": "Positive",
+     "Red Flags": "CA not found yet",
+     "Risk": "Medium",
+     "Notes": ".ai gate; 400 free (~154 left 11:00), then 0,00135 BNB; Sourcify, no owner; ends 30 Oct. GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "P0 Patient Zero",
+     "Chain": "BSC",
+     "Type": "Airdrop",
+     "CA": "",
+     "Link": "https://x.com/XiaoMei_laika/status/2114202705308844129",
+     "Sentiment": "Neutral",
+     "Red Flags": "CA not found; gacha-like ~1U infection mechanic",
+     "Risk": "High",
+     "Notes": ".ai gate; 1 free genesis P0 (8888). GO/free with flags",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "hackou Agent Pass",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x81dA16A9729c8Ff7d1b4Bc5c478F385D0f203B96",
+     "Link": "https://x.com/HackouTW/status/2114200305659461776",
+     "Sentiment": "Neutral",
+     "Red Flags": "Free 150 exhausted; souvenir only; 4-follower account",
+     "Risk": "Skip",
+     "Notes": "162/200, now 0,001 BNB. SKIP",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Agent Periodic Lab",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/XiaoMei_laika/status/2114210432999424478",
+     "Sentiment": "Neutral",
+     "Red Flags": "Mint flow = tell agent to read URL and follow it (prompt paste)",
+     "Risk": "Skip",
+     "Notes": "ERC-1155, first mint free; SKIP per policy",
+     "Status": "Sent to Ayanokouji"
     }
    ]
   }
