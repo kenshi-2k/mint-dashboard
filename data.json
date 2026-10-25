@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 15:50 WITA",
+ "generated_wita": "2026-10-25 16:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -4994,6 +4994,66 @@
      "Risk": "Medium",
      "Notes": "Bonding curve open only to Agent ID wallets, 1% cap, non-transferable until graduation. FYI",
      "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "16:14",
+     "Source (Telegram group / X account)": "X",
+     "Project": "PandaHeadClub",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://pandaheadclub.site/mint",
+     "Sentiment": "Low (new acct, 93 followers)",
+     "Red Flags": "Account 2 days old; no CA yet; site uses agent 'install command' skill to mint (manual option exists)",
+     "Risk": "High",
+     "Notes": "Opens 26 Oct 03:00 WITA; WL free, public from 0,0014 BNB +25% per 250. WATCH for CA; mint manually only after verify. https://x.com/pandaheadclub/status/2114262479832256784",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "16:14",
+     "Source (Telegram group / X account)": "Chinese TG",
+     "Project": "FTA 丰泰 (CNHK)",
+     "Chain": "BSC",
+     "Type": "Token mint",
+     "CA": "0xfe2260f8954b68D54B10666925a9334AE7b53333",
+     "Link": "https://t.me/liangjiancalls/3231",
+     "Sentiment": "Promo (liangjiancalls)",
+     "Red Flags": "Claims LP burned but ~100% LP held unlocked by creator EOA; 3% tax",
+     "Risk": "Skip",
+     "Notes": "Token launch 26 Oct 20:00 WITA; GoPlus not honeypot, not mintable. FYI only",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "16:14",
+     "Source (Telegram group / X account)": "X",
+     "Project": "BNBCore AI Seed",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://x.com/BNBCoreAI/status/2114265497604858016",
+     "Sentiment": "None (1 follower)",
+     "Red Flags": "Asks to paste prompt into Agentic Wallet; account 2 days old",
+     "Risk": "Skip",
+     "Notes": "Not sent (prompt-paste rule)",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "16:14",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "Watch/held check",
+     "Chain": "BSC",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Worldygg mintOpen false (5 minted); Mummies 950, marketOpen false; ArtPunk 13 (unchanged); AHOUSE 31/300; ngmi 235; Cupang #5947-5950 chatter only; Setya queue unchanged",
+     "Status": "New"
     }
    ]
   }
