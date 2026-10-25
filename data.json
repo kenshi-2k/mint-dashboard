@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 18:25 WITA",
+ "generated_wita": "2026-10-25 18:29 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -834,20 +834,21 @@
     "collection": "Onchain Agents (BN World)",
     "token": 832,
     "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-    "status": "Hold",
+    "status": "Sold",
     "mint_cost_bnb": 1.3267074956294e-05,
     "other_gas_bnb": 1.3200786710359e-05,
     "cost_bnb": 2.6467861666653e-05,
     "cost_usd": 0.0196,
-    "sale_bnb": null,
-    "realized_bnb": null,
+    "sale_bnb": 0.000975,
+    "realized_bnb": 0.000948532138333347,
     "list_price_bnb": null,
     "market": null,
     "unrealized_bnb": null,
     "txs": [
      "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152",
      "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c",
-     "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5"
+     "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
+     "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809"
     ]
    },
    {
@@ -1031,7 +1032,7 @@
     ]
    },
    {
-    "collection": "HOTDOGE",
+    "collection": "HotDoge",
     "token": 236,
     "contract": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
     "status": "Hold",
@@ -1049,7 +1050,7 @@
     ]
    },
    {
-    "collection": "PRINTER",
+    "collection": "PRINTER (DollarPrinter)",
     "token": 137,
     "contract": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
     "status": "Hold",
@@ -1067,7 +1068,7 @@
     ]
    },
    {
-    "collection": "DANTA",
+    "collection": "danta",
     "token": 314,
     "contract": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
     "status": "Hold",
@@ -1085,7 +1086,7 @@
     ]
    },
    {
-    "collection": "BOTMOLT",
+    "collection": "Botmolt (AgentDrop)",
     "token": 449,
     "contract": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
     "status": "Hold",
@@ -1103,7 +1104,7 @@
     ]
    },
    {
-    "collection": "RICKSHAW",
+    "collection": "Robot Rickshaw",
     "token": 40,
     "contract": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
     "status": "Hold",
@@ -1124,9 +1125,9 @@
   "totals": {
    "cost_bnb": 0.002770372950755892,
    "cost_usd": 2.4979,
-   "realized_bnb": 0.0,
+   "realized_bnb": 0.000948532138333347,
    "unrealized_bnb": 0.001947466117653177,
-   "sold": 0,
+   "sold": 1,
    "listed": 2,
    "held": 59
   }
@@ -1558,8 +1559,8 @@
    "collection": "Onchain Agents (BN World)",
    "token": 832,
    "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-   "status": "Hold",
-   "note": "Held - unrevealed, no market yet"
+   "status": "Sold",
+   "note": "Terjual 0.001 BNB di bncworld (net 0.000975) 17:26 WITA"
   },
   {
    "collection": "BeHand Pass (SBT)",
@@ -1632,39 +1633,39 @@
    "note": "Held - no market yet"
   },
   {
-   "collection": "HOTDOGE",
+   "collection": "HotDoge",
    "token": 236,
    "contract": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "PRINTER",
+   "collection": "PRINTER (DollarPrinter)",
    "token": 137,
    "contract": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "DANTA",
+   "collection": "danta",
    "token": 314,
    "contract": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "BOTMOLT",
+   "collection": "Botmolt (AgentDrop)",
    "token": 449,
    "contract": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "RICKSHAW",
+   "collection": "Robot Rickshaw",
    "token": 40,
    "contract": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -2252,6 +2253,15 @@
    "delta_bnb": -8.55499505049e-06,
    "balance_bnb": 0.009780680489858185,
    "tx": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac"
+  },
+  {
+   "at_wita": "2026-10-25 17:26:00",
+   "kind": "Sell",
+   "project": "Onchain Agents (BN World)",
+   "direction": "out",
+   "delta_bnb": 0.0,
+   "balance_bnb": 0.009780680489858185,
+   "tx": "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809"
   },
   {
    "at_wita": "2026-10-25 18:23:00",
@@ -3823,6 +3833,153 @@
      "tx": ""
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "HotDoge",
+     "Chain": "BSC",
+     "Token/NFT": "HotDoge NFT x1 #236",
+     "Contract Address": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xa2c6b5dbbab039dfa0d1eae55361e10d554786c1f20cb4dfdb00f40b1070a677",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "PRINTER (DollarPrinter)",
+     "Chain": "BSC",
+     "Token/NFT": "PRINTER (DollarPrinter) NFT x1 #137",
+     "Contract Address": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x0a0328d3a6c42bffcf26df9267a51d6c6ae5062406f1d1ea338a339d67f2d097",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "danta",
+     "Chain": "BSC",
+     "Token/NFT": "danta NFT x1 #314",
+     "Contract Address": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x6ad0bd72945c8b4c5beda3bda953edd2505f000e2817bdce2109f95bd24318ee",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Botmolt (AgentDrop)",
+     "Chain": "BSC",
+     "Token/NFT": "Botmolt (AgentDrop) NFT x1 #449",
+     "Contract Address": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x5dae8c6491b250946543231f32e30a80cf1c15a8ee1e48498ce78a082acdce41",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Robot Rickshaw",
+     "Chain": "BSC",
+     "Token/NFT": "Robot Rickshaw NFT x1 #40",
+     "Contract Address": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Skip",
+     "Project": "Pengupunk",
+     "Chain": "BSC",
+     "Token/NFT": "-",
+     "Contract Address": "0xE2b3D9043fccc76e6Ce13f84346735F1AA375b5a",
+     "Amount": 0.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Skipped",
+     "Notes": "Free slots gone: value-0 eth_call reverts underpaid. Not paid.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Sell",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents #832 sold 0.001 BNB",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809",
+     "Mint TX Link": "",
+     "Status": "Sold",
+     "Notes": "Sold on bncworld market at 0.001 BNB; 2.5% fee, net 0.000975 BNB (~$0.72) in. Buyer 0x62c9…4c84 paid gas.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -4238,6 +4395,28 @@
      "Notes": "1 free per Agent ID (RickshawAI.sol verified); preview NFT only; 2nd reverts Wrong value. eth_call value 0 OK; baw preview NFT-only, no approvals.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:26:00",
+     "Type": "Sell",
+     "Project": "Onchain Agents (BN World)",
+     "Chain": "BSC",
+     "Token/NFT": "Onchain Agents NFT x1 #832",
+     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 0.0,
+     "Gas Fee (USD)": 0.0,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Sold 0.001 bnb",
+     "Notes": "SOLD on BN World market 0xC6cB…5704 at listing price 0.001 BNB, 2.5% fee -> net 0.000975 BNB to W. Buyer-paid tx (tx value 0.02 BNB, multi-buy), block 129681516, 17:26:40 WITA. No gas for us.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809",
      "_src": "ledger"
     }
    ]
