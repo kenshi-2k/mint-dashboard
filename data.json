@@ -1,23 +1,23 @@
 {
- "generated_wita": "2026-10-25 14:20 WITA",
+ "generated_wita": "2026-10-25 14:24 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009927918189932182,
-  "last_balance_wita": "2026-10-25 13:23 WITA",
+  "last_balance_bnb": 0.009918343651809113,
+  "last_balance_wita": "2026-10-25 14:23 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 2.3614,
-  "gas_bnb": 0.000547199770085726
+  "gas_bnb": 0.000556774308208794
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 14:00 WITA",
-  "source": "balance check",
+  "snapshot_wita": "2026-10-25 14:23 WITA",
+  "source": "ledger.balance_snapshots",
   "prices_usd": {
-   "bnb": 736.83,
+   "bnb": 740.0,
    "eth": 2376.15
   },
   "chains": [
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009927918189932182,
-    "amount_str": "0.009927918189932182",
+    "amount": 0.009918343651809113,
+    "amount_str": "0.009918343651809113",
     "usable": true,
     "status": "ok"
    },
@@ -757,16 +757,34 @@
     "txs": [
      "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
     ]
+   },
+   {
+    "collection": "UMBRA Agents (UMBRA)",
+    "token": 145,
+    "contract": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
+    "status": "Hold",
+    "mint_cost_bnb": 9.574538123068e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.574538123068e-06,
+    "cost_usd": 0.0071,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002575712270481978,
-   "cost_usd": 2.3538,
+   "cost_bnb": 0.0025852868086050458,
+   "cost_usd": 2.3609,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 39
+   "held": 40
   }
  },
  "capital": {
@@ -838,15 +856,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.000547199770085726,
-   "usd": 0.4118
+   "bnb": 0.000556774308208794,
+   "usd": 0.4189
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 2.3614,
    "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.009927918189932182,
+  "bsc_balance_bnb": 0.009918343651809113,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1163,6 +1181,13 @@
    "contract": "0xb43b0E00F4a63e82F2C5fFd3A01447ABB3C2b718",
    "status": "Hold",
    "note": "Held - staked in mining pool"
+  },
+  {
+   "collection": "UMBRA Agents (UMBRA)",
+   "token": 145,
+   "contract": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
+   "status": "Hold",
+   "note": "Held - none yet"
   }
  ],
  "balance_history": [
@@ -1597,6 +1622,15 @@
    "delta_bnb": -1.4666361750192e-05,
    "balance_bnb": 0.009927918189932182,
    "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
+  },
+  {
+   "at_wita": "2026-10-25 14:23:00",
+   "kind": "Mint",
+   "project": "UMBRA Agents (UMBRA)",
+   "direction": "out",
+   "delta_bnb": -9.574538123068e-06,
+   "balance_bnb": 0.009918343651809113,
+   "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
   }
  ],
  "tabs": {
@@ -2777,6 +2811,28 @@
      "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "14:23:00",
+     "Type": "Mint",
+     "Project": "UMBRA Agents (UMBRA)",
+     "Chain": "BSC",
+     "Token/NFT": "UMBRA Agents NFT x1 #145",
+     "Contract Address": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.574538123068e-06,
+     "Gas Fee (USD)": 0.0071,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint (lead: Suruhan 14:10; CA matches airhunt17 post 2114230151181730197). Sourcify exact_match (Umbra.sol, custom minimal ERC721, no proxy). No delegatecall/selfdestruct; transferFrom has no blocks/fees/blacklist; owner can only withdraw, setMintOpen, setImage (art URLs), transferOwnership, with no owner mint/burn/transfer over holders. Owner/deployer 0x4c2D…e706. 1st mint per wall",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b",
      "_src": "ledger"
     }
    ]
@@ -4631,6 +4687,51 @@
      "Red Flags": "No CA; BeHand Pass soulbound; Agent Genesis copy-paste shill",
      "Risk": "Medium",
      "Notes": "FYI only, CAs not found. WATCH: Worldygg false(5), ArtPunk 13, AHOUSE 31, Mummies 914 marketOpen false, ngmi 235, GALAXY 2794; held unchanged",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "14:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "UMBRA Agents",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
+     "Link": "https://hark.com/site/40d6e269-4120-45d1-9fd9-1596f9d617db",
+     "Sentiment": "Neutral",
+     "Red Flags": "Claims verified but source unverified (Sourcify 404, GoPlus open_source 0); 28-follower shiller, no official account",
+     "Risk": "High",
+     "Notes": "142/3000, 1st mint free, max 3/wallet, mintOpen true, Agent ID gate; GO/free after sim",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "14:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "DigiMoon Monsters",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xa4faf300c75a5690911b629155679c13fda7a59f",
+     "Link": "https://digimoon-monsters.surge.sh",
+     "Sentiment": "Neutral",
+     "Red Flags": "Unverified source; 10-follower account; surge.sh site",
+     "Risk": "High",
+     "Notes": "130/3333, first 100 free (likely gone), then 0,0001 BNB, max 5/wallet, Agent ID gate; GO/cheap after sim",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "14:10",
+     "Source (Telegram group / X account)": "Cupang Ventures",
+     "Project": "Wander Forest (no CA)",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/playwanderfores",
+     "Sentiment": "Neutral",
+     "Red Flags": "Not BSC; no CA or date yet",
+     "Risk": "Medium",
+     "Notes": "Cupang #5937: next freemint 1111 supply, dev @bazzicrypto. FYI. WATCH: Worldygg false(5), ArtPunk 13, AHOUSE 31, Mummies 929 marketOpen false, ngmi 235, GALAXY 2844; held unchanged",
      "Status": "Sent to Ayanokouji"
     }
    ]
