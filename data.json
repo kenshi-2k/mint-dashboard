@@ -1,17 +1,17 @@
 {
- "generated_wita": "2026-10-26 01:08 WITA",
+ "generated_wita": "2026-10-26 04:02 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.006640503924624444,
-  "last_balance_wita": "2026-10-25 23:26 WITA",
+  "last_balance_bnb": 0.00661207948081756,
+  "last_balance_wita": "2026-10-26 03:25 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
   "spent_usd": 5.4418,
-  "gas_bnb": 0.0007878704108646558
+  "gas_bnb": 0.0008162948546715398
  },
  "multichain": {
   "snapshot_wita": "2026-10-25 22:34 WITA",
@@ -1228,16 +1228,52 @@
     "txs": [
      "https://robinhoodchain.blockscout.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298"
     ]
+   },
+   {
+    "collection": "HXGN",
+    "token": 135,
+    "contract": "0xe367dbF7f96F998239F495E80d90BF07ebD40D7E",
+    "status": "Hold",
+    "mint_cost_bnb": 1.1738457502184e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.1738457502184e-05,
+    "cost_usd": 0.0087,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x280710b3bf273fa2c22b1db37dfa61117d103a074115ac6c778656d3c0ee370c"
+    ]
+   },
+   {
+    "collection": "SIGIL",
+    "token": 112,
+    "contract": "0x4747b71b500663dF5E00ffb6ecb50aF049B0D1BD",
+    "status": "Hold",
+    "mint_cost_bnb": 1.66859863047e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.66859863047e-05,
+    "cost_usd": 0.0123,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x6be54a3eeb2a3925baaa8e9c97612c38d7293f72b6ae57ff319bf89825c4e121"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.0028084031853564,
-   "cost_usd": 2.6941,
+   "cost_bnb": 0.002836827629163284,
+   "cost_usd": 2.7151,
    "realized_bnb": 0.000948532138333347,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 1,
    "listed": 2,
-   "held": 65
+   "held": 67
   }
  },
  "capital": {
@@ -1309,15 +1345,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0007878704108646558,
-   "usd": 0.6029
+   "bnb": 0.0008162948546715398,
+   "usd": 0.6239
   },
   "budget": {
    "cap_usd": 10,
    "spent_usd": 5.4418,
    "left_usd": 4.5582
   },
-  "bsc_balance_bnb": 0.006640503924624444,
+  "bsc_balance_bnb": 0.00661207948081756,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1846,6 +1882,20 @@
    "collection": "CARDBOX",
    "token": 554,
    "contract": "0xdc44d0f54ebd500ca7cbb04d6096a5882fd77fdf",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "HXGN",
+   "token": 135,
+   "contract": "0xe367dbF7f96F998239F495E80d90BF07ebD40D7E",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "SIGIL",
+   "token": 112,
+   "contract": "0x4747b71b500663dF5E00ffb6ecb50aF049B0D1BD",
    "status": "Hold",
    "note": ""
   }
@@ -2599,13 +2649,31 @@
    "tx": "https://bscscan.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298"
   },
   {
-   "at_wita": "2026-10-25 23:26:00",
+   "at_wita": "2026-10-26 03:25:00",
+   "kind": "Free mint",
+   "project": "Hexagons",
+   "direction": "out",
+   "delta_bnb": -1.1738457502184e-05,
+   "balance_bnb": 0.007030509091651068,
+   "tx": "https://bscscan.com/tx/0x280710b3bf273fa2c22b1db37dfa61117d103a074115ac6c778656d3c0ee370c"
+  },
+  {
+   "at_wita": "2026-10-26 03:25:00",
+   "kind": "Free mint",
+   "project": "Sigil (gosigil.fun)",
+   "direction": "out",
+   "delta_bnb": -1.66859863047e-05,
+   "balance_bnb": 0.007013823105346368,
+   "tx": "https://bscscan.com/tx/0x6be54a3eeb2a3925baaa8e9c97612c38d7293f72b6ae57ff319bf89825c4e121"
+  },
+  {
+   "at_wita": "2026-10-26 03:25:00",
    "kind": "Outflow (from snapshot)",
    "project": "ledger last_balance_bnb",
    "direction": "out",
    "delta_bnb": -0.000401743624528808,
-   "balance_bnb": 0.006640503924624444,
-   "tx": "https://bscscan.com/tx/snapshot-20261025-2326"
+   "balance_bnb": 0.00661207948081756,
+   "tx": "https://bscscan.com/tx/snapshot-20261026-0325"
   }
  ],
  "tabs": {
@@ -4505,6 +4573,50 @@
      "Notes": "OpenSea SeaDrop v1 public stage, price 0, 3/wallet. mintPublic(nft, feeRecipient 0x0000a26b..a719, 0x0, 3) via SeaDrop 0x00005EA0..4bf5. eth_call value 0 OK; baw preview +3 ERC721 only, no approvals/risks. All 3 free units minted.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x95824f6a9180533bece23fa7363b165ca1ffe6139a6422d655c2edda771d4298",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "03:25:00",
+     "Type": "Free mint",
+     "Project": "Hexagons",
+     "Chain": "BSC",
+     "Token/NFT": "Hexagons NFT x1 #135",
+     "Contract Address": "0xe367dbF7f96F998239F495E80d90BF07ebD40D7E",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.1738457502184e-05,
+     "Gas Fee (USD)": 0.0087,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "mint(1) first unit free with .ai Agent ID (quote(W,1)=0); units 2-5 paid ~$0.10 -> not taken. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals/risks.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x280710b3bf273fa2c22b1db37dfa61117d103a074115ac6c778656d3c0ee370c",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "03:25:00",
+     "Type": "Free mint",
+     "Project": "Sigil (gosigil.fun)",
+     "Chain": "BSC",
+     "Token/NFT": "Sigil NFT x1 #112",
+     "Contract Address": "0x4747b71b500663dF5E00ffb6ecb50aF049B0D1BD",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.66859863047e-05,
+     "Gas Fee (USD)": 0.0123,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "Layer I free via game 0xFaD8..1529 mint(1) (quoteUsdt/quoteBnb(W,1)=0, unit 2 = 1 USDT -> not taken). USDT allowance 0, no approve. eth_call OK; preview +1 ERC721 only.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x6be54a3eeb2a3925baaa8e9c97612c38d7293f72b6ae57ff319bf89825c4e121",
      "_src": "ledger"
     }
    ]
@@ -7100,6 +7212,126 @@
      "Red Flags": "",
      "Risk": "",
      "Notes": "Chinese TG scanned this pass (~3.3h, no leads); Setya queue no new lines; Cupang #5963 chatter only; Worldygg mintOpen false; Mummies marketOpen false",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "01:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "THIRSTY",
+     "Chain": "Robinhood Chain",
+     "Type": "NFT mint",
+     "CA": "0x3c5c295121485Ed11C64edCfD095a8F57B94B3a2",
+     "Link": "https://thirstynft.xyz",
+     "Sentiment": "Low hype (12 likes, 18/2222 minted)",
+     "Red Flags": "New account (Oct 14, 326 followers); low minters; Blockscout verification unchecked",
+     "Risk": "High",
+     "Notes": "0.0001 ETH per unit, maxPerTx 20; live since 00:00 WITA; source https://x.com/thirsty_NFT/status/2114386503099154586. Check pass: Setya queue and Cupang empty; Chinese channels not scanned (off-hour); Worldygg mintOpen false; Mummies marketOpen false",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "02:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "No new leads",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "02:10 pass (ran 02:20 WITA): Setya queue no new lines; Cupang no msgs >5963; Chinese channels NOT scanned (3-hourly, next 03:10); X 2 searches (Rob Town still no CA, referral only; Wander Forest still waitlist; others already reported); Worldygg mintOpen=false; held contracts no owner change, Mummies 1084/9999 marketOpen=false.",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Worldygg Tree (WATCH: mint time)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x2ED9E0a6992BA22B48c2fc2def6bB2365301A0D0",
+     "Link": "https://x.com/world_ygg/status/2114423049512772020",
+     "Sentiment": "Neutral",
+     "Red Flags": "New account (7 followers)",
+     "Risk": "Medium",
+     "Notes": "Mint opens Wed 28 Oct 13:00 UTC = 21:00 WITA, first free, .ai Agent ID only; mintOpen() still false",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Hexagons",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xe367dbF7f96F998239F495E80d90BF07ebD40D7E",
+     "Link": "https://hexagonsbnb.pages.dev/#mint",
+     "Sentiment": "Low engagement",
+     "Red Flags": "X account 1.7h old, 5 followers; unverified source; pages.dev site",
+     "Risk": "High",
+     "Notes": "LIVE 134/999; 1st free then $0.10, max 5, Agent ID gate; USDT bid market live. GO/free. Src https://x.com/Hexagons_BNB/status/2114426983010697492",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Sigil (gosigil.fun)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x4747b71b500663dF5E00ffb6ecb50aF049B0D1BD",
+     "Link": "https://gosigil.fun/",
+     "Sentiment": "Low engagement",
+     "Red Flags": "6 tweets, zero engagement; unverified source; token roadmap",
+     "Risk": "High",
+     "Notes": "LIVE 110/210000; Layer I free per .ai Agent ID, paid ladder after. GO/free. Src https://x.com/GoSigilFun/status/2114428562501706129",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "STUBS Genesis (FYI)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x2079e46D35D07a406a560935889df404d734554d",
+     "Link": "https://stubs.bet/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Account 4h old, 3 followers",
+     "Risk": "High",
+     "Notes": "4444 free, mintOpen false (not live). Src https://x.com/stubsbet/status/2114430148800061822",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "$SHIT fair-mint",
+     "Chain": "BSC",
+     "Type": "Token mint",
+     "CA": "0x7F60Cb9c84973D33B26a97a8A2E44bd6E57e2cDe",
+     "Link": "https://x.com/shitcoinbs51/status/2114433162109718826",
+     "Sentiment": "Negative",
+     "Red Flags": "Asks to paste prompt into AI agent; 0-follower account",
+     "Risk": "Skip",
+     "Notes": "0.01 BNB per 800 tokens. SKIP",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "03:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "Pass check",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Chinese channels scanned this pass (3.5h, no leads); Cupang 0 new msgs; Setya queue empty; Rob Town still no CA; Mummies marketOpen false 1087/9999",
      "Status": "New"
     }
    ]
