@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 17:20 WITA",
+ "generated_wita": "2026-10-25 17:22 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009863262629699531,
-  "last_balance_wita": "2026-10-25 16:53 WITA",
+  "last_balance_bnb": 0.009780680489858185,
+  "last_balance_wita": "2026-10-25 17:22 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.3614,
-  "gas_bnb": 0.0006118553303183768
+  "spent_usd": 2.4225,
+  "gas_bnb": 0.0006944374701597218
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 16:53 WITA",
+  "snapshot_wita": "2026-10-25 17:22 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009863262629699531,
-    "amount_str": "0.009863262629699531",
+    "amount": 0.009780680489858185,
+    "amount_str": "0.009780680489858185",
     "usable": true,
     "status": "ok"
    },
@@ -867,16 +867,178 @@
     "txs": [
      "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9"
     ]
+   },
+   {
+    "collection": "NEXUS",
+    "token": 484,
+    "contract": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
+    "status": "Hold",
+    "mint_cost_bnb": 1.0093330563624e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.0093330563624e-05,
+    "cost_usd": 0.0075,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xdde7227f0d1365f84e749c274ecb4cf602f0ce4c5cc889dd775646c1b46a9c26"
+    ]
+   },
+   {
+    "collection": "WOOHOOD",
+    "token": 705,
+    "contract": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
+    "status": "Hold",
+    "mint_cost_bnb": 7.293533158912e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.293533158912e-06,
+    "cost_usd": 0.0054,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xe282046258bf45bf8528faa7c41cff0a0753d761f269d305cfe0e7969b9096e0"
+    ]
+   },
+   {
+    "collection": "AGENTID",
+    "token": 836,
+    "contract": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
+    "status": "Hold",
+    "mint_cost_bnb": 7.871850653537e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.871850653537e-06,
+    "cost_usd": 0.0058,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x2d032fc11267422957b1dddca284c9aefbe75bb574f5a484bf6b7ba8bbd3c5bc"
+    ]
+   },
+   {
+    "collection": "SHENLONG",
+    "token": 4842,
+    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+    "status": "Hold",
+    "mint_cost_bnb": 1.5376802605483e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.5376802605483e-05,
+    "cost_usd": 0.0114,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x41e6f61fcaed6d002a4a70eaf40e67dc291307017a7446e5319a1169c926d7ef"
+    ]
+   },
+   {
+    "collection": "SHENLONG",
+    "token": 4845,
+    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+    "status": "Hold",
+    "mint_cost_bnb": 7.546179008344e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.546179008344e-06,
+    "cost_usd": 0.0056,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xec6fc2aadf77d1bec85b01ed927737df08aea01407cccf934d0b3a053e97fec9"
+    ]
+   },
+   {
+    "collection": "SHENLONG",
+    "token": 4847,
+    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+    "status": "Hold",
+    "mint_cost_bnb": 7.233539696856e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.233539696856e-06,
+    "cost_usd": 0.0054,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x8364c45c49ae537ecdf7e7e6894a1689e30906b2a9166a373e68d0171758b39a"
+    ]
+   },
+   {
+    "collection": "SHENLONG",
+    "token": 4851,
+    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+    "status": "Hold",
+    "mint_cost_bnb": 1.1052064327479e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.1052064327479e-05,
+    "cost_usd": 0.0082,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xa90d6433e6fbe9b27bb2cef56f6304be2390f2e0e3c6654eeadd7f3538c06d0c"
+    ]
+   },
+   {
+    "collection": "LASER",
+    "token": 809,
+    "contract": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
+    "status": "Hold",
+    "mint_cost_bnb": 7.55984477662e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.55984477662e-06,
+    "cost_usd": 0.0056,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xc1107079231025de96b587c2ba5f6438337904d96b42f2c598ad07cf9547e25b"
+    ]
+   },
+   {
+    "collection": "FREESVG",
+    "token": 694,
+    "contract": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
+    "status": "Hold",
+    "mint_cost_bnb": 8.55499505049e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 8.55499505049e-06,
+    "cost_usd": 0.0063,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002640367830714629,
-   "cost_usd": 2.4017,
+   "cost_bnb": 0.002722949970555974,
+   "cost_usd": 2.4629,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 45
+   "held": 54
   }
  },
  "capital": {
@@ -948,15 +1110,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0006118553303183768,
-   "usd": 0.4597
+   "bnb": 0.0006944374701597218,
+   "usd": 0.5209
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.3614,
-   "left_usd": 7.6386
+   "spent_usd": 2.4225,
+   "left_usd": 7.5775
   },
-  "bsc_balance_bnb": 0.009863262629699531,
+  "bsc_balance_bnb": 0.009780680489858185,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -989,8 +1151,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.3614,
-  "net_usd": -2.3265
+  "spent_usd": 2.4225,
+  "net_usd": -2.3876
  },
  "holdings": [
   {
@@ -1315,6 +1477,69 @@
    "contract": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
    "status": "Hold",
    "note": "Held - soulbound (not sellable)"
+  },
+  {
+   "collection": "NEXUS",
+   "token": 484,
+   "contract": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "WOOHOOD",
+   "token": 705,
+   "contract": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "AGENTID",
+   "token": 836,
+   "contract": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "SHENLONG",
+   "token": 4842,
+   "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "SHENLONG",
+   "token": 4845,
+   "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "SHENLONG",
+   "token": 4847,
+   "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "SHENLONG",
+   "token": 4851,
+   "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "LASER",
+   "token": 809,
+   "contract": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "FREESVG",
+   "token": 694,
+   "contract": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
+   "status": "Hold",
+   "note": ""
   }
  ],
  "balance_history": [
@@ -1821,6 +2046,87 @@
    "delta_bnb": -9.969348070599e-06,
    "balance_bnb": 0.009863262629699531,
    "tx": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5"
+  },
+  {
+   "at_wita": "2026-10-25 17:20:00",
+   "kind": "Free mint",
+   "project": "NEXUS CORE",
+   "direction": "out",
+   "delta_bnb": -1.0093330563624e-05,
+   "balance_bnb": 0.009853169299135907,
+   "tx": "https://bscscan.com/tx/0xdde7227f0d1365f84e749c274ecb4cf602f0ce4c5cc889dd775646c1b46a9c26"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "Woohood",
+   "direction": "out",
+   "delta_bnb": -7.293533158912e-06,
+   "balance_bnb": 0.009845875765976996,
+   "tx": "https://bscscan.com/tx/0xe282046258bf45bf8528faa7c41cff0a0753d761f269d305cfe0e7969b9096e0"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "AGENT ID (AGENTID)",
+   "direction": "out",
+   "delta_bnb": -7.871850653537e-06,
+   "balance_bnb": 0.009838003915323457,
+   "tx": "https://bscscan.com/tx/0x2d032fc11267422957b1dddca284c9aefbe75bb574f5a484bf6b7ba8bbd3c5bc"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "Shenlong",
+   "direction": "out",
+   "delta_bnb": -1.5376802605483e-05,
+   "balance_bnb": 0.009822627112717974,
+   "tx": "https://bscscan.com/tx/0x41e6f61fcaed6d002a4a70eaf40e67dc291307017a7446e5319a1169c926d7ef"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "Shenlong",
+   "direction": "out",
+   "delta_bnb": -7.546179008344e-06,
+   "balance_bnb": 0.00981508093370963,
+   "tx": "https://bscscan.com/tx/0xec6fc2aadf77d1bec85b01ed927737df08aea01407cccf934d0b3a053e97fec9"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "Shenlong",
+   "direction": "out",
+   "delta_bnb": -7.233539696856e-06,
+   "balance_bnb": 0.009807847394012775,
+   "tx": "https://bscscan.com/tx/0x8364c45c49ae537ecdf7e7e6894a1689e30906b2a9166a373e68d0171758b39a"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "Shenlong",
+   "direction": "out",
+   "delta_bnb": -1.1052064327479e-05,
+   "balance_bnb": 0.009796795329685295,
+   "tx": "https://bscscan.com/tx/0xa90d6433e6fbe9b27bb2cef56f6304be2390f2e0e3c6654eeadd7f3538c06d0c"
+  },
+  {
+   "at_wita": "2026-10-25 17:21:00",
+   "kind": "Free mint",
+   "project": "Laser Agents",
+   "direction": "out",
+   "delta_bnb": -7.55984477662e-06,
+   "balance_bnb": 0.009789235484908676,
+   "tx": "https://bscscan.com/tx/0xc1107079231025de96b587c2ba5f6438337904d96b42f2c598ad07cf9547e25b"
+  },
+  {
+   "at_wita": "2026-10-25 17:22:00",
+   "kind": "Free mint",
+   "project": "free (SVG)",
+   "direction": "out",
+   "delta_bnb": -8.55499505049e-06,
+   "balance_bnb": 0.009780680489858185,
+   "tx": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac"
   }
  ],
  "tabs": {
@@ -3235,6 +3541,204 @@
      "Notes": "list(832, 0.001 BNB, 30d) on BN World market 0xC6cBc2C06ae66d201A761FAa8Ac48aD92B835704. Floor 0.001 BNB = contract MIN_PRICE, so below-floor impossible (0.00099 reverts BadPrice); listed AT floor. Seller fee 2.5% -> net 0.000975 BNB. Expires 2026-11-24 16:53 WITA. Token stays in wallet.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:20:00",
+     "Type": "Free mint",
+     "Project": "NEXUS CORE",
+     "Chain": "BSC",
+     "Token/NFT": "NEXUS CORE NFT x1 #484",
+     "Contract Address": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.0093330563624e-05,
+     "Gas Fee (USD)": 0.0075,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "First unit/wallet free (NexusCore.sol verified); 2nd reverts at value 0. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xdde7227f0d1365f84e749c274ecb4cf602f0ce4c5cc889dd775646c1b46a9c26",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "Woohood",
+     "Chain": "BSC",
+     "Token/NFT": "Woohood NFT x1 #705",
+     "Contract Address": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.293533158912e-06,
+     "Gas Fee (USD)": 0.0054,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "First free then 0.001 (verified partial match); 2nd reverts. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xe282046258bf45bf8528faa7c41cff0a0753d761f269d305cfe0e7969b9096e0",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "AGENT ID (AGENTID)",
+     "Chain": "BSC",
+     "Token/NFT": "AGENT ID NFT x1 #836",
+     "Contract Address": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.871850653537e-06,
+     "Gas Fee (USD)": 0.0058,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "First free then paid (AgentIDCard.sol verified); 2nd reverts. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x2d032fc11267422957b1dddca284c9aefbe75bb574f5a484bf6b7ba8bbd3c5bc",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4842",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.5376802605483e-05,
+     "Gas Fee (USD)": 0.0114,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x41e6f61fcaed6d002a4a70eaf40e67dc291307017a7446e5319a1169c926d7ef",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4845",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.546179008344e-06,
+     "Gas Fee (USD)": 0.0056,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xec6fc2aadf77d1bec85b01ed927737df08aea01407cccf934d0b3a053e97fec9",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4847",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.233539696856e-06,
+     "Gas Fee (USD)": 0.0054,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x8364c45c49ae537ecdf7e7e6894a1689e30906b2a9166a373e68d0171758b39a",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4851",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.1052064327479e-05,
+     "Gas Fee (USD)": 0.0082,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa90d6433e6fbe9b27bb2cef56f6304be2390f2e0e3c6654eeadd7f3538c06d0c",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21:00",
+     "Type": "Free mint",
+     "Project": "Laser Agents",
+     "Chain": "BSC",
+     "Token/NFT": "Laser Agents NFT x1 #809",
+     "Contract Address": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.55984477662e-06,
+     "Gas Fee (USD)": 0.0056,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "First free then 0.0005 (LaserAgents.sol verified); 2nd reverts wrong value. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xc1107079231025de96b587c2ba5f6438337904d96b42f2c598ad07cf9547e25b",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:22:00",
+     "Type": "Free mint",
+     "Project": "free (SVG)",
+     "Chain": "BSC",
+     "Token/NFT": "free NFT x1 #694",
+     "Contract Address": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 8.55499505049e-06,
+     "Gas Fee (USD)": 0.0063,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "Agent-ID gated, first free then 0.001 (Free.sol verified); 2nd reverts Wrong value. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac",
      "_src": "ledger"
     }
    ]
