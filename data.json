@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 09:20 WITA",
+ "generated_wita": "2026-10-25 10:29 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.00996440442998361,
-  "last_balance_wita": "2026-10-25 09:16 WITA",
+  "last_balance_bnb": 0.009956801466090693,
+  "last_balance_wita": "2026-10-25 10:27 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.3558,
-  "gas_bnb": 0.0005107135300342981
+  "spent_usd": 2.3614,
+  "gas_bnb": 0.0005183164939272141
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 09:16 WITA",
+  "snapshot_wita": "2026-10-25 10:27 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.00996440442998361,
-    "amount_str": "0.00996440442998361",
+    "amount": 0.009956801466090693,
+    "amount_str": "0.009956801466090693",
     "usable": true,
     "status": "ok"
    },
@@ -703,16 +703,34 @@
     "txs": [
      "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
     ]
+   },
+   {
+    "collection": "Rugged Frens (RUGFREN)",
+    "token": 83,
+    "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+    "status": "Hold",
+    "mint_cost_bnb": 7.602963892916e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 7.602963892916e-06,
+    "cost_usd": 0.0056,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.00254527819999567,
-   "cost_usd": 2.3313,
+   "cost_bnb": 0.0025528811638885858,
+   "cost_usd": 2.3369,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 36
+   "held": 37
   }
  },
  "capital": {
@@ -784,15 +802,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0005107135300342981,
-   "usd": 0.3848
+   "bnb": 0.0005183164939272141,
+   "usd": 0.3904
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.3558,
-   "left_usd": 7.6442
+   "spent_usd": 2.3614,
+   "left_usd": 7.6386
   },
-  "bsc_balance_bnb": 0.00996440442998361,
+  "bsc_balance_bnb": 0.009956801466090693,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716
   },
@@ -824,8 +842,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.3558,
-  "net_usd": -2.3209
+  "spent_usd": 2.3614,
+  "net_usd": -2.3265
  },
  "holdings": [
   {
@@ -1085,6 +1103,13 @@
    "collection": "Agent Koi (KOI)",
    "token": 121,
    "contract": "0x944e4ACB296133E14a451baEABca5faF42e271e3",
+   "status": "Hold",
+   "note": "Held - no market yet"
+  },
+  {
+   "collection": "Rugged Frens (RUGFREN)",
+   "token": 83,
+   "contract": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
    "status": "Hold",
    "note": "Held - no market yet"
   }
@@ -1485,6 +1510,15 @@
    "delta_bnb": -1.3430772179832e-05,
    "balance_bnb": 0.00996440442998361,
    "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
+  },
+  {
+   "at_wita": "2026-10-25 10:27:00",
+   "kind": "Mint",
+   "project": "Rugged Frens (RUGFREN)",
+   "direction": "out",
+   "delta_bnb": -7.602963892916e-06,
+   "balance_bnb": 0.009956801466090693,
+   "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
   }
  ],
  "tabs": {
@@ -2540,6 +2574,27 @@
      "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Rugged Frens (RUGFREN)",
+     "Chain": "BSC",
+     "Token/NFT": "Rugged Frens NFT x1 #83",
+     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a",
+     "Status": "Held - no market yet",
+     "Notes": "User rule free mint, HIGH RISK: unverified source, owner EOA 0x48aD (has ownerMint, setPrice). 1111 supply, max 3, price 0. Holder transfer sims OK (no honeypot seen). mint(1) direct, preview +1 NFT only. Extra free units NOT taken. Lead Suruhan.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -2559,6 +2614,28 @@
      "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "10:27:00",
+     "Type": "Mint",
+     "Project": "Rugged Frens (RUGFREN)",
+     "Chain": "BSC",
+     "Token/NFT": "Rugged Frens NFT x1 #83",
+     "Contract Address": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 7.602963892916e-06,
+     "Gas Fee (USD)": 0.0056,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "Mint TX",
+     "Status": "Held - none yet",
+     "Notes": "USER RULE free mint, HIGH RISK (unverified source). Name Rugged Frens / RUGFREN, owner EOA 0x48aD…13E0 (has ownerMint, setPrice, setMintOpen, setMaxPerWallet, withdraw, setBaseURI; metadata not frozen; 5% royalty). MAX 1111, maxPerWallet 3, price 0. totalSupply 82 at check, mintedBy(W)=0. Honeypot check: transferFrom eth_call sims from 4 holders all OK. Called mint(1) directly (not receive/fallbac",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a",
      "_src": "ledger"
     }
    ]
@@ -4099,6 +4176,111 @@
      "Risk": "Medium",
      "Notes": "Sourcify exact_match; 1st free for .ai Agent ID, then 0.0002 BNB; max 30/wallet; 85/6000 minted; quote(hunter,1)=0. GO/free, simulate first",
      "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X @MilkBaoBSC",
+     "Project": "MilkBao (CA found)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xdCE9A489d2cce8D96e3ad354747B784f0cd4B112",
+     "Link": "https://x.com/MilkBaoBSC/status/2114177874651750734",
+     "Sentiment": "Neutral",
+     "Red Flags": "20-follower account; distributes agent skill (don't install, call contract directly)",
+     "Risk": "Medium",
+     "Notes": "Sourcify exact_match; owner dev 0x4f73...2745; opens 20:00 WITA; 5000 supply, max 10/wallet; first 0,00022 BNB then 0,00088 (x2 after #3000)",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X @RuggedFrens",
+     "Project": "Rugged Frens",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x387CE4E6eD1F7198f8cCA43e556A9b9Dd4DF2399",
+     "Link": "https://x.com/RuggedFrens/status/2114179925783810232",
+     "Sentiment": "Neutral",
+     "Red Flags": "Account created 10/24, 0 followers; source unverified; owner EOA",
+     "Risk": "High",
+     "Notes": "Send 0 BNB to contract = 1 NFT; max 3/wallet; 82/1111. GO/free, simulate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X (arthouse + shills)",
+     "Project": "Aureline",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x652c496B05F1Cd3a536C7B9C50d3dB73305233e4",
+     "Link": "https://aureline.id/",
+     "Sentiment": "Positive (copy-paste shills)",
+     "Red Flags": "Unverified source; same deployer as GOODIES; site ships agent skill zip",
+     "Risk": "Medium",
+     "Notes": "Agent ID only; free tier 0,0001 BNB fee, max 2; paid 0,002 max 10; 74/3333; token 0xf1fd...24aa",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X @StanWest171123",
+     "Project": "GOODIES",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x0d3B9985532A29C47C6cD314e8d4Abb2b3C17B4B",
+     "Link": "https://goodies-phi.vercel.app/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Unverified source; same owner as Aureline",
+     "Risk": "Medium",
+     "Notes": "1 per agent; free tier 0,0003 BNB + 100k $GOOD; paid 0,001; 271/1000",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X @fidini2444",
+     "Project": "Rakatamuti",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xF6587Cb9015Ca03C6E255a56B8Ad5BE92Dd0373e",
+     "Link": "https://rakatamuti.netlify.app/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Free 100 already gone; unverified",
+     "Risk": "High",
+     "Notes": "103/7777; now 0,001 BNB. FYI",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X @Fukooooof",
+     "Project": "BinPinq",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xFC6F0A0D707D420163452e89a96FE7F4733CaCFe",
+     "Link": "https://talviogenerate.com/",
+     "Sentiment": "Neutral",
+     "Red Flags": "Shill-only replies; 1 minted",
+     "Risk": "High",
+     "Notes": "0,00025-0,0005 BNB, max 2. FYI",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "Pass summary",
+     "Chain": "",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Setya queue unchanged; Cupang 0 new; Chinese TG no concrete lead; Worldygg mintOpen=false (5); ArtPunk 13, AHOUSE 30; Mummies marketOpen=false (856); GALAXY 2581; owners unchanged",
+     "Status": "New"
     }
    ]
   }
