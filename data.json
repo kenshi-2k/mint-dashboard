@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 18:20 WITA",
+ "generated_wita": "2026-10-25 18:25 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.009780680489858185,
-  "last_balance_wita": "2026-10-25 17:22 WITA",
+  "last_balance_bnb": 0.010708257509658268,
+  "last_balance_wita": "2026-10-25 18:24 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.4225,
-  "gas_bnb": 0.0006944374701597218
+  "spent_usd": 2.4576,
+  "gas_bnb": 0.0007418604503596398
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 17:22 WITA",
+  "snapshot_wita": "2026-10-25 18:24 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.009780680489858185,
-    "amount_str": "0.009780680489858185",
+    "amount": 0.010708257509658268,
+    "amount_str": "0.010708257509658268",
     "usable": true,
     "status": "ok"
    },
@@ -1029,16 +1029,106 @@
     "txs": [
      "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac"
     ]
+   },
+   {
+    "collection": "HOTDOGE",
+    "token": 236,
+    "contract": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
+    "status": "Hold",
+    "mint_cost_bnb": 9.810293980338e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.810293980338e-06,
+    "cost_usd": 0.0073,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xa2c6b5dbbab039dfa0d1eae55361e10d554786c1f20cb4dfdb00f40b1070a677"
+    ]
+   },
+   {
+    "collection": "PRINTER",
+    "token": 137,
+    "contract": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
+    "status": "Hold",
+    "mint_cost_bnb": 1.0980234122575e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.0980234122575e-05,
+    "cost_usd": 0.0081,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x0a0328d3a6c42bffcf26df9267a51d6c6ae5062406f1d1ea338a339d67f2d097"
+    ]
+   },
+   {
+    "collection": "DANTA",
+    "token": 314,
+    "contract": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
+    "status": "Hold",
+    "mint_cost_bnb": 8.71000240257e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 8.71000240257e-06,
+    "cost_usd": 0.0064,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x6ad0bd72945c8b4c5beda3bda953edd2505f000e2817bdce2109f95bd24318ee"
+    ]
+   },
+   {
+    "collection": "BOTMOLT",
+    "token": 449,
+    "contract": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
+    "status": "Hold",
+    "mint_cost_bnb": 8.421925622481e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 8.421925622481e-06,
+    "cost_usd": 0.0062,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x5dae8c6491b250946543231f32e30a80cf1c15a8ee1e48498ce78a082acdce41"
+    ]
+   },
+   {
+    "collection": "RICKSHAW",
+    "token": 40,
+    "contract": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
+    "status": "Hold",
+    "mint_cost_bnb": 9.500524071954e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 9.500524071954e-06,
+    "cost_usd": 0.007,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002722949970555974,
-   "cost_usd": 2.4629,
+   "cost_bnb": 0.002770372950755892,
+   "cost_usd": 2.4979,
    "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 0,
    "listed": 2,
-   "held": 54
+   "held": 59
   }
  },
  "capital": {
@@ -1110,15 +1200,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0006944374701597218,
-   "usd": 0.5209
+   "bnb": 0.0007418604503596398,
+   "usd": 0.5559
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.4225,
-   "left_usd": 7.5775
+   "spent_usd": 2.4576,
+   "left_usd": 7.5424
   },
-  "bsc_balance_bnb": 0.009780680489858185,
+  "bsc_balance_bnb": 0.010708257509658268,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1151,8 +1241,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.4225,
-  "net_usd": -2.3876
+  "spent_usd": 2.4576,
+  "net_usd": -2.4227
  },
  "holdings": [
   {
@@ -1540,6 +1630,41 @@
    "contract": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "HOTDOGE",
+   "token": 236,
+   "contract": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "PRINTER",
+   "token": 137,
+   "contract": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "DANTA",
+   "token": 314,
+   "contract": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "BOTMOLT",
+   "token": 449,
+   "contract": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "RICKSHAW",
+   "token": 40,
+   "contract": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
+   "status": "Hold",
+   "note": ""
   }
  ],
  "balance_history": [
@@ -2127,6 +2252,60 @@
    "delta_bnb": -8.55499505049e-06,
    "balance_bnb": 0.009780680489858185,
    "tx": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac"
+  },
+  {
+   "at_wita": "2026-10-25 18:23:00",
+   "kind": "Free mint",
+   "project": "HotDoge",
+   "direction": "out",
+   "delta_bnb": -9.810293980338e-06,
+   "balance_bnb": 0.009770870195877846,
+   "tx": "https://bscscan.com/tx/0xa2c6b5dbbab039dfa0d1eae55361e10d554786c1f20cb4dfdb00f40b1070a677"
+  },
+  {
+   "at_wita": "2026-10-25 18:23:00",
+   "kind": "Free mint",
+   "project": "PRINTER (DollarPrinter)",
+   "direction": "out",
+   "delta_bnb": -1.0980234122575e-05,
+   "balance_bnb": 0.009759889961755272,
+   "tx": "https://bscscan.com/tx/0x0a0328d3a6c42bffcf26df9267a51d6c6ae5062406f1d1ea338a339d67f2d097"
+  },
+  {
+   "at_wita": "2026-10-25 18:23:00",
+   "kind": "Free mint",
+   "project": "danta",
+   "direction": "out",
+   "delta_bnb": -8.71000240257e-06,
+   "balance_bnb": 0.009751179959352702,
+   "tx": "https://bscscan.com/tx/0x6ad0bd72945c8b4c5beda3bda953edd2505f000e2817bdce2109f95bd24318ee"
+  },
+  {
+   "at_wita": "2026-10-25 18:24:00",
+   "kind": "Free mint",
+   "project": "Botmolt (AgentDrop)",
+   "direction": "out",
+   "delta_bnb": -8.421925622481e-06,
+   "balance_bnb": 0.00974275803373022,
+   "tx": "https://bscscan.com/tx/0x5dae8c6491b250946543231f32e30a80cf1c15a8ee1e48498ce78a082acdce41"
+  },
+  {
+   "at_wita": "2026-10-25 18:24:00",
+   "kind": "Free mint",
+   "project": "Robot Rickshaw",
+   "direction": "out",
+   "delta_bnb": -9.500524071954e-06,
+   "balance_bnb": 0.009733257509658267,
+   "tx": "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a"
+  },
+  {
+   "at_wita": "2026-10-25 18:24:00",
+   "kind": "Deposit (from snapshot)",
+   "project": "after 18:19 batch (5 free mints)",
+   "direction": "in",
+   "delta_bnb": 0.000975000000000001,
+   "balance_bnb": 0.010708257509658268,
+   "tx": "https://bscscan.com/tx/snapshot-20261025-1824"
   }
  ],
  "tabs": {
@@ -3949,6 +4128,116 @@
      "Notes": "Agent-ID gated, first free then 0.001 (Free.sol verified); 2nd reverts Wrong value. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23:00",
+     "Type": "Free mint",
+     "Project": "HotDoge",
+     "Chain": "BSC",
+     "Token/NFT": "HotDoge NFT x1 #236",
+     "Contract Address": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.810293980338e-06,
+     "Gas Fee (USD)": 0.0073,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "1st free per Agent-ID wallet (HotDoge.sol verified); 2nd reverts at value 0. eth_call value 0 OK; baw preview NFT-only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa2c6b5dbbab039dfa0d1eae55361e10d554786c1f20cb4dfdb00f40b1070a677",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23:00",
+     "Type": "Free mint",
+     "Project": "PRINTER (DollarPrinter)",
+     "Chain": "BSC",
+     "Token/NFT": "PRINTER NFT x1 #137",
+     "Contract Address": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 1.0980234122575e-05,
+     "Gas Fee (USD)": 0.0081,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "mint(0) = free card only (DollarPrinter.sol verified); 2nd reverts. eth_call value 0 OK; baw preview NFT-only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x0a0328d3a6c42bffcf26df9267a51d6c6ae5062406f1d1ea338a339d67f2d097",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23:00",
+     "Type": "Free mint",
+     "Project": "danta",
+     "Chain": "BSC",
+     "Token/NFT": "danta NFT x1 #314",
+     "Contract Address": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 8.71000240257e-06,
+     "Gas Fee (USD)": 0.0064,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "First free (DantaV2.sol verified, USDT-priced after); quote(W,1)>0 after, stopped. No USDT approval. eth_call value 0 OK; baw preview NFT-only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x6ad0bd72945c8b4c5beda3bda953edd2505f000e2817bdce2109f95bd24318ee",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:24:00",
+     "Type": "Free mint",
+     "Project": "Botmolt (AgentDrop)",
+     "Chain": "BSC",
+     "Token/NFT": "Botmolt NFT x1 #449",
+     "Contract Address": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 8.421925622481e-06,
+     "Gas Fee (USD)": 0.0062,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "1st free (AgentDrop.sol verified); 2nd reverts. eth_call value 0 OK; baw preview NFT-only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x5dae8c6491b250946543231f32e30a80cf1c15a8ee1e48498ce78a082acdce41",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:24:00",
+     "Type": "Free mint",
+     "Project": "Robot Rickshaw",
+     "Chain": "BSC",
+     "Token/NFT": "Robot Rickshaw NFT x1 #40",
+     "Contract Address": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.500524071954e-06,
+     "Gas Fee (USD)": 0.007,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "1 free per Agent ID (RickshawAI.sol verified); preview NFT only; 2nd reverts Wrong value. eth_call value 0 OK; baw preview NFT-only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a",
      "_src": "ledger"
     }
    ]
@@ -6103,6 +6392,111 @@
      "Red Flags": "",
      "Risk": "Low",
      "Notes": "Worldygg mintOpen false (5); ArtPunk ts 13; AHOUSE 31; ngmi 235; Fishesrh early access via wallet reply, no CA (skip); held positions no alerts",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "HotDoge",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
+     "Link": "https://x.com/XiaoMei_laika/status/2114300028206657966",
+     "Sentiment": "Neutral",
+     "Red Flags": "No web/official X; small-account source",
+     "Risk": "Medium",
+     "Notes": "1st free w/ .ai Agent ID, then 0.001 BNB, max 4; 198/10000; Sourcify verified; GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "PRINTER (美元印钞机)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
+     "Link": "https://x.com/JingInCrypto/status/2114298250660647218",
+     "Sentiment": "Neutral",
+     "Red Flags": "No web/official X; collectible only",
+     "Risk": "Medium",
+     "Notes": "mint(0) 1st free w/ Agent ID, then 0.0006 BNB; 98/5000; Sourcify verified; GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Pengupunk",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xE2b3D9043fccc76e6Ce13f84346735F1AA375b5a",
+     "Link": "https://x.com/XiaoMei_laika/status/2114298192070381994",
+     "Sentiment": "Positive",
+     "Red Flags": "New project account; free slots (223) likely gone at 234 minted",
+     "Risk": "Medium",
+     "Notes": "Now 0.0005 BNB, max 3, Agent ID; Sourcify verified; simulate first",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "danta 蛋塔",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
+     "Link": "https://x.com/XiaoMei_laika/status/2114295436588843073",
+     "Sentiment": "Neutral",
+     "Red Flags": "Has owner(); new accounts; no official X",
+     "Risk": "Medium",
+     "Notes": "First 2000 free, no Agent ID needed, then 1 USDT; 302/10000; Sourcify verified; GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Botmolt",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
+     "Link": "https://x.com/linkeverythingy/status/2114297855208763522",
+     "Sentiment": "Neutral",
+     "Red Flags": "Has owner(); only aggregator source",
+     "Risk": "High",
+     "Notes": "1st free w/ Agent ID; 437/10000; Sourcify verified; GO/free, simulate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Robot Rickshaw",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
+     "Link": "https://x.com/srsabbirboy78/status/2114300633385992426",
+     "Sentiment": "Neutral",
+     "Red Flags": "Reply-spam promo; rickshaw.ai domain for sale; is.gd link",
+     "Risk": "High",
+     "Notes": "1 free per .ai Agent ID; 15/5000; Sourcify verified; GO/free, simulate",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "18:19",
+     "Source (Telegram group / X account)": "Check",
+     "Project": "WATCH/held + Cupang/Setya",
+     "Chain": "BSC",
+     "Type": "",
+     "CA": "",
+     "Link": "",
+     "Sentiment": "",
+     "Red Flags": "",
+     "Risk": "",
+     "Notes": "Setya queue & Cupang empty; Worldygg mintOpen false (5); Mummies marketOpen false (982); FYI: Moondeng no CA (SKIP), ARTRURAL ~$0.5, Fishes Rh WL-by-reply only, MilkBao no CA",
      "Status": "New"
     }
    ]
