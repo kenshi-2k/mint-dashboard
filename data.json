@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 14:24 WITA",
+ "generated_wita": "2026-10-25 14:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -1187,7 +1187,7 @@
    "token": 145,
    "contract": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -2770,6 +2770,27 @@
      "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
     },
     {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "UMBRA Agents (UMBRA)",
+     "Chain": "BSC",
+     "Token/NFT": "UMBRA Agents NFT x1 #145",
+     "Contract Address": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
+     "Amount": null,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b",
+     "Status": "Held - no market yet",
+     "Notes": "User rule free mint (1st per wallet free). Sourcify exact match, no delegatecall/selfdestruct, clean transfers, no owner mint/burn over holders. Agent ID gated. Preview +1 NFT only. 2nd/3rd paid NOT bought. Lead Suruhan 14:10.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
+    },
+    {
      "Date (WITA)": "2026-10-25",
      "Time": "03:18:00",
      "Type": "Mint",
@@ -2811,28 +2832,6 @@
      "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "14:23:00",
-     "Type": "Mint",
-     "Project": "UMBRA Agents (UMBRA)",
-     "Chain": "BSC",
-     "Token/NFT": "UMBRA Agents NFT x1 #145",
-     "Contract Address": "0x9C0309dC71F89d7f4F0b55d934213C28F10C9e23",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.574538123068e-06,
-     "Gas Fee (USD)": 0.0071,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (lead: Suruhan 14:10; CA matches airhunt17 post 2114230151181730197). Sourcify exact_match (Umbra.sol, custom minimal ERC721, no proxy). No delegatecall/selfdestruct; transferFrom has no blocks/fees/blacklist; owner can only withdraw, setMintOpen, setImage (art URLs), transferOwnership, with no owner mint/burn/transfer over holders. Owner/deployer 0x4c2D…e706. 1st mint per wall",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b",
      "_src": "ledger"
     }
    ]
