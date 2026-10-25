@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 17:22 WITA",
+ "generated_wita": "2026-10-25 18:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -869,7 +869,7 @@
     ]
    },
    {
-    "collection": "NEXUS",
+    "collection": "NEXUS CORE",
     "token": 484,
     "contract": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
     "status": "Hold",
@@ -887,7 +887,7 @@
     ]
    },
    {
-    "collection": "WOOHOOD",
+    "collection": "Woohood",
     "token": 705,
     "contract": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
     "status": "Hold",
@@ -905,7 +905,7 @@
     ]
    },
    {
-    "collection": "AGENTID",
+    "collection": "AGENT ID (AGENTID)",
     "token": 836,
     "contract": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
     "status": "Hold",
@@ -923,7 +923,7 @@
     ]
    },
    {
-    "collection": "SHENLONG",
+    "collection": "Shenlong",
     "token": 4842,
     "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
     "status": "Hold",
@@ -941,7 +941,7 @@
     ]
    },
    {
-    "collection": "SHENLONG",
+    "collection": "Shenlong",
     "token": 4845,
     "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
     "status": "Hold",
@@ -959,7 +959,7 @@
     ]
    },
    {
-    "collection": "SHENLONG",
+    "collection": "Shenlong",
     "token": 4847,
     "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
     "status": "Hold",
@@ -977,7 +977,7 @@
     ]
    },
    {
-    "collection": "SHENLONG",
+    "collection": "Shenlong",
     "token": 4851,
     "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
     "status": "Hold",
@@ -995,7 +995,7 @@
     ]
    },
    {
-    "collection": "LASER",
+    "collection": "Laser Agents",
     "token": 809,
     "contract": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
     "status": "Hold",
@@ -1013,7 +1013,7 @@
     ]
    },
    {
-    "collection": "FREESVG",
+    "collection": "free (SVG)",
     "token": 694,
     "contract": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
     "status": "Hold",
@@ -1479,67 +1479,67 @@
    "note": "Held - soulbound (not sellable)"
   },
   {
-   "collection": "NEXUS",
+   "collection": "NEXUS CORE",
    "token": 484,
    "contract": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "WOOHOOD",
+   "collection": "Woohood",
    "token": 705,
    "contract": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "AGENTID",
+   "collection": "AGENT ID (AGENTID)",
    "token": 836,
    "contract": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "SHENLONG",
+   "collection": "Shenlong",
    "token": 4842,
    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "SHENLONG",
+   "collection": "Shenlong",
    "token": 4845,
    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "SHENLONG",
+   "collection": "Shenlong",
    "token": 4847,
    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "SHENLONG",
+   "collection": "Shenlong",
    "token": 4851,
    "contract": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "LASER",
+   "collection": "Laser Agents",
    "token": 809,
    "contract": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   },
   {
-   "collection": "FREESVG",
+   "collection": "free (SVG)",
    "token": 694,
    "contract": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
    "status": "Hold",
-   "note": ""
+   "note": "Held - no market yet"
   }
  ],
  "balance_history": [
@@ -3430,6 +3430,216 @@
      "Mint TX Link": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
      "Status": "Listed 0.001 BNB (~$0.74), 30 days",
      "Notes": "Floor 0.001 = contract min price, so listing below floor is impossible; listed at floor. Fee 2.5%, net 0.000975 BNB. bncworld.fun market.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "NEXUS CORE",
+     "Chain": "BSC",
+     "Token/NFT": "NEXUS CORE NFT x1 #484",
+     "Contract Address": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xdde7227f0d1365f84e749c274ecb4cf602f0ce4c5cc889dd775646c1b46a9c26",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Woohood",
+     "Chain": "BSC",
+     "Token/NFT": "Woohood NFT x1 #705",
+     "Contract Address": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xe282046258bf45bf8528faa7c41cff0a0753d761f269d305cfe0e7969b9096e0",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "AGENT ID (AGENTID)",
+     "Chain": "BSC",
+     "Token/NFT": "AGENT ID (AGENTID) NFT x1 #836",
+     "Contract Address": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x2d032fc11267422957b1dddca284c9aefbe75bb574f5a484bf6b7ba8bbd3c5bc",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4842",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x41e6f61fcaed6d002a4a70eaf40e67dc291307017a7446e5319a1169c926d7ef",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit 1/4 (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4845",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xec6fc2aadf77d1bec85b01ed927737df08aea01407cccf934d0b3a053e97fec9",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit 2/4 (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4847",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x8364c45c49ae537ecdf7e7e6894a1689e30906b2a9166a373e68d0171758b39a",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit 3/4 (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Shenlong",
+     "Chain": "BSC",
+     "Token/NFT": "Shenlong NFT x1 #4851",
+     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xa90d6433e6fbe9b27bb2cef56f6304be2390f2e0e3c6654eeadd7f3538c06d0c",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit 4/4 (rule t205u); 5th is paid, reverts PRICE at value 0.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "Laser Agents",
+     "Chain": "BSC",
+     "Token/NFT": "Laser Agents NFT x1 #809",
+     "Contract Address": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0xc1107079231025de96b587c2ba5f6438337904d96b42f2c598ad07cf9547e25b",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Mint",
+     "Project": "free (SVG)",
+     "Chain": "BSC",
+     "Token/NFT": "free (SVG) NFT x1 #694",
+     "Contract Address": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac",
+     "Status": "Held - no market yet",
+     "Notes": "Free unit (rule t205u). eth_call value 0 OK; preview +1 NFT only, no approvals.",
+     "Revoke TX Link": "",
+     "tx": ""
+    },
+    {
+     "Date (WITA)": "",
+     "Time": "",
+     "Type": "Skip",
+     "Project": "NEXUS CORE II",
+     "Chain": "BSC",
+     "Token/NFT": "-",
+     "Contract Address": "0xa582",
+     "Amount": 0.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Skipped",
+     "Notes": "Paid 0.0003 BNB; promo from 0-follower account (A=0), fails v2 gate.",
      "Revoke TX Link": "",
      "tx": ""
     },
