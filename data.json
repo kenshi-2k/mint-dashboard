@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-25 19:20 WITA",
+ "generated_wita": "2026-10-25 20:24 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.010708257509658268,
-  "last_balance_wita": "2026-10-25 18:24 WITA",
+  "last_balance_bnb": 0.0104596344145724,
+  "last_balance_wita": "2026-10-25 20:23 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 2.4576,
-  "gas_bnb": 0.0007418604503596398
+  "spent_usd": 2.6314,
+  "gas_bnb": 0.0007704835454455077
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 18:24 WITA",
+  "snapshot_wita": "2026-10-25 20:23 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 740.0,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.010708257509658268,
-    "amount_str": "0.010708257509658268",
+    "amount": 0.0104596344145724,
+    "amount_str": "0.0104596344145724",
     "usable": true,
     "status": "ok"
    },
@@ -579,7 +579,7 @@
     ]
    },
    {
-    "collection": "Xuanwu Seed (ERC-1155)",
+    "collection": "XUANWU",
     "token": 1,
     "contract": "0x05fd19702029c473683d6188cD856e59038278F4",
     "status": "Hold",
@@ -1120,16 +1120,52 @@
     "txs": [
      "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a"
     ]
+   },
+   {
+    "collection": "MilkBao Dragon (MBAO)",
+    "token": 178,
+    "contract": "0xdCE9A489d2cce8D96e3ad354747B784f0cd4B112",
+    "status": "Hold",
+    "mint_cost_bnb": 1.4217521942572e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.4217521942572e-05,
+    "cost_usd": 0.1736,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x1261afc42a396e2273a7e21fd2dcc7697edeb1ed83c935714270dbfac6d7ba5f"
+    ]
+   },
+   {
+    "collection": "Ptah Proof of Agent (POA)",
+    "token": 2671,
+    "contract": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+    "status": "Hold",
+    "mint_cost_bnb": 1.4405573143296e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.4405573143296e-05,
+    "cost_usd": 0.0107,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x82d95a7b94b280b2ec902c4a0747f20990ab2034a144ddd417441103d490b3a3"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002770372950755892,
-   "cost_usd": 2.4979,
+   "cost_bnb": 0.00279899604584176,
+   "cost_usd": 2.6822,
    "realized_bnb": 0.000948532138333347,
    "unrealized_bnb": 0.001947466117653177,
    "sold": 1,
    "listed": 2,
-   "held": 59
+   "held": 61
   }
  },
  "capital": {
@@ -1201,15 +1237,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0007418604503596398,
-   "usd": 0.5559
+   "bnb": 0.0007704835454455077,
+   "usd": 0.5771
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 2.4576,
-   "left_usd": 7.5424
+   "spent_usd": 2.6314,
+   "left_usd": 7.3686
   },
-  "bsc_balance_bnb": 0.010708257509658268,
+  "bsc_balance_bnb": 0.0104596344145724,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1242,8 +1278,8 @@
   "count": 1,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 2.4576,
-  "net_usd": -2.4227
+  "spent_usd": 2.6314,
+  "net_usd": -2.5965
  },
  "holdings": [
   {
@@ -1458,11 +1494,11 @@
    "note": "Held - no market yet"
   },
   {
-   "collection": "Xuanwu Seed (ERC-1155)",
+   "collection": "XUANWU",
    "token": 1,
    "contract": "0x05fd19702029c473683d6188cD856e59038278F4",
    "status": "Hold",
-   "note": "Held - none yet"
+   "note": ""
   },
   {
    "collection": "Brushborn (BBRN)",
@@ -1666,6 +1702,20 @@
    "contract": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
    "status": "Hold",
    "note": "Held - no market yet"
+  },
+  {
+   "collection": "MilkBao Dragon (MBAO)",
+   "token": 178,
+   "contract": "0xdCE9A489d2cce8D96e3ad354747B784f0cd4B112",
+   "status": "Hold",
+   "note": "Held"
+  },
+  {
+   "collection": "Ptah Proof of Agent (POA)",
+   "token": 2671,
+   "contract": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+   "status": "Hold",
+   "note": "Held - soulbound"
   }
  ],
  "balance_history": [
@@ -2316,6 +2366,33 @@
    "delta_bnb": 0.000975000000000001,
    "balance_bnb": 0.010708257509658268,
    "tx": "https://bscscan.com/tx/snapshot-20261025-1824"
+  },
+  {
+   "at_wita": "2026-10-25 20:08:00",
+   "kind": "Paid mint",
+   "project": "MilkBao Dragon",
+   "direction": "out",
+   "delta_bnb": -1.4217521942572e-05,
+   "balance_bnb": 0.010694039987715696,
+   "tx": "https://bscscan.com/tx/0x1261afc42a396e2273a7e21fd2dcc7697edeb1ed83c935714270dbfac6d7ba5f"
+  },
+  {
+   "at_wita": "2026-10-25 20:23:00",
+   "kind": "Free mint",
+   "project": "Ptah Proof of Agent (POA)",
+   "direction": "out",
+   "delta_bnb": -1.4405573143296e-05,
+   "balance_bnb": 0.0106796344145724,
+   "tx": "https://bscscan.com/tx/0x82d95a7b94b280b2ec902c4a0747f20990ab2034a144ddd417441103d490b3a3"
+  },
+  {
+   "at_wita": "2026-10-25 20:23:00",
+   "kind": "Outflow (from snapshot)",
+   "project": "after POA #2671 free mint (other routine also active)",
+   "direction": "out",
+   "delta_bnb": -0.00022,
+   "balance_bnb": 0.0104596344145724,
+   "tx": "https://bscscan.com/tx/snapshot-20261025-2023"
   }
  ],
  "tabs": {
@@ -2447,8 +2524,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:52:00",
      "Type": "Mint",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -2468,8 +2545,8 @@
      "tx": "https://bscscan.com/tx/0x0acb31f12c4985d1abb06459842e65dcfc165f5cbfde1a3c6c28013d7f08056d"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:52:00",
      "Type": "Approve",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -2489,8 +2566,8 @@
      "tx": "https://bscscan.com/tx/0x4748b40983e3f2cc4ae9dc88e7ab809e00dca675bb819d00cd9c4a3c4d3d623e"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:52:00",
      "Type": "Approve",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -2510,8 +2587,8 @@
      "tx": "https://bscscan.com/tx/0x9a43544bfdb7310dd04eddbb404daa44eaaa10dfca43db7d3569d69b2af3b35a"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:52:00",
      "Type": "List",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -2531,8 +2608,8 @@
      "tx": "https://bscscan.com/tx/0x7cdf7d717275a9a6d68b4c2029ce57143082a5674e8b1dcb156d78aee4a48aa8"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:52:00",
      "Type": "List",
      "Project": "Agent Nakamigos (agentpunk.fun)",
      "Chain": "BSC",
@@ -2552,8 +2629,8 @@
      "tx": "https://bscscan.com/tx/0x9091fd55ed9998334740de7e6b372e32b5d2647cabc3d2bbb7baf36bf35b2263"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:54:30",
      "Type": "Mint",
      "Project": "AI Agent Chips (CHIPS)",
      "Chain": "BSC",
@@ -2573,8 +2650,8 @@
      "tx": "https://bscscan.com/tx/0x047758723e1b2947cb5bd5054cc52e93b7770480175efefc63f9915d67711df3"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:54:30",
      "Type": "Mint",
      "Project": "Agent Drop Pass (ADPASS)",
      "Chain": "BSC",
@@ -2594,8 +2671,8 @@
      "tx": "https://bscscan.com/tx/0xc4c84b798e3b85fb32a5d919d903d6d3938a0362da6ab222b61c328c37a91da7"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "14:56:23",
      "Type": "Mint",
      "Project": "AIVY Robot (AIVY)",
      "Chain": "BSC",
@@ -2615,8 +2692,8 @@
      "tx": "https://bscscan.com/tx/0xf724e3ce287f9a4d8c83cb7c2acb3e167a2e349bfbccad37527bdf5a0ba4cb7f"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:00:00",
      "Type": "Mint",
      "Project": "Fluffies (FLUFF)",
      "Chain": "BSC",
@@ -2636,8 +2713,8 @@
      "tx": "https://bscscan.com/tx/0x9bba754d5ea025eed695627185b2b632a90a1ced682821a3c26036c95376fb74"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:13:06",
      "Type": "Mint",
      "Project": "Pump AI V2 (PUMPAI2)",
      "Chain": "BSC",
@@ -2657,8 +2734,8 @@
      "tx": "https://bscscan.com/tx/0x6f973e10273cabae80505793a6c337aeaeea616a9289d61a6e5fd1751678e6fa"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:13:07",
      "Type": "Mint",
      "Project": "Agentics Mummies (AMUMMY)",
      "Chain": "BSC",
@@ -2720,8 +2797,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-24",
+     "Time": "15:30:36",
      "Type": "Deposit",
      "Project": "Incoming deposit (user) from 0x161ba15a5f335c9f06bb5bbb0a9ce14076fbb645 (~$8.09 @ $736.83)",
      "Chain": "BSC",
@@ -3308,8 +3385,8 @@
      "tx": "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "7:21",
      "Type": "Mint",
      "Project": "Pocket Dragons (PDRAGON)",
      "Chain": "BSC",
@@ -3329,8 +3406,8 @@
      "tx": "https://bscscan.com/tx/0x1f4a2c9e8aa822413b224558e2b48b0a0a7b2f5a7d6174a20bb41c65db39d5bb"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "7:32",
      "Type": "Mint",
      "Project": "NEON BOTZ (NBOTZ)",
      "Chain": "BSC",
@@ -3350,8 +3427,8 @@
      "tx": "https://bscscan.com/tx/0x88445ce2321fab0816b68ecaafa44d020a86c8aa121a09bbb636762af3345290"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "9:16",
      "Type": "Mint",
      "Project": "Agent Koi (KOI)",
      "Chain": "BSC",
@@ -3371,8 +3448,8 @@
      "tx": "https://bscscan.com/tx/0xbb63a2d5422e5d0fc87acb7a4770a0a44db630d7576a59899134f12d1b630486"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "10:27",
      "Type": "Mint",
      "Project": "Rugged Frens (RUGFREN)",
      "Chain": "BSC",
@@ -3392,8 +3469,8 @@
      "tx": "https://bscscan.com/tx/0x0575bd4fdae2937c10335be066d1d8b7b8e4666831ccb0e8d9389866b94c3f4a"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "12:25",
      "Type": "Mint",
      "Project": "Gloomies (GLOOM)",
      "Chain": "BSC",
@@ -3413,8 +3490,8 @@
      "tx": "https://bscscan.com/tx/0xa2d3dee2dd690b0c48ab177ae4bb1498f053f51a7751bf1550f64ba9f778bd63"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "12:27",
      "Type": "Claim",
      "Project": "P0 Patient Zero (genesis claim)",
      "Chain": "BSC",
@@ -3431,11 +3508,11 @@
      "Status": "Held - no liquidity",
      "Notes": "User rule free claim. claimGenesis(), .ai Agent ID gate. Claim contract UNVERIFIED (simple bytecode: Agent ID check + ERC20 transfer, no proxy). Preview +1 P0 only, no approvals. P0 token not open source, Pancake pair 0 liquidity. Paid ~1U infect gacha NOT played. Lead Suruhan 12:10.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "13:23",
      "Type": "Mint",
      "Project": "Agent Gold Miner (AGM-CARD)",
      "Chain": "BSC",
@@ -3455,8 +3532,8 @@
      "tx": "https://bscscan.com/tx/0xef780b9f1116911e742d07785f3e172d29d35064326655d27828ad84fc8fe257"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "14:23",
      "Type": "Mint",
      "Project": "UMBRA Agents (UMBRA)",
      "Chain": "BSC",
@@ -3476,8 +3553,8 @@
      "tx": "https://bscscan.com/tx/0x7870126732e7587222f96a65e6aebb5752fe7230aa2b66028b34e6484601a55b"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "15:27",
      "Type": "Mint",
      "Project": "Floppy Agents (FLOPPY)",
      "Chain": "BSC",
@@ -3497,8 +3574,8 @@
      "tx": "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "15:28",
      "Type": "Mint",
      "Project": "Onchain Agents (BN World)",
      "Chain": "BSC",
@@ -3518,8 +3595,8 @@
      "tx": "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "15:28",
      "Type": "Mint",
      "Project": "BeHand Pass (SBT)",
      "Chain": "BSC",
@@ -3536,11 +3613,11 @@
      "Status": "Held - soulbound (not sellable)",
      "Notes": "User rule free SBT claim. Unverified; lean check clean, transfers revert Soulbound by design. Agent ID gated. Preview +1 token only.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:40",
      "Type": "Mint",
      "Project": "Rugged Frens (RUGFREN)",
      "Chain": "BSC",
@@ -3560,8 +3637,8 @@
      "tx": "https://bscscan.com/tx/0x4d006fffb9cdbb33832812e2ab94023f686ad5e5d015e13a1a8992254215d9ff"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:40",
      "Type": "Mint",
      "Project": "Rugged Frens (RUGFREN)",
      "Chain": "BSC",
@@ -3581,8 +3658,8 @@
      "tx": "https://bscscan.com/tx/0xdb1384fb47e3ea71732ee2e07bb3f6e28c3e68983c9e0b64a4b646dc068db644"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:52",
      "Type": "Approve/List",
      "Project": "Onchain Agents (BN World)",
      "Chain": "BSC",
@@ -3599,11 +3676,11 @@
      "Status": "Approved #832 to market",
      "Notes": "User t206u. approve(market 0xC6cB…5704, 832) only, not setApprovalForAll.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "16:53",
      "Type": "Approve/List",
      "Project": "Onchain Agents (BN World)",
      "Chain": "BSC",
@@ -3620,11 +3697,11 @@
      "Status": "Listed 0.001 BNB (~$0.74), 30 days",
      "Notes": "Floor 0.001 = contract min price, so listing below floor is impossible; listed at floor. Fee 2.5%, net 0.000975 BNB. bncworld.fun market.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5"
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:20",
      "Type": "Mint",
      "Project": "NEXUS CORE",
      "Chain": "BSC",
@@ -3644,8 +3721,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "Woohood",
      "Chain": "BSC",
@@ -3665,8 +3742,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "AGENT ID (AGENTID)",
      "Chain": "BSC",
@@ -3686,8 +3763,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "Shenlong",
      "Chain": "BSC",
@@ -3707,8 +3784,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "Shenlong",
      "Chain": "BSC",
@@ -3728,8 +3805,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "Shenlong",
      "Chain": "BSC",
@@ -3749,8 +3826,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "Shenlong",
      "Chain": "BSC",
@@ -3770,8 +3847,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:21",
      "Type": "Mint",
      "Project": "Laser Agents",
      "Chain": "BSC",
@@ -3791,8 +3868,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:22",
      "Type": "Mint",
      "Project": "free (SVG)",
      "Chain": "BSC",
@@ -3812,8 +3889,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:22",
      "Type": "Skip",
      "Project": "NEXUS CORE II",
      "Chain": "BSC",
@@ -3833,8 +3910,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23",
      "Type": "Mint",
      "Project": "HotDoge",
      "Chain": "BSC",
@@ -3854,8 +3931,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23",
      "Type": "Mint",
      "Project": "PRINTER (DollarPrinter)",
      "Chain": "BSC",
@@ -3875,8 +3952,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23",
      "Type": "Mint",
      "Project": "danta",
      "Chain": "BSC",
@@ -3896,8 +3973,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:24",
      "Type": "Mint",
      "Project": "Botmolt (AgentDrop)",
      "Chain": "BSC",
@@ -3917,8 +3994,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:24",
      "Type": "Mint",
      "Project": "Robot Rickshaw",
      "Chain": "BSC",
@@ -3938,8 +4015,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "18:23",
      "Type": "Skip",
      "Project": "Pengupunk",
      "Chain": "BSC",
@@ -3959,8 +4036,8 @@
      "tx": ""
     },
     {
-     "Date (WITA)": "",
-     "Time": "",
+     "Date (WITA)": "2026-10-25",
+     "Time": "17:26",
      "Type": "Sell",
      "Project": "Onchain Agents (BN World)",
      "Chain": "BSC",
@@ -3977,447 +4054,70 @@
      "Status": "Sold",
      "Notes": "Sold on bncworld market at 0.001 BNB; 2.5% fee, net 0.000975 BNB (~$0.72) in. Buyer 0x62c9…4c84 paid gas.",
      "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Time": "20:23",
+     "Type": "Mint",
+     "Project": "Ptah Proof of Agent (POA)",
+     "Chain": "BSC",
+     "Token/NFT": "Proof of Agent x1 #2671 (soulbound)",
+     "Contract Address": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+     "Amount": 1.0,
+     "USD Spent": null,
+     "Gas Fee (native)": null,
+     "Gas Fee (USD)": null,
+     "Airdrop Name": "",
+     "Buy TX Link": "",
+     "Sell TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x82d95a7b94b280b2ec902c4a0747f20990ab2034a144ddd417441103d490b3a3",
+     "Status": "Held - soulbound",
+     "Notes": "Free mint() 1 per Agent ID. Preview +1 NFT only. Daily PTAH draw needs X/Square post with #ProofOfAgent + Agent #2671 (not posted).",
+     "Revoke TX Link": "",
      "tx": ""
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "03:18:00",
+     "Time": "20:08",
      "Type": "Mint",
-     "Project": "Xuanwu Seed (ERC-1155)",
+     "Project": "MilkBao Dragon (MBAO)",
      "Chain": "BSC",
-     "Token/NFT": "Xuanwu Seed NFT x1 #1",
-     "Contract Address": "0x05fd19702029c473683d6188cD856e59038278F4",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 5.840109876084e-06,
-     "Gas Fee (USD)": 0.0043,
+     "Token/NFT": "MilkBao Dragon x1 #178 (first unit 0.00022 BNB)",
+     "Contract Address": "0xdCE9A489d2cce8D96e3ad354747B784f0cd4B112",
+     "Amount": 1.0,
+     "USD Spent": 0.16,
+     "Gas Fee (native)": 1.42e-05,
+     "Gas Fee (USD)": 0.0105,
      "Airdrop Name": "",
      "Buy TX Link": "",
      "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint: Sourcify exact_match (XuanwuSeed.sol), owner 0xb95a…0cfd, ERC-1155 id 1 (qty 1). Lead: Suruhan 03:10 (seed.mchain.art, Cupang #5929, @_handygold). CA confirmed in site JS. Agent ID gate, first seed free then 0.0005 BNB, max 10/wallet, supply 1153/10000 at check. quote(W,1)=0. mint(1) 0xa0712d68 value 0; preview +1 token only, no risks. Paid units NOT bought.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xb31cc79c3f4fdcab4c11b982eef60cfb14dd97f52eb3cac516515bc0a19abece",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "12:27:00",
-     "Type": "Claim",
-     "Project": "P0 Patient Zero (genesis claim)",
-     "Chain": "BSC",
-     "Token/NFT": "Claim",
-     "Contract Address": "0x37926d0558A5518fD94Ac3D147cF0ff25e5f9C8f",
-     "Amount": null,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 6.05216956512e-06,
-     "Gas Fee (USD)": 0.0045,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
+     "Mint TX Link": "https://bscscan.com/tx/0x1261afc42a396e2273a7e21fd2dcc7697edeb1ed83c935714270dbfac6d7ba5f",
      "Status": "Held",
-     "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
+     "Notes": "",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
-     "_src": "ledger"
+     "tx": ""
     },
     {
      "Date (WITA)": "2026-10-25",
-     "Time": "15:28:00",
-     "Type": "Mint",
-     "Project": "BeHand Pass (SBT)",
+     "Time": "20:23",
+     "Type": "Skip",
+     "Project": "Agent Ape Club (AAPE)",
      "Chain": "BSC",
-     "Token/NFT": "BeHand Pass NFT x1 #536",
-     "Contract Address": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 8.771267918468e-06,
-     "Gas Fee (USD)": 0.0065,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free soulbound claim (parent steer 15:26). Unverified; lean check: no delegatecall/selfdestruct, no proxy; transfers revert 'Soulbound' (by design, not sellable). Owner admin = setBase/lockBase only. canClaim(W)=true, .ai Agent ID gated, EARLY_LIMIT 2000 (early holder). eth_call claim() value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x5a2fd9323088ce1bb7719358a248e5e32d841eec089c83ceea48da094062e7f9",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "16:52:00",
-     "Type": "Approve/List",
-     "Project": "Onchain Agents (BN World)",
-     "Chain": "BSC",
-     "Token/NFT": "Onchain Agents NFT x1 #832",
-     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 3.23143863976e-06,
-     "Gas Fee (USD)": 0.0024,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Listed 0.001 bnb",
-     "Notes": "approve(market, 832): single-token approval to BN World market 0xC6cBc2C06ae66d201A761FAa8Ac48aD92B835704 (user t206u). baw preview: only allowance #832 -> market. isApprovedForAll stays false.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "16:53:00",
-     "Type": "Approve/List",
-     "Project": "Onchain Agents (BN World)",
-     "Chain": "BSC",
-     "Token/NFT": "Onchain Agents NFT x1 #832",
-     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.969348070599e-06,
-     "Gas Fee (USD)": 0.0074,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Listed 0.001 bnb",
-     "Notes": "list(832, 0.001 BNB, 30d) on BN World market 0xC6cBc2C06ae66d201A761FAa8Ac48aD92B835704. Floor 0.001 BNB = contract MIN_PRICE, so below-floor impossible (0.00099 reverts BadPrice); listed AT floor. Seller fee 2.5% -> net 0.000975 BNB. Expires 2026-11-24 16:53 WITA. Token stays in wallet.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:20:00",
-     "Type": "Free mint",
-     "Project": "NEXUS CORE",
-     "Chain": "BSC",
-     "Token/NFT": "NEXUS CORE NFT x1 #484",
-     "Contract Address": "0xA477a70223a684E0Fe7d31ba1949Ee96a4f1995d",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.0093330563624e-05,
-     "Gas Fee (USD)": 0.0075,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "First unit/wallet free (NexusCore.sol verified); 2nd reverts at value 0. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xdde7227f0d1365f84e749c274ecb4cf602f0ce4c5cc889dd775646c1b46a9c26",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "Woohood",
-     "Chain": "BSC",
-     "Token/NFT": "Woohood NFT x1 #705",
-     "Contract Address": "0xbb54a321ccbdc5671d301b7d27ab55bfec3fa40b",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.293533158912e-06,
-     "Gas Fee (USD)": 0.0054,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "First free then 0.001 (verified partial match); 2nd reverts. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xe282046258bf45bf8528faa7c41cff0a0753d761f269d305cfe0e7969b9096e0",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "AGENT ID (AGENTID)",
-     "Chain": "BSC",
-     "Token/NFT": "AGENT ID NFT x1 #836",
-     "Contract Address": "0x486d0947caa3d70c19e38f6c789489d39291e9e7",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.871850653537e-06,
-     "Gas Fee (USD)": 0.0058,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "First free then paid (AgentIDCard.sol verified); 2nd reverts. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x2d032fc11267422957b1dddca284c9aefbe75bb574f5a484bf6b7ba8bbd3c5bc",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "Shenlong",
-     "Chain": "BSC",
-     "Token/NFT": "Shenlong NFT x1 #4842",
-     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.5376802605483e-05,
-     "Gas Fee (USD)": 0.0114,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x41e6f61fcaed6d002a4a70eaf40e67dc291307017a7446e5319a1169c926d7ef",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "Shenlong",
-     "Chain": "BSC",
-     "Token/NFT": "Shenlong NFT x1 #4845",
-     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.546179008344e-06,
-     "Gas Fee (USD)": 0.0056,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xec6fc2aadf77d1bec85b01ed927737df08aea01407cccf934d0b3a053e97fec9",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "Shenlong",
-     "Chain": "BSC",
-     "Token/NFT": "Shenlong NFT x1 #4847",
-     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.233539696856e-06,
-     "Gas Fee (USD)": 0.0054,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x8364c45c49ae537ecdf7e7e6894a1689e30906b2a9166a373e68d0171758b39a",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "Shenlong",
-     "Chain": "BSC",
-     "Token/NFT": "Shenlong NFT x1 #4851",
-     "Contract Address": "0x34ec38a5eDaB4477b80A137169Ee46Ea56613E8c",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.1052064327479e-05,
-     "Gas Fee (USD)": 0.0082,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "FREE_MINTS=4 per Agent-ID wallet (Shenlong.sol verified); all 4 taken, 5th reverts PRICE. Not staked, transferable. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xa90d6433e6fbe9b27bb2cef56f6304be2390f2e0e3c6654eeadd7f3538c06d0c",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:21:00",
-     "Type": "Free mint",
-     "Project": "Laser Agents",
-     "Chain": "BSC",
-     "Token/NFT": "Laser Agents NFT x1 #809",
-     "Contract Address": "0x3ed6b33f9ea597a6f210b5e70029ddd92e93ae85",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 7.55984477662e-06,
-     "Gas Fee (USD)": 0.0056,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "First free then 0.0005 (LaserAgents.sol verified); 2nd reverts wrong value. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xc1107079231025de96b587c2ba5f6438337904d96b42f2c598ad07cf9547e25b",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:22:00",
-     "Type": "Free mint",
-     "Project": "free (SVG)",
-     "Chain": "BSC",
-     "Token/NFT": "free NFT x1 #694",
-     "Contract Address": "0x80dd992ed788cd91d73f11e0ca74282a41105e10",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 8.55499505049e-06,
-     "Gas Fee (USD)": 0.0063,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "Agent-ID gated, first free then 0.001 (Free.sol verified); 2nd reverts Wrong value. eth_call value 0 OK; baw preview +1 ERC721 only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x15603d183260770f198fb05006ec888be1ae07809898f3453bc76cb6f399b9ac",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "18:23:00",
-     "Type": "Free mint",
-     "Project": "HotDoge",
-     "Chain": "BSC",
-     "Token/NFT": "HotDoge NFT x1 #236",
-     "Contract Address": "0x26e6aaC2edDb769ceDA3aAb98DAde4c4B50a89C1",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.810293980338e-06,
-     "Gas Fee (USD)": 0.0073,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "1st free per Agent-ID wallet (HotDoge.sol verified); 2nd reverts at value 0. eth_call value 0 OK; baw preview NFT-only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xa2c6b5dbbab039dfa0d1eae55361e10d554786c1f20cb4dfdb00f40b1070a677",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "18:23:00",
-     "Type": "Free mint",
-     "Project": "PRINTER (DollarPrinter)",
-     "Chain": "BSC",
-     "Token/NFT": "PRINTER NFT x1 #137",
-     "Contract Address": "0xc00c4ae345a986d85678f40ccf36885ae38999c0",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.0980234122575e-05,
-     "Gas Fee (USD)": 0.0081,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "mint(0) = free card only (DollarPrinter.sol verified); 2nd reverts. eth_call value 0 OK; baw preview NFT-only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x0a0328d3a6c42bffcf26df9267a51d6c6ae5062406f1d1ea338a339d67f2d097",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "18:23:00",
-     "Type": "Free mint",
-     "Project": "danta",
-     "Chain": "BSC",
-     "Token/NFT": "danta NFT x1 #314",
-     "Contract Address": "0xcEebc883f922b861841c3e5E47aEb55D3C6f13e9",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 8.71000240257e-06,
-     "Gas Fee (USD)": 0.0064,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "First free (DantaV2.sol verified, USDT-priced after); quote(W,1)>0 after, stopped. No USDT approval. eth_call value 0 OK; baw preview NFT-only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x6ad0bd72945c8b4c5beda3bda953edd2505f000e2817bdce2109f95bd24318ee",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "18:24:00",
-     "Type": "Free mint",
-     "Project": "Botmolt (AgentDrop)",
-     "Chain": "BSC",
-     "Token/NFT": "Botmolt NFT x1 #449",
-     "Contract Address": "0x4a15f38c75e529205a45bd2ee57c02afab2f6569",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 8.421925622481e-06,
-     "Gas Fee (USD)": 0.0062,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "1st free (AgentDrop.sol verified); 2nd reverts. eth_call value 0 OK; baw preview NFT-only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x5dae8c6491b250946543231f32e30a80cf1c15a8ee1e48498ce78a082acdce41",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "18:24:00",
-     "Type": "Free mint",
-     "Project": "Robot Rickshaw",
-     "Chain": "BSC",
-     "Token/NFT": "Robot Rickshaw NFT x1 #40",
-     "Contract Address": "0xb6b2F423adbd7b80717f959bd6bdFC3350C00d39",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.500524071954e-06,
-     "Gas Fee (USD)": 0.007,
-     "Airdrop Name": "",
-     "Buy TX Link": "TX",
-     "Sell TX Link": "",
-     "Mint TX Link": "",
-     "Status": "Minted",
-     "Notes": "1 free per Agent ID (RickshawAI.sol verified); preview NFT only; 2nd reverts Wrong value. eth_call value 0 OK; baw preview NFT-only, no approvals.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xa947e69a0145639c1a3fea88f131fe4222b0da3e5949ce6160622c87a6559f3a",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "17:26:00",
-     "Type": "Sell",
-     "Project": "Onchain Agents (BN World)",
-     "Chain": "BSC",
-     "Token/NFT": "Onchain Agents NFT x1 #832",
-     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-     "Amount": 1,
+     "Token/NFT": "Free mint never opened (freeMintOpen false 20:07-20:22)",
+     "Contract Address": "0x31da612e74db1751f0B474b4607493B4fa4d9bd5",
+     "Amount": 0.0,
      "USD Spent": 0.0,
      "Gas Fee (native)": 0.0,
      "Gas Fee (USD)": 0.0,
      "Airdrop Name": "",
-     "Buy TX Link": "TX",
+     "Buy TX Link": "",
      "Sell TX Link": "",
      "Mint TX Link": "",
-     "Status": "Sold 0.001 bnb",
-     "Notes": "SOLD on BN World market 0xC6cB…5704 at listing price 0.001 BNB, 2.5% fee -> net 0.000975 BNB to W. Buyer-paid tx (tx value 0.02 BNB, multi-buy), block 129681516, 17:26:40 WITA. No gas for us.",
+     "Status": "Skipped",
+     "Notes": "",
      "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809",
-     "_src": "ledger"
+     "tx": ""
     }
    ]
   },
@@ -6722,6 +6422,51 @@
      "Risk": "Medium",
      "Notes": "FYI only, not BSC, no mint.",
      "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "20:18",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Ptah Proof of Agent (POA)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+     "Link": "https://ptah.trade/poa",
+     "Sentiment": "Very high chatter (CN X)",
+     "Red Flags": "Soulbound/not flippable; daily X post needed for PTAH raffle; paste-to-agent prompt circulating; paid random series exists",
+     "Risk": "Medium",
+     "Notes": "Free 1 per Agent ID; Sourcify match; GoPlus malicious 0; ~2400 minted; raffle 26 Oct-9 Nov",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "20:18",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Silicon Souls",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xa6574a66e45dedfc878d173522836a49685ea307",
+     "Link": "https://x.com/SiliconSoulsBNB/status/2114328867242729881",
+     "Sentiment": "Low",
+     "Red Flags": "Account 2 days old, 4 followers; paid 0.0008 BNB",
+     "Risk": "High",
+     "Notes": "Sourcify exact_match; 74 minted; Agent ID + Developer Mode",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "20:18",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Nemotron Sigil / Cogito Agents / AGENT SEAL (FYI, no CA)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/Nemotrontrade/status/2114330466086240461",
+     "Sentiment": "Mixed",
+     "Red Flags": "No CA; Nemotron 12k followers on 4 tweets; Cogito account created today",
+     "Risk": "High",
+     "Notes": "FYI only; Worldygg mintOpen still false (5); MilkBao 266/3000",
+     "Status": "Sent to Ayanokouji"
     }
    ]
   }
