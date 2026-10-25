@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 18:29 WITA",
+ "generated_wita": "2026-10-25 19:20 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -6676,6 +6676,51 @@
      "Red Flags": "",
      "Risk": "",
      "Notes": "Setya queue & Cupang empty; Worldygg mintOpen false (5); Mummies marketOpen false (982); FYI: Moondeng no CA (SKIP), ARTRURAL ~$0.5, Fishes Rh WL-by-reply only, MilkBao no CA",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "19:15",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Orbitokens (ORBT)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xcE76FBa6c5F1abb852344eD45CE5eE6A93a7eF07",
+     "Link": "https://orbitokens.pages.dev/#mint",
+     "Sentiment": "Low engagement",
+     "Red Flags": "X account created today (0 followers); source unverified (GoPlus); pages.dev site",
+     "Risk": "High",
+     "Notes": "Live, ~0,000135 BNB (~$0,10), 1/wallet, Agent ID required; 11/1111 minted. Verdict optional/GO small after simulation.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "19:15",
+     "Source (Telegram group / X account)": "X",
+     "Project": "PixelVulpes",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://pixelvulpes.xyz/",
+     "Sentiment": "New",
+     "Red Flags": "X account ~1h old, 0 followers; no CA yet",
+     "Risk": "High",
+     "Notes": "Not open yet; 3,333 supply, first mint free per Agent ID, 2nd $1, max 2. GO/free once CA appears.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-25",
+     "Hour": "19:15",
+     "Source (Telegram group / X account)": "Chinese TG",
+     "Project": "Primus (ex-PADO) points",
+     "Chain": "Base",
+     "Type": "Airdrop",
+     "CA": "",
+     "Link": "https://t.me/biqrxnxi_KT/2015",
+     "Sentiment": "Neutral",
+     "Red Flags": "Points campaign, needs Base ETH; referral post",
+     "Risk": "Medium",
+     "Notes": "FYI only, not BSC, no mint.",
      "Status": "New"
     }
    ]
