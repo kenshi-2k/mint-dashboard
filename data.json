@@ -1,5 +1,5 @@
 {
- "generated_wita": "2026-10-25 15:29 WITA",
+ "generated_wita": "2026-10-25 15:50 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
@@ -795,7 +795,7 @@
     ]
    },
    {
-    "collection": "BNWORLD",
+    "collection": "Onchain Agents (BN World)",
     "token": 832,
     "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
     "status": "Hold",
@@ -1251,11 +1251,11 @@
    "note": "Held - no market yet"
   },
   {
-   "collection": "BNWORLD",
+   "collection": "Onchain Agents (BN World)",
    "token": 832,
    "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
    "status": "Hold",
-   "note": ""
+   "note": "Held - unrevealed, no market yet"
   },
   {
    "collection": "BeHand Pass (SBT)",
@@ -2911,7 +2911,7 @@
      "Status": "Held - no market yet",
      "Notes": "User rule free mint. Sourcify exact match, OZ ERC721, no owner power over holders. Agent ID gated. Preview +1 NFT only. Lead Suruhan 15:19.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe"
     },
     {
      "Date (WITA)": "",
@@ -2932,7 +2932,7 @@
      "Status": "Held - unrevealed, no market yet",
      "Notes": "User rule free mint. Unverified; lean bytecode check clean (no delegatecall/selfdestruct, transfers OK, no owner power over holders). USDT/BNW path not used, no approval. Preview +1 NFT only. Lead Suruhan 15:19.",
      "Revoke TX Link": "",
-     "tx": ""
+     "tx": "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152"
     },
     {
      "Date (WITA)": "",
@@ -2997,50 +2997,6 @@
      "Notes": "USER RULE free claim (lead: Suruhan 12:10; CA from x.com/XiaoMei_laika/status/2114202705308844129; patient0.meme lists token 0xb493…c2e9). claimGenesis() 0x8edb79ee: claim contract UNVERIFIED (1057-byte bytecode, 6 selectors, no proxy/delegatecall): checks .ai Agent ID balanceOf(caller), marks claimed, transfers 1 P0 (ERC20 0xB493D1165c153b8551C724692EBCb0Ff440ec2E9, 21M supply, not open source). ",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x77ec63412f5e2149b49b2ef3eb0aafead0698ead5babc5a643a88f94bebab49e",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "15:27:00",
-     "Type": "Mint",
-     "Project": "Floppy Agents (FLOPPY)",
-     "Chain": "BSC",
-     "Token/NFT": "Floppy Agents NFT x1 #327",
-     "Contract Address": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 9.101378233578e-06,
-     "Gas Fee (USD)": 0.0067,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (lead: Suruhan 15:19). Sourcify exact_match (FloppyAgents.sol, OZ ERC721+ERC2981, no _update override). Owner powers: creatorMint (reserve, new tokens only), setRoyalty (max 5%). No delegatecall/selfdestruct; holder transfer sim OK. .ai Agent ID gated. eth_call mint() value 0 OK; baw preview +1 ERC721 only, no approvals/risks.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe",
-     "_src": "ledger"
-    },
-    {
-     "Date (WITA)": "2026-10-25",
-     "Time": "15:28:00",
-     "Type": "Mint",
-     "Project": "Onchain Agents (BN World)",
-     "Chain": "BSC",
-     "Token/NFT": "Onchain Agents NFT x1 #832",
-     "Contract Address": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-     "Amount": 1,
-     "USD Spent": 0.0,
-     "Gas Fee (native)": 1.3267074956294e-05,
-     "Gas Fee (USD)": 0.0098,
-     "Airdrop Name": "",
-     "Buy TX Link": "",
-     "Sell TX Link": "",
-     "Mint TX Link": "Mint TX",
-     "Status": "Held - none yet",
-     "Notes": "USER RULE free mint (lead: Suruhan 15:19). Unverified; lean bytecode check: no delegatecall/selfdestruct, no proxy, holder transfer sim OK. Owner admin = setMintOpen/endMint/setArt/lockArt only, no owner mint/burn over holders. quote(W,1)=0, freeUsed=0. USDT/BNW mintWithToken path NOT used, no approval. eth_call mint(1) value 0 OK; baw preview +1 ERC721 only.",
-     "Revoke TX Link": "",
-     "tx": "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152",
      "_src": "ledger"
     },
     {
