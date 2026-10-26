@@ -1,20 +1,20 @@
 {
- "generated_wita": "2026-10-26 10:01 WITA",
+ "generated_wita": "2026-10-26 13:04 WITA",
  "sheet_id": "1GWj3ub5nyvV5MHeb_J8ih6W0SQqTxLaTXe7ToHvH_eo",
  "wallet": {
   "address": "0xC1408fc129512e0d6aaa93022F4B49B68647D94e",
   "chain": "BSC",
-  "last_balance_bnb": 0.00661207948081756,
-  "last_balance_wita": "2026-10-26 08:25 WITA",
+  "last_balance_bnb": 0.006498212022040443,
+  "last_balance_wita": "2026-10-26 12:19 WITA",
   "bnb_usd_ref": 740
  },
  "budget": {
   "cap_usd": 10,
-  "spent_usd": 5.4418,
-  "gas_bnb": 0.0008162948546715398
+  "spent_usd": 5.4588,
+  "gas_bnb": 0.0008811538459072068
  },
  "multichain": {
-  "snapshot_wita": "2026-10-25 22:34 WITA",
+  "snapshot_wita": "2026-10-26 11:00 WITA",
   "source": "ledger.balance_snapshots",
   "prices_usd": {
    "bnb": 737.95,
@@ -25,8 +25,8 @@
     "chain": "bsc",
     "name": "BNB Chain",
     "asset": "BNB",
-    "amount": 0.007048475391311088,
-    "amount_str": "0.007048475391311088",
+    "amount": 0.006540115332900288,
+    "amount_str": "0.006540115332900288",
     "usable": true,
     "status": "ok"
    },
@@ -638,16 +638,18 @@
     "contract": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
     "status": "Hold",
     "mint_cost_bnb": 7.416349291624e-06,
-    "other_gas_bnb": 0.0,
-    "cost_bnb": 7.416349291624e-06,
-    "cost_usd": 0.0055,
+    "other_gas_bnb": 1.3271677291433e-05,
+    "cost_bnb": 2.0688026583057e-05,
+    "cost_usd": 0.0153,
     "sale_bnb": null,
     "realized_bnb": null,
     "list_price_bnb": null,
     "market": null,
     "unrealized_bnb": null,
     "txs": [
-     "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739"
+     "https://bscscan.com/tx/0xc6c9032bacdf97614b991aef04ddd6fb9e5176de041b85cb0eefa730e0b43739",
+     "https://bscscan.com/tx/0x24371e16305e1938e0bd41ecfe637fe949daaf9c075e9b400bd64a03b64d376c",
+     "https://bscscan.com/tx/0x3cdad1d04bbe69931fed75fc755f5132391a3b1dc793c5466155db94354e1b56"
     ]
    },
    {
@@ -828,27 +830,6 @@
     "unrealized_bnb": null,
     "txs": [
      "https://bscscan.com/tx/0xbebe06ca1c760546d95da8ebecd684e7ddc007a56355b62504f6d83e1f71dcbe"
-    ]
-   },
-   {
-    "collection": "Onchain Agents (BN World)",
-    "token": 832,
-    "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-    "status": "Sold",
-    "mint_cost_bnb": 1.3267074956294e-05,
-    "other_gas_bnb": 1.3200786710359e-05,
-    "cost_bnb": 2.6467861666653e-05,
-    "cost_usd": 0.0196,
-    "sale_bnb": 0.000975,
-    "realized_bnb": 0.000948532138333347,
-    "list_price_bnb": null,
-    "market": null,
-    "unrealized_bnb": null,
-    "txs": [
-     "https://bscscan.com/tx/0x1708967217a3f2f1da68bb7d177631f0b7851253de10f86efdc1b059cc152152",
-     "https://bscscan.com/tx/0x3cbb4409e0395d68e7a76918d558530fda836059b6d1f4bc883679422864b96c",
-     "https://bscscan.com/tx/0x7e2527842ffc18c0be7edf57eebdc76967604768671b1ef041ebae980a2bebd5",
-     "https://bscscan.com/tx/0xd02383fe6beab42060ca69d59dc7bb67835e06b98510920dad39b899b51bc809"
     ]
    },
    {
@@ -1163,16 +1144,18 @@
     "contract": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
     "status": "Hold",
     "mint_cost_bnb": 9.40713951464e-06,
-    "other_gas_bnb": 0.0,
-    "cost_bnb": 9.40713951464e-06,
-    "cost_usd": 0.007,
+    "other_gas_bnb": 9.684003084389e-06,
+    "cost_bnb": 1.9091142599029e-05,
+    "cost_usd": 0.0142,
     "sale_bnb": null,
     "realized_bnb": null,
     "list_price_bnb": null,
     "market": null,
     "unrealized_bnb": null,
     "txs": [
-     "https://bscscan.com/tx/0x2b6aa389865affa653eed2efad28fe0f69713f8be8c7288ef4680fa00417dcb7"
+     "https://bscscan.com/tx/0x2b6aa389865affa653eed2efad28fe0f69713f8be8c7288ef4680fa00417dcb7",
+     "https://bscscan.com/tx/0x2dfc6d64c3726e280cea3f94dd66e587d9d131dba7009fc33a04e2a4aa2ae2f6",
+     "https://bscscan.com/tx/0x85cef2e134c2b84f25ae328eaaaca34b2912c9a7675e528845b7fd1174652482"
     ]
    },
    {
@@ -1264,16 +1247,160 @@
     "txs": [
      "https://bscscan.com/tx/0x6be54a3eeb2a3925baaa8e9c97612c38d7293f72b6ae57ff319bf89825c4e121"
     ]
+   },
+   {
+    "collection": "SYNAPE",
+    "token": 191,
+    "contract": "0x68869D4EDc15Ec2FBA0eaCfe1486caf9d0C37572",
+    "status": "Hold",
+    "mint_cost_bnb": 4.1903310859845e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 4.1903310859845e-05,
+    "cost_usd": 0.031,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x74e408aa8ba9e2fb69da9059f506dee338d9bb743af6d0aa2b9fda77f62563d8"
+    ]
+   },
+   {
+    "collection": "BHOLE",
+    "token": 1869,
+    "contract": "0xC84E8281153387e9f35c99cE316075E3c38Dd388",
+    "status": "Hold",
+    "mint_cost_bnb": 5.092207845461e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.092207845461e-06,
+    "cost_usd": 0.00375,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xfb191e34701a06bea869f645ffd5261b3107006d1613c09c65d9c57b04565024"
+    ]
+   },
+   {
+    "collection": "BHOLE",
+    "token": 1870,
+    "contract": "0xC84E8281153387e9f35c99cE316075E3c38Dd388",
+    "status": "Hold",
+    "mint_cost_bnb": 5.092207845461e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.092207845461e-06,
+    "cost_usd": 0.00375,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xfb191e34701a06bea869f645ffd5261b3107006d1613c09c65d9c57b04565024"
+    ]
+   },
+   {
+    "collection": "CZDRIP",
+    "token": 1490,
+    "contract": "0x81bB9368aCA3dFd911A9Ec9512353C8803d0Ed1d",
+    "status": "Hold",
+    "mint_cost_bnb": 5.458264007052e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.458264007052e-06,
+    "cost_usd": 0.00405,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x588ee2f25905494c8c49f27cf523d4978bdd66fe42163653206663a9d023bf34"
+    ]
+   },
+   {
+    "collection": "CZDRIP",
+    "token": 1491,
+    "contract": "0x81bB9368aCA3dFd911A9Ec9512353C8803d0Ed1d",
+    "status": "Hold",
+    "mint_cost_bnb": 5.458264007052e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 5.458264007052e-06,
+    "cost_usd": 0.00405,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x588ee2f25905494c8c49f27cf523d4978bdd66fe42163653206663a9d023bf34"
+    ]
+   },
+   {
+    "collection": "ASSETAI",
+    "token": 875,
+    "contract": "0xfc60cdd577759bd2af7f3351917e80672a91d540",
+    "status": "Hold",
+    "mint_cost_bnb": 1.0363405260152e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.0363405260152e-05,
+    "cost_usd": 0.0077,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xe1ba61e221fd7473488b0ec81bae2ada2962830b03edfb0ca14889ccc27f59dc"
+    ]
+   },
+   {
+    "collection": "INUPUNK",
+    "token": 854,
+    "contract": "0x9Ef11394c55ceD76acEf2029537569F9590dE9e3",
+    "status": "Hold",
+    "mint_cost_bnb": 1.0978631037648e-05,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 1.0978631037648e-05,
+    "cost_usd": 0.0081,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0xe8978d6b990368bdf2a27ba1e79b917dfb381c62a7b67aa84e2c07921083f03a"
+    ]
+   },
+   {
+    "collection": "DOOLY",
+    "token": 17,
+    "contract": "0x4e4a137851fD269c9Cec0D19BF534e66aF2eAeA3",
+    "status": "Hold",
+    "mint_cost_bnb": 6.565487538624e-06,
+    "other_gas_bnb": 0.0,
+    "cost_bnb": 6.565487538624e-06,
+    "cost_usd": 0.0049,
+    "sale_bnb": null,
+    "realized_bnb": null,
+    "list_price_bnb": null,
+    "market": null,
+    "unrealized_bnb": null,
+    "txs": [
+     "https://bscscan.com/tx/0x93bd36deb4f082f7826e21745ee02ebe014530d4d57a1da0e3bc4a0d01cfabca"
+    ]
    }
   ],
   "totals": {
-   "cost_bnb": 0.002836827629163284,
-   "cost_usd": 2.7151,
-   "realized_bnb": 0.000948532138333347,
+   "cost_bnb": 0.002924227226273748,
+   "cost_usd": 2.7798,
+   "realized_bnb": 0.0,
    "unrealized_bnb": 0.001947466117653177,
-   "sold": 1,
+   "sold": 0,
    "listed": 2,
-   "held": 67
+   "held": 74
   }
  },
  "capital": {
@@ -1345,15 +1472,15 @@
    ]
   },
   "gas": {
-   "bnb": 0.0008162948546715398,
-   "usd": 0.6602
+   "bnb": 0.0008811538459072068,
+   "usd": 0.7082
   },
   "budget": {
    "cap_usd": 10,
-   "spent_usd": 5.4418,
-   "left_usd": 4.5582
+   "spent_usd": 5.4588,
+   "left_usd": 4.5412
   },
-  "bsc_balance_bnb": 0.00661207948081756,
+  "bsc_balance_bnb": 0.006498212022040443,
   "token_balances": {
    "USDT_bsc": 0.07990430327292716,
    "P0_bsc": 1.0
@@ -1418,8 +1545,8 @@
   "count": 2,
   "wins": 1,
   "total_usd": 0.0349,
-  "spent_usd": 5.4418,
-  "net_usd": -5.4069
+  "spent_usd": 5.4588,
+  "net_usd": -5.4239
  },
  "holdings": [
   {
@@ -1732,13 +1859,6 @@
    "note": "Held - no market yet"
   },
   {
-   "collection": "Onchain Agents (BN World)",
-   "token": 832,
-   "contract": "0xC4605C6A7765138784B3ca6F9a88e1c249a0d21f",
-   "status": "Sold",
-   "note": "Terjual 0.001 BNB di bncworld (net 0.000975) 17:26 WITA"
-  },
-  {
    "collection": "BeHand Pass (SBT)",
    "token": 536,
    "contract": "0xCd4Af5a9eDE5ef6f5138028AdC9C152a1Acb80ed",
@@ -1896,6 +2016,62 @@
    "collection": "SIGIL",
    "token": 112,
    "contract": "0x4747b71b500663dF5E00ffb6ecb50aF049B0D1BD",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "SYNAPE",
+   "token": 191,
+   "contract": "0x68869D4EDc15Ec2FBA0eaCfe1486caf9d0C37572",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "BHOLE",
+   "token": 1869,
+   "contract": "0xC84E8281153387e9f35c99cE316075E3c38Dd388",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "BHOLE",
+   "token": 1870,
+   "contract": "0xC84E8281153387e9f35c99cE316075E3c38Dd388",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "CZDRIP",
+   "token": 1490,
+   "contract": "0x81bB9368aCA3dFd911A9Ec9512353C8803d0Ed1d",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "CZDRIP",
+   "token": 1491,
+   "contract": "0x81bB9368aCA3dFd911A9Ec9512353C8803d0Ed1d",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "ASSETAI",
+   "token": 875,
+   "contract": "0xfc60cdd577759bd2af7f3351917e80672a91d540",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "INUPUNK",
+   "token": 854,
+   "contract": "0x9Ef11394c55ceD76acEf2029537569F9590dE9e3",
+   "status": "Hold",
+   "note": ""
+  },
+  {
+   "collection": "DOOLY",
+   "token": 17,
+   "contract": "0x4e4a137851fD269c9Cec0D19BF534e66aF2eAeA3",
    "status": "Hold",
    "note": ""
   }
@@ -2712,13 +2888,58 @@
    "tx": "https://bscscan.com/tx/0x93bd36deb4f082f7826e21745ee02ebe014530d4d57a1da0e3bc4a0d01cfabca"
   },
   {
-   "at_wita": "2026-10-26 08:25:00",
-   "kind": "Outflow (from snapshot)",
-   "project": "ledger last_balance_bnb",
+   "at_wita": "2026-10-26 10:57:00",
+   "kind": "Approve",
+   "project": "PixelVulpes (VULPES)",
    "direction": "out",
-   "delta_bnb": -0.000352735156987358,
-   "balance_bnb": 0.00661207948081756,
-   "tx": "https://bscscan.com/tx/snapshot-20261026-0825"
+   "delta_bnb": -3.746741568372e-06,
+   "balance_bnb": 0.006961067896236546,
+   "tx": "https://bscscan.com/tx/0x2dfc6d64c3726e280cea3f94dd66e587d9d131dba7009fc33a04e2a4aa2ae2f6"
+  },
+  {
+   "at_wita": "2026-10-26 10:57:00",
+   "kind": "Approve",
+   "project": "BSC Agent Fragment (BSCA-F)",
+   "direction": "out",
+   "delta_bnb": -3.489380807319e-06,
+   "balance_bnb": 0.006957578515429227,
+   "tx": "https://bscscan.com/tx/0x24371e16305e1938e0bd41ecfe637fe949daaf9c075e9b400bd64a03b64d376c"
+  },
+  {
+   "at_wita": "2026-10-26 10:58:00",
+   "kind": "List",
+   "project": "PixelVulpes (VULPES)",
+   "direction": "out",
+   "delta_bnb": -5.937261516017e-06,
+   "balance_bnb": 0.00695164125391321,
+   "tx": "https://bscscan.com/tx/0x85cef2e134c2b84f25ae328eaaaca34b2912c9a7675e528845b7fd1174652482"
+  },
+  {
+   "at_wita": "2026-10-26 10:58:00",
+   "kind": "List",
+   "project": "BSC Agent Fragment (BSCA-F)",
+   "direction": "out",
+   "delta_bnb": -9.782296484114e-06,
+   "balance_bnb": 0.006941858957429096,
+   "tx": "https://bscscan.com/tx/0x3cdad1d04bbe69931fed75fc755f5132391a3b1dc793c5466155db94354e1b56"
+  },
+  {
+   "at_wita": "2026-10-26 11:00:00",
+   "kind": "Outflow (from snapshot)",
+   "project": "after sell pass (2 single-token approvals + 2 listings: VULPES #50, BSCA-F #364)",
+   "direction": "out",
+   "delta_bnb": -0.000401743624528808,
+   "balance_bnb": 0.006540115332900288,
+   "tx": "https://bscscan.com/tx/snapshot-20261026-1100"
+  },
+  {
+   "at_wita": "2026-10-26 12:19:00",
+   "kind": "Free mint",
+   "project": "Synth Ape Syndicate",
+   "direction": "out",
+   "delta_bnb": -4.1903310859845e-05,
+   "balance_bnb": 0.006498212022040443,
+   "tx": "https://bscscan.com/tx/0x74e408aa8ba9e2fb69da9059f506dee338d9bb743af6d0aa2b9fda77f62563d8"
   }
  ],
  "tabs": {
@@ -4772,6 +4993,116 @@
      "Notes": "free selector 0x8ab53447 from site JS (paid 0x69907b9b 0.002 BNB + 250k DOOLY never used). Unverified source; no DOOLY approval. eth_call value 0 OK; preview +ERC721 only, no approvals/risks.",
      "Revoke TX Link": "",
      "tx": "https://bscscan.com/tx/0x93bd36deb4f082f7826e21745ee02ebe014530d4d57a1da0e3bc4a0d01cfabca",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "10:57:00",
+     "Type": "Approve",
+     "Project": "PixelVulpes (VULPES)",
+     "Chain": "BSC",
+     "Token/NFT": "PixelVulpes NFT x1 #50",
+     "Contract Address": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 3.746741568372e-06,
+     "Gas Fee (USD)": 0.0028,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Approved #50 only",
+     "Notes": "approve(market 0x8703CEfd6E7F717C47dE32CaDD566495f7872605, 50): single-token NFT approval to the official PixelVulpes market (pixelvulpes.xyz/llms.txt). Preview: only ERC721 allowance for #50, no risks. User t244u ('kalo udh jual aja').",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x2dfc6d64c3726e280cea3f94dd66e587d9d131dba7009fc33a04e2a4aa2ae2f6",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "10:58:00",
+     "Type": "List",
+     "Project": "PixelVulpes (VULPES)",
+     "Chain": "BSC",
+     "Token/NFT": "PixelVulpes NFT x1 #50",
+     "Contract Address": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 5.937261516017e-06,
+     "Gas Fee (USD)": 0.0044,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Listed 0.001 bnb",
+     "Notes": "LISTED #50 at 0.001 BNB (= MIN_PRICE = floor; 169 other listings at/above, no bids, market accruedFees 0 = no sales seen). Fee 3% + 5% royalty -> net 0.00092 BNB if sold. Non-custodial, 30-day TTL (expires ~Nov 25). Preview: no balance/allowance changes.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x85cef2e134c2b84f25ae328eaaaca34b2912c9a7675e528845b7fd1174652482",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "10:57:00",
+     "Type": "Approve",
+     "Project": "BSC Agent Fragment (BSCA-F)",
+     "Chain": "BSC",
+     "Token/NFT": "BSC Agent Fragment NFT x1 #364",
+     "Contract Address": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 3.489380807319e-06,
+     "Gas Fee (USD)": 0.0026,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Approved #364 only",
+     "Notes": "approve(fragMarket 0xd8Ff7F85CdA30aED53000922d9D020B708E46c85, 364): single-token NFT approval to the site's fragMarket (bscagent.surge.sh config). Preview: only ERC721 allowance for #364, no risks. User t244u.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x24371e16305e1938e0bd41ecfe637fe949daaf9c075e9b400bd64a03b64d376c",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "10:58:00",
+     "Type": "List",
+     "Project": "BSC Agent Fragment (BSCA-F)",
+     "Chain": "BSC",
+     "Token/NFT": "BSC Agent Fragment NFT x1 #364",
+     "Contract Address": "0xadEC4072dAAb830017d82189734696A9cCe834dD",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 9.782296484114e-06,
+     "Gas Fee (USD)": 0.0072,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Listed 0.000265 bnb",
+     "Notes": "LISTED #364 at 0.000265 BNB (listing id 59; floor was 0.00027, no open bids). Seller gets 98% -> net 0.0002597 BNB if sold. Preview: no balance/allowance changes.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x3cdad1d04bbe69931fed75fc755f5132391a3b1dc793c5466155db94354e1b56",
+     "_src": "ledger"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Time": "12:19:00",
+     "Type": "Free mint",
+     "Project": "Synth Ape Syndicate",
+     "Chain": "BSC",
+     "Token/NFT": "Synth Ape Syndicate NFT x1 #191",
+     "Contract Address": "0x68869D4EDc15Ec2FBA0eaCfe1486caf9d0C37572",
+     "Amount": 1,
+     "USD Spent": 0.0,
+     "Gas Fee (native)": 4.1903310859845e-05,
+     "Gas Fee (USD)": 0.031,
+     "Airdrop Name": "",
+     "Buy TX Link": "TX",
+     "Sell TX Link": "",
+     "Mint TX Link": "",
+     "Status": "Minted",
+     "Notes": "mint(agentTokenId=keccak('kenshi2k')): nextPrice=0 (#1 free per Agent ID; #2 = 1 USDT needs approve -> never). Sourcify verified. eth_call value 0 OK; preview +ERC721 only, no approvals/risks.",
+     "Revoke TX Link": "",
+     "tx": "https://bscscan.com/tx/0x74e408aa8ba9e2fb69da9059f506dee338d9bb743af6d0aa2b9fda77f62563d8",
      "_src": "ledger"
     }
    ]
@@ -7728,6 +8059,156 @@
      "Risk": "Medium",
      "Notes": "FYI info row: drop on OpenSea Robinhood Chain, phases Free/Free/$4/$7, 7 hidden 1/1 with $100 bounty. Not sent (no CA yet).",
      "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X / website",
+     "Project": "PixelVulpes (CA found)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x9134AE94Ab0739CF0E0F4F5e9CacFa5e1D029b0C",
+     "Link": "https://pixelvulpes.xyz/llms.txt",
+     "Sentiment": "Positive (1775/3333 minted)",
+     "Red Flags": "Agent-only; unverified source; new X account",
+     "Risk": "Medium",
+     "Notes": "1st free per Agent ID, 2nd $1; max 2/wallet; market 0x8703CEfd6E7F717C47dE32CaDD566495f7872605. Verdict GO/free",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "SQUISHEM",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0x0BE1b4f7610414b22Af528f74790D0274b1A4152",
+     "Link": "https://x.com/squishemfun/status/2114534205246062596",
+     "Sentiment": "Neutral (161/5555)",
+     "Red Flags": "Promo asks to paste prompt to agent (don't); 'first free' claim contradicts agent.md; v1 paused",
+     "Risk": "Medium",
+     "Notes": "0.0003-0.0004 BNB per mint, max 5; call contract directly only. Cheap optional",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "8-Bit Neko (basslabhq)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x2dfe1A81b486fB1DA6Bb15A97E82E329d8784f5E",
+     "Link": "https://basslabhq.fun/",
+     "Sentiment": "Low traction",
+     "Red Flags": "Unverified source (GoPlus), supply 1, near-zero engagement",
+     "Risk": "High",
+     "Notes": "Free max 2 + 0.0003 BNB fee; paid 0.003 BNB. GO/cheap, simulate first",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "10:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "NULLHEADS",
+     "Chain": "Robinhood Chain",
+     "Type": "Free mint",
+     "CA": "",
+     "Link": "https://x.com/0xmggkyros2/status/2114535013488484838",
+     "Sentiment": "Low",
+     "Red Flags": "No CA, signup-code promo",
+     "Risk": "Medium",
+     "Notes": "Info only. Chinese channels not scanned this pass (3-hour schedule). Cupang 0 msgs, Setya queue empty, Worldygg mintOpen false, Mummies 1116/9999 market closed",
+     "Status": "New"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "11:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Robin Hood Frogs",
+     "Chain": "Robinhood Chain",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://x.com/FloorpriceFrogs/status/2114546592954937632",
+     "Sentiment": "Neutral",
+     "Red Flags": "Account created today, 1 follower, spam replies; giveaway needs reply-with-wallet (not approved)",
+     "Risk": "High",
+     "Notes": "1111 on-chain, 0,0001 ETH + gas, max 5/wallet, opens 27 Oct 20:00 WITA for 24h; no CA yet. FYI. Chinese channels not scanned this pass (not a 3h slot).",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "11:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "MilkBao Dragon (held)",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "",
+     "Link": "https://x.com/MilkBaoBSC/status/2114550289659527581",
+     "Sentiment": "Positive",
+     "Red Flags": "",
+     "Risk": "Medium",
+     "Notes": "814/5000 minted, price doubles at 3000, first staking draw Thu 29 Oct 20:00 WITA. Held-position FYI.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "11:10",
+     "Source (Telegram group / X account)": "Cupang",
+     "Project": "Enter The Anime",
+     "Chain": "Ethereum/Ink",
+     "Type": "Free mint",
+     "CA": "0x32e31bcf6dd7ca0c6d24b66e8856d2ddcd7ed946",
+     "Link": "https://entertheanime.com/home",
+     "Sentiment": "Positive",
+     "Red Flags": "CA only from a random reply, unverified; not BSC/RH",
+     "Risk": "Medium",
+     "Notes": "Cupang #5969 (not Setya): WL FCFS claim on web, freemint, supply 3333. FYI.",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "YOMIO Fish",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x130d80294dDC19b335B602896EEa66B1195c883E",
+     "Link": "https://yomio.fun/",
+     "Sentiment": "Low hype, 13/3333 minted",
+     "Red Flags": "Unverified source; X acct 0 followers; mint by sending BNB to contract",
+     "Risk": "High",
+     "Notes": "1st fish free + $0.05 fee, extra $0.50. Verdict GO/cheap, simulate. Src https://x.com/yomiofun/status/2114568436265497009. Chinese TG scanned this pass (no leads).",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "Synth Ape Syndicate (SYNAPE)",
+     "Chain": "BSC",
+     "Type": "Free mint",
+     "CA": "0x68869D4EDc15Ec2FBA0eaCfe1486caf9d0C37572",
+     "Link": "https://synapenft.github.io/",
+     "Sentiment": "Low",
+     "Red Flags": "Acct 641 followers but 6 tweets (likely renamed); BAYC name borrow; github.io site",
+     "Risk": "Medium",
+     "Notes": "Agent ID gated, 1st free, max 5/ID; source verified. Verdict GO/free. Src https://x.com/synapeBAYC/status/2114570404807483854",
+     "Status": "Sent to Ayanokouji"
+    },
+    {
+     "Date (WITA)": "2026-10-26",
+     "Hour": "12:10",
+     "Source (Telegram group / X account)": "X",
+     "Project": "PokePvP Genesis",
+     "Chain": "BSC",
+     "Type": "NFT mint",
+     "CA": "0xa17d2a4e630d36163ec63b5908bd24576eeccced",
+     "Link": "https://pokepvp.fun/",
+     "Sentiment": "Low",
+     "Red Flags": "Unverified source; promoter acct 0 followers; no official project acct found",
+     "Risk": "High",
+     "Notes": "Agent mint 0.0005 BNB (max 10/ID), public 0.002 BNB, supply 10000. Verdict CAUTION/simulate. Src https://x.com/Gomysk_builder/status/2114569026856718462",
+     "Status": "Sent to Ayanokouji"
     }
    ]
   }
